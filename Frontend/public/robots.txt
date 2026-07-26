@@ -3,4 +3,4 @@ Allow: /
 Disallow: /admin
 Disallow: /create-blog
 
-Sitemap: https://[yourdomain.com]/sitemap.xml
+Sitemap: https://aegis-coworking.vercel.app/sitemap.xml
