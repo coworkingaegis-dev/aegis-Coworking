@@ -49,6 +49,10 @@
 
 
 
+
+
+
+
 import { useState } from 'react'
 import { Helmet } from 'react-helmet-async'
 import Navbar from '../components/Navbar'
@@ -93,7 +97,7 @@ function DayPass() {
           name="description"
           content="Coworking day pass in ADGM from AED 100/day. No commitment, premium amenities, Addax Tower, Al Reem Island, Abu Dhabi."
         />
-        <link rel="canonical" href="https://[yourdomain.com]/day-pass" />
+        <link rel="canonical" href="https://aegis-coworking.vercel.app/day-pass" />
 
         <meta property="og:title" content="Day Pass Coworking ADGM | Aegis Coworking" />
         <meta
@@ -101,8 +105,8 @@ function DayPass() {
           content="No-commitment day pass access to coworking space at Addax Tower, ADGM, from AED 100/day."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://[yourdomain.com]/day-pass" />
-        <meta property="og:image" content="https://[yourdomain.com]/og-image.jpg" />
+        <meta property="og:url" content="https://aegis-coworking.vercel.app/day-pass" />
+        <meta property="og:image" content="https://aegis-coworking.vercel.app/og-image.jpg" />
 
         <script type="application/ld+json">
           {JSON.stringify({
@@ -127,7 +131,7 @@ function DayPass() {
                 "price": "100",
                 "priceCurrency": "AED",
                 "priceValidUntil": "2026-12-31",
-                "url": "https://[yourdomain.com]/day-pass",
+                "url": "https://aegis-coworking.vercel.app/day-pass",
               },
               {
                 "@type": "Offer",
@@ -135,7 +139,7 @@ function DayPass() {
                 "price": "150",
                 "priceCurrency": "AED",
                 "priceValidUntil": "2026-12-31",
-                "url": "https://[yourdomain.com]/day-pass",
+                "url": "https://aegis-coworking.vercel.app/day-pass",
               },
             ],
           })}
