@@ -4662,9 +4662,7 @@ html, body {
   .room-features-grid {
     grid-template-columns: 1fr 1fr !important;
   }
-   .bp-columns {
-   grid-template-columns: 1fr 1fr !important;
-}}
+   }
 
 
 
