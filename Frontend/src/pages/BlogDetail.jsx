@@ -354,15 +354,15 @@ function BlogDetail() {
         <Helmet>
           <title>{post.title} | Aegis Coworking Blog</title>
           <meta name="description" content={getMetaDescription(post)} />
-          <link rel="canonical" href={`https://[yourdomain.com]/blog/${post.id}`} />
+          <link rel="canonical" href={`https://aegis-coworking.vercel.app/blog/${post.id}`} />
 
           <meta property="og:title" content={post.title} />
           <meta property="og:description" content={getMetaDescription(post)} />
           <meta property="og:type" content="article" />
-          <meta property="og:url" content={`https://[yourdomain.com]/blog/${post.id}`} />
+          <meta property="og:url" content={`https://aegis-coworking.vercel.app/blog/${post.id}`} />
           <meta
             property="og:image"
-            content={post.image_url || 'https://[yourdomain.com]/og-image.jpg'}
+            content={post.image_url || 'https://aegis-coworking.vercel.app/og-image.jpg'}
           />
 
           <meta property="article:author" content={post.author} />
