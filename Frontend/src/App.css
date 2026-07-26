@@ -4638,3 +4638,12 @@ html, body {
     font-size: 13px;
   }
 }
+
+
+
+
+@media (max-width: 900px) {
+  .services {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
