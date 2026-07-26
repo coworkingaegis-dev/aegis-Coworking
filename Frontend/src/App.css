@@ -4571,3 +4571,11 @@ html, body {
     padding: 16px 20px;
   }
 }
+
+
+
+@media (max-width: 600px) {
+  .why-us-grid {
+    grid-template-columns: 1fr;
+  }
+}
