@@ -67,7 +67,7 @@ function PresentationRoom() {
       {/* Page Hero */}
       <section className="page-hero">
         <h1>PRESENTATION ROOM</h1>
-        <p>State-of-the-art space for impactful presentations</p>
+        <p>Where big ideas get the stage they deserve</p>
       </section>
 
       {/* Make An Impact */}
@@ -76,19 +76,19 @@ function PresentationRoom() {
           <span className="contact-eyebrow">WHY BOOK WITH US</span>
           <h2>Make An Impact</h2>
           <p>
-            Our presentation room is designed for workshops, training sessions, product launches,
-            and large-scale presentations. Equipped with professional AV equipment and
+            Built for workshops, training sessions, product launches, and large-scale
+            presentations, our presentation room comes fully equipped with professional AV and
             theater-style seating.
           </p>
           <p>
-            Perfect for hosting events, conducting training, or delivering impressive client
-            presentations.
+            Whether you're hosting an event, running a training day, or pitching to clients —
+            this room is ready to help you land it.
           </p>
         </div>
         <div className="impress-box">
           <div className="impress-icon">🎬</div>
           <h4>PROFESSIONAL SETUP</h4>
-          <p>Everything you need for a successful event</p>
+          <p>Everything you need, ready before you walk in</p>
         </div>
       </section>
 
@@ -99,32 +99,32 @@ function PresentationRoom() {
           <div className="room-feature-card">
             <div className="room-feature-icon">🖥️</div>
             <h4>LARGE PROJECTION SCREEN</h4>
-            <p>Crystal clear 4K display</p>
+            <p>Sharp, crystal-clear 4K display</p>
           </div>
           <div className="room-feature-card">
             <div className="room-feature-icon">🎙️</div>
             <h4>PROFESSIONAL AUDIO</h4>
-            <p>Microphones and sound system</p>
+            <p>Studio-grade mics and sound system</p>
           </div>
           <div className="room-feature-card">
             <div className="room-feature-icon">💡</div>
             <h4>ADJUSTABLE LIGHTING</h4>
-            <p>Set the perfect ambiance</p>
+            <p>Dial in the mood for any event</p>
           </div>
           <div className="room-feature-card">
             <div className="room-feature-icon">🎥</div>
             <h4>RECORDING CAPABILITY</h4>
-            <p>Capture your presentations</p>
+            <p>Never lose a moment worth keeping</p>
           </div>
           <div className="room-feature-card">
             <div className="room-feature-icon">📡</div>
             <h4>LIVE STREAMING</h4>
-            <p>Broadcast to remote audiences</p>
+            <p>Reach audiences wherever they are</p>
           </div>
           <div className="room-feature-card">
             <div className="room-feature-icon">🖱️</div>
             <h4>PRESENTATION TOOLS</h4>
-            <p>Clickers, pointers, and more</p>
+            <p>Clickers, pointers, and more on hand</p>
           </div>
         </div>
       </section>
@@ -135,22 +135,22 @@ function PresentationRoom() {
         <div className="room-capacities-grid">
           <div className="room-capacity-card">
             <h4>BUSINESS PRESENTATIONS</h4>
-            <p className="capacity-desc">Pitch to clients and investors</p>
+            <p className="capacity-desc">Win over clients and investors</p>
           </div>
           <div className="room-capacity-card">
             <h4>TRAINING SESSIONS</h4>
-            <p className="capacity-desc">Educate and upskill teams</p>
+            <p className="capacity-desc">Level up your team's skills</p>
           </div>
           <div className="room-capacity-card">
             <h4>PRODUCT LAUNCHES</h4>
-            <p className="capacity-desc">Unveil your innovations</p>
+            <p className="capacity-desc">Give your innovation a proper debut</p>
           </div>
         </div>
 
         <div className="book-room-cta">
           <h3>CAPACITY</h3>
           <p style={{ fontWeight: 700, color: '#fff', marginBottom: '8px' }}>Up to 50 People</p>
-          <p>Theater-style seating with excellent sightlines</p>
+          <p>Theater-style seating, sightlines that work from every seat</p>
           <h3 style={{ marginTop: '20px' }}>READY TO HOST YOUR EVENT?</h3>
           <div className="cta-buttons">
             <Link to="/contact">
