@@ -4684,3 +4684,38 @@ html, body {
 .impress-box-link .impress-box h4 {
   color: var(--color-text);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 19px;
+  letter-spacing: 0.3px;
+  color: var(--color-text);
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.logo-img {
+  height: 32px;
+  width: auto;
+  max-width: 32px;
+  display: block;
+  object-fit: contain;
+  flex-shrink: 0;
+}
