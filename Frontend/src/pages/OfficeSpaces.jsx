@@ -73,9 +73,9 @@ const faqSchema = [
     a: "The AED 1,200 Due Diligence Fee covers the compliance and background checks required by ADGM before your licence and registered address can be activated. It's a one-time cost, separate from your monthly rent.",
   },
   {
-  q: "Does this dedicated desk satisfy the ADGM flexi desk requirement?",
-  a: "Yes. Our dedicated desk qualifies as an ADGM flexi desk, meeting the physical presence and registered address requirement for your ADGM business license application.",
-},
+    q: "Does this dedicated desk satisfy the ADGM flexi desk requirement?",
+    a: "Yes. Our dedicated desk qualifies as an ADGM flexi desk, meeting the physical presence and registered address requirement for your ADGM business license application.",
+  },
   {
     q: "Can I register an ADGM trade licence using this address?",
     a: "Yes. A dedicated desk includes a registered address that qualifies for your ADGM commercial licence application, so you can operate fully compliant from day one.",
@@ -99,17 +99,15 @@ function OfficeSpaces() {
           name="description"
           content="Flexible office spaces in ADGM, Addax Tower. Dedicated desks from AED 1150/month with 24/7 access. Private, secure workspace for individuals and teams in Abu Dhabi's financial district."
         />
-        <link rel="canonical" href="https://[yourdomain.com]/office-spaces" />
-
+        <link rel="canonical" href="https://aegis-coworking.vercel.app/office-spaces" />
         <meta property="og:title" content="Office Spaces in ADGM | Aegis Coworking" />
         <meta
           property="og:description"
           content="Dedicated desks with 24/7 access in ADGM, Addax Tower, from AED 1150/month."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://[yourdomain.com]/office-spaces" />
-        <meta property="og:image" content="https://[yourdomain.com]/og-image.jpg" />
-
+        <meta property="og:url" content="https://aegis-coworking.vercel.app/office-spaces" />
+        <meta property="og:image" content="https://aegis-coworking.vercel.app/og-image.jpg" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -122,7 +120,6 @@ function OfficeSpaces() {
           })}
         </script>
       </Helmet>
-
       <Navbar />
       <PageHero
         title="OFFICE SPACES IN ADGM"
