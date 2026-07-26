@@ -53,7 +53,7 @@ function Blogs() {
           name="description"
           content="Deep dives into ADGM licensing, company registration, and workspace trends from Aegis Coworking, Addax Tower."
         />
-        <link rel="canonical" href="https://[yourdomain.com]/blogs" />
+        <link rel="canonical" href="https://aegis-coworking.vercel.app/blogs" />
 
         <meta property="og:title" content="Aegis Coworking Blog | ADGM Insights" />
         <meta
@@ -61,8 +61,8 @@ function Blogs() {
           content="ADGM licensing guides, workspace trends, and business tips from Aegis Coworking."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://[yourdomain.com]/blogs" />
-        <meta property="og:image" content="https://[yourdomain.com]/og-image.jpg" />
+        <meta property="og:url" content="https://aegis-coworking.vercel.app/blogs" />
+        <meta property="og:image" content="https://aegis-coworking.vercel.app/og-image.jpg" />
       </Helmet>
 
       <Navbar />
