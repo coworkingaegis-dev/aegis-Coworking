@@ -132,9 +132,14 @@ function Navbar() {
         <li><Link to="/office-spaces" onClick={() => setMenuOpen(false)}>Desk</Link></li>
         <li><Link to="/private-office" onClick={() => setMenuOpen(false)}>Private Office</Link></li>
         <li><Link to="/virtual-office" onClick={() => setMenuOpen(false)}>Virtual Office</Link></li>
-        <li><Link to="/meeting-room" onClick={() => setMenuOpen(false)}>Meeting Room</Link></li>
-        <li><Link to="/presentation-room" onClick={() => setMenuOpen(false)}>Presentation Room</Link></li>
-        <li><Link to="/day-pass" onClick={() => setMenuOpen(false)}>Day Pass</Link></li>
+        <li className="dropdown">
+          More ▾
+          <ul className="dropdown-menu">
+            <li><Link to="/meeting-room" onClick={() => setMenuOpen(false)}>Meeting Room</Link></li>
+            <li><Link to="/presentation-room" onClick={() => setMenuOpen(false)}>Presentation Room</Link></li>
+            <li><Link to="/day-pass" onClick={() => setMenuOpen(false)}>Day Pass</Link></li>
+          </ul>
+        </li>
         <li><Link to="/contact" onClick={() => setMenuOpen(false)}>Contact Us</Link></li>
         <li className="nav-mobile-cta">
           <Link to="/contact" onClick={() => setMenuOpen(false)}>
