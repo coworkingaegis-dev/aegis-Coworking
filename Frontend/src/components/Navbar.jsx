@@ -118,31 +118,41 @@ import aegisLogo from '../assets/aegis-logo-transparent.png'
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
+  const [dropdownOpen, setDropdownOpen] = useState(false)
+
+  const closeAll = () => {
+    setMenuOpen(false)
+    setDropdownOpen(false)
+  }
 
   return (
     <nav className="navbar">
-      <Link to="/" className="logo-link" onClick={() => setMenuOpen(false)}>
+      <Link to="/" className="logo-link" onClick={closeAll}>
         <div className="logo">
           <img src={aegisLogo} alt="Aegis Coworking" className="logo-img" />
           AEGIS <span className="logo-accent">COWORKING</span>
         </div>
       </Link>
       <ul className={`nav-links ${menuOpen ? 'nav-links-open' : ''}`}>
-        <li><Link to="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
-        <li><Link to="/office-spaces" onClick={() => setMenuOpen(false)}>Desk</Link></li>
-        <li><Link to="/private-office" onClick={() => setMenuOpen(false)}>Private Office</Link></li>
-        <li><Link to="/virtual-office" onClick={() => setMenuOpen(false)}>Virtual Office</Link></li>
-        <li className="dropdown">
+        <li><Link to="/" onClick={closeAll}>Home</Link></li>
+        <li><Link to="/pricing" onClick={closeAll}>Deals</Link></li>
+        <li><Link to="/office-spaces" onClick={closeAll}>Office Desk</Link></li>
+        <li><Link to="/private-office" onClick={closeAll}>Private Office</Link></li>
+        <li
+          className={`dropdown ${dropdownOpen ? 'dropdown-open' : ''}`}
+          onClick={() => setDropdownOpen(!dropdownOpen)}
+        >
           More ▾
           <ul className="dropdown-menu">
-            <li><Link to="/meeting-room" onClick={() => setMenuOpen(false)}>Meeting Room</Link></li>
-            <li><Link to="/presentation-room" onClick={() => setMenuOpen(false)}>Presentation Room</Link></li>
-            <li><Link to="/day-pass" onClick={() => setMenuOpen(false)}>Day Pass</Link></li>
+            <li><Link to="/virtual-office" onClick={closeAll}>Virtual Office</Link></li>
+            <li><Link to="/meeting-room" onClick={closeAll}>Meeting Room</Link></li>
+            <li><Link to="/presentation-room" onClick={closeAll}>Presentation Room</Link></li>
+            <li><Link to="/day-pass" onClick={closeAll}>Day Pass</Link></li>
           </ul>
         </li>
-        <li><Link to="/contact" onClick={() => setMenuOpen(false)}>Contact Us</Link></li>
+        <li><Link to="/contact" onClick={closeAll}>Contact Us</Link></li>
         <li className="nav-mobile-cta">
-          <Link to="/contact" onClick={() => setMenuOpen(false)}>
+          <Link to="/contact" onClick={closeAll}>
             <button className="btn-primary">REQUEST QUOTE</button>
           </Link>
         </li>
