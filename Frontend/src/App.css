@@ -4646,4 +4646,12 @@ html, body {
   .services {
     grid-template-columns: 1fr 1fr !important;
   }
+
+  .amenities-grid {
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  .why-us-grid {
+    grid-template-columns: 1fr 1fr !important;
+  }
 }
