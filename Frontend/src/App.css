@@ -4313,3 +4313,216 @@ a {
   color: var(--color-primary);
   margin-bottom: 8px;
 }
+
+
+
+
+
+
+/* ===== MOBILE NAV TOGGLE (hamburger) ===== */
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 26px;
+  height: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 1100;
+}
+
+.nav-toggle span {
+  display: block;
+  height: 2.5px;
+  width: 100%;
+  background: var(--color-text);
+  border-radius: 2px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.nav-toggle.open span:nth-child(1) {
+  transform: translateY(8.5px) rotate(45deg);
+}
+
+.nav-toggle.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.nav-toggle.open span:nth-child(3) {
+  transform: translateY(-8.5px) rotate(-45deg);
+}
+
+.nav-mobile-cta {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .nav-toggle {
+    display: flex;
+  }
+
+  .nav-desktop-cta {
+    display: none;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 75%;
+    max-width: 320px;
+    height: 100vh;
+    background: var(--color-bg-alt);
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0;
+    padding: 100px 32px 32px;
+    box-shadow: -8px 0 30px rgba(0,0,0,0.1);
+    transition: right 0.35s ease;
+    z-index: 1050;
+  }
+
+  .nav-links-open {
+    right: 0;
+  }
+
+  .nav-links li {
+    width: 100%;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .nav-mobile-cta {
+    display: block;
+    border-bottom: none;
+    margin-top: 20px;
+  }
+
+  .nav-mobile-cta button {
+    width: 100%;
+  }
+}
+
+
+
+/* ================================================
+   COMPREHENSIVE MOBILE RESPONSIVENESS FIXES
+================================================ */
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+
+  .services,
+  .footer,
+  .vo-tier,
+  .why-us,
+  .testimonials,
+  .room-features,
+  .room-capacities,
+  .impress-clients,
+  .nearby-facilities,
+  .business-presence,
+  .location-highlight,
+  .amenities,
+  .faq-section,
+  .vo-faq,
+  .blogs-section,
+  .blog-final-cta,
+  .pricing-section,
+  .pricing-includes {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .hero-content h1,
+  .hero h1 {
+    font-size: 30px;
+    letter-spacing: -1px;
+    word-spacing: -4px;
+  }
+
+  .hero-eyebrow {
+    font-size: 10.5px;
+    padding: 7px 12px;
+    white-space: normal;
+    line-height: 1.4;
+    max-width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-content p,
+  .hero p {
+    font-size: 14.5px;
+  }
+
+  .page-hero h1,
+  .pricing-hero h1,
+  .contact-section h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 24px !important;
+  }
+
+  .vo-tier {
+    padding: 40px 20px;
+  }
+
+  .vo-tier-content h3 {
+    font-size: 19px;
+  }
+
+  .pricing-price {
+    font-size: 22px;
+  }
+
+  .contact-form-v2 {
+    padding: 24px 18px;
+  }
+
+  .faq-question,
+  .vo-faq-question {
+    font-size: 14px;
+  }
+
+  .admin-table th,
+  .admin-table td {
+    padding: 10px 12px;
+  }
+
+  .blog-detail-content {
+    font-size: 15.5px;
+  }
+
+  .blog-detail-title {
+    font-size: 24px;
+  }
+
+  .editor-headline {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .hero-content h1,
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 28px !important;
+  }
+}
+
+html, body {
+  overflow-x: hidden;
+}
