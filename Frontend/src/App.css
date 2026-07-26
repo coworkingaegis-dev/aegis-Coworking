@@ -1781,11 +1781,10 @@ a {
 
 /* ===== CONTACT PAGE (simple, elegant) ===== */
 .contact-section {
-  background: var(--color-bg);
+  background: #eaf5ef; /* light green */
   text-align: center;
   padding: 160px 20px 100px;
 }
-
 .contact-eyebrow {
   display: inline-block;
   font-size: 12.5px;
