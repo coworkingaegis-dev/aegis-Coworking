@@ -4655,9 +4655,7 @@ html, body {
     grid-template-columns: 1fr 1fr !important;
   }
 
-  .includes-grid {
-    grid-template-columns: 1fr 1fr !important;
-  }
+ 
 
   .room-features-grid {
     grid-template-columns: 1fr 1fr !important;
