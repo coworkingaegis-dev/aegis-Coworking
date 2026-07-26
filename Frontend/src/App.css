@@ -4526,3 +4526,34 @@ img, video {
 html, body {
   overflow-x: hidden;
 }
+
+
+
+
+
+
+
+
+
+
+/* ===== HERO TITLE — RESPONSIVE SPLIT ===== */
+.hero-title-mobile {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .hero-title-desktop {
+    display: none;
+  }
+
+  .hero-title-mobile {
+    display: block;
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  .hero-content h1,
+  .hero h1 {
+    font-size: 32px;
+  }
+}
