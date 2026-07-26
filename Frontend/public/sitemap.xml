@@ -2,55 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://[yourdomain.com]/</loc>
+    <loc>https://aegis-coworking.vercel.app/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://[yourdomain.com]/office-spaces</loc>
+    <loc>https://aegis-coworking.vercel.app/office-spaces</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://[yourdomain.com]/private-office</loc>
+    <loc>https://aegis-coworking.vercel.app/private-office</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://[yourdomain.com]/virtual-office</loc>
+    <loc>https://aegis-coworking.vercel.app/virtual-office</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://[yourdomain.com]/meeting-room</loc>
+    <loc>https://aegis-coworking.vercel.app/meeting-room</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://[yourdomain.com]/day-pass</loc>
+    <loc>https://aegis-coworking.vercel.app/day-pass</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://[yourdomain.com]/pricing</loc>
+    <loc>https://aegis-coworking.vercel.app/pricing</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://[yourdomain.com]/contact</loc>
+    <loc>https://aegis-coworking.vercel.app/contact</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://[yourdomain.com]/blogs</loc>
+    <loc>https://aegis-coworking.vercel.app/blogs</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
