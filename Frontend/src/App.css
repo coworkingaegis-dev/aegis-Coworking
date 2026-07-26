@@ -71,7 +71,7 @@ a {
   align-items: center;
   justify-content: space-between;
   padding: 18px 60px;
-  background: rgba(247, 245, 240, 0.92);
+  background: #ffffff;
   backdrop-filter: blur(10px);
   z-index: 1000;
 }
