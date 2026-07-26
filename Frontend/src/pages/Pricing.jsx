@@ -256,7 +256,7 @@ function Pricing() {
       <Navbar />
 
      <section className="pricing-hero">
-  <h1>ADGM COWORKING PRICING</h1>
+  <h1>DISCOUNTED PRICES</h1>
   <p className="pricing-price-intro">
     Cheapest coworking and dedicated desk pricing in ADGM — hot desk from AED 1,000/month. No hidden fees.
   </p>
