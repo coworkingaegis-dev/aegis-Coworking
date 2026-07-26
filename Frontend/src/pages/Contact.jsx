@@ -12,18 +12,16 @@ function Contact() {
           name="description"
           content="Get in touch with Aegis Coworking in Addax Tower, ADGM, Abu Dhabi. Book a tour or request a quote for hot desks, private offices, and virtual offices."
         />
-        <link rel="canonical" href="https://[yourdomain.com]/contact" />
-
+        <link rel="canonical" href="https://aegis-coworking.vercel.app/contact" />
         <meta property="og:title" content="Contact Aegis Coworking | ADGM Addax Tower" />
         <meta
           property="og:description"
           content="Book a tour or request a quote from Aegis Coworking, Addax Tower, ADGM."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://[yourdomain.com]/contact" />
-        <meta property="og:image" content="https://[yourdomain.com]/og-image.jpg" />
+        <meta property="og:url" content="https://aegis-coworking.vercel.app/contact" />
+        <meta property="og:image" content="https://aegis-coworking.vercel.app/og-image.jpg" />
       </Helmet>
-
       <Navbar />
       <ContactForm />
       <Footer />
