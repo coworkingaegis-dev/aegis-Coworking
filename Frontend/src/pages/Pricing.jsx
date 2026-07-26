@@ -280,7 +280,7 @@ function Pricing() {
               <li>Premium coffee & tea</li>
             </ul>
             <Link to="/contact">
-              <button className="btn-pricing-ghost">Get Started</button>
+              <button className="btn-pricing-solid">Get Started</button>
             </Link>
           </div>
 
@@ -322,7 +322,7 @@ function Pricing() {
               <li>All Dedicated Desk benefits</li>
             </ul>
             <Link to="/contact">
-              <button className="btn-pricing-ghost">Get Started</button>
+              <button className="btn-pricing-solid">Get Started</button>
             </Link>
           </div>
 
