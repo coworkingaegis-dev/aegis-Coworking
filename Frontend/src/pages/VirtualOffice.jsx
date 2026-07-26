@@ -130,7 +130,7 @@ function VirtualOffice() {
           name="description"
           content="ADGM virtual office with a registered Category 1 business address at Addax Tower. Mail handling, phone support, and meeting room credits — ideal for ADGM company registration."
         />
-        <link rel="canonical" href="https://[yourdomain.com]/virtual-office" />
+        <link rel="canonical" href="https://aegis-coworking.vercel.app/virtual-office" />
 
         <meta property="og:title" content="Virtual Office ADGM | Aegis Coworking" />
         <meta
@@ -138,8 +138,8 @@ function VirtualOffice() {
           content="Registered ADGM business address, mail handling, and phone support at Addax Tower — from Basic to Enterprise packages."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://[yourdomain.com]/virtual-office" />
-        <meta property="og:image" content="https://[yourdomain.com]/og-image.jpg" />
+        <meta property="og:url" content="https://aegis-coworking.vercel.app/virtual-office" />
+        <meta property="og:image" content="https://aegis-coworking.vercel.app/og-image.jpg" />
 
         <script type="application/ld+json">
           {JSON.stringify({
