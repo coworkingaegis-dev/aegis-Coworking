@@ -4667,8 +4667,20 @@ html, body {
 
 
 
-.impress-box-link {
+.impress-box-link,
+.impress-box-link:hover,
+.impress-box-link:active,
+.impress-box-link:visited,
+.impress-box-link:focus {
   text-decoration: none;
   color: inherit;
   display: block;
+}
+
+.impress-box-link .impress-box p {
+  color: var(--color-text-muted);
+}
+
+.impress-box-link .impress-box h4 {
+  color: var(--color-text);
 }
