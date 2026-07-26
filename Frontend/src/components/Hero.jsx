@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import heroVideo from '../assets/hero_video.mov'
+import heroVideo from '../assets/hero_video.mp4'
 
 function Hero() {
   return (
