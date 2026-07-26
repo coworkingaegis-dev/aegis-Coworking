@@ -38,8 +38,9 @@ function Home() {
       <Reveal delay={0.1}>
         <ImageBanner image={homeBannerImage} alt="Coworking space with skyline view" />
       </Reveal>
+       <Reveal delay={0.1}><Amenities /></Reveal>
       <Reveal delay={0.1}><Testimonials /></Reveal>
-      <Reveal delay={0.1}><Amenities /></Reveal>
+     
       <Reveal delay={0.1}><LocationHighlight /></Reveal>
       <FinalCTA />
       <Footer />
