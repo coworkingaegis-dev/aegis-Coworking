@@ -255,13 +255,12 @@ function Pricing() {
 
       <Navbar />
 
-      <section className="pricing-hero">
-        <h1>ADGM Coworking Pricing</h1>
-        <p className="pricing-price-intro">
-          Find the cheapest coworking space and dedicated desk pricing in ADGM, Al Reem Island — hot desk price from AED 1,000/month.
-        </p>
-        <p>No hidden fees. No long-term traps. Just the space you need, priced fairly.</p>
-      </section>
+     <section className="pricing-hero">
+  <h1>ADGM COWORKING PRICING</h1>
+  <p className="pricing-price-intro">
+    Cheapest coworking and dedicated desk pricing in ADGM — hot desk from AED 1,000/month. No hidden fees.
+  </p>
+</section>
 
       <section className="pricing-section">
         <div className="pricing-grid">
