@@ -4557,3 +4557,17 @@ html, body {
     font-size: 32px;
   }
 }
+
+
+
+
+/* ===== NAVBAR MOBILE LAYOUT FIX (overrides old column rule) ===== */
+@media (max-width: 900px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+    padding: 16px 20px;
+  }
+}
