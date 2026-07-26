@@ -229,7 +229,7 @@ function PrivateOffice() {
           name="description"
           content="Private, lockable offices in ADGM, Addax Tower, from AED 4500/month. Fully furnished, 24/7 access, ADGM licence-ready suites for teams of 1 to 20+."
         />
-        <link rel="canonical" href="https://[yourdomain.com]/private-office" />
+        <link rel="canonical" href="https://aegis-coworking.vercel.app/private-office" />
 
         <meta property="og:title" content="Private Office ADGM | Aegis Coworking" />
         <meta
@@ -237,8 +237,8 @@ function PrivateOffice() {
           content="Lockable, fully furnished private offices in ADGM, Addax Tower, from AED 4500/month."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://[yourdomain.com]/private-office" />
-        <meta property="og:image" content="https://[yourdomain.com]/og-image.jpg" />
+        <meta property="og:url" content="https://aegis-coworking.vercel.app/private-office" />
+        <meta property="og:image" content="https://aegis-coworking.vercel.app/og-image.jpg" />
 
         <script type="application/ld+json">
           {JSON.stringify({
@@ -358,16 +358,16 @@ function PrivateOffice() {
         <div className="vo-tier-content">
           <span className="vo-tier-badge" style={{ background: '#e8e0f7', color: '#5b3ea6' }}>LARGE</span>
           <p className="vo-tier-eyebrow">Perfect for 10+ people</p>
-         
-<h3>EXECUTIVE OFFICE SPACE, ADDAX TOWER</h3>
-<p>
-  Spacious, luxury office space in Abu Dhabi's financial district at Addax Tower, built
-  for established ADGM-licensed companies and larger teams. These premium offices can be
-  fully branded and configured to support multiple work zones, private meeting areas and
-  secure storage. The right choice for financial services firms, regional headquarters
-  and regulated entities that want a discreet, high-performance base inside Abu Dhabi
-  Global Market.
-</p>
+
+          <h3>EXECUTIVE OFFICE SPACE, ADDAX TOWER</h3>
+          <p>
+            Spacious, luxury office space in Abu Dhabi's financial district at Addax Tower, built
+            for established ADGM-licensed companies and larger teams. These premium offices can be
+            fully branded and configured to support multiple work zones, private meeting areas and
+            secure storage. The right choice for financial services firms, regional headquarters
+            and regulated entities that want a discreet, high-performance base inside Abu Dhabi
+            Global Market.
+          </p>
           <div className="vo-tier-buttons">
             <Link to="/contact">
               <button className="btn-vo-primary">REQUEST QUOTE</button>
@@ -377,11 +377,10 @@ function PrivateOffice() {
       </section>
 
       {/* FAQ */}
-      
-       <section className="vo-faq">
-  <span className="contact-eyebrow">PRIVATE OFFICE ADGM</span>
-<h2>FREQUENTLY ASKED QUESTIONS</h2>
-  <div className="vo-faq-list">
+      <section className="vo-faq">
+        <span className="contact-eyebrow">PRIVATE OFFICE ADGM</span>
+        <h2>FREQUENTLY ASKED QUESTIONS</h2>
+        <div className="vo-faq-list">
           {faqs.map((f, i) => (
             <div
               className={`vo-faq-item ${openIndex === i ? 'open' : ''}`}
