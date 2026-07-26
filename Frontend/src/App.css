@@ -464,9 +464,8 @@ a {
 
 /* ===== CONTACT PAGE ===== */
 .contact-section {
-  background: var(--color-bg);
-  text-align: center;
-  padding: 160px 20px 90px;
+  padding: 90px 60px;
+  background: #eaf5ef;
 }
 
 .contact-section h1 {
