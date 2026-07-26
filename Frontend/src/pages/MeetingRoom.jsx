@@ -96,15 +96,15 @@ function MeetingRoom() {
           name="description"
           content="Book fully equipped meeting rooms at Aegis Coworking, ADGM, Addax Tower. Flexible hourly booking, professional setting for client meetings and team sessions."
         />
-        <link rel="canonical" href="https://[yourdomain.com]/meeting-room" />
+        <link rel="canonical" href="https://aegis-coworking.vercel.app/meeting-room" />
         <meta property="og:title" content="Meeting Room Rental ADGM | Aegis Coworking" />
         <meta
           property="og:description"
           content="Fully equipped, flexible meeting rooms at Addax Tower, ADGM."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://[yourdomain.com]/meeting-room" />
-        <meta property="og:image" content="https://[yourdomain.com]/og-image.jpg" />
+        <meta property="og:url" content="https://aegis-coworking.vercel.app/meeting-room" />
+        <meta property="og:image" content="https://aegis-coworking.vercel.app/og-image.jpg" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -117,7 +117,6 @@ function MeetingRoom() {
           })}
         </script>
       </Helmet>
-
       <Navbar />
       <PageHero
         title="MEETING ROOMS IN ADGM"
@@ -126,8 +125,7 @@ function MeetingRoom() {
       <ImageBanner image={meetingRoomBanner} alt="Meeting room in session" />
       <ImpressClients />
       <RoomFeatures />
-       <RoomCapacities />
-
+      <RoomCapacities />
       <section className="vo-faq">
         <span className="contact-eyebrow">MEETING ROOMS ADGM</span>
         <h2>FREQUENTLY ASKED QUESTIONS</h2>
@@ -150,7 +148,6 @@ function MeetingRoom() {
         </div>
       </section>
 
-      
       <Footer />
     </div>
   )
