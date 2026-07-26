@@ -135,7 +135,7 @@ function Navbar() {
       </Link>
       <ul className={`nav-links ${menuOpen ? 'nav-links-open' : ''}`}>
         <li><Link to="/" onClick={closeAll}>Home</Link></li>
-        <li><Link to="/pricing" onClick={closeAll}>Deals</Link></li>
+        <li><Link to="/pricing" onClick={closeAll}>Hot Deals</Link></li>
         <li><Link to="/office-spaces" onClick={closeAll}>Office Desk</Link></li>
         <li><Link to="/private-office" onClick={closeAll}>Private Office</Link></li>
         <li
