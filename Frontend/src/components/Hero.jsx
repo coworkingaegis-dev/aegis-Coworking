@@ -49,13 +49,6 @@ import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import heroVideo from '../assets/hero_video.mp4'
 
-const quickLinks = [
-  { label: 'Dedicated Desk', to: '/office-spaces' },
-  { label: 'Private Office', to: '/private-office' },
-  { label: 'Virtual Office', to: '/virtual-office' },
-  { label: 'Meeting Room', to: '/meeting-room' },
-]
-
 function Hero() {
   return (
     <section className="hero hero-video-wrap">
@@ -79,15 +72,6 @@ function Hero() {
         <Link to="/contact">
           <button className="btn-secondary">BOOK TOUR</button>
         </Link>
-
-        <div className="hero-quicklinks">
-          {quickLinks.map((link, i) => (
-            <span key={i}>
-              <Link to={link.to}>{link.label}</Link>
-              {i < quickLinks.length - 1 && <span className="hero-quicklinks-divider">·</span>}
-            </span>
-          ))}
-        </div>
       </motion.div>
     </section>
   )
