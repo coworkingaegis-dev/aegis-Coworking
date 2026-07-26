@@ -196,7 +196,7 @@ function Pricing() {
           name="description"
           content="Cheapest coworking space and dedicated desk pricing in ADGM, Al Reem Island. Hot desk from AED 1000/month, dedicated desk from AED 1150/month, private office from AED 4500/month. No hidden fees."
         />
-        <link rel="canonical" href="https://[yourdomain.com]/pricing" />
+        <link rel="canonical" href="https://aegis-coworking.vercel.app/pricing" />
 
         <meta property="og:title" content="Coworking Pricing ADGM | Aegis Coworking" />
         <meta
@@ -204,8 +204,8 @@ function Pricing() {
           content="Simple, transparent pricing — hot desks from AED 1000/month, dedicated desks from AED 1150/month, private offices from AED 4500/month."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://[yourdomain.com]/pricing" />
-        <meta property="og:image" content="https://[yourdomain.com]/og-image.jpg" />
+        <meta property="og:url" content="https://aegis-coworking.vercel.app/pricing" />
+        <meta property="og:image" content="https://aegis-coworking.vercel.app/og-image.jpg" />
 
         <script type="application/ld+json">
           {JSON.stringify({
@@ -230,7 +230,7 @@ function Pricing() {
                 "price": "1000",
                 "priceCurrency": "AED",
                 "priceValidUntil": "2026-12-31",
-                "url": "https://[yourdomain.com]/pricing",
+                "url": "https://aegis-coworking.vercel.app/pricing",
               },
               {
                 "@type": "Offer",
@@ -238,7 +238,7 @@ function Pricing() {
                 "price": "1150",
                 "priceCurrency": "AED",
                 "priceValidUntil": "2026-12-31",
-                "url": "https://[yourdomain.com]/pricing",
+                "url": "https://aegis-coworking.vercel.app/pricing",
               },
               {
                 "@type": "Offer",
@@ -246,7 +246,7 @@ function Pricing() {
                 "price": "4500",
                 "priceCurrency": "AED",
                 "priceValidUntil": "2026-12-31",
-                "url": "https://[yourdomain.com]/pricing",
+                "url": "https://aegis-coworking.vercel.app/pricing",
               },
             ],
           })}
