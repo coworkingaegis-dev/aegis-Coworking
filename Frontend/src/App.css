@@ -4441,28 +4441,32 @@ img, video {
     padding-right: 20px;
   }
 
-  .hero-content h1,
-  .hero h1 {
-    font-size: 30px;
-    letter-spacing: -1px;
-    word-spacing: -4px;
+  .hero-content {
+    padding: 0 24px;
   }
 
   .hero-eyebrow {
     font-size: 10.5px;
-    padding: 7px 12px;
+    padding: 8px 14px;
     white-space: normal;
-    line-height: 1.4;
-    max-width: 92%;
-    margin-left: auto;
-    margin-right: auto;
+    line-height: 1.5;
+    max-width: 90%;
+    margin: 0 auto 24px;
   }
 
   .hero-content p,
   .hero p {
-    font-size: 14.5px;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 32px;
+    padding: 0 4px;
   }
 
+  .hero-content .btn-secondary,
+  .hero .btn-secondary {
+    padding: 16px 36px;
+    font-size: 15px;
+  }
   .page-hero h1,
   .pricing-hero h1,
   .contact-section h1 {
@@ -4548,13 +4552,16 @@ html, body {
 
   .hero-title-mobile {
     display: block;
-    font-size: 32px;
-    line-height: 1.2;
+    font-size: 34px;
+    line-height: 1.35;
+    letter-spacing: -0.5px;
+    margin-bottom: 20px;
   }
 
   .hero-content h1,
   .hero h1 {
-    font-size: 32px;
+    font-size: 34px;
+    margin-bottom: 20px;
   }
 }
 
