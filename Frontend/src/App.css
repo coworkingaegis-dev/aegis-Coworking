@@ -4658,4 +4658,8 @@ html, body {
   .includes-grid {
     grid-template-columns: 1fr 1fr !important;
   }
+
+  .room-features-grid {
+    grid-template-columns: 1fr 1fr !important;
+  }
 }
