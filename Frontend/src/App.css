@@ -1659,7 +1659,11 @@ a {
   z-index: 10;
 }
 
-.dropdown:hover .dropdown-menu {
+.dropdown-menu {
+  display: none;
+}
+
+.dropdown-open .dropdown-menu {
   display: block;
 }
 
