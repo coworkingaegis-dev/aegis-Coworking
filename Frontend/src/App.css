@@ -4663,3 +4663,12 @@ html, body {
     grid-template-columns: 1fr 1fr !important;
   }
 }
+
+
+
+
+.impress-box-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
