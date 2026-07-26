@@ -21,18 +21,16 @@ function Home() {
           name="description"
           content="Aegis Coworking offers hot desks, dedicated desks, and private offices in Addax Tower, Al Reem Island, ADGM, Abu Dhabi. Hot desks from AED 1000/month, dedicated desks from AED 1150/month, private offices from AED 4500/month."
         />
-        <link rel="canonical" href="https://[yourdomain.com]/" />
-
+        <link rel="canonical" href="https://aegis-coworking.vercel.app/" />
         <meta property="og:title" content="Coworking Space in ADGM Addax Tower | Aegis Coworking" />
         <meta
           property="og:description"
           content="Hot desks, dedicated desks, and private offices in Addax Tower, Al Reem Island, ADGM. Hot desks from AED 1000/month."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://[yourdomain.com]/" />
-        <meta property="og:image" content="https://[yourdomain.com]/og-image.jpg" />
+        <meta property="og:url" content="https://aegis-coworking.vercel.app/" />
+        <meta property="og:image" content="https://aegis-coworking.vercel.app/og-image.jpg" />
       </Helmet>
-
       <Navbar />
       <Hero />
       <Reveal><Services /></Reveal>
