@@ -66,7 +66,7 @@ function Navbar() {
 
       <ul className={`nav-links ${menuOpen ? 'nav-links-open' : ''}`}>
         <li><Link to="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
-        <li><Link to="/pricing" onClick={() => setMenuOpen(false)}>Desk</Link></li>
+        <li><Link to="/office-spaces" onClick={() => setMenuOpen(false)}>Desk</Link></li>
         <li><Link to="/private-office" onClick={() => setMenuOpen(false)}>Private Office</Link></li>
         <li><Link to="/virtual-office" onClick={() => setMenuOpen(false)}>Virtual Office</Link></li>
         <li><Link to="/meeting-room" onClick={() => setMenuOpen(false)}>Meeting Room</Link></li>
