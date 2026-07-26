@@ -1,0 +1,31 @@
+import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion'
+import heroVideo from '../assets/hero_video.mov'
+
+function Hero() {
+  return (
+    <section className="hero hero-video-wrap">
+      <video className="hero-video" autoPlay loop muted playsInline>
+        <source src={heroVideo} type="video/mp4" />
+      </video>
+      <div className="hero-overlay"></div>
+
+      <motion.div
+        className="hero-content"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.7 }}
+      >
+        <span className="hero-eyebrow"> Coworking Space in ADGM, Addax Tower · AL REEM ISLAND</span>
+<h1>WHERE&nbsp;&nbsp;&nbsp;STARTUPS&nbsp;&nbsp;&nbsp;TAKE&nbsp;&nbsp;&nbsp;OFF</h1>
+{/* <p className="hero-subhead">Coworking Space in ADGM, Addax Tower</p> */}
+<p>Premium coworking inside ADGM, Abu Dhabi's financial free zone — a registered address, a real community, and a view worth showing up for.</p>
+        <Link to="/contact">
+          <button className="btn-secondary">BOOK TOUR</button>
+        </Link>
+      </motion.div>
+    </section>
+  )
+}
+
+export default Hero
