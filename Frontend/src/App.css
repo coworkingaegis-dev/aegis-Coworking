@@ -4579,3 +4579,51 @@ html, body {
     grid-template-columns: 1fr;
   }
 }
+
+
+
+
+
+
+
+
+
+
+.hero-quicklinks {
+  margin-top: 36px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-quicklinks a {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 0.3px;
+  transition: color 0.2s ease;
+}
+
+.hero-quicklinks a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.hero-quicklinks-divider {
+  color: rgba(255, 255, 255, 0.4);
+  margin: 0 6px;
+}
+
+@media (max-width: 600px) {
+  .hero-quicklinks {
+    gap: 4px;
+    margin-top: 24px;
+  }
+  .hero-quicklinks a {
+    font-size: 13px;
+  }
+}
