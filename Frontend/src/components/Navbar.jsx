@@ -146,7 +146,7 @@ function Navbar() {
           <ul className="dropdown-menu">
             <li><Link to="/virtual-office" onClick={closeAll}>Virtual Office</Link></li>
             <li><Link to="/meeting-room" onClick={closeAll}>Meeting Room</Link></li>
-            <li><Link to="/presentation-room" onClick={closeAll}>Presentation Room</Link></li>
+            {/* <li><Link to="/presentation-room" onClick={closeAll}>Presentation Room</Link></li> */}
             <li><Link to="/day-pass" onClick={closeAll}>Day Pass</Link></li>
           </ul>
         </li>
