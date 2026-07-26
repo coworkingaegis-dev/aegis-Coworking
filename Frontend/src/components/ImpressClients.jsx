@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 function ImpressClients() {
   return (
     <section className="impress-clients">
@@ -14,11 +16,13 @@ function ImpressClients() {
           a professional space in Abu Dhabi's financial district — ready the moment you walk in.
         </p>
       </div>
-      <div className="impress-box">
-        <div className="impress-icon">📅</div>
-        <h4>BOOK BY THE HOUR</h4>
-        <p>No day-long minimums — reserve exactly the time you need.</p>
-      </div>
+      <Link to="/contact" className="impress-box-link">
+        <div className="impress-box">
+          <div className="impress-icon">📅</div>
+          <h4>BOOK BY THE HOUR</h4>
+          <p>No day-long minimums — reserve exactly the time you need.</p>
+        </div>
+      </Link>
     </section>
   )
 }
