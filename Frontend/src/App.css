@@ -4664,7 +4664,7 @@ html, body {
   }
    .bp-columns {
    grid-template-columns: 1fr 1fr !important;
-}
+}}
 
 
 
