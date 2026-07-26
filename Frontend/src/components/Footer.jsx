@@ -16,7 +16,7 @@ function Footer() {
       <div className="footer-col">
         <h4>QUICK LINKS</h4>
         <Link to="/">Home</Link>
-        <Link to="/pricing">Deals</Link>
+        <Link to="/pricing">Hot Deals</Link>
          <Link to="/blogs">Blog</Link>
         <Link to="/contact">Contact Us</Link>
        
