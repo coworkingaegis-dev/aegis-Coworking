@@ -1781,7 +1781,7 @@ a {
 
 /* ===== CONTACT PAGE (simple, elegant) ===== */
 .contact-section {
-  background: #94c4aa; /* light green */
+   background: var(--color-bg);
   text-align: center;
   padding: 160px 20px 100px;
 }
