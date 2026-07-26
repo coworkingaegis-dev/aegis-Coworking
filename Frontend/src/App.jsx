@@ -13,6 +13,7 @@ import Pricing from './pages/Pricing'
 import Blogs from './pages/Blogs'
 import CreateBlog from './pages/CreateBlog'
 import BlogDetail from './pages/BlogDetail'
+import PresentationRoom from './pages/PresentationRoom'
 import './App.css'
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/create-blog" element={<CreateBlog />} />
           <Route path="/blog/:id" element={<BlogDetail />} />
+          <Route path="/presentation-room" element={<PresentationRoom />} />
         </Routes>
       </BrowserRouter>
     </HelmetProvider>
