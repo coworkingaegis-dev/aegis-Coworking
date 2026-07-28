@@ -102,8 +102,8 @@ const faqs = [
     a: "No. ADGM accepts a registered virtual office address for most licence categories, as long as it includes mail handling and a valid business address inside ADGM, such as our Category 1 address at Addax Tower.",
   },
   {
-    q: "What's included in an ADGM virtual office package?",
-    a: "A registered Category 1 business address for your ADGM licence application, mail receiving and forwarding, and your company name listed on our on-site directory. Premium and Enterprise tiers add a dedicated phone line and meeting room credits.",
+    q: "What's included in an ADGM virtual office package, and how much does it cost?",
+    a: "Aegis Coworking offers three virtual office tiers — Basic, Premium, and Enterprise — each with a registered ADGM business address, mail handling, and increasing levels of phone support and meeting room credits. Pricing is customized based on the tier and your business needs — request a quote for current rates.",
   },
   {
     q: "Can I use a virtual office for my ADGM trade licence renewal?",
