@@ -322,7 +322,7 @@ function VirtualOffice() {
         image={voBasic}
         tier="BASIC"
         title="BASIC ADGM VIRTUAL OFFICE"
-        desc="Built for founders, freelancers and international entrepreneurs who need a registered ADGM address at launch. You get a Category 1 business address inside 2312 Addax Tower for your ADGM licence application, mail receiving and forwarding, and your company name on our on-site directory. Start operating from one of the Middle East's leading financial free zones without committing to a full office lease."
+        desc="Built for founders, freelancers and international entrepreneurs who need a registered ADGM address at launch. You get a Category 1 business address inside Addax Tower for your ADGM licence application, mail receiving and forwarding, and your company name on our on-site directory. Start operating from one of the Middle East's leading financial free zones without committing to a full office lease."
         buttons={[{ label: "REQUEST QUOTE", primary: true }]}
         imageLeft={true}
       />
