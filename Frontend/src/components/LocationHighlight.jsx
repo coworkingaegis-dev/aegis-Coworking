@@ -14,7 +14,7 @@ function LocationHighlight() {
           <div className="address-card">
             <div className="address-icon">📍</div>
             <div>
-              <strong>2312 Addax Tower</strong>
+              <strong>Addax Tower</strong>
               <span>Al Reem Island, Abu Dhabi, UAE</span>
             </div>
           </div>
