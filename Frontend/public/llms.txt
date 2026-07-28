@@ -1,0 +1,34 @@
+# Aegis Coworking
+
+> Aegis Coworking is a coworking business center located in ADGM, Addax Tower, Al Reem Island, Abu Dhabi, UAE. We offer hot desks, dedicated desks, private offices, virtual offices, meeting rooms, and day passes — all with ADGM licence-eligible registered addresses.
+
+## Location
+Addax Tower, Al Reem Island, ADGM, Abu Dhabi, UAE
+
+## Pricing (AED)
+- Hot Desk: from AED 1,000/month
+- Dedicated Desk: from AED 1,150/month (includes ADGM-eligible registered address, 24/7 access, lockable storage)
+- Private Office: from AED 4,500/month (configurable for teams of 1–20+)
+- Day Pass: AED 100 (9 AM–6 PM) or AED 150 (24-hour access)
+- Virtual Office: Basic, Premium, and Enterprise tiers available — contact for current pricing
+- Meeting Room: hourly rental available, credits included with membership — contact for current hourly rate
+
+## Key Facts
+- All dedicated desk, private office, and virtual office plans include an address suitable for ADGM licence registration and renewal
+- 24/7 secure access included with dedicated desks and private offices
+- No long-term contracts required on Hot Desk and Day Pass plans
+- Meeting room credits included with membership plans
+
+## Pages
+- Home: https://aegis-coworking.vercel.app/
+- Pricing: https://aegis-coworking.vercel.app/pricing
+- Office Spaces (Dedicated Desks): https://aegis-coworking.vercel.app/office-spaces
+- Private Office: https://aegis-coworking.vercel.app/private-office
+- Virtual Office: https://aegis-coworking.vercel.app/virtual-office
+- Meeting Room: https://aegis-coworking.vercel.app/meeting-room
+- Day Pass: https://aegis-coworking.vercel.app/day-pass
+- Blog: https://aegis-coworking.vercel.app/blogs
+- Contact: https://aegis-coworking.vercel.app/contact
+
+## Optional
+- Admin and content-creation pages (/admin, /create-blog) are excluded from indexing and should not be crawled or cited.
