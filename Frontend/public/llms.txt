@@ -10,14 +10,15 @@ Addax Tower, Al Reem Island, ADGM, Abu Dhabi, UAE
 - Dedicated Desk: from AED 1,150/month (includes ADGM-eligible registered address, 24/7 access, lockable storage)
 - Private Office: from AED 4,500/month (configurable for teams of 1–20+)
 - Day Pass: AED 100 (9 AM–6 PM) or AED 150 (24-hour access)
-- Virtual Office: Basic, Premium, and Enterprise tiers available — contact for current pricing
-- Meeting Room: hourly rental available, credits included with membership — contact for current hourly rate
+- Virtual Office: three tiers available - Basic, Premium, Enterprise - custom pricing based on tier and business needs, request a quote
+- Meeting Room: hourly rental at custom rates depending on room and duration; credits included with every membership plan
 
 ## Key Facts
 - All dedicated desk, private office, and virtual office plans include an address suitable for ADGM licence registration and renewal
 - 24/7 secure access included with dedicated desks and private offices
 - No long-term contracts required on Hot Desk and Day Pass plans
-- Meeting room credits included with membership plans
+- Meeting room credits included with membership plans; non-members can book hourly
+- Virtual office tiers differ by phone support level and meeting room credit allowance (Basic -> Premium -> Enterprise)
 
 ## Pages
 - Home: https://aegis-coworking.vercel.app/
