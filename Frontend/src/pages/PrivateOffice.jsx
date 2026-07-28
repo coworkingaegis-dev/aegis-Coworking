@@ -527,7 +527,7 @@ function PrivateOffice() {
         <span className="contact-eyebrow">HOW IT WORKS</span>
         <h2>Your Own Private Office Inside ADGM</h2>
         <p className="bp-intro">
-          Our private offices are located at 2312 Addax Tower, Al Reem Island, right in the heart
+          Our private offices are located at Addax Tower, Al Reem Island, right in the heart
           of ADGM. Each space is lockable, fully furnished and ready for your ADGM licence, giving
           your team the privacy of a traditional office with the amenities and flexibility of a
           modern business centre.
