@@ -66,7 +66,7 @@ import meetingRoomBanner from '../assets/meeting-room-banner.jpg'
 const faqs = [
   {
     q: "How much does it cost to rent a meeting room in ADGM?",
-    a: "Meeting room credits are included with every Aegis Coworking membership, with additional hourly booking available. Contact us for current hourly rates.",
+    a: "Meeting room hourly rates at Aegis Coworking vary by room size and time of day. Every membership plan includes meeting room credits at no extra cost, and non-members can book hourly at custom rates — request a quote for current pricing.",
   },
   {
     q: "Can non-members book a meeting room at Aegis Coworking?",
