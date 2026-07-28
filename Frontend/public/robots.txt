@@ -2,5 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /admin
 Disallow: /create-blog
-
-Sitemap: https://aegis-coworking.vercel.app/sitemap.xml
+Sitemap: https://www.aegiscoworking.ae/sitemap.xml
