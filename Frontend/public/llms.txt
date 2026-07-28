@@ -1,5 +1,4 @@
 # Aegis Coworking
-
 > Aegis Coworking is a coworking business center located in ADGM, Addax Tower, Al Reem Island, Abu Dhabi, UAE. We offer hot desks, dedicated desks, private offices, virtual offices, meeting rooms, and day passes — all with ADGM licence-eligible registered addresses.
 
 ## Location
@@ -12,6 +11,7 @@ Addax Tower, Al Reem Island, ADGM, Abu Dhabi, UAE
 - Day Pass: AED 100 (9 AM–6 PM) or AED 150 (24-hour access)
 - Virtual Office: three tiers available - Basic, Premium, Enterprise - custom pricing based on tier and business needs, request a quote
 - Meeting Room: hourly rental at custom rates depending on room and duration; credits included with every membership plan
+- Presentation Room: hourly and half-day rates depending on duration and setup required, request a quote
 
 ## Key Facts
 - All dedicated desk, private office, and virtual office plans include an address suitable for ADGM licence registration and renewal
@@ -19,17 +19,19 @@ Addax Tower, Al Reem Island, ADGM, Abu Dhabi, UAE
 - No long-term contracts required on Hot Desk and Day Pass plans
 - Meeting room credits included with membership plans; non-members can book hourly
 - Virtual office tiers differ by phone support level and meeting room credit allowance (Basic -> Premium -> Enterprise)
+- Presentation room seats up to 50 in theater-style seating, with 4K display, professional audio, and live streaming support
 
 ## Pages
-- Home: https://aegis-coworking.vercel.app/
-- Pricing: https://aegis-coworking.vercel.app/pricing
-- Office Spaces (Dedicated Desks): https://aegis-coworking.vercel.app/office-spaces
-- Private Office: https://aegis-coworking.vercel.app/private-office
-- Virtual Office: https://aegis-coworking.vercel.app/virtual-office
-- Meeting Room: https://aegis-coworking.vercel.app/meeting-room
-- Day Pass: https://aegis-coworking.vercel.app/day-pass
-- Blog: https://aegis-coworking.vercel.app/blogs
-- Contact: https://aegis-coworking.vercel.app/contact
+- Home: https://www.aegiscoworking.ae/
+- Pricing: https://www.aegiscoworking.ae/pricing
+- Office Spaces (Dedicated Desks): https://www.aegiscoworking.ae/office-spaces
+- Private Office: https://www.aegiscoworking.ae/private-office
+- Virtual Office: https://www.aegiscoworking.ae/virtual-office
+- Meeting Room: https://www.aegiscoworking.ae/meeting-room
+- Presentation Room: https://www.aegiscoworking.ae/presentation-room
+- Day Pass: https://www.aegiscoworking.ae/day-pass
+- Blog: https://www.aegiscoworking.ae/blogs
+- Contact: https://www.aegiscoworking.ae/contact
 
 ## Optional
 - Admin and content-creation pages (/admin, /create-blog) are excluded from indexing and should not be crawled or cited.
