@@ -6,7 +6,7 @@ function BusinessPresence() {
       <p className="bp-intro">
         Register and operate your company inside Abu Dhabi Global Market — one of the UAE's
         leading financial free zones — without the cost of a full-time office. Your virtual
-        office includes a registered address at 2312 Addax Tower, Al Reem Island, and everything
+        office includes a registered address at Addax Tower, Al Reem Island, and everything
         you need to operate with credibility from day one.
       </p>
 
