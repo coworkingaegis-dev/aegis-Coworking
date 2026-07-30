@@ -249,6 +249,21 @@ function Home() {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.aegiscoworking.ae/" />
         <meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
+
+         <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://www.aegiscoworking.ae/"
+        }
+      ]
+    })}
+  </script>
       </Helmet>
       <Navbar />
       <Hero />
