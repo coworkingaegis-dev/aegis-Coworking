@@ -33,7 +33,7 @@
 const features = [
   { icon: "🏙️", title: "Located in Addax Tower on Al Reem Island, our coworking space in Abu Dhabi offers a prestigious ADGM business address with easy access to the city's financial district." },
   { icon: "🔐", title: "24/7 Access", desc: "Enjoy secure 24/7 access to your coworking space, private office, or dedicated desk whenever your business needs it." },
-  { icon: "🤝", title: "Thriving Business Community", "Connect with entrepreneurs, startups, freelancers, and growing businesses in one collaborative coworking community." },
+  { icon: "🤝", title: "Thriving Business Community", desc: "Connect with entrepreneurs, startups, freelancers, and growing businesses in one collaborative coworking community." },
   { icon: "⚡", title: "Flexible Office Space", desc: "Choose from private offices, dedicated desks, coworking spaces, and meeting rooms with flexible membership options and no long-term lease commitments." }
 ]
 
