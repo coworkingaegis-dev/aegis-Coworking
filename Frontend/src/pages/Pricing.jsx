@@ -787,7 +787,7 @@ function Pricing() {
           {/* HOT DESK */}
           <div className="pricing-card">
             <h3>HOT DESK</h3>
-            <p className="pricing-subtitle">Cheapest hot desk price in ADGM, perfect for freelancers</p>
+            <p className="pricing-subtitle">Budget-friendly hot desk price in ADGM, perfect for freelancers</p>
             <div className="pricing-price">
               AED 1,000<span>/month</span>
             </div>
@@ -807,7 +807,7 @@ function Pricing() {
           <div className="pricing-card pricing-card-popular">
             <span className="pricing-badge">MOST POPULAR</span>
             <h3>DEDICATED DESK</h3>
-            <p className="pricing-subtitle">Dedicated desk membership with your own workspace and ADGM business address.</p>
+            <p className="pricing-subtitle">Cheapest desk membership with your own workspace and ADGM business address.</p>
             <span className="pricing-save">Save AED 250/month</span>
             <div className="pricing-price">
               <span className="pricing-strike">AED 1,450</span>{' '}
