@@ -829,7 +829,7 @@ function Pricing() {
           {/* PRIVATE OFFICE */}
           <div className="pricing-card">
             <h3>PRIVATE OFFICE</h3>
-            <p className="pricing-subtitle">Cheapest private office in ADGM, for teams & companies</p>
+            <p className="pricing-subtitle">Affordable private office in ADGM, for teams & companies</p>
             <div className="pricing-price">
               From AED 4,500<span>/month</span>
             </div>
