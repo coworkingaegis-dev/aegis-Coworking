@@ -84,7 +84,7 @@ function Services() {
     <section className="services-section">
       <div className="services-header">
         <span className="contact-eyebrow">WHAT WE OFFER</span>
-        <h2>Flexible Coworking Spaces in Abu Dhabi</h2>
+        <h2>Flexible Coworking Spaces</h2>
         <p>Premium coworking and office solutions in the heart of ADGM, Abu Dhabi.</p>
       </div>
 
