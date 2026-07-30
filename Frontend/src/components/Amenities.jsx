@@ -57,7 +57,9 @@ function Amenities() {
     <section className="amenities">
        <span className="contact-eyebrow">WHAT'S INCLUDED</span>
       <h2>PREMIUM ADGM AMENITIES</h2>
-      <p className="subtitle">Our coworking space in Abu Dhabi, located in Addax Tower, ADGM, includes premium amenities to help startups, freelancers, and businesses work more efficiently.</p>
+ <p className="subtitle">
+  Premium amenities in our Abu Dhabi coworking space at Addax Tower, ADGM.
+</p>
       <div className="amenities-grid">
         {amenities.map((item, i) => (
           <div className="amenity-item" key={i}>
