@@ -24,7 +24,7 @@ function Footer() {
 
       <div className="footer-col">
         <h4>CONTACT US</h4>
-        <p><strong>Phone:</strong>‎ 0503926316</p>
+        <p><strong>Phone:</strong>‎ +971 50 392 6316 </p>
         <p><strong>Email:</strong> contact@aegiscoworking.ae</p>
         <p><strong>Address:</strong> Addax Tower, Al Reem Island, Abu Dhabi</p>
       </div>
