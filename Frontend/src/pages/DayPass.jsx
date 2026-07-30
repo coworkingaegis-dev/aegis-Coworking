@@ -429,7 +429,26 @@ function DayPass() {
   }
 })}
 </script>
-
+<script type="application/ld+json">
+  {JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://www.aegiscoworking.ae/"
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Day Pass",
+        item: "https://www.aegiscoworking.ae/day-pass"
+      }
+    ]
+  })}
+</script>
         
       </Helmet>
 
