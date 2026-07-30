@@ -6,7 +6,7 @@ const faqs = [
     answer: "Your desk is fully dedicated to you — no one else uses it. You keep the same spot every time you come in, and your belongings can stay set up between visits."
   },
   {
-    question: "Can I upgrade from a desk to a private office later?",
+    question: "Can I upgrade my office space in Abu Dhabi to a private office?",
     answer: "Yes. Many of our members start with a dedicated desk and move into a private office as their team grows. There's no penalty for upgrading — just let us know and we'll handle the transition."
   },
   {
@@ -19,7 +19,7 @@ const faqs = [
   answer: "Yes. Our dedicated desk qualifies as an ADGM flexi desk, meeting the physical presence and registered address requirement for your ADGM business license application."
 },
   {
-    question: "Can I register an ADGM trade licence using this address?",
+    question: "Can I use this office space in ADGM to register my business?",
     answer: "Yes. A dedicated desk includes a registered address that qualifies for your ADGM commercial licence application, so you can operate fully compliant from day one."
   },
   {
@@ -27,7 +27,7 @@ const faqs = [
     answer: "Leases run from 12 to 36 months, with pricing that improves the longer you commit — annual, bi-annual, and quarterly rates are all available depending on what suits your business."
   },
   {
-    question: "Is 24/7 access really included?",
+    question: "Does your office space in ADGM include 24/7 access?",
     answer: "Yes — dedicated desk members get secure building access around the clock, every day of the week, not just during standard business hours."
   },
 ]
