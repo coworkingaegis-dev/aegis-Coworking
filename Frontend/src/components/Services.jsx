@@ -85,7 +85,7 @@ function Services() {
       <div className="services-header">
         <span className="contact-eyebrow">WHAT WE OFFER</span>
         <h2>Flexible Coworking Spaces in Abu Dhabi</h2>
-        <p>Choose from coworking spaces, private offices, meeting rooms, virtual offices, and day passes in ADGM, Abu Dhabi. Flexible solutions for startups, freelancers, and growing businesses.</p>
+        <p>Premium coworking and office solutions in the heart of ADGM, Abu Dhabi.</p>
       </div>
 
       <div className="services">
