@@ -674,7 +674,6 @@
 
 
 
-
 import { useState } from 'react'
 import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
@@ -778,7 +777,7 @@ function Pricing() {
      <section className="pricing-hero">
   <h1>DISCOUNTED PRICES</h1>
   <p className="pricing-price-intro">
-    Compare flexible coworking space pricing in Abu Dhabi. Choose from hot desks, dedicated desks, and private offices in ADGM with transparent monthly plans.
+    Affordable coworking space in ADGM, Abu Dhabi with flexible monthly plans.
   </p>
 </section>
 
