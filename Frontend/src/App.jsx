@@ -78,7 +78,7 @@ function App() {
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "CoworkingSpace",
+            "@type": "LocalBusiness",
             "@id": "https://www.aegiscoworking.ae/#business",
 
             "name": "Aegis Coworking",
