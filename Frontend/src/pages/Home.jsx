@@ -325,28 +325,23 @@ function Home() {
     content="Premium office space in ADGM, Addax Tower, Abu Dhabi. Private offices, virtual offices, meeting rooms & day passes. Book a tour and see pricing today."
   />
   <link rel="canonical" href="https://www.aegiscoworking.ae/" />
-  <meta property="og:title" content="Aegis Coworking | Workspace in ADGM Addax Tower, Abu Dhabi" />
+
+  <meta property="og:title" content="ADGM Office Space in Abu Dhabi | Aegis Coworking Center" />
   <meta
     property="og:description"
-    content="Hot desks, private offices, and meeting rooms in Addax Tower, ADGM, Abu Dhabi."
+    content="Premium office space in ADGM, Addax Tower, Abu Dhabi. Private offices, virtual offices, meeting rooms & day passes."
   />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.aegiscoworking.ae/" />
   <meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
-  <script type="application/ld+json">
-    {JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      itemListElement: [
-        {
-          "@type": "ListItem",
-          position: 1,
-          name: "Home",
-          item: "https://www.aegiscoworking.ae/"
-        }
-      ]
-    })}
-  </script>
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ADGM Office Space in Abu Dhabi | Aegis Coworking Center" />
+  <meta
+    name="twitter:description"
+    content="Premium office space in ADGM, Addax Tower, Abu Dhabi. Private offices, virtual offices, meeting rooms & day passes."
+  />
+  <meta name="twitter:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 </Helmet>
       <Navbar />
       <Hero />
