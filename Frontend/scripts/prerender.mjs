@@ -22,6 +22,7 @@
 
 import puppeteer from 'puppeteer-core'
 import chromium from '@sparticuz/chromium'
+chromium.setGraphicsMode = false
 import { createServer } from 'http'
 import handler from 'serve-handler'
 import { mkdir, writeFile } from 'fs/promises'
