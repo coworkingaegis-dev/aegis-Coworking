@@ -738,10 +738,10 @@ function PrivateOffice() {
   return (
     <div className="App">
       <Helmet>
-        <title>Private Office Abu Dhabi | Executive Office Space in ADGM |  Suites from AED 4500/month</title>
+        <title>Private Office for Rent in Abu Dhabi | ADGM Addax Tower</title>
         <meta
           name="description"
-          content="Looking for a private office in Abu Dhabi? Discover fully furnished private offices in ADGM with 24/7 access, flexible terms, and business-ready workspaces for startups and growing teams."
+          content="Rent a fully furnished private office in Abu Dhabi's ADGM Addax Tower with 24/7 access. Flexible monthly terms. Get pricing details and book a tour today"
         />
         <link rel="canonical" href="https://www.aegiscoworking.ae/private-office" />
 
