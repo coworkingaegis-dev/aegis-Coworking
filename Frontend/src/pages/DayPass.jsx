@@ -381,10 +381,10 @@ function DayPass() {
   return (
     <div className="App">
       <Helmet>
-        <title>Day Pass Coworking Abu Dhabi | Hot Desk Day Pass | Aegis Coworking</title>
+        <title>Day Pass & Hot Desk Coworking Space in Abu Dhabi, ADGM</title>
         <meta
           name="description"
-          content="Book a coworking day pass in Abu Dhabi from AED 100/day. Enjoy flexible hot desk access, high-speed WiFi, premium amenities, and no membership required at Aegis Coworking in ADGM."
+          content="Find the best day pass and hot desk coworking space in Abu Dhabi.Flexible hourly and daily rates at ADGM Addax Tower.Book online or walk in at Aegis today"
         />
         <link rel="canonical" href="https://www.aegiscoworking.ae/day-pass" />
 
