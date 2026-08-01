@@ -217,6 +217,90 @@
 
 
 
+// import { Helmet } from 'react-helmet-async'
+// import Navbar from '../components/Navbar'
+// import Hero from '../components/Hero'
+// import Services from '../components/Services'
+// import WhyChooseUs from '../components/WhyChooseUs'
+// import ImageBanner from '../components/ImageBanner'
+// import Testimonials from '../components/Testimonials'
+// import Amenities from '../components/Amenities'
+// import LocationHighlight from '../components/LocationHighlight'
+// import FinalCTA from '../components/FinalCTA'
+// import Footer from '../components/Footer'
+// import Reveal from '../components/Reveal'
+// import homeBannerImage from '../assets/meeting-room-view.webp'
+
+// function Home() {
+//   return (
+//     <div className="App">
+//       <Helmet>
+//         <title>Best Coworking Space in Abu Dhabi | ADGM | Aegis Coworking |  ADGM Addax Tower</title>
+//         <meta
+//           name="description"
+//           content="Looking for a coworking space in Abu Dhabi? Aegis Coworking at Addax Tower, ADGM offers hot desks, dedicated desks, private offices, meeting rooms, and flexible workspaces for startups, freelancers, and businesses."
+//         />
+//         <link rel="canonical" href="https://www.aegiscoworking.ae/" />
+//         <meta property="og:title" content="Coworking Space in ADGM Addax Tower | Coworking Space Abu Dhabi | Aegis Coworking" />
+//         <meta
+//           property="og:description"
+//           content="Coworking Space Abu Dhabi"
+//         />
+//         <meta property="og:type" content="website" />
+//         <meta property="og:url" content="https://www.aegiscoworking.ae/" />
+//         <meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
+
+//          <script type="application/ld+json">
+//     {JSON.stringify({
+//       "@context": "https://schema.org",
+//       "@type": "BreadcrumbList",
+//       itemListElement: [
+//         {
+//           "@type": "ListItem",
+//           position: 1,
+//           name: "Home",
+//           item: "https://www.aegiscoworking.ae/"
+//         }
+//       ]
+//     })}
+//   </script>
+//       </Helmet>
+//       <Navbar />
+//       <Hero />
+//       <Reveal><Services /></Reveal>
+//       <Reveal delay={0.1}><WhyChooseUs /></Reveal>
+//       <Reveal delay={0.1}>
+//         <ImageBanner image={homeBannerImage} alt="Coworking space with skyline view" />
+//       </Reveal>
+//        <Reveal delay={0.1}><Amenities /></Reveal>
+//       <Reveal delay={0.1}><Testimonials /></Reveal>
+     
+//       <Reveal delay={0.1}><LocationHighlight /></Reveal>
+//       <FinalCTA />
+//       <Footer />
+//     </div>
+//   )
+// }
+
+// export default Home
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import { Helmet } from 'react-helmet-async'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
@@ -235,22 +319,21 @@ function Home() {
   return (
     <div className="App">
       <Helmet>
-        <title>Best Coworking Space in Abu Dhabi | ADGM | Aegis Coworking |  ADGM Addax Tower</title>
-        <meta
-          name="description"
-          content="Looking for a coworking space in Abu Dhabi? Aegis Coworking at Addax Tower, ADGM offers hot desks, dedicated desks, private offices, meeting rooms, and flexible workspaces for startups, freelancers, and businesses."
-        />
-        <link rel="canonical" href="https://www.aegiscoworking.ae/" />
-        <meta property="og:title" content="Coworking Space in ADGM Addax Tower | Coworking Space Abu Dhabi | Aegis Coworking" />
-        <meta
-          property="og:description"
-          content="Coworking Space Abu Dhabi"
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.aegiscoworking.ae/" />
-        <meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
-
-         <script type="application/ld+json">
+  <title>Aegis Coworking | Workspace in ADGM Addax Tower, Abu Dhabi</title>
+  <meta
+    name="description"
+    content="Aegis Coworking offers hot desks, private offices, and meeting rooms at Addax Tower, ADGM, Abu Dhabi. Flexible plans for startups and teams."
+  />
+  <link rel="canonical" href="https://www.aegiscoworking.ae/" />
+  <meta property="og:title" content="Aegis Coworking | Workspace in ADGM Addax Tower, Abu Dhabi" />
+  <meta
+    property="og:description"
+    content="Hot desks, private offices, and meeting rooms in Addax Tower, ADGM, Abu Dhabi."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.aegiscoworking.ae/" />
+  <meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
+  <script type="application/ld+json">
     {JSON.stringify({
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
@@ -264,7 +347,7 @@ function Home() {
       ]
     })}
   </script>
-      </Helmet>
+</Helmet>
       <Navbar />
       <Hero />
       <Reveal><Services /></Reveal>
