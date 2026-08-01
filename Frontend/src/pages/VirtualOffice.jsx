@@ -427,10 +427,10 @@ function VirtualOffice() {
   return (
     <div className="App">
       <Helmet>
-        <title>Virtual Office Abu Dhabi | ADGM Business Address | Aegis Coworking</title>
+        <title>Virtual Office Abu Dhabi | ADGM Registered Address</title>
         <meta
           name="description"
-          content="Looking for a virtual office in Abu Dhabi? Get a registered ADGM business address with mail handling, phone support, and flexible virtual office packages at Addax Tower."
+          content="Get a prestigious ADGM virtual office address in Abu Dhabi. Includes business registration support, mail handling and meeting room access. Enquire today."
         />
         <link rel="canonical" href="https://www.aegiscoworking.ae/virtual-office" />
 
