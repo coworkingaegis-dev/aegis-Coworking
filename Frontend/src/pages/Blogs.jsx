@@ -381,10 +381,10 @@ useEffect(() => {
   return (
     <div className="App">
       <Helmet>
-        <title>Blog | ADGM Licensing & Workspace Insights | Aegis Coworking</title>
+        <title>Coworking & ADGM Business Insights Blog | Abu Dhabi</title>
         <meta
           name="description"
-          content="Deep dives into ADGM licensing, company registration, and workspace trends from Aegis Coworking, Addax Tower."
+          content="Guides on ADGM business setup, coworking trends and Abu Dhabi office space tips. Stay updated with expert insights from the Aegis Coworking blog today."
         />
         <link rel="canonical" href="https://www.aegiscoworking.ae/blogs" />
 
