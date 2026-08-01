@@ -20,7 +20,8 @@
 //     }
 //   Then just run: npm run build   (prerendering happens automatically)
 
-import puppeteer from 'puppeteer'
+import puppeteer from 'puppeteer-core'
+import chromium from '@sparticuz/chromium'
 import { createServer } from 'http'
 import handler from 'serve-handler'
 import { mkdir, writeFile } from 'fs/promises'
@@ -68,9 +69,10 @@ async function main() {
   console.log(`Serving dist/ at http://localhost:${PORT}`)
 
   // ---- 3. Launch headless browser ----
-  const browser = await puppeteer.launch({
-  headless: 'new',
-  args: ['--no-sandbox', '--disable-setuid-sandbox'],
+ const browser = await puppeteer.launch({
+  args: chromium.args,
+  executablePath: await chromium.executablePath(),
+  headless: chromium.headless,
 })
   const page = await browser.newPage()
 
