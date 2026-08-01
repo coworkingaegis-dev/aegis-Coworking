@@ -319,10 +319,10 @@ function Home() {
   return (
     <div className="App">
       <Helmet>
-  <title>Aegis Coworking | Workspace in ADGM Addax Tower, Abu Dhabi</title>
+  <title>ADGM Office Space in Abu Dhabi | Aegis Coworking Center</title>
   <meta
     name="description"
-    content="Aegis Coworking offers hot desks, private offices, and meeting rooms at Addax Tower, ADGM, Abu Dhabi. Flexible plans for startups and teams."
+    content="Premium office space in ADGM, Addax Tower, Abu Dhabi. Private offices, virtual offices, meeting rooms & day passes. Book a tour and see pricing today."
   />
   <link rel="canonical" href="https://www.aegiscoworking.ae/" />
   <meta property="og:title" content="Aegis Coworking | Workspace in ADGM Addax Tower, Abu Dhabi" />
