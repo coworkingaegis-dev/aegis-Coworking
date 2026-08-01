@@ -294,10 +294,10 @@ function OfficeSpaces() {
   return (
     <div className="App">
       <Helmet>
-        <title>Office Space Abu Dhabi | Serviced Offices in ADGM | Aegis Coworking</title>
+        <title>Office Space for Rent in Abu Dhabi | Aegis Coworking</title>
         <meta
           name="description"
-          content="Looking for office space in Abu Dhabi? Aegis Coworking offers flexible, furnished, and serviced office space in ADGM. Dedicated desks from AED 1,150/month with 24/7 access and business-ready workspaces."
+          content="Find furnished, small office space for rent in Abu Dhabi. Flexible monthly coworking space at Addax Tower, ADGM. Compare plans and book a tour today"
         />
         <link rel="canonical" href="https://www.aegiscoworking.ae/office-spaces" />
         <meta property="og:title" content="Office Spaces in ADGM | Aegis Coworking" />
