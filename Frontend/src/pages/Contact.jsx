@@ -50,10 +50,10 @@ function Contact() {
   return (
     <div className="App">
       <Helmet>
-        <title>Contact Us | Aegis Coworking, ADGM Addax Tower</title>
+        <title>Contact Aegis Coworking | ADGM Addax Tower, Abu Dhabi</title>
         <meta
           name="description"
-          content="Get in touch with Aegis Coworking in Addax Tower, ADGM, Abu Dhabi. Book a tour or request a quote for hot desks, private offices, and virtual offices."
+          content="Visit or contact Aegis Coworking at ADGM Addax Tower, Abu Dhabi. Schedule a tour, ask about pricing, or book your workspace. We're here to help today"
         />
         <link rel="canonical" href="https://www.aegiscoworking.ae/contact" />
         <meta property="og:title" content="Contact Aegis Coworking | ADGM Addax Tower" />
