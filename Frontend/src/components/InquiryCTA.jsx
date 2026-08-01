@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
+import posthog from '../posthog'
 
 function InquiryCTA() {
   return (
@@ -18,7 +19,7 @@ function InquiryCTA() {
           address, we'll walk you through it — no obligation, no pressure. Reach out and our
           team will get back to you shortly.
         </p>
-        <Link to="/contact">
+        <Link to="/contact" onClick={() => posthog.capture('quote_request_started', { source: 'inquiry_cta' })}>
           <button className="btn-join-now">REQUEST QUOTE</button>
         </Link>
       </motion.div>

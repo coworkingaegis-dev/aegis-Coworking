@@ -16,6 +16,7 @@
     "@tiptap/react": "^3.28.0",
     "@tiptap/starter-kit": "^3.28.0",
     "framer-motion": "^12.42.2",
+    "posthog-js": "^1.409.5",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "react-helmet-async": "^3.0.0",

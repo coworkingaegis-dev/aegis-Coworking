@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import dayPassImage from '../assets/day-pass.jpg'
+import posthog from '../posthog'
 
 function DayPassPricing() {
   return (
@@ -42,7 +43,7 @@ function DayPassPricing() {
           </div>
         </div>
 
-        <Link to="/contact" className="reserve-link">Request Quote &gt;</Link>
+        <Link to="/contact" className="reserve-link" onClick={() => posthog.capture('quote_request_started', { source: 'day_pass_pricing' })}>Request Quote &gt;</Link>
       </div>
     </section>
   )

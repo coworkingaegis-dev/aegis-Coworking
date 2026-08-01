@@ -94,6 +94,7 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import heroVideo from '../assets/hero_video.mp4'
+import posthog from '../posthog'
 
 function Hero() {
   return (
@@ -116,7 +117,7 @@ function Hero() {
         </h1>
         <p>Aegis Coworking offers hot desks, dedicated desks, private offices,
   meeting rooms, and flexible workspaces in ADGM, Abu Dhabi.</p>
-        <Link to="/contact">
+        <Link to="/contact" onClick={() => posthog.capture('quote_request_started', { source: 'home_hero_tour' })}>
           <button className="btn-secondary">BOOK TOUR</button>
         </Link>
       </motion.div>

@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot, hydrateRoot } from 'react-dom/client'
 import './index.css'
+import './posthog.js'
 import App from './App.jsx'
 
 if ('scrollRestoration' in window.history) {

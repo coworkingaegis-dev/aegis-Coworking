@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
+import posthog from '../posthog'
 
 function FinalCTA() {
   return (
@@ -25,7 +26,7 @@ function FinalCTA() {
         <p>Book a free tour and experience the space before you commit to anything. No pressure, no obligation.</p>
 
         <div className="final-cta-buttons">
-          <Link to="/contact">
+          <Link to="/contact" onClick={() => posthog.capture('quote_request_started', { source: 'final_cta' })}>
             <button className="btn-secondary">REQUEST QUOTE</button>
           </Link>
          

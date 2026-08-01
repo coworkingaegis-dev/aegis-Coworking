@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { supabase } from '../supabaseClient'
+import posthog from '../posthog'
 
 function ContactForm() {
   const [formData, setFormData] = useState({
@@ -61,8 +62,12 @@ function ContactForm() {
 
     if (error) {
       console.error(error)
+      posthog.capture('contact_form_submission_failed')
       setStatus('error')
     } else {
+      posthog.capture('contact_form_submitted', {
+        service_interest: formData.interestedIn,
+      })
       setStatus('success')
       setFormData({
         name: '',
