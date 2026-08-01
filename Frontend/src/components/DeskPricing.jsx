@@ -52,6 +52,7 @@
 
 
 import myDeskImage from '../assets/my-desk.jpg'
+import posthog from '../posthog'
 
 function DeskPricing() {
   return (
@@ -92,7 +93,7 @@ function DeskPricing() {
           <p className="lease-note">Lease: 12-36 months</p>
         </div>
 
-        <a href="/contact" className="reserve-link">Request Quote &gt;</a>
+        <a href="/contact" className="reserve-link" onClick={() => posthog.capture('quote_request_started', { source: 'desk_pricing' })}>Request Quote &gt;</a>
       </div>
     </section>
   )
