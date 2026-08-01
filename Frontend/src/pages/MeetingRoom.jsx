@@ -315,10 +315,10 @@ function MeetingRoom() {
   return (
     <div className="App">
       <Helmet>
-        <title>Meeting Room Abu Dhabi | Conference Rooms in ADGM | Aegis Coworking</title>
+        <title>Meeting Rooms for Rent in ADGM Addax Tower, Abu Dhabi</title>
         <meta
           name="description"
-          content="Book a meeting room in Abu Dhabi at Aegis Coworking, ADGM. Fully equipped conference rooms and boardrooms with flexible hourly bookings for meetings, training sessions, and presentations."
+          content="Book fully equipped meeting rooms at ADGM Addax Tower, Abu Dhabi. Hourly and daily rates, AV equipment included. Reserve your meeting room online today."
         />
         <link rel="canonical" href="https://www.aegiscoworking.ae/meeting-room" />
         <meta property="og:title" content="Meeting Room Rental ADGM | Aegis Coworking" />
