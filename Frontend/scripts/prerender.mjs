@@ -68,7 +68,10 @@ async function main() {
   console.log(`Serving dist/ at http://localhost:${PORT}`)
 
   // ---- 3. Launch headless browser ----
-  const browser = await puppeteer.launch({ headless: 'new' })
+  const browser = await puppeteer.launch({
+  headless: 'new',
+  args: ['--no-sandbox', '--disable-setuid-sandbox'],
+})
   const page = await browser.newPage()
 
   for (const route of ALL_ROUTES) {
