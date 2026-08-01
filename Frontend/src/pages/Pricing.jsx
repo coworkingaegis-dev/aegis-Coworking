@@ -692,10 +692,10 @@ function Home() {
   return (
     <div className="App">
       <Helmet>
-        <title>Best Coworking Space in Abu Dhabi | ADGM | Aegis Coworking |  ADGM Addax Tower</title>
+        <title>Coworking & Office Space Pricing | Aegis, Abu Dhabi</title>
         <meta
           name="description"
-          content="Looking for a coworking space in Abu Dhabi? Aegis Coworking at Addax Tower, ADGM offers hot desks, dedicated desks, private offices, meeting rooms, and flexible workspaces for startups, freelancers, and businesses."
+          content="Compare pricing for private offices, virtual offices, meeting rooms, hot desks and day passes at Aegis Coworking, ADGM Addax Tower, Abu Dhabi. Get a quote"
         />
         <link rel="canonical" href="https://www.aegiscoworking.ae/" />
         <meta property="og:title" content="Coworking Space in ADGM Addax Tower | Coworking Space Abu Dhabi | Aegis Coworking" />
