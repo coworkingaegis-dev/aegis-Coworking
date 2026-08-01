@@ -279,6 +279,153 @@
 
 
 
+// import { useState } from 'react'
+// import { Helmet } from 'react-helmet-async'
+// import Navbar from '../components/Navbar'
+// import PageHero from '../components/PageHero'
+// import ImageBanner from '../components/ImageBanner'
+// import ImpressClients from '../components/ImpressClients'
+// import RoomFeatures from '../components/RoomFeatures'
+// import RoomCapacities from '../components/RoomCapacities'
+// import Footer from '../components/Footer'
+// import meetingRoomBanner from '../assets/meeting-room-banner.jpg'
+// const faqs = [
+//   {
+//     q: "How much does a meeting room in Abu Dhabi cost?",
+//     a: "Meeting room hourly rates at Aegis Coworking vary by room size and time of day. Every membership plan includes meeting room credits at no extra cost, and non-members can book hourly at custom rates — request a quote for current pricing.",
+//   },
+//   {
+//     q: "Can anyone book a meeting room in Abu Dhabi at Aegis Coworking?",
+//     a: "Yes, meeting rooms can be booked by non-members on an hourly basis, subject to availability at Addax Tower.",
+//   },
+//   {
+//     q: "What's included with your meeting rooms in ADGM?",
+//     a: "Our meeting rooms are fully equipped with high-speed WiFi, screens for presentations, and a professional setting suited for client meetings and team sessions.",
+//   },
+//   {
+//     q: "How far in advance do I need to book?",
+//     a: "We recommend booking in advance to guarantee availability, though same-day bookings can often be accommodated depending on the room and time slot.",
+//   },
+// ]
+// function MeetingRoom() {
+//   const [openIndex, setOpenIndex] = useState(null)
+//   const toggleFAQ = (i) => {
+//     setOpenIndex(openIndex === i ? null : i)
+//   }
+//   return (
+//     <div className="App">
+//       <Helmet>
+//         <title>Meeting Rooms for Rent in ADGM Addax Tower, Abu Dhabi</title>
+//         <meta
+//           name="description"
+//           content="Book fully equipped meeting rooms at ADGM Addax Tower, Abu Dhabi. Hourly and daily rates, AV equipment included. Reserve your meeting room online today."
+//         />
+//         <link rel="canonical" href="https://www.aegiscoworking.ae/meeting-room" />
+//         <meta property="og:title" content="Meeting Room Rental ADGM | Aegis Coworking" />
+//         <meta
+//           property="og:description"
+//           content="Fully equipped, flexible meeting rooms at Addax Tower, ADGM."
+//         />
+//         <meta property="og:type" content="website" />
+//         <meta property="og:url" content="https://www.aegiscoworking.ae/meeting-room" />
+//         <meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
+//         <script type="application/ld+json">
+//           {JSON.stringify({
+//             "@context": "https://schema.org",
+//             "@type": "FAQPage",
+//             "mainEntity": faqs.map((f) => ({
+//               "@type": "Question",
+//               "name": f.q,
+//               "acceptedAnswer": { "@type": "Answer", "text": f.a },
+//             })),
+//           })}
+//         </script>
+
+//         <script type="application/ld+json">
+//   {JSON.stringify({
+//     "@context": "https://schema.org",
+//     "@type": "Product",
+//     "name": "Meeting Room in Abu Dhabi",
+//     "description": "Fully equipped meeting room in ADGM with hourly bookings.",
+//     "brand": {
+//       "@type": "Brand",
+//       "name": "Aegis Coworking"
+//     },
+//     "offers": {
+//       "@type": "Offer",
+//       "availability": "https://schema.org/InStock",
+//       "url": "https://www.aegiscoworking.ae/meeting-room"
+//     }
+//   })}
+// </script>
+
+//       <script type="application/ld+json">
+//   {JSON.stringify({
+//     "@context": "https://schema.org",
+//     "@type": "BreadcrumbList",
+//     itemListElement: [
+//       {
+//         "@type": "ListItem",
+//         position: 1,
+//         name: "Home",
+//         item: "https://www.aegiscoworking.ae/"
+//       },
+//       {
+//         "@type": "ListItem",
+//         position: 2,
+//         name: "Meeting Room",
+//         item: "https://www.aegiscoworking.ae/meeting-room"
+//       }
+//     ]
+//   })}
+// </script>
+//       </Helmet>
+//       <Navbar />
+//       <PageHero
+//         title="MEETING ROOMS IN ADGM"
+//         subtitle="FULLY EQUIPPED · FLEXIBLE BOOKING · PRIME LOCATION"
+//       />
+//       <ImageBanner image={meetingRoomBanner} alt="Meeting room in session" />
+//       <ImpressClients />
+//       <RoomFeatures />
+//       <RoomCapacities />
+//       <section className="vo-faq">
+//         <span className="contact-eyebrow">MEETING ROOMS ADGM</span>
+//         <h2>FREQUENTLY ASKED QUESTIONS</h2>
+//         <div className="vo-faq-list">
+//           {faqs.map((f, i) => (
+//             <div
+//               className={`vo-faq-item ${openIndex === i ? 'open' : ''}`}
+//               key={i}
+//               onClick={() => toggleFAQ(i)}
+//             >
+//               <div className="vo-faq-question">
+//                 {f.q}
+//                 <span className="vo-faq-toggle">{openIndex === i ? '−' : '+'}</span>
+//               </div>
+//               <div className="vo-faq-answer-wrap">
+//                 <p className="vo-faq-answer">{f.a}</p>
+//               </div>
+//             </div>
+//           ))}
+//         </div>
+//       </section>
+//       <Footer />
+//     </div>
+//   )
+// }
+// export default MeetingRoom
+
+
+
+
+
+
+
+
+
+
+
 import { useState } from 'react'
 import { Helmet } from 'react-helmet-async'
 import Navbar from '../components/Navbar'
@@ -288,12 +435,10 @@ import ImpressClients from '../components/ImpressClients'
 import RoomFeatures from '../components/RoomFeatures'
 import RoomCapacities from '../components/RoomCapacities'
 import Footer from '../components/Footer'
+import { Link } from 'react-router-dom'
 import meetingRoomBanner from '../assets/meeting-room-banner.jpg'
 const faqs = [
-  {
-    q: "How much does a meeting room in Abu Dhabi cost?",
-    a: "Meeting room hourly rates at Aegis Coworking vary by room size and time of day. Every membership plan includes meeting room credits at no extra cost, and non-members can book hourly at custom rates — request a quote for current pricing.",
-  },
+ 
   {
     q: "Can anyone book a meeting room in Abu Dhabi at Aegis Coworking?",
     a: "Yes, meeting rooms can be booked by non-members on an hourly basis, subject to availability at Addax Tower.",
@@ -302,6 +447,18 @@ const faqs = [
     q: "What's included with your meeting rooms in ADGM?",
     a: "Our meeting rooms are fully equipped with high-speed WiFi, screens for presentations, and a professional setting suited for client meetings and team sessions.",
   },
+   {
+  q: "How much does a meeting room in Abu Dhabi cost?",
+  a: "Meeting room hourly rates at Aegis Coworking vary by room size and time of day. Every membership plan includes meeting room credits at no extra cost, and non-members can book hourly at custom rates — request a quote for current pricing.",
+  aDisplay: (
+    <>
+      Meeting room hourly rates at Aegis Coworking vary by room size and time of day. Every{' '}
+      <Link to="/day-pass" className="inline-link">membership plan</Link> includes meeting
+      room credits at no extra cost, and non-members can book hourly at custom rates — see{' '}
+      <Link to="/pricing" className="inline-link">full pricing</Link> for current rates.
+    </>
+  ),
+},
   {
     q: "How far in advance do I need to book?",
     a: "We recommend booking in advance to guarantee availability, though same-day bookings can often be accommodated depending on the room and time slot.",
@@ -329,7 +486,13 @@ function MeetingRoom() {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.aegiscoworking.ae/meeting-room" />
         <meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
-        <script type="application/ld+json">
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Meeting Rooms for Rent in ADGM Addax Tower, Abu Dhabi" />
+<meta name="twitter:description" content="Book fully equipped meeting rooms at ADGM Addax Tower, Abu Dhabi. Hourly and daily rates, AV equipment included." />
+<meta name="twitter:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
+
+<script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
@@ -344,13 +507,15 @@ function MeetingRoom() {
         <script type="application/ld+json">
   {JSON.stringify({
     "@context": "https://schema.org",
-    "@type": "Product",
+    "@type": "Service",
+    "serviceType": "Meeting Room Rental",
     "name": "Meeting Room in Abu Dhabi",
     "description": "Fully equipped meeting room in ADGM with hourly bookings.",
-    "brand": {
-      "@type": "Brand",
+    "provider": {
+      "@type": "LocalBusiness",
       "name": "Aegis Coworking"
     },
+    "areaServed": "Abu Dhabi",
     "offers": {
       "@type": "Offer",
       "availability": "https://schema.org/InStock",
@@ -404,8 +569,8 @@ function MeetingRoom() {
                 <span className="vo-faq-toggle">{openIndex === i ? '−' : '+'}</span>
               </div>
               <div className="vo-faq-answer-wrap">
-                <p className="vo-faq-answer">{f.a}</p>
-              </div>
+  <p className="vo-faq-answer">{f.aDisplay ?? f.a}</p>
+</div>
             </div>
           ))}
         </div>
