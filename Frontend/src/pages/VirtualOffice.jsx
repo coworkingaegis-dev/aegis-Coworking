@@ -609,6 +609,13 @@ const faqs = [
   {
     q: "Can I upgrade from a virtual office to a private office later?",
     a: "Yes, you can convert to a dedicated desk or private office at Addax Tower at any time at preferential rates.",
+    aDisplay: (
+      <>
+        Yes, you can convert to a dedicated desk or{' '}
+        <Link to="/private-office" className="inline-link">private office</Link> at
+        Addax Tower at any time at preferential rates.
+      </>
+    ),
   },
 ]
 
@@ -736,12 +743,7 @@ function VirtualOffice() {
         imageLeft={true}
       />
 
-      <section className="business-presence">
-  <p className="bp-intro">
-    Outgrowing a virtual office? Upgrade to a <Link to="/private-office">private office</Link>{' '}
-    at Addax Tower, or see full <Link to="/pricing">pricing</Link> across every workspace type.
-  </p>
-</section>
+      
 
 
     <section className="vo-faq">
@@ -759,8 +761,8 @@ function VirtualOffice() {
                 <span className="vo-faq-toggle">{openIndex === i ? '−' : '+'}</span>
               </div>
               <div className="vo-faq-answer-wrap">
-                <p className="vo-faq-answer">{f.a}</p>
-              </div>
+  <p className="vo-faq-answer">{f.aDisplay ?? f.a}</p>
+</div>
             </div>
           ))}
         </div>
