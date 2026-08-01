@@ -25,6 +25,8 @@ import { createServer } from 'http'
 import handler from 'serve-handler'
 import { mkdir, writeFile } from 'fs/promises'
 import path from 'path'
+import { createClient } from '@supabase/supabase-js'
+
 
 // ---- 1. List every route that should be prerendered ----
 // Static routes: copy directly from your App.jsx <Routes> block.
@@ -40,13 +42,21 @@ const STATIC_ROUTES = [
   '/blogs',
 ]
 
-// Blog posts use /blog/:id — since these are dynamic, list the current
-// ids here. Update this list whenever you publish a new post (or swap
-// this for a live Supabase fetch — see note at the bottom of this file).
-const BLOG_IDS = [5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
-const BLOG_ROUTES = BLOG_IDS.map((id) => `/blog/${id}`)
+// Blog posts use /blog/:id — fetched live from Supabase so new posts are
+// automatically included in every future build with no manual editing.
+const supabase = createClient(
+  'https://amtgqyccwmffksrdarpk.supabase.co',
+  'sb_publishable_fdZ5LWFFNRF9oAOwpHlDMw_3BTH3uuc'
+)
 
-const ALL_ROUTES = [...STATIC_ROUTES, ...BLOG_ROUTES]
+async function getBlogRoutes() {
+  const { data, error } = await supabase.from('blogs').select('id')
+  if (error) {
+    console.error('Could not fetch blog ids from Supabase, skipping blog routes:', error.message)
+    return []
+  }
+  return data.map((row) => `/blog/${row.id}`)
+}
 
 const DIST_DIR = path.resolve('dist')
 const PORT = 5005
