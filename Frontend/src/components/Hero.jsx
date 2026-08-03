@@ -111,8 +111,8 @@ function Hero() {
       >
         <span className="hero-eyebrow">Coworking Space in Abu Dhabi • Addax Tower • Al Reem Island</span>
         <h1>
-          <span className="hero-title-desktop">WHERE&nbsp;&nbsp;&nbsp;ADGM&nbsp;&nbsp;&nbsp;FIRMS&nbsp;&nbsp;&nbsp;COWORK</span>
-          <span className="hero-title-mobile">WHERE ADGM<br />FIRMS COWORK</span>
+          <span className="hero-title-desktop">YOUR&nbsp;&nbsp;&nbsp;ADGM&nbsp;&nbsp;&nbsp;COWORK&nbsp;&nbsp;&nbsp;DESTINATION</span>
+          <span className="hero-title-mobile">YOUR ADGM<br />COWORK DESTINATION</span>
         </h1>
         <p>Aegis Coworking offers hot desks, dedicated desks, private offices,
   meeting rooms, and flexible workspaces in ADGM, Abu Dhabi.</p>
