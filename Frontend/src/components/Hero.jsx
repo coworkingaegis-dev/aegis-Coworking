@@ -109,10 +109,10 @@ function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
       >
-        <span className="hero-eyebrow">Coworking Space in Abu Dhabi • ADGM • Addax Tower • Al Reem Island</span>
+        <span className="hero-eyebrow">Coworking Space in Abu Dhabi • Addax Tower • Al Reem Island</span>
         <h1>
-          <span className="hero-title-desktop">WHERE&nbsp;&nbsp;&nbsp;STARTUPS&nbsp;&nbsp;&nbsp;TAKE&nbsp;&nbsp;&nbsp;OFF</span>
-          <span className="hero-title-mobile">WHERE STARTUPS<br />TAKE OFF</span>
+          <span className="hero-title-desktop">WHERE&nbsp;&nbsp;&nbsp;ADGM&nbsp;&nbsp;&nbsp;PROFESSIONALS&nbsp;&nbsp;&nbsp;COWORK</span>
+          <span className="hero-title-mobile">WHERE ADGM<br />PROFESSIONALS COWORK</span>
         </h1>
         <p>Aegis Coworking offers hot desks, dedicated desks, private offices,
   meeting rooms, and flexible workspaces in ADGM, Abu Dhabi.</p>
