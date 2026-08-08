@@ -5,11 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && node scripts/prerender.mjs",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@sparticuz/chromium": "^131.0.0",
     "@supabase/supabase-js": "^2.110.7",
     "@tiptap/extension-link": "^3.28.0",
     "@tiptap/extension-underline": "^3.28.0",
@@ -17,10 +18,12 @@
     "@tiptap/starter-kit": "^3.28.0",
     "framer-motion": "^12.42.2",
     "posthog-js": "^1.409.5",
+    "puppeteer-core": "^23.0.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "react-helmet-async": "^3.0.0",
-    "react-router-dom": "^7.18.1"
+    "react-router-dom": "^7.18.1",
+    "serve-handler": "^6.1.6"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
