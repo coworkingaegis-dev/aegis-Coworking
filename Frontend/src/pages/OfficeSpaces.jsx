@@ -271,7 +271,7 @@ const faqSchema = [
   },
   {
     q: "What's included in the one-time Due Diligence Fee?",
-    a: "The AED 1,150 Due Diligence Fee covers the compliance and background checks required by ADGM before your licence and registered address can be activated. It's a one-time cost, separate from your monthly rent.",
+    a: "The AED 1,100 Due Diligence Fee covers the compliance and background checks required by ADGM before your licence and registered address can be activated. It's a one-time cost, separate from your monthly rent.",
   },
   {
     q: "Does this dedicated desk satisfy the ADGM flexi desk requirement?",
@@ -320,17 +320,19 @@ function OfficeSpaces() {
           })}
         </script>
 
-        <script type="application/ld+json">
+      <script type="application/ld+json">
   {JSON.stringify({
     "@context": "https://schema.org",
-    "@type": "Product",
+    "@type": "Service",
+    "serviceType": "Dedicated Desk Coworking Space",
     "name": "Dedicated Office Space in ADGM",
     "description":
       "Flexible furnished office space in Abu Dhabi with a dedicated desk and 24/7 access.",
-    "brand": {
-      "@type": "Brand",
-      "name": "Aegis Coworking"
+    "provider": {
+      "@type": "LocalBusiness",
+      "@id": "https://www.aegiscoworking.ae/#business"
     },
+    "areaServed": "Abu Dhabi",
     "offers": {
       "@type": "Offer",
       "price": "1150",
