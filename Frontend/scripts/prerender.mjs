@@ -110,15 +110,12 @@
 
 
 
-import puppeteer from 'puppeteer-core'
-import chromium from '@sparticuz/chromium'
+import puppeteer from 'puppeteer'
 import { createServer } from 'http'
 import handler from 'serve-handler'
 import { mkdir, writeFile } from 'fs/promises'
 import path from 'path'
 import { createClient } from '@supabase/supabase-js'
-
-chromium.setGraphicsMode = false
 
 // ---- 1. List every route that should be prerendered ----
 // Static routes: copy directly from your App.jsx <Routes> block.
@@ -164,9 +161,8 @@ async function main() {
 
   // ---- 3. Launch headless browser ----
   const browser = await puppeteer.launch({
-    args: chromium.args,
-    executablePath: await chromium.executablePath(),
-    headless: chromium.headless,
+    args: ['--no-sandbox', '--disable-setuid-sandbox'],
+    headless: true,
   })
   const page = await browser.newPage()
 
