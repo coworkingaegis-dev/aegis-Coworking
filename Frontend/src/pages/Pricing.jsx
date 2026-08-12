@@ -542,7 +542,7 @@ function Pricing() {
           </div>
 
           {/* DEDICATED DESK — POPULAR */}
-          <div className="pricing-card pricing-card-popular">
+          <div className="pricing-card">
             <span className="pricing-badge">MOST POPULAR</span>
             <h3>DEDICATED DESK</h3>
             <p className="pricing-subtitle">Cheapest dedicated desk in ADGM, your own workspace</p>
