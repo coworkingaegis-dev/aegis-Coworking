@@ -2981,7 +2981,7 @@ a {
   gap: 28px;
   max-width: 1200px;
   margin: 0 auto;
-  align-items: stretch;
+ align-items: start;
 }
 
 .pricing-card {
