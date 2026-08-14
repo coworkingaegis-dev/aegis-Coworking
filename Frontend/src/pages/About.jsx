@@ -59,12 +59,12 @@ function About() {
 
       {/* ---------- STORY / MISSION / VALUES ---------- */}
       <section className="about-simple">
-        <div className="services-header">
+        {/* <div className="services-header">
           <p className="hero-eyebrow" style={{ color: 'var(--color-primary)', background: 'var(--color-primary-soft)' }}>
             Who we are
           </p>
           <h2>What Aegis Coworking stands for</h2>
-        </div>
+        </div> */}
 
         <div className="about-grid">
           <div className="about-block">
