@@ -84,7 +84,7 @@ function About() {
             <p>
               Our mission is to provide businesses with flexible and
               professional workspace solutions that support every stage of
-              growth — from independent professionals and emerging
+              growth from independent professionals and emerging
               startups to established teams operating within ADGM.
             </p>
           </div>
