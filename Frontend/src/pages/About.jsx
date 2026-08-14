@@ -53,8 +53,8 @@ function About() {
 
       {/* ---------- HEADER ---------- */}
       <section className="page-hero">
-        <h1>About Aegis Coworking</h1>
-        <p>Your ADGM Address Inside Addax Tower</p>
+        <h1>ABOUT AEGIS COWORKING</h1>
+        <p>Empowering Abu Dhabi’s Businesses to Grow and Thrive</p>
       </section>
 
       {/* ---------- STORY / MISSION / VALUES ---------- */}
