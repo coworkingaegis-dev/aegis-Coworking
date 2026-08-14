@@ -100,7 +100,7 @@ function About() {
           </p>
           <div className="final-cta-buttons">
             <Link to="/contact">
-              <button className="btn-join-now">Request a tour</button>
+              <button className="btn-join-now">REQUEST QUOTE</button>
             </Link>
             <Link to="/pricing" className="final-cta-secondary-link">
               See hot deals
