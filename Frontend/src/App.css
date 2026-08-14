@@ -4810,7 +4810,8 @@ html, body {
 
 /* ===== ABOUT PAGE (Story / Mission / Values) ===== */
 .about-simple {
-  background: var(--color-bg-soft);
+  background: var(--color-bg-alt);   /* was --color-bg-soft — now solid white */
+  border-top: 1px solid var(--color-border);  /* new — matches your other section seams */
   padding: 80px 60px 90px;
 }
 
