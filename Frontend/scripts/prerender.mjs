@@ -127,6 +127,7 @@ const { render } = await import(path.join(distDir, 'server/entry-server.js'))
 
 const STATIC_ROUTES = [
   '/',
+  '/about',
   '/contact',
   '/office-spaces',
   '/day-pass',
