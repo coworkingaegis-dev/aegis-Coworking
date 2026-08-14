@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
@@ -13,66 +13,52 @@ const SEO = {
   title: 'About Us | Aegis Coworking — Coworking & Office Space in ADGM, Addax Tower',
   description:
     'Aegis Coworking is a business centre inside Addax Tower, ADGM, Al Reem Island. Discover our story and explore low-cost coworking space, private office, virtual office and meeting room solutions built for ADGM tech startup licence holders.',
-  canonical: 'https://aegiscoworking.ae/about',
+  canonical: 'https://www.aegiscoworking.ae/about',
 }
 
-function useSEO() {
-  useEffect(() => {
-    document.title = SEO.title
-
-    const setMeta = (name, content, attr = 'name') => {
-      let tag = document.querySelector(`meta[${attr}="${name}"]`)
-      if (!tag) {
-        tag = document.createElement('meta')
-        tag.setAttribute(attr, name)
-        document.head.appendChild(tag)
-      }
-      tag.setAttribute('content', content)
-    }
-
-    setMeta('description', SEO.description)
-    setMeta('og:title', SEO.title, 'property')
-    setMeta('og:description', SEO.description, 'property')
-    setMeta('og:type', 'website', 'property')
-    setMeta('og:url', SEO.canonical, 'property')
-    setMeta('twitter:card', 'summary_large_image')
-    setMeta('twitter:title', SEO.title)
-    setMeta('twitter:description', SEO.description)
-
-    let canonical = document.querySelector('link[rel="canonical"]')
-    if (!canonical) {
-      canonical = document.createElement('link')
-      canonical.setAttribute('rel', 'canonical')
-      document.head.appendChild(canonical)
-    }
-    canonical.setAttribute('href', SEO.canonical)
-
-    let ld = document.getElementById('ld-about-aegis')
-    if (!ld) {
-      ld = document.createElement('script')
-      ld.type = 'application/ld+json'
-      ld.id = 'ld-about-aegis'
-      document.head.appendChild(ld)
-    }
-    ld.textContent = JSON.stringify({
-      '@context': 'https://schema.org',
+// Same LocalBusiness entity as App.jsx (shared @id so Google treats every
+// page as describing one business), with an AboutPage wrapper on top.
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'AboutPage',
+      '@id': `${SEO.canonical}#webpage`,
+      url: SEO.canonical,
+      name: SEO.title,
+      description: SEO.description,
+      about: { '@id': 'https://www.aegiscoworking.ae/#business' },
+    },
+    {
       '@type': 'LocalBusiness',
-      name: 'Aegis Coworking',
-      image: 'https://aegiscoworking.ae/og-image.jpg',
-      url: 'https://aegiscoworking.ae',
+      '@id': 'https://www.aegiscoworking.ae/#business',
+      name: 'Aegis Coworking Space ADGM',
+      url: 'https://www.aegiscoworking.ae',
+      logo: 'https://www.aegiscoworking.ae/logo.png',
+      image: 'https://www.aegiscoworking.ae/og-image.jpg',
       telephone: '+971503926316',
       email: 'contact@aegiscoworking.ae',
+      description:
+        'Aegis Coworking provides coworking spaces, private offices, virtual offices, meeting rooms, office spaces and day passes in Addax Tower, ADGM, Abu Dhabi.',
+      priceRange: '$$',
       address: {
         '@type': 'PostalAddress',
-        streetAddress: 'Addax Tower, Al Reem Island',
+        streetAddress: 'Addax Tower, Al Reem Island, Tamouh',
         addressLocality: 'Abu Dhabi',
+        addressRegion: 'Abu Dhabi',
         addressCountry: 'AE',
       },
-      areaServed: 'Abu Dhabi Global Market (ADGM)',
-      description: SEO.description,
-      openingHours: 'Mo-Su 00:00-24:00',
-    })
-  }, [])
+      geo: {
+        '@type': 'GeoCoordinates',
+        latitude: 24.4989303,
+        longitude: 54.4031693,
+      },
+      hasMap:
+        'https://www.google.com/maps/place/Aegis+Coworking+Space+ADGM/@24.4989303,54.4031693,17z',
+      openingHours: 'Mo-Su 00:00-23:59',
+      sameAs: ['https://www.linkedin.com/company/aegis-coworking/'],
+    },
+  ],
 }
 
 const offerings = [
@@ -117,10 +103,23 @@ const stats = [
 ]
 
 function About() {
-  useSEO()
-
   return (
     <>
+      <Helmet>
+        <title>{SEO.title}</title>
+        <meta name="description" content={SEO.description} />
+        <link rel="canonical" href={SEO.canonical} />
+        <meta property="og:title" content={SEO.title} />
+        <meta property="og:description" content={SEO.description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={SEO.canonical} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={SEO.title} />
+        <meta name="twitter:description" content={SEO.description} />
+        <script type="application/ld+json">
+          {JSON.stringify(structuredData)}
+        </script>
+      </Helmet>
       <Navbar />
 
       <main className="about-page">
