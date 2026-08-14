@@ -54,49 +54,60 @@ function About() {
       {/* ---------- HEADER ---------- */}
       <section className="page-hero">
         <h1>ABOUT AEGIS COWORKING</h1>
-        <p>Empowering Abu Dhabi’s Businesses to Grow and Thrive</p>
+        <p>Empowering Abu Dhabi's Businesses to Grow and Thrive</p>
       </section>
 
       {/* ---------- STORY / MISSION / VALUES ---------- */}
       <section className="about-simple">
-        <div className="about-block">
-          <h2>Our Story</h2>
-          <p>
-            Aegis Coworking was founded inside Addax Tower, Al Reem Island,
-            to give ADGM's founders, tech startups, and independent
-            operators a coworking space built for how they actually work —
-            a serious address, without a serious lease.
+        <div className="services-header">
+          <p className="hero-eyebrow" style={{ color: 'var(--color-primary)', background: 'var(--color-primary-soft)' }}>
+            Who we are
           </p>
+          <h2>What Aegis Coworking stands for</h2>
         </div>
 
-        <div className="about-block">
-          <h2>Our Mission</h2>
-          <p>
-            To make office space in ADGM accessible — whether that's a
-            single low-cost desk, a private office, a virtual office for an
-            ADGM tech startup licence, or a meeting room booked by the
-            hour. No five-year commitments, no hidden fees.
-          </p>
-        </div>
+        <div className="about-grid">
+          <div className="about-block">
+            <div className="about-block-icon">📖</div>
+            <h3>THE AEGIS STORY</h3>
+            <p>
+              Aegis Coworking was established at Addax Tower to provide
+              businesses in ADGM with a professional workspace that
+              combines a prestigious business address, flexible workspace
+              solutions, and a premium working environment.
+            </p>
+          </div>
 
-        <div className="about-block">
-          <h2>Our Values</h2>
-          <p>
-            Community, flexibility, and compliance. Every plan at Aegis
-            Coworking is built to meet ADGM's registration requirements
-            while staying genuinely low cost — so growing a company here
-            doesn't mean choosing between the two.
-          </p>
+          <div className="about-block">
+            <div className="about-block-icon">🎯</div>
+            <h3>OUR MISSION</h3>
+            <p>
+              Our mission is to provide businesses with flexible and
+              professional workspace solutions that support every stage of
+              growth — from independent professionals and emerging
+              startups to established teams operating within ADGM.
+            </p>
+          </div>
+
+          <div className="about-block">
+            <div className="about-block-icon">🤝</div>
+            <h3>OUR VALUES</h3>
+            <p>
+              We are guided by professionalism, flexibility, integrity, and
+              community. We create an environment where businesses can
+              establish their presence, build meaningful connections, and
+              operate with confidence in ADGM.
+            </p>
+          </div>
         </div>
       </section>
 
       {/* ---------- CTA (before location) ---------- */}
       <section className="final-cta">
         <div className="final-cta-card">
-          <h2>Come see Aegis Coworking for yourself</h2>
+          <h2>Experience Business at the Heart of ADGM</h2>
           <p>
-            Book a tour of Addax Tower and find out why 200+ companies call
-            Aegis Coworking their ADGM address.
+            Book a tour of Addax Tower and discover your ideal ADGM workspace at Aegis.
           </p>
           <div className="final-cta-buttons">
             <Link to="/contact">
