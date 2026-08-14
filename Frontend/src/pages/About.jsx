@@ -12,14 +12,13 @@ import LocationHighlight from '../components/LocationHighlight'
 const SEO = {
   title: 'About Us | Aegis Coworking — Coworking & Office Space in ADGM, Addax Tower',
   description:
-    'Aegis Coworking is a business centre inside Addax Tower, ADGM, Al Reem Island. Explore low-cost coworking space, private office, virtual office and meeting room solutions built for ADGM tech startup licence holders.',
+    'Aegis Coworking is a business centre inside Addax Tower, ADGM, Al Reem Island. Coworking space, private office, virtual office and meeting rooms built for ADGM tech startup licence holders.',
   canonical: 'https://www.aegiscoworking.ae/about',
 }
 
-// NOTE: App.jsx already injects a sitewide LocalBusiness JSON-LD block via
-// its own <Helmet>, which react-helmet-async merges into every page's
-// <head> — so this page only adds an AboutPage entry that points at that
-// same business @id, rather than redeclaring the whole LocalBusiness object.
+// App.jsx already injects a sitewide LocalBusiness JSON-LD block via its own
+// <Helmet>, which react-helmet-async merges into every page — so this page
+// only adds an AboutPage entry pointing at that same business @id.
 const aboutPageSchema = {
   '@context': 'https://schema.org',
   '@type': 'AboutPage',
@@ -30,37 +29,6 @@ const aboutPageSchema = {
   about: { '@id': 'https://www.aegiscoworking.ae/#business' },
   isPartOf: { '@id': 'https://www.aegiscoworking.ae/#business' },
 }
-
-const offerings = [
-  {
-    icon: '🖥️',
-    title: 'Coworking Space, ADGM',
-    copy: 'Hot desks and shared lounges inside Addax Tower for founders and freelancers who want a real coworking space in ADGM, no long lease required.',
-    link: '/office-spaces',
-    label: 'View desk plans',
-  },
-  {
-    icon: '🚪',
-    title: 'Private Office, ADGM',
-    copy: 'Fully furnished, lockable suites for teams that need a dedicated private office in ADGM — flexible terms, low cost office pricing.',
-    link: '/private-office',
-    label: 'Explore private offices',
-  },
-  {
-    icon: '📇',
-    title: 'Virtual Office, ADGM',
-    copy: 'A compliant virtual office ADGM registration requires, with mail handling — built for lean teams applying for an ADGM tech startup licence.',
-    link: '/virtual-office',
-    label: 'See virtual office plans',
-  },
-  {
-    icon: '🤝',
-    title: 'Meeting Rooms, ADGM',
-    copy: 'Book a fully equipped meeting room in ADGM by the hour for client pitches, board calls, or interviews.',
-    link: '/meeting-room',
-    label: 'Reserve a room',
-  },
-]
 
 function About() {
   return (
@@ -83,100 +51,46 @@ function About() {
 
       <Navbar />
 
-      {/* ---------- HERO ---------- */}
-      <section className="about-hero">
-        <span className="contact-eyebrow">About Aegis Coworking</span>
-        <h1>A working address inside ADGM, built around Addax Tower</h1>
-        <p className="about-hero-lede">
-          Aegis Coworking sits on a high floor of Addax Tower, Al Reem
-          Island — a coworking space in ADGM designed for regulated
-          entities, tech startups, and independent operators who need a
-          serious address without a serious overhead.
-        </p>
+      {/* ---------- HEADER ---------- */}
+      <section className="page-hero">
+        <h1>About Aegis Coworking</h1>
+        <p>Your ADGM Address Inside Addax Tower</p>
       </section>
 
-      {/* ---------- STORY / WHY ADGM ---------- */}
-      <section className="business-presence">
-        <p className="desk-eyebrow" style={{ textAlign: 'center' }}>Our story</p>
-        <h2>Why we set up inside Addax Tower</h2>
-        <p className="bp-intro">
-          We built Aegis Coworking because ADGM needed a workspace that
-          takes the jurisdiction as seriously as its members do. Members
-          join us to register a compliant address, apply for an ADGM tech
-          startup licence, or simply find office space in ADGM without a
-          five-year commitment — and stay for fibre internet, Wilkhahn
-          seating, a coffee bar that's actually good, and a community of
-          200+ companies working a few desks away.
-        </p>
-        <div className="bp-columns">
-          <div className="bp-column">
-            <div className="bp-column-icon">🏙️</div>
-            <h4>Built for ADGM companies</h4>
-            <ul>
-              <li>Two minutes from ADGM's registration offices</li>
-              <li>Addresses that meet FSRA and licence requirements</li>
-              <li>Dedicated desk plans for Commercial Licence renewal</li>
-            </ul>
-          </div>
-          <div className="bp-column">
-            <div className="bp-column-icon">☕</div>
-            <h4>Built for the everyday</h4>
-            <ul>
-              <li>24/7 member access, every day of the year</li>
-              <li>Fibre internet and Wilkhahn ergonomic seating</li>
-              <li>Coffee bar, mangrove views, 200+ member community</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      {/* ---------- OFFERINGS ---------- */}
-      <section className="services-section">
-        <div className="services-header">
-          <p className="hero-eyebrow" style={{ color: 'var(--color-primary)', background: 'var(--color-primary-soft)' }}>
-            What we offer
-          </p>
-          <h2>Every way to work in ADGM, under one roof</h2>
+      {/* ---------- STORY / MISSION / VALUES ---------- */}
+      <section className="about-simple">
+        <div className="about-block">
+          <h2>Our Story</h2>
           <p>
-            From a single low-cost desk to a private office ADGM
-            registration requires, Aegis has a plan for where your company
-            is today.
+            Aegis Coworking was founded inside Addax Tower, Al Reem Island,
+            to give ADGM's founders, tech startups, and independent
+            operators a coworking space built for how they actually work —
+            a serious address, without a serious lease.
           </p>
         </div>
-        <div className="services">
-          {offerings.map((o) => (
-            <div className="service-card" key={o.title}>
-              <span style={{ fontSize: '32px' }}>{o.icon}</span>
-              <h3>{o.title}</h3>
-              <p>{o.copy}</p>
-              <Link to={o.link}>{o.label} →</Link>
-            </div>
-          ))}
+
+        <div className="about-block">
+          <h2>Our Mission</h2>
+          <p>
+            To make office space in ADGM accessible — whether that's a
+            single low-cost desk, a private office, a virtual office for an
+            ADGM tech startup licence, or a meeting room booked by the
+            hour. No five-year commitments, no hidden fees.
+          </p>
+        </div>
+
+        <div className="about-block">
+          <h2>Our Values</h2>
+          <p>
+            Community, flexibility, and compliance. Every plan at Aegis
+            Coworking is built to meet ADGM's registration requirements
+            while staying genuinely low cost — so growing a company here
+            doesn't mean choosing between the two.
+          </p>
         </div>
       </section>
 
-      {/* ---------- LICENCE / COMPLIANCE ---------- */}
-      <section className="business-presence">
-        <p className="desk-eyebrow" style={{ textAlign: 'center' }}>ADGM compliance</p>
-        <h2>Set up your ADGM tech startup licence from a real address</h2>
-        <p className="bp-intro">
-          ADGM requires a physical or virtual presence for company
-          registration and licence renewal. Our virtual office and
-          dedicated desk plans are built to meet that requirement, so
-          opening a low cost office in ADGM doesn't mean choosing between
-          compliance and budget.
-        </p>
-        <div style={{ textAlign: 'center' }}>
-          <Link to="/contact">
-            <button className="btn-primary">Talk to our team</button>
-          </Link>
-        </div>
-      </section>
-
-      {/* ---------- LOCATION ---------- */}
-      <LocationHighlight />
-
-      {/* ---------- FINAL CTA ---------- */}
+      {/* ---------- CTA (before location) ---------- */}
       <section className="final-cta">
         <div className="final-cta-card">
           <h2>Come see Aegis Coworking for yourself</h2>
@@ -194,6 +108,9 @@ function About() {
           </div>
         </div>
       </section>
+
+      {/* ---------- LOCATION ---------- */}
+      <LocationHighlight />
 
       <Footer />
     </>
