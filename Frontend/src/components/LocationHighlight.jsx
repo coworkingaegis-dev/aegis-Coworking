@@ -103,7 +103,16 @@ Aegis Coworking is located in Addax Tower, Al Reem Island, within ADGM, Abu Dhab
         <div className="location-map-frame">
          <iframe
             title="Addax Tower Location"
-            src="https://www.google.com/maps?q=Addax+Tower+Al+Reem+Island+Abu+Dhabi&output=embed"
+            <iframe
+  title="Addax Tower Location"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3630.6108984947837!2d54.400594374417075!3d24.498935159630403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e67ada3bb067b%3A0x5674c5ba5c0f061e!2sAegis%20Coworking%20Space%20ADGM!5e0!3m2!1sen!2s!4v1786701334186!5m2!1sen!2s"
+  width="100%"
+  height="100%"
+  style={{ border: 0 }}
+  allowFullScreen
+  loading="lazy"
+  referrerPolicy="strict-origin-when-cross-origin"
+></iframe>
             width="100%"
             height="100%"
             style={{ border: 0 }}
