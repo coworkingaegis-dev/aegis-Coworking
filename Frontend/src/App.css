@@ -4808,3 +4808,44 @@ html, body {
 
 
 
+
+
+
+/* ===== ABOUT PAGE ===== */
+.about-hero {
+  background: var(--color-bg);
+  text-align: center;
+  padding: 160px 20px 70px;
+}
+
+.about-hero h1 {
+  font-size: 44px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  color: var(--color-text);
+  max-width: 780px;
+  margin: 0 auto 20px;
+  line-height: 1.18;
+}
+
+.about-hero-lede {
+  font-size: 16px;
+  color: var(--color-text-muted);
+  max-width: 620px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+  .about-hero {
+    padding: 130px 20px 50px;
+  }
+
+  .about-hero h1 {
+    font-size: 30px;
+  }
+}
+
+
+
+
