@@ -2,6 +2,7 @@ import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import LocationHighlight from '../components/LocationHighlight'
 
 // ---- SEO CONFIG -----------------------------------------------------
 // Targets the top Search Console queries for aegiscoworking.ae:
@@ -173,57 +174,7 @@ function About() {
       </section>
 
       {/* ---------- LOCATION ---------- */}
-      <section className="location-highlight">
-        <div className="location-content">
-          <div className="location-text">
-            <h2>Addax Tower, Al Reem Island, Abu Dhabi</h2>
-            <p>
-              Two minutes from ADGM's registration offices, with parking,
-              retail, and the Al Reem promenade downstairs. Tours run
-              Monday to Friday, 9am–6pm; members get 24/7 building access
-              every day of the year.
-            </p>
-            <div className="address-card">
-              <span className="address-icon">📍</span>
-              <div>
-                <strong>Addax Tower, Al Reem Island</strong>
-                <span>Abu Dhabi, UAE</span>
-              </div>
-            </div>
-            <div className="location-stats">
-              <div className="location-stat">
-                <span className="stat-icon">👥</span>
-                <strong>200+</strong>
-                <span>Members</span>
-              </div>
-              <div className="location-stat">
-                <span className="stat-icon">🕐</span>
-                <strong>24/7</strong>
-                <span>Member access</span>
-              </div>
-              <div className="location-stat">
-                <span className="stat-icon">📍</span>
-                <strong>1</strong>
-                <span>Address in ADGM</span>
-              </div>
-            </div>
-            <Link to="/contact">
-              <button className="btn-primary">Book a tour</button>
-            </Link>
-          </div>
-          <div className="location-map-frame">
-            <iframe
-              title="Aegis Coworking location — Addax Tower, Al Reem Island"
-              src="https://www.google.com/maps?q=Addax+Tower+Al+Reem+Island+Abu+Dhabi&output=embed"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            />
-          </div>
-        </div>
-      </section>
+      <LocationHighlight />
 
       {/* ---------- FINAL CTA ---------- */}
       <section className="final-cta">
