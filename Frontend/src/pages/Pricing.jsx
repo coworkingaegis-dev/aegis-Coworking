@@ -449,7 +449,7 @@ function Pricing() {
             <h3>VIRTUAL OFFICE</h3>
             <p className="pricing-subtitle">Cheapest virtual office in ADGM, registered business address</p>
             <div className="pricing-price">
-              AED 3,500<span>/month</span>
+              AED 3,500<span>/year</span>
             </div>
             <ul className="pricing-features">
               <li>Registered ADGM business address</li>
