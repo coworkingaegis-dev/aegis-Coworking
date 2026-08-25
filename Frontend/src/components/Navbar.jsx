@@ -387,10 +387,7 @@ function Navbar() {
           )}
         </li>
 
-        <li><Link to="/pricing" onClick={closeAll}>Hot Deals</Link></li>
-        
-        <li><Link to="/membership" onClick={closeAll}>Membership</Link></li>
-        <li
+              <li
           className={`dropdown ${dropdownOpen ? 'dropdown-open' : ''}`}
           onClick={() => setDropdownOpen(!dropdownOpen)}
         >
@@ -405,6 +402,10 @@ function Navbar() {
             <li><Link to="/day-pass" onClick={closeAll}>Day Pass</Link></li>
           </ul>
         </li>
+        <li><Link to="/pricing" onClick={closeAll}>Hot Deals</Link></li>
+        
+        <li><Link to="/membership" onClick={closeAll}>Membership</Link></li>
+        
         <li><Link to="/contact" onClick={closeAll}>Contact Us</Link></li>
         <li className="nav-mobile-cta">
           <Link to="/contact" onClick={closeAll}>
