@@ -222,7 +222,7 @@ function Navbar() {
           className={`dropdown ${whoWeServeOpen ? 'dropdown-open' : ''}`}
           onClick={() => setWhoWeServeOpen(!whoWeServeOpen)}
         >
-          Who We Serve ▾
+          Who We Serve 
           <ul className="dropdown-menu">
             <li>Freelancers</li>
             <li>Startups</li>
