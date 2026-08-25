@@ -366,7 +366,7 @@ function OfficeSpaces() {
       </Helmet>
       <Navbar />
       <PageHero
-        title="OFFICE SPACES IN ADGM"
+        title="Dedicated Desk IN ADGM"
         subtitle="PRIVATE DESK | 24/7 ACCESS | FLEXIBLE MEMBERSHIP"
       />
       <DeskPricing />
