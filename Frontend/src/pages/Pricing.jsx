@@ -385,7 +385,7 @@ function Pricing() {
             <h3>HOT DESK</h3>
             <p className="pricing-subtitle">Cheapest hot desk price in ADGM, perfect for freelancers</p>
             <div className="pricing-price">
-             <span className="pricing-strike">AED 1,200</span>{' '}
+             <span className="pricing-strike">1,200</span>{' '}
               AED 1,000<span>/month</span>
             </div>
             <ul className="pricing-features">
@@ -407,7 +407,7 @@ function Pricing() {
             <p className="pricing-subtitle">Cheapest dedicated desk in ADGM, your own workspace</p>
             <span className="pricing-save">Save AED 250/month</span>
             <div className="pricing-price">
-              <span className="pricing-strike">AED 1,450</span>{' '}
+              <span className="pricing-strike">1,450</span>{' '}
               AED 1,150<span>/month</span>
             </div>
            <ul className="pricing-features">
@@ -428,7 +428,7 @@ function Pricing() {
             <h3>PRIVATE OFFICE</h3>
             <p className="pricing-subtitle">Cheapest private office in ADGM, for teams & companies</p>
             <div className="pricing-price">
-             <span className="pricing-strike">AED 6,500</span>{' '}
+             <span className="pricing-strike">6,500</span>{' '}
               AED 4,500<span>/month</span>
             </div>
             <ul className="pricing-features">
@@ -451,7 +451,7 @@ function Pricing() {
             <h3>VIRTUAL OFFICE</h3>
             <p className="pricing-subtitle">Cheapest virtual office in ADGM, registered business address</p>
             <div className="pricing-price">
-              <span className="pricing-strike">AED 4,500</span>{' '}
+              <span className="pricing-strike">4,500</span>{' '}
               AED 3,500<span>/year</span>
             </div>
             <ul className="pricing-features">
