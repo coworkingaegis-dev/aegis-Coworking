@@ -196,6 +196,43 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import aegisLogo from '../assets/aegis-logo-transparent.png'
 
+const whoWeServeStyles = {
+  panel: {
+    display: 'grid',
+    gridTemplateColumns: '1.4fr 1fr',
+    gap: '24px',
+    position: 'absolute',
+    top: '100%',
+    left: 0,
+    width: '480px',
+    background: '#fff',
+    borderRadius: '8px',
+    boxShadow: '0 12px 32px rgba(0, 0, 0, 0.15)',
+    padding: '28px',
+    zIndex: 100,
+  },
+  heading: {
+    fontSize: '1.3rem',
+    fontWeight: 500,
+    margin: '0 0 10px',
+  },
+  paragraph: {
+    fontSize: '0.85rem',
+    color: '#555',
+    lineHeight: 1.5,
+    margin: 0,
+  },
+  linksList: {
+    listStyle: 'none',
+    margin: 0,
+    padding: 0,
+    display: 'flex',
+    flexDirection: 'column',
+    gap: '18px',
+    fontSize: '0.95rem',
+  },
+}
+
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
   const [dropdownOpen, setDropdownOpen] = useState(false)
@@ -221,14 +258,28 @@ function Navbar() {
         <li
           className={`dropdown ${whoWeServeOpen ? 'dropdown-open' : ''}`}
           onClick={() => setWhoWeServeOpen(!whoWeServeOpen)}
+          style={{ position: 'relative' }}
         >
-          Who We Serve 
-          <ul className="dropdown-menu">
-            <li>Freelancers</li>
-            <li>Startups</li>
-            <li>Individuals</li>
-            <li>Small Businesses</li>
-          </ul>
+          Who We Serve
+          {whoWeServeOpen && (
+            <div style={whoWeServeStyles.panel}>
+              <div>
+                <h3 style={whoWeServeStyles.heading}>Who we serve</h3>
+                <p style={whoWeServeStyles.paragraph}>
+                  Aegis Coworking is ADGM's flexible workspace at Addax
+                  Tower, Al Reem Island — offering 24/7 access, high-speed
+                  fibre internet, and a growing community of 200+ members
+                  across freelancers, startups, and growing businesses.
+                </p>
+              </div>
+              <ul style={whoWeServeStyles.linksList}>
+                <li>Freelancers</li>
+                <li>Startups</li>
+                <li>Individuals</li>
+                <li>Small Businesses</li>
+              </ul>
+            </div>
+          )}
         </li>
 
         <li><Link to="/pricing" onClick={closeAll}>Hot Deals</Link></li>
