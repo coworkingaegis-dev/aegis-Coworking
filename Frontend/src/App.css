@@ -2268,7 +2268,7 @@ a {
   display: flex;
   gap: 28px;
   width: max-content;
-  animation: scrollTestimonials 50s linear infinite;
+  animation: scrollTestimonials 55s linear infinite;
 }
 
 .testimonials-marquee:hover .testimonials-track {
