@@ -508,7 +508,6 @@ import { Helmet } from 'react-helmet-async'
 import Navbar from '../components/Navbar'
 import PageHero from '../components/PageHero'
 import DayPassPricing from '../components/DayPassPricing'
-import PerfectFor from '../components/PerfectFor'
 import Amenities from '../components/Amenities'
 import FinalCTA from '../components/FinalCTA'
 import Footer from '../components/Footer'
@@ -634,7 +633,7 @@ function DayPass() {
         subtitle="HOT DESK | FLEXIBLE ACCESS | PREMIUM AMENITIES"
       />
       <DayPassPricing />
-      <PerfectFor />
+    
 
       <section className="vo-faq">
         <span className="contact-eyebrow">DAY PASS ADGM</span>
