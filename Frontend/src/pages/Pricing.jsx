@@ -409,14 +409,14 @@ function Pricing() {
               <span className="pricing-strike">AED 1,450</span>{' '}
               AED 1,150<span>/month</span>
             </div>
-            <ul className="pricing-features">
-              <li>Your own dedicated desk</li>
-              <li>Office address suitable for an ADGM license</li>
-              <li>24/7 access</li>
-              <li>Lockable storage</li>
-              <li>More meeting room credits</li>
-              <li>All Hot Desk benefits</li>
-            </ul>
+           <ul className="pricing-features">
+  <li>Office address suitable for an ADGM license</li>
+  <li>Complimentary corporate VAT and Tax registration support</li>
+  <li>24/7 access</li>
+  <li>Dedicated lockers for storge</li>
+  <li>Extra meeting room credits every month</li>
+  <li>Everything included in the Hot Desk plan</li>
+</ul>
             <Link to="/contact">
               <button className="btn-pricing-solid">Get Started</button>
             </Link>
@@ -430,6 +430,8 @@ function Pricing() {
               AED 4,500<span>/month</span>
             </div>
             <ul className="pricing-features">
+              <li>Office address suitable for an ADGM license</li>
+  <li>Complimentary corporate VAT and Tax registration support</li>
               <li>Fully furnished private office</li>
               <li>Customizable space</li>
               <li>Unlimited meeting rooms</li>
