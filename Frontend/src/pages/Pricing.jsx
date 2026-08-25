@@ -388,11 +388,11 @@ function Pricing() {
               AED 1,000<span>/month</span>
             </div>
             <ul className="pricing-features">
-              <li>Access to shared workspace</li>
-              <li>High-speed internet</li>
-              <li>Meeting room credits</li>
-              <li>Community events access</li>
-              <li>Premium coffee & tea</li>
+              <li>Full access to the shared coworking floor</li>
+  <li>Fast, reliable fibre-optic internet</li>
+  <li>Meeting room credits</li>
+  <li>Invitations to community events</li>
+  <li>Complimentary coffee and tea</li>
             </ul>
             <Link to="/contact">
               <button className="btn-pricing-solid">Get Started</button>
@@ -432,11 +432,12 @@ function Pricing() {
             <ul className="pricing-features">
               <li>Office address suitable for an ADGM license</li>
   <li>Complimentary corporate VAT and Tax registration support</li>
-              <li>Fully furnished private office</li>
-              <li>Customizable space</li>
-              <li>Unlimited meeting rooms</li>
-              <li>Priority support</li>
-              <li>All Dedicated Desk benefits</li>
+              <ul className="pricing-features">
+  <li>Fully furnished, ready-to-use private office</li>
+  <li>Configurable layout to suit your team</li>
+  <li>Priority support from our team</li>
+  <li>All Dedicated Desk benefits</li>
+</ul>
             </ul>
             <Link to="/contact">
               <button className="btn-pricing-solid">Get Started</button>
