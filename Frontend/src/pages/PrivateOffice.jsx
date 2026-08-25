@@ -1216,31 +1216,7 @@ function PrivateOffice() {
         </div>
       </section>
 
-      {/* Large Office */}
-      <section className="vo-tier">
-        <div className="vo-tier-image">
-          <img src={largeOfficeImg} alt="Large ADGM Private Office" />
-        </div>
-        <div className="vo-tier-content">
-          <span className="vo-tier-badge" style={{ background: '#e8e0f7', color: '#5b3ea6' }}>LARGE</span>
-          <p className="vo-tier-eyebrow">Perfect for 10+ people</p>
-
-          <h3>EXECUTIVE OFFICE SPACE, ADDAX TOWER</h3>
-          <p>
-            Spacious, luxury office space in Abu Dhabi's financial district at Addax Tower, built
-            for established ADGM-licensed companies and larger teams. These premium offices can be
-            fully branded and configured to support multiple work zones, private meeting areas and
-            secure storage. The right choice for financial services firms, regional headquarters
-            and regulated entities that want a discreet, high-performance base inside Abu Dhabi
-            Global Market.
-          </p>
-          <div className="vo-tier-buttons">
-            <Link to="/contact">
-              <button className="btn-vo-primary">REQUEST QUOTE</button>
-            </Link>
-          </div>
-        </div>
-      </section>
+     
 
       {/* FAQ */}
       <section className="vo-faq">
