@@ -415,8 +415,9 @@ function Home() {
         />
         <meta name="twitter:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
       </Helmet>
-      <PromoBar />
+      
       <Navbar />
+         <PromoBar />
       <Hero />
       <Reveal><Services /></Reveal>
       <Reveal delay={0.1}><WhyChooseUs /></Reveal>
