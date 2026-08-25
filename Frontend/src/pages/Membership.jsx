@@ -15,9 +15,9 @@ const membershipFaqs = [
     a: "Four options: a Hot Desk (shared workspace, pay monthly), a Dedicated Desk (your own permanent desk), a Virtual Office (a registered ADGM business address without a physical desk), and a Private Office (a lockable furnished suite for teams). You can start with one and move to another as your needs change.",
   },
   {
-    q: "How much does a coworking membership cost in ADGM?",
-    a: "At Aegis Coworking, Hot Desk membership starts from AED 1,000/month, Dedicated Desk from AED 1,150/month, Virtual Office from AED 3,500/month, and Private Office from AED 4,500/month. Full details are on our pricing page.",
-  },
+  q: "How much does a coworking membership cost in ADGM?",
+  a: "At Aegis Coworking, Hot Desk membership starts from AED 1,000/month, Dedicated Desk from AED 1,150/month, Private Office from AED 4,500/month, and Virtual Office from AED 3,500/year. Full details are on our pricing page.",
+},
   {
     q: "Is there a minimum commitment for membership?",
     a: "Hot Desk and Day Pass access have no long-term commitment. Dedicated Desk, Virtual Office, and Private Office plans are offered on flexible monthly terms rather than a fixed multi-year lease.",
