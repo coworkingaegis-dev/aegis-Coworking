@@ -63,7 +63,7 @@ function DeskPricing() {
         <p className="desk-eyebrow">OFFICE SPACES IN ADGM</p>
         <h2>MY DESK</h2>
       <p className="desk-desc">
-  A private, permanent desk in ADGM — one of Abu Dhabi's most established business districts.
+  A dedicated desk in ADGM — one of Abu Dhabi's most established business districts.
   Fully furnished and accessible 24/7, full access to our meeting rooms, business lounge,
   and the wider coworking community.
 </p>
