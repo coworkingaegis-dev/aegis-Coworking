@@ -388,16 +388,18 @@ function Navbar() {
         </li>
 
         <li><Link to="/pricing" onClick={closeAll}>Hot Deals</Link></li>
-        <li><Link to="/office-spaces" onClick={closeAll}>Office Desk</Link></li>
+        
         <li><Link to="/membership" onClick={closeAll}>Membership</Link></li>
         <li
           className={`dropdown ${dropdownOpen ? 'dropdown-open' : ''}`}
           onClick={() => setDropdownOpen(!dropdownOpen)}
         >
-          More ▾
+          What We Offer ▾
           <ul className="dropdown-menu">
-            {/* <li><Link to="/virtual-office" onClick={closeAll}>Virtual Office</Link></li> */}
-            <li><Link to="/offices" onClick={closeAll}>Office</Link></li>
+        <li><Link to="/office-spaces" onClick={closeAll}>Office Desk</Link></li>
+            <li><Link to="/virtual-office" onClick={closeAll}>Virtual Office</Link></li>
+                   <li><Link to="/private-office" onClick={closeAll}>Private Office</Link></li>
+            {/* <li><Link to="/offices" onClick={closeAll}>Office</Link></li> */}
             <li><Link to="/meeting-room" onClick={closeAll}>Meeting Room</Link></li>
             {/* <li><Link to="/presentation-room" onClick={closeAll}>Presentation Room</Link></li> */}
             <li><Link to="/day-pass" onClick={closeAll}>Day Pass</Link></li>
