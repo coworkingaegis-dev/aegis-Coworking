@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom'
 
 const offers = [
-  { plan: "HOT DESK", was: "1,200", now: "1,000" },
-  { plan: "DEDICATED DESK", was: "1,450", now: "1,150" },
-  { plan: "PRIVATE OFFICE", was: "6,500", now: "4,500" },
-  { plan: "VIRTUAL OFFICE", was: "4,500", now: "3,500" },
+  { plan: "HOT DESK", was: "1,200", now: "1,000", period: "/month" },
+  { plan: "DEDICATED DESK", was: "1,450", now: "1,150", period: "/month" },
+  { plan: "PRIVATE OFFICE", was: "6,500", now: "4,500", period: "/month" },
+  { plan: "VIRTUAL OFFICE", was: "4,500", now: "3,500", period: "/year" },
 ]
 
 function PromoBar() {
@@ -136,7 +136,7 @@ function PromoBar() {
                 <span className="promo-bar-item" key={i}>
                   <strong>{offer.plan}:</strong>
                   <span className="promo-bar-was">AED {offer.was}</span>
-                  <span className="promo-bar-now">AED {offer.now}/month</span>
+                  <span className="promo-bar-now">AED {offer.now}{offer.period}</span>
                 </span>
               ))}
             </div>
