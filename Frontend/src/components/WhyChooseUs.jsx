@@ -106,7 +106,7 @@ const whyUsStyles = {
     display: 'flex',
     gap: '24px',
     width: 'max-content',
-    animation: 'scrollTestimonials 40s linear infinite',
+    animation: 'scrollTestimonials 35s linear infinite',
   },
   card: {
     padding: '32px 22px',
