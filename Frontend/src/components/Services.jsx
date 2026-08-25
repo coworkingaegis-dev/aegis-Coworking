@@ -70,13 +70,77 @@
 
 
 
+// import { Link } from 'react-router-dom'
+
+// const services = [
+//   { title: "OFFICE SPACES IN ADGM ABU DHABI", desc: "Discover fully furnished office spaces in Abu Dhabi's ADGM. Ideal for startups, SMEs, and growing businesses seeking flexible office solutions.", link: "/office-spaces" },
+//   { title: "COWORKING DAY PASS", desc: "Enjoy flexible access to our coworking space in Abu Dhabi with a convenient day pass. Perfect for remote workers, freelancers, and business travelers.", link: "/day-pass" },
+//   { title: "MEETING ROOM", desc: "Book fully equipped meeting rooms in Abu Dhabi for client meetings, team collaborations, interviews, and presentations.", link: "/meeting-room" },
+//   { title: "VIRTUAL OFFICE", desc: "Get a virtual office in Abu Dhabi with an ADGM business address, professional mail handling, and support for your growing business.", link: "/virtual-office" },
+// ]
+
+// function Services() {
+//   return (
+//     <section className="services-section">
+//       <div className="services-header">
+//         <span className="contact-eyebrow">WHAT WE OFFER</span>
+//         <h2>Flexible Coworking Spaces</h2>
+//         <p>Premium coworking and office solutions in the heart of ADGM, Abu Dhabi.</p>
+//       </div>
+
+//       <div className="services">
+//         {services.map((item, i) => (
+//           <div className="service-card" key={i}>
+//             <h3>{item.title}</h3>
+//             <p>{item.desc}</p>
+//             <Link to={item.link}>Learn More &gt;</Link>
+//           </div>
+//         ))}
+//       </div>
+//     </section>
+//   )
+// }
+
+// export default Services
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import { Link } from 'react-router-dom'
 
 const services = [
-  { title: "OFFICE SPACES IN ADGM ABU DHABI", desc: "Discover fully furnished office spaces in Abu Dhabi's ADGM. Ideal for startups, SMEs, and growing businesses seeking flexible office solutions.", link: "/office-spaces" },
-  { title: "COWORKING DAY PASS", desc: "Enjoy flexible access to our coworking space in Abu Dhabi with a convenient day pass. Perfect for remote workers, freelancers, and business travelers.", link: "/day-pass" },
-  { title: "MEETING ROOM", desc: "Book fully equipped meeting rooms in Abu Dhabi for client meetings, team collaborations, interviews, and presentations.", link: "/meeting-room" },
-  { title: "VIRTUAL OFFICE", desc: "Get a virtual office in Abu Dhabi with an ADGM business address, professional mail handling, and support for your growing business.", link: "/virtual-office" },
+  {
+    icon: "🏢",
+    title: "CHEAPEST OFFICE SPACES IN ADGM",
+    link: "/office-spaces",
+  },
+  {
+    icon: "🎟️",
+    title: "AFFORDABLE COWORKING DAY PASS",
+    link: "/day-pass",
+  },
+  {
+    icon: "🤝",
+    title: "MEETING ROOMS IN ADGM ABU DHABI",
+    link: "/meeting-room",
+  },
+  {
+    icon: "📍",
+    title: "AFFORDABLE VIRTUAL OFFICE IN ADGM",
+    link: "/virtual-office",
+  },
 ]
 
 function Services() {
@@ -84,15 +148,14 @@ function Services() {
     <section className="services-section">
       <div className="services-header">
         <span className="contact-eyebrow">WHAT WE OFFER</span>
-        <h2>Flexible Coworking Spaces</h2>
-        <p>Premium coworking and office solutions in the heart of ADGM, Abu Dhabi.</p>
+        <h2>Cheapest Coworking Spaces in ADGM</h2>
+        <p>Affordable coworking and office solutions in the heart of ADGM, Abu Dhabi.</p>
       </div>
-
       <div className="services">
         {services.map((item, i) => (
           <div className="service-card" key={i}>
+            <div className="service-icon">{item.icon}</div>
             <h3>{item.title}</h3>
-            <p>{item.desc}</p>
             <Link to={item.link}>Learn More &gt;</Link>
           </div>
         ))}
