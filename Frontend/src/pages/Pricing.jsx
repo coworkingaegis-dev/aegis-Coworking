@@ -411,7 +411,7 @@ function Pricing() {
             </div>
            <ul className="pricing-features">
   <li>Office address suitable for an ADGM license</li>
-  <li>Complimentary corporate VAT and Tax registration support</li>
+
   <li>24/7 access</li>
   <li>Dedicated lockers for storge</li>
   <li>Extra meeting room credits every month</li>
@@ -431,7 +431,7 @@ function Pricing() {
             </div>
             <ul className="pricing-features">
               <li>Office address suitable for an ADGM license</li>
-  <li>Complimentary corporate VAT and Tax registration support</li>
+  
               <ul className="pricing-features">
   <li>Fully furnished, ready-to-use private office</li>
   <li>Configurable layout to suit your team</li>
