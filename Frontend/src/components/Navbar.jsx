@@ -112,6 +112,86 @@
 
 
 
+// import { useState } from 'react'
+// import { Link } from 'react-router-dom'
+// import aegisLogo from '../assets/aegis-logo-transparent.png'
+
+// function Navbar() {
+//   const [menuOpen, setMenuOpen] = useState(false)
+//   const [dropdownOpen, setDropdownOpen] = useState(false)
+
+//   const closeAll = () => {
+//     setMenuOpen(false)
+//     setDropdownOpen(false)
+//   }
+
+//   return (
+//     <nav className="navbar">
+//       <Link to="/" className="logo-link" onClick={closeAll}>
+//         <div className="logo">
+//           <img src={aegisLogo} alt="Aegis Coworking" className="logo-img" />
+//           AEGIS <span className="logo-accent">COWORKING</span>
+//         </div>
+//       </Link>
+//       <ul className={`nav-links ${menuOpen ? 'nav-links-open' : ''}`}>
+//         <li><Link to="/" onClick={closeAll}>Home</Link></li>
+//         <li><Link to="/pricing" onClick={closeAll}>Hot Deals</Link></li>
+//         <li><Link to="/office-spaces" onClick={closeAll}>Office Desk</Link></li>
+//         <li><Link to="/private-office" onClick={closeAll}>Private Office</Link></li>
+//         <li
+//           className={`dropdown ${dropdownOpen ? 'dropdown-open' : ''}`}
+//           onClick={() => setDropdownOpen(!dropdownOpen)}
+//         >
+//           More ▾
+//           <ul className="dropdown-menu">
+//             <li><Link to="/virtual-office" onClick={closeAll}>Virtual Office</Link></li>
+//             <li><Link to="/meeting-room" onClick={closeAll}>Meeting Room</Link></li>
+//             {/* <li><Link to="/presentation-room" onClick={closeAll}>Presentation Room</Link></li> */}
+//             <li><Link to="/day-pass" onClick={closeAll}>Day Pass</Link></li>
+//           </ul>
+//         </li>
+//         <li><Link to="/contact" onClick={closeAll}>Contact Us</Link></li>
+//         <li className="nav-mobile-cta">
+//           <Link to="/contact" onClick={closeAll}>
+//             <button className="btn-primary">REQUEST QUOTE</button>
+//           </Link>
+//         </li>
+//       </ul>
+//       <Link to="/contact" className="nav-desktop-cta">
+//         <button className="btn-primary">REQUEST QUOTE</button>
+//       </Link>
+//       <button
+//         className={`nav-toggle ${menuOpen ? 'open' : ''}`}
+//         onClick={() => setMenuOpen(!menuOpen)}
+//         aria-label="Toggle menu"
+//       >
+//         <span></span>
+//         <span></span>
+//         <span></span>
+//       </button>
+//     </nav>
+//   )
+// }
+
+// export default Navbar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import aegisLogo from '../assets/aegis-logo-transparent.png'
@@ -119,10 +199,12 @@ import aegisLogo from '../assets/aegis-logo-transparent.png'
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
   const [dropdownOpen, setDropdownOpen] = useState(false)
+  const [whoWeServeOpen, setWhoWeServeOpen] = useState(false)
 
   const closeAll = () => {
     setMenuOpen(false)
     setDropdownOpen(false)
+    setWhoWeServeOpen(false)
   }
 
   return (
@@ -135,6 +217,20 @@ function Navbar() {
       </Link>
       <ul className={`nav-links ${menuOpen ? 'nav-links-open' : ''}`}>
         <li><Link to="/" onClick={closeAll}>Home</Link></li>
+
+        <li
+          className={`dropdown ${whoWeServeOpen ? 'dropdown-open' : ''}`}
+          onClick={() => setWhoWeServeOpen(!whoWeServeOpen)}
+        >
+          Who We Serve ▾
+          <ul className="dropdown-menu">
+            <li>Freelancers</li>
+            <li>Startups</li>
+            <li>Individuals</li>
+            <li>Small Businesses</li>
+          </ul>
+        </li>
+
         <li><Link to="/pricing" onClick={closeAll}>Hot Deals</Link></li>
         <li><Link to="/office-spaces" onClick={closeAll}>Office Desk</Link></li>
         <li><Link to="/private-office" onClick={closeAll}>Private Office</Link></li>
