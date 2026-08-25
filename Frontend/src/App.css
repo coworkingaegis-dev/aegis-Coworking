@@ -2218,15 +2218,15 @@ a {
   overflow: hidden;
   position: relative;
   max-width: 100%;
-  mask-image: linear-gradient(90deg, transparent 0%, #000 8%, #000 92%, transparent 100%);
-  -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 8%, #000 92%, transparent 100%);
+  mask-image: linear-gradient(90deg, transparent 0%, #000 3%, #000 97%, transparent 100%);
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 3%, #000 97%, transparent 100%);
 }
 
 .testimonials-track {
   display: flex;
   gap: 28px;
   width: max-content;
-  animation: scrollTestimonials 30s linear infinite;
+  animation: scrollTestimonials 50s linear infinite;
 }
 
 .testimonials-marquee:hover .testimonials-track {
