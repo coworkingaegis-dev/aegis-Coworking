@@ -95,7 +95,11 @@ const amenities = [
 function Amenities() {
   return (
     <section className="amenities">
+      <span className="contact-eyebrow">WHAT'S INCLUDED</span>
       <h2>ADGM AMENITIES</h2>
+      <p className="subtitle">
+        Premium coworking amenities in Abu Dhabi's ADGM.
+      </p>
       <div className="amenities-grid">
         {amenities.map((item, i) => (
           <div className="amenity-item" key={i}>
