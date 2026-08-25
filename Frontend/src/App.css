@@ -329,14 +329,13 @@ a {
 
 .amenities-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   row-gap: 32px;
-  column-gap: 32px;
-  max-width: 900px;
+  column-gap: 28px;
+  max-width: 1100px;
   margin: 0 auto;
   text-align: left;
 }
-
 .amenity-item {
   display: flex;
   align-items: center;
@@ -358,9 +357,11 @@ a {
 }
 
 @media (max-width: 900px) {
-  .amenities {
-    padding: 50px 24px;
+  .amenities-grid {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 28px;
   }
+}
 
   .amenities-grid {
     grid-template-columns: 1fr 1fr;
