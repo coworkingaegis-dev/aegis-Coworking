@@ -268,7 +268,7 @@ import Footer from '../components/Footer'
 const faqs = [
   {
   q: "How much does coworking cost in Abu Dhabi (ADGM)?",
-  a: "At Aegis Coworking, the cheapest coworking space in Abu Dhabi's ADGM district starts from AED 1,000/month for a hot desk, AED 1,150/month for a dedicated desk, AED 3,500/month for a virtual office, and AED 4,500/month for a private office.",
+  a: "At Aegis Coworking, the cheapest coworking space in Abu Dhabi's ADGM district starts from AED 1,000/month for a hot desk, AED 1,150/month for a dedicated desk, AED 3,500/year for a virtual office, and AED 4,500/month for a private office.",
 },
   {
     q: "Is there a cheaper option than a dedicated desk?",
@@ -280,7 +280,7 @@ const faqs = [
   },
   {
     q: "How much does a virtual office cost in ADGM?",
-    a: "Aegis Coworking's virtual office starts from AED 3,500/month and includes a registered ADGM business address suitable for company registration, without requiring a physical desk.",
+    a: "Aegis Coworking's virtual office starts from AED 3,500/year and includes a registered ADGM business address suitable for company registration, without requiring a physical desk.",
   },
   {
     q: "Are there any hidden fees?",
@@ -299,17 +299,17 @@ function Pricing() {
     <>
       <Helmet>
        <title>Cheapest Coworking Space in Abu Dhabi | Aegis Coworking</title>
-        <meta
-          name="description"
-           content="Compare Aegis Coworking's ADGM pricing in Abu Dhabi: hot desks from AED 1,000, dedicated desks from AED 1,150, virtual offices from AED 3,500, private offices from AED 4,500/month."
-        />
+       <meta
+  name="description"
+   content="Compare Aegis Coworking's ADGM pricing in Abu Dhabi: hot desks from AED 1,000/month, dedicated desks from AED 1,150/month, private offices from AED 4,500/month, virtual offices from AED 3,500/year."
+/>
         <link rel="canonical" href="https://www.aegiscoworking.ae/pricing" />
 
         <meta property="og:title" content="Cheapest Coworking Space in Abu Dhabi | Aegis Coworking" />
-        <meta
-          property="og:description"
-          content="Compare Aegis Coworking's ADGM pricing in Abu Dhabi — hot desks from AED 1,000, dedicated desks from AED 1,150, virtual offices from AED 3,500, private offices from AED 4,500/month."
-        />
+       <meta
+  property="og:description"
+  content="Compare Aegis Coworking's ADGM pricing in Abu Dhabi — hot desks from AED 1,000/month, dedicated desks from AED 1,150/month, private offices from AED 4,500/month, virtual offices from AED 3,500/year."
+/>
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.aegiscoworking.ae/pricing" />
         <meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
@@ -431,10 +431,8 @@ function Pricing() {
              <span className="pricing-strike">6,500</span>{' '}
               AED 4,500<span>/month</span>
             </div>
-            <ul className="pricing-features">
-              <li>Office address suitable for an ADGM license</li>
-  
-              <ul className="pricing-features">
+           <ul className="pricing-features">
+  <li>Office address suitable for an ADGM license</li>
   <li>Fully furnished, ready-to-use private office</li>
   <li>Configurable layout to suit your team</li>
   <li>Priority support from our team</li>
