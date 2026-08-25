@@ -292,6 +292,7 @@ import CreateBlog from './pages/CreateBlog'
 import BlogDetail from './pages/BlogDetail'
 import PresentationRoom from './pages/PresentationRoom'
 import About from './pages/About'
+import Membership from './pages/Membership'
 import './App.css'
 
 function App() {
@@ -346,6 +347,7 @@ function App() {
         <Route path="/create-blog" element={<CreateBlog />} />
         <Route path="/blog/:id" element={<BlogDetail />} />
         <Route path="/presentation-room" element={<PresentationRoom />} />
+        <Route path="/membership" element={<Membership />} />
         <Route path="/about" element={<About />} />
       </Routes>
     </>
