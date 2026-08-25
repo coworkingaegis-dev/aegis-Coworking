@@ -196,31 +196,68 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import aegisLogo from '../assets/aegis-logo-transparent.png'
 
+const ACCENT = '#1f4d3a' // swap for your exact brand green (matches REQUEST QUOTE button)
+
 const whoWeServeStyles = {
   panel: {
     display: 'grid',
-    gridTemplateColumns: '1.4fr 1fr',
-    gap: '24px',
+    gridTemplateColumns: '1.5fr 1fr',
+    gap: '36px',
     position: 'absolute',
     top: '100%',
     left: 0,
-    width: '480px',
+    width: '660px',
     background: '#fff',
-    borderRadius: '8px',
-    boxShadow: '0 12px 32px rgba(0, 0, 0, 0.15)',
-    padding: '28px',
+    borderRadius: '12px',
+    boxShadow: '0 16px 40px rgba(0, 0, 0, 0.16)',
+    border: '1px solid rgba(0, 0, 0, 0.06)',
+    padding: '40px',
     zIndex: 100,
   },
+  accentLine: {
+    width: '36px',
+    height: '3px',
+    background: ACCENT,
+    borderRadius: '2px',
+    marginBottom: '16px',
+  },
   heading: {
-    fontSize: '1.3rem',
-    fontWeight: 500,
-    margin: '0 0 10px',
+    fontSize: '1.45rem',
+    fontWeight: 600,
+    letterSpacing: '-0.01em',
+    margin: '0 0 16px',
+    color: '#111',
   },
   paragraph: {
+    fontSize: '0.92rem',
+    color: '#5c5c5c',
+    lineHeight: 1.75,
+    margin: '0 0 24px',
+    maxWidth: '340px',
+  },
+  learnMore: (isHovered) => ({
+    display: 'inline-flex',
+    alignItems: 'center',
+    gap: '6px',
     fontSize: '0.85rem',
-    color: '#555',
-    lineHeight: 1.5,
-    margin: 0,
+    fontWeight: 600,
+    color: ACCENT,
+    textDecoration: 'none',
+    borderBottom: isHovered ? `1px solid ${ACCENT}` : '1px solid transparent',
+    paddingBottom: '2px',
+    transition: 'border-color 0.15s ease',
+  }),
+  divider: {
+    borderLeft: '1px solid rgba(0, 0, 0, 0.08)',
+    paddingLeft: '32px',
+  },
+  linksLabel: {
+    fontSize: '0.72rem',
+    fontWeight: 600,
+    letterSpacing: '0.06em',
+    textTransform: 'uppercase',
+    color: '#999',
+    margin: '0 0 18px',
   },
   linksList: {
     listStyle: 'none',
@@ -228,8 +265,42 @@ const whoWeServeStyles = {
     padding: 0,
     display: 'flex',
     flexDirection: 'column',
-    gap: '18px',
+    gap: '6px',
+  },
+  linkItem: (isHovered) => ({
+    display: 'flex',
+    alignItems: 'flex-start',
+    gap: '10px',
+    padding: '10px 8px',
+    borderRadius: '6px',
+    background: isHovered ? 'rgba(31, 77, 58, 0.06)' : 'transparent',
+    cursor: 'pointer',
+    transition: 'background 0.15s ease',
+  }),
+  dot: (isHovered) => ({
+    width: '6px',
+    height: '6px',
+    borderRadius: '50%',
+    background: isHovered ? ACCENT : '#ccc',
+    flexShrink: 0,
+    marginTop: '6px',
+    transition: 'background 0.15s ease',
+  }),
+  linkText: (isHovered) => ({
+    display: 'flex',
+    flexDirection: 'column',
+    gap: '2px',
+  }),
+  linkTitle: (isHovered) => ({
     fontSize: '0.95rem',
+    fontWeight: 500,
+    color: isHovered ? ACCENT : '#222',
+    transition: 'color 0.15s ease',
+  }),
+  linkSubtitle: {
+    fontSize: '0.78rem',
+    color: '#999',
+    lineHeight: 1.4,
   },
 }
 
@@ -237,12 +308,20 @@ function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
   const [dropdownOpen, setDropdownOpen] = useState(false)
   const [whoWeServeOpen, setWhoWeServeOpen] = useState(false)
+  const [hoveredLink, setHoveredLink] = useState(null)
 
   const closeAll = () => {
     setMenuOpen(false)
     setDropdownOpen(false)
     setWhoWeServeOpen(false)
   }
+
+  const audiences = [
+    { title: 'Freelancers', subtitle: 'Flexible desks for solo professionals' },
+    { title: 'Startups', subtitle: 'Room to grow, from one desk to a full team' },
+    { title: 'Individuals', subtitle: 'Flexible workspace access, no long-term commitment' },
+    { title: 'Small Businesses', subtitle: 'Dedicated space to run and scale your team' },
+  ]
 
   return (
     <nav className="navbar">
@@ -260,24 +339,50 @@ function Navbar() {
           onClick={() => setWhoWeServeOpen(!whoWeServeOpen)}
           style={{ position: 'relative' }}
         >
-          Who We Serve
+          Who We Serve ▾
           {whoWeServeOpen && (
             <div style={whoWeServeStyles.panel}>
               <div>
+                <div style={whoWeServeStyles.accentLine} />
                 <h3 style={whoWeServeStyles.heading}>Who we serve</h3>
                 <p style={whoWeServeStyles.paragraph}>
-                  Aegis Coworking is ADGM's flexible workspace at Addax
-                  Tower, Al Reem Island — offering 24/7 access, high-speed
-                  fibre internet, and a growing community of 200+ members
-                  across freelancers, startups, and growing businesses.
+                  With a home in ADGM's Addax Tower on Al Reem Island and a
+                  full suite of workspace solutions, Aegis Coworking offers
+                  an affordable, flexible coworking space for businesses of
+                  every size.
                 </p>
+                <Link
+                  to="/office-spaces"
+                  onClick={closeAll}
+                  style={whoWeServeStyles.learnMore(hoveredLink === 'learn-more')}
+                  onMouseEnter={() => setHoveredLink('learn-more')}
+                  onMouseLeave={() => setHoveredLink(null)}
+                >
+                  Learn more →
+                </Link>
               </div>
-              <ul style={whoWeServeStyles.linksList}>
-                <li>Freelancers</li>
-                <li>Startups</li>
-                <li>Individuals</li>
-                <li>Small Businesses</li>
-              </ul>
+
+              <div style={whoWeServeStyles.divider}>
+                <p style={whoWeServeStyles.linksLabel}>Built For</p>
+                <ul style={whoWeServeStyles.linksList}>
+                  {audiences.map(({ title, subtitle }) => (
+                    <li
+                      key={title}
+                      style={whoWeServeStyles.linkItem(hoveredLink === title)}
+                      onMouseEnter={() => setHoveredLink(title)}
+                      onMouseLeave={() => setHoveredLink(null)}
+                    >
+                      <span style={whoWeServeStyles.dot(hoveredLink === title)} />
+                      <span style={whoWeServeStyles.linkText(hoveredLink === title)}>
+                        <span style={whoWeServeStyles.linkTitle(hoveredLink === title)}>
+                          {title}
+                        </span>
+                        <span style={whoWeServeStyles.linkSubtitle}>{subtitle}</span>
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           )}
         </li>
