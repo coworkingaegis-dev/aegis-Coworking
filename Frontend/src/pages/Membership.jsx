@@ -32,6 +32,14 @@ const membershipFaqs = [
   },
 ]
 
+const membershipGridStyle = {
+  display: 'grid',
+  gridTemplateColumns: 'repeat(4, 1fr)',
+  gap: '24px',
+  maxWidth: '1300px',
+  margin: '0 auto',
+}
+
 function Membership() {
   const [openIndex, setOpenIndex] = useState(null)
   const toggleFAQ = (i) => setOpenIndex(openIndex === i ? null : i)
@@ -156,10 +164,10 @@ function Membership() {
       <section className="perfect-for">
         <span className="contact-eyebrow">CHOOSE YOUR PLAN</span>
         <h2>Aegis Coworking Membership Plans</h2>
-        <div className="perfect-for-grid">
+        <div className="perfect-for-grid" style={membershipGridStyle}>
           <div className="perfect-for-card">
             <div className="perfect-for-icon">💺</div>
-            <h4>HOT DESK — FROM AED 1,000/MONTH</h4>
+            <h4>HOT DESK</h4>
             <p>
               Shared workspace access, high-speed internet and meeting room
               credits. The cheapest coworking membership in ADGM, ideal for
@@ -169,7 +177,7 @@ function Membership() {
           </div>
           <div className="perfect-for-card">
             <div className="perfect-for-icon">🖥️</div>
-            <h4>DEDICATED DESK — FROM AED 1,150/MONTH</h4>
+            <h4>DEDICATED DESK</h4>
             <p>
               Your own permanent desk with 24/7 access and an ADGM-eligible
               office address, in Addax Tower.
@@ -178,21 +186,21 @@ function Membership() {
           </div>
           <div className="perfect-for-card">
             <div className="perfect-for-icon">📍</div>
-            <h4>VIRTUAL OFFICE — FROM AED 3,500/MONTH</h4>
+            <h4>VIRTUAL OFFICE</h4>
             <p>
               A registered ADGM business address with mail handling — no
               physical desk required.
             </p>
-            <Link to="/virtual-office" className="reserve-link">Learn more →</Link>
+            <Link to="/pricing" className="reserve-link">See pricing →</Link>
           </div>
           <div className="perfect-for-card">
             <div className="perfect-for-icon">🚪</div>
-            <h4>PRIVATE OFFICE — FROM AED 4,500/MONTH</h4>
+            <h4>PRIVATE OFFICE</h4>
             <p>
               A lockable, fully furnished suite for teams who need privacy
               and space to grow.
             </p>
-            <Link to="/private-office" className="reserve-link">Learn more →</Link>
+             <Link to="/pricing" className="reserve-link">See pricing →</Link>
           </div>
         </div>
       </section>
