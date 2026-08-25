@@ -339,7 +339,7 @@ function Navbar() {
           onClick={() => setWhoWeServeOpen(!whoWeServeOpen)}
           style={{ position: 'relative' }}
         >
-          Who We Serve ▾
+          Who We Serve
           {whoWeServeOpen && (
             <div style={whoWeServeStyles.panel}>
               <div>
@@ -352,7 +352,7 @@ function Navbar() {
                   every size.
                 </p>
                 <Link
-                  to="/office-spaces"
+                  to="/pricing"
                   onClick={closeAll}
                   style={whoWeServeStyles.learnMore(hoveredLink === 'learn-more')}
                   onMouseEnter={() => setHoveredLink('learn-more')}
