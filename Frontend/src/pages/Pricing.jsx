@@ -427,7 +427,7 @@ function Pricing() {
             <h3>PRIVATE OFFICE</h3>
             <p className="pricing-subtitle">Cheapest private office in ADGM, for teams & companies</p>
             <div className="pricing-price">
-              From AED 4,500<span>/month</span>
+              AED 4,500<span>/month</span>
             </div>
             <ul className="pricing-features">
               <li>Fully furnished private office</li>
@@ -446,7 +446,7 @@ function Pricing() {
             <h3>VIRTUAL OFFICE</h3>
             <p className="pricing-subtitle">Cheapest virtual office in ADGM, registered business address</p>
             <div className="pricing-price">
-              From AED 3,500<span>/month</span>
+              AED 3,500<span>/month</span>
             </div>
             <ul className="pricing-features">
               <li>Registered ADGM business address</li>
