@@ -437,7 +437,7 @@ function Pricing() {
   <li>Configurable layout to suit your team</li>
   <li>Priority support from our team</li>
   <li>All Dedicated Desk benefits</li>
-</ul>
+
             </ul>
             <Link to="/contact">
               <button className="btn-pricing-solid">Get Started</button>
