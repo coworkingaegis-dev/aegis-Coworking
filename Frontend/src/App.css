@@ -362,13 +362,6 @@ a {
     row-gap: 28px;
   }
 }
-
-  .amenities-grid {
-    grid-template-columns: 1fr 1fr;
-    row-gap: 28px;
-  }
-}
-
 @media (max-width: 600px) {
   .amenities-grid {
     grid-template-columns: 1fr;
