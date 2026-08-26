@@ -12,7 +12,7 @@ function VOTierCard({ image, eyebrow, title, desc, buttons, imageLeft = true, ti
   return (
     <section className={`vo-tier ${imageLeft ? '' : 'vo-tier-reverse'}`}>
       <div className="vo-tier-image">
-        <img src={image} alt={title} />
+<img src={image} alt={title} loading="lazy" />
       </div>
       <div className="vo-tier-content">
         {tier && (
