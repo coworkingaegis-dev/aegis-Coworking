@@ -201,11 +201,88 @@
 
 
 
+// const features = [
+//   { icon: "🏙️", title: "Prime Location" },
+//   { icon: "🔐", title: "24/7 Access" },
+//   { icon: "🤝", title: "Thriving Business Community" },
+//   { icon: "⚡", title: "Flexible Office Space" }
+// ]
+
+// const whyUsStyles = {
+//   section: {
+//     padding: '80px 60px',
+//     textAlign: 'center',
+//     background: 'var(--color-bg-alt)',
+//   },
+//   heading: {
+//     fontSize: '34px',
+//     fontWeight: 800,
+//     margin: '12px 0 50px',
+//     color: 'var(--color-text)',
+//   },
+//   box: {
+//     display: 'grid',
+//     gridTemplateColumns: 'repeat(2, 1fr)',
+//     maxWidth: '760px',
+//     margin: '0 auto',
+//     background: '#ffffff',
+//     borderRadius: 'var(--radius-md)',
+//     boxShadow: '0 4px 16px rgba(31, 92, 70, 0.06)',
+//     overflow: 'hidden',
+//   },
+//   item: {
+//     padding: '40px 24px',
+//   },
+//   icon: {
+//     fontSize: '34px',
+//     marginBottom: '14px',
+//   },
+//   title: {
+//     fontSize: '16px',
+//     fontWeight: 700,
+//     color: 'var(--color-text)',
+//     margin: 0,
+//   },
+// }
+
+// function WhyChooseUs() {
+//   return (
+//     <section style={whyUsStyles.section}>
+//       <span className="contact-eyebrow">WORKSPACE BENEFITS</span>
+//       <h2 style={whyUsStyles.heading}>Why Choose AEGIS Coworking Space in Abu Dhabi</h2>
+//       <div style={whyUsStyles.box}>
+//         {features.map((f, i) => (
+//           <div key={i} style={whyUsStyles.item}>
+//             <div style={whyUsStyles.icon}>{f.icon}</div>
+//             <h4 style={whyUsStyles.title}>{f.title}</h4>
+//           </div>
+//         ))}
+//       </div>
+//     </section>
+//   )
+// }
+
+// export default WhyChooseUs
+
+
+
+
+
+
+
+
+
+
+
+
+
 const features = [
   { icon: "🏙️", title: "Prime Location" },
   { icon: "🔐", title: "24/7 Access" },
-  { icon: "🤝", title: "Thriving Business Community" },
-  { icon: "⚡", title: "Flexible Office Space" }
+  { icon: "📶", title: "WiFi" },
+  { icon: "⚡", title: "Flexible Membership" },
+  { icon: "💰", title: "Affordable Desk" },
+  { icon: "🤝", title: "Thriving Business Community" }
 ]
 
 const whyUsStyles = {
@@ -220,25 +297,34 @@ const whyUsStyles = {
     margin: '12px 0 50px',
     color: 'var(--color-text)',
   },
-  box: {
-    display: 'grid',
-    gridTemplateColumns: 'repeat(2, 1fr)',
-    maxWidth: '760px',
+  orbitWrap: {
+    position: 'relative',
+    width: '800px',
+    height: '800px',
     margin: '0 auto',
+  },
+  box: {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    display: 'grid',
+    gridTemplateColumns: 'repeat(3, 1fr)',
+    width: '600px',
     background: '#ffffff',
     borderRadius: 'var(--radius-md)',
     boxShadow: '0 4px 16px rgba(31, 92, 70, 0.06)',
     overflow: 'hidden',
+    animation: 'orbitMove 12s linear infinite',
   },
   item: {
-    padding: '40px 24px',
+    padding: '36px 20px',
   },
   icon: {
-    fontSize: '34px',
-    marginBottom: '14px',
+    fontSize: '32px',
+    marginBottom: '12px',
   },
   title: {
-    fontSize: '16px',
+    fontSize: '15px',
     fontWeight: 700,
     color: 'var(--color-text)',
     margin: 0,
@@ -248,15 +334,23 @@ const whyUsStyles = {
 function WhyChooseUs() {
   return (
     <section style={whyUsStyles.section}>
+      <style>{`
+        @keyframes orbitMove {
+          0%   { transform: translate(-50%, -50%) rotate(0deg) translateX(140px) rotate(0deg); }
+          100% { transform: translate(-50%, -50%) rotate(360deg) translateX(140px) rotate(-360deg); }
+        }
+      `}</style>
       <span className="contact-eyebrow">WORKSPACE BENEFITS</span>
       <h2 style={whyUsStyles.heading}>Why Choose AEGIS Coworking Space in Abu Dhabi</h2>
-      <div style={whyUsStyles.box}>
-        {features.map((f, i) => (
-          <div key={i} style={whyUsStyles.item}>
-            <div style={whyUsStyles.icon}>{f.icon}</div>
-            <h4 style={whyUsStyles.title}>{f.title}</h4>
-          </div>
-        ))}
+      <div style={whyUsStyles.orbitWrap}>
+        <div style={whyUsStyles.box}>
+          {features.map((f, i) => (
+            <div key={i} style={whyUsStyles.item}>
+              <div style={whyUsStyles.icon}>{f.icon}</div>
+              <h4 style={whyUsStyles.title}>{f.title}</h4>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   )
