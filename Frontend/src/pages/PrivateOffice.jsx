@@ -7,7 +7,7 @@ import Footer from '../components/Footer'
 
 import smallOfficeImg from '../assets/po-small.jpg'
 import mediumOfficeImg from '../assets/po-medium.jpg'
-import largeOfficeImg from '../assets/po-large.jpeg'
+
 
 const faqs = [
   {
