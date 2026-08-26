@@ -1,4 +1,4 @@
-import officeImage from '../assets/office-workspace.jfif'
+import officeImage from '../assets/office-workspace.jpg'
 
 function VirtualOfficeGallery() {
   return (
