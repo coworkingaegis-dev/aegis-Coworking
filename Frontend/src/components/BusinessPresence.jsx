@@ -5,9 +5,10 @@ function BusinessPresence() {
       <h2>A Real ADGM Presence, Without the Overhead</h2>
       <p className="bp-intro">
         Register and operate your company inside Abu Dhabi Global Market — one of the UAE's
-        leading financial free zones — without the cost of a full-time office. Your virtual
-        office includes a registered address at Addax Tower, Al Reem Island, and everything
-        you need to operate with credibility from day one.
+        leading financial free zones — without the cost of a full-time office. As an ADGM
+        registered office provider, Aegis Coworking's virtual office includes a registered
+        ADGM business address at Addax Tower, Al Reem Island, and everything you need to
+        operate with credibility from day one.
       </p>
 
       <div className="bp-columns">
@@ -28,7 +29,6 @@ function BusinessPresence() {
           <ul>
             <li>Mail receiving, sorting, scanning and forwarding worldwide</li>
             <li>Live call answering in your company name during business hours</li>
-            <li>5 hours of monthly meeting room access inside ADGM</li>
             <li>Company name listed on the building directory</li>
             <li>Assistance with ADGM licensing paperwork and renewals</li>
             <li>Seamless upgrade to a dedicated desk or private office on-site</li>
