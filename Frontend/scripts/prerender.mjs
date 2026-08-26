@@ -137,8 +137,8 @@ const STATIC_ROUTES = [
   '/pricing',
   '/blogs',
   '/presentation-room',
+  '/membership',
 ]
-
 const supabase = createClient(
   process.env.VITE_SUPABASE_URL,
   process.env.VITE_SUPABASE_ANON_KEY
