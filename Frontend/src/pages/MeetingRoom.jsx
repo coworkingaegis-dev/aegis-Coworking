@@ -438,30 +438,40 @@ import Footer from '../components/Footer'
 import { Link } from 'react-router-dom'
 import meetingRoomBanner from '../assets/meeting-room-banner.jpg'
 const faqs = [
- 
   {
-    q: "Can anyone book a meeting room in Abu Dhabi at Aegis Coworking?",
-    a: "Yes, meeting rooms can be booked by non-members on an hourly basis, subject to availability at Addax Tower.",
+    q: "Can anyone book a meeting room in ADGM?",
+    a: "Yes. Members and non-members can book a meeting room in ADGM on an hourly basis, subject to availability at Aegis Coworking in Addax Tower."
   },
   {
     q: "What's included with your meeting rooms in ADGM?",
-    a: "Our meeting rooms are fully equipped with high-speed WiFi, screens for presentations, and a professional setting suited for client meetings and team sessions.",
+    a: "Our meeting rooms in ADGM include high-speed WiFi, presentation screens, comfortable seating, and a professional setting for client meetings, team sessions, and presentations."
   },
-   {
-  q: "How much does a meeting room in Abu Dhabi cost?",
-  a: "Meeting room hourly rates at Aegis Coworking vary by room size and time of day. Every membership plan includes meeting room credits at no extra cost, and non-members can book hourly at custom rates — request a quote for current pricing.",
-  aDisplay: (
-    <>
-      Meeting room hourly rates at Aegis Coworking vary by room size and time of day. Every{' '}
-      <Link to="/day-pass" className="inline-link">membership plan</Link> includes meeting
-      room credits at no extra cost, and non-members can book hourly at custom rates — see{' '}
-      <Link to="/pricing" className="inline-link">full pricing</Link> for current rates.
-    </>
-  ),
-},
   {
-    q: "How far in advance do I need to book?",
-    a: "We recommend booking in advance to guarantee availability, though same-day bookings can often be accommodated depending on the room and time slot.",
+    q: "How much does a meeting room in Abu Dhabi cost?",
+    a: "Meeting room rates at Aegis Coworking vary by room size and booking time. Members receive meeting room credits, while non-members can book meeting rooms in Abu Dhabi by the hour. See our pricing for current rates.",
+    aDisplay: (
+      <>
+        Meeting room rates at Aegis Coworking vary by room size and booking
+        time. Members receive meeting room credits, while non-members can
+        book meeting rooms in Abu Dhabi by the hour. See{' '}
+        <Link to="/pricing" className="inline-link">
+          full pricing
+        </Link>{' '}
+        for current rates.
+      </>
+    ),
+  },
+  {
+    q: "Where are the meeting rooms located?",
+    a: "Our meeting rooms are located in Addax Tower, Al Reem Island, within Abu Dhabi Global Market (ADGM), providing a convenient and professional business setting."
+  },
+  {
+    q: "Can I book a meeting room in Abu Dhabi Global Market for a client meeting?",
+    a: "Yes. Our meeting rooms in Abu Dhabi Global Market are suitable for client meetings, presentations, interviews, team discussions, and business meetings."
+  },
+  {
+    q: "How far in advance do I need to book a meeting room?",
+    a: "We recommend booking in advance to secure your preferred meeting room and time. Same-day bookings may also be available depending on the room and time slot."
   },
 ]
 function MeetingRoom() {
