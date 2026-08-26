@@ -44,10 +44,30 @@ function About() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={SEO.title} />
         <meta name="twitter:description" content={SEO.description} />
-        <script type="application/ld+json">
-          {JSON.stringify(aboutPageSchema)}
-        </script>
-      </Helmet>
+<script type="application/ld+json">
+  {JSON.stringify(aboutPageSchema)}
+</script>
+<script type="application/ld+json">
+  {JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://www.aegiscoworking.ae/"
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "About Us",
+        item: "https://www.aegiscoworking.ae/about"
+      }
+    ]
+  })}
+</script>
+</Helmet>
 
       <Navbar />
 
