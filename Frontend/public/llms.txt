@@ -20,6 +20,16 @@ Aegis Coworking provides flexible workspace solutions for freelancers, startups,
 - Presentation Rooms
 - Coworking Day Passes
 
+## Membership
+
+- Aegis Coworking offers four membership plans: Hot Desk, Dedicated Desk, Virtual Office, and Private Office.
+- Hot Desk — shared workspace, from AED 1,000/month, no long-term commitment.
+- Dedicated Desk — a permanent personal desk, from AED 1,150/month, includes a registered ADGM business address.
+- Virtual Office — a registered ADGM business address without a physical desk, from AED 3,500/year.
+- Private Office — a lockable furnished suite for teams, from AED 4,500/month, includes a registered ADGM business address.
+- Members can upgrade between plans at any time at preferential rates as their business grows.
+- Dedicated Desk, Virtual Office, and Private Office memberships include a registered address suitable for ADGM company registration and licence renewal.
+
 ## Pricing Overview
 
 - Hot Desk — From AED 1,000/month
@@ -43,6 +53,7 @@ Aegis Coworking provides flexible workspace solutions for freelancers, startups,
 
 - [Home](https://www.aegiscoworking.ae/) — Overview of Aegis Coworking.
 - [Pricing](https://www.aegiscoworking.ae/pricing) — Membership plans and pricing.
+- [Membership](https://www.aegiscoworking.ae/membership) — Coworking membership plans and options.
 - [Office Spaces](https://www.aegiscoworking.ae/office-spaces) — Dedicated desks and flexible office space.
 - [Private Office](https://www.aegiscoworking.ae/private-office) — Furnished private offices.
 - [Virtual Office](https://www.aegiscoworking.ae/virtual-office) — Registered ADGM business address.
