@@ -127,36 +127,36 @@ function Membership() {
         <span className="contact-eyebrow">MEMBERSHIP EXPLAINED</span>
         <h2>What Is a Coworking Membership?</h2>
         <p className="bp-intro">
-          In simple terms, a coworking membership is how you pay to use a
-          workspace — instead of signing a traditional office lease, you pick
-          a plan that matches how much space and access you actually need.
-          At Aegis Coworking, that could mean a single day pass, a shared
-          desk you use every day, your own private office, or just a
-          registered ADGM address with no desk at all. Every membership is
-          based in Addax Tower, Al Reem Island, in the heart of ADGM.
+         A coworking membership gives you flexible access to a professional coworking space in Abu Dhabi without the commitment of a traditional office lease. You choose a plan based on the space, facilities, and access your business needs.
+
+At Aegis Coworking, options include a coworking day pass, hot desk, dedicated desk, private office, or virtual office in ADGM. You can also get a registered ADGM business address without renting a dedicated workspace.
+
+All Aegis Coworking memberships are located in Addax Tower, Al Reem Island, in the heart of ADGM, Abu Dhabi, giving businesses a professional and flexible workspace in a prime business location.
+
         </p>
 
         <div className="bp-columns">
           <div className="bp-column">
-            <div className="bp-column-icon">🔑</div>
-            <h4>HOW MEMBERSHIP WORKS</h4>
-            <ul>
-              <li>Choose the plan that matches your work style and budget</li>
-              <li>Pay monthly — no long, fixed multi-year lease required</li>
-              <li>Upgrade to a bigger plan any time your business grows</li>
-              <li>Higher-tier plans include a registered ADGM address</li>
-            </ul>
-          </div>
-          <div className="bp-column">
-            <div className="bp-column-icon">👥</div>
-            <h4>WHO MEMBERSHIP IS FOR</h4>
-            <ul>
-              <li>Freelancers and remote workers needing an occasional desk</li>
-              <li>Startups registering their first ADGM company address</li>
-              <li>Growing teams that have outgrown working from home</li>
-              <li>Established businesses wanting a private, lockable office</li>
-            </ul>
-          </div>
+           <div className="bp-column-icon">🔑</div>
+<h4>HOW MEMBERSHIP WORKS</h4>
+<ul>
+  <li>Choose a coworking membership that fits your workspace needs and budget</li>
+  <li>Pay monthly without committing to a traditional long-term office lease</li>
+  <li>Upgrade your coworking plan as your business grows</li>
+  <li>Select plans include a registered ADGM business address</li>
+</ul>
+</div>
+<div className="bp-column">
+  <div className="bp-column-icon">👥</div>
+  <h4>WHO MEMBERSHIP IS FOR</h4>
+  <ul>
+    <li>Freelancers and remote workers looking for a flexible coworking space</li>
+    <li>Startups that need an ADGM registered business address</li>
+    <li>Growing businesses looking for professional office space in Abu Dhabi</li>
+    <li>Established teams needing a private office in ADGM</li>
+  </ul>
+</div>
+
         </div>
       </section>
 
