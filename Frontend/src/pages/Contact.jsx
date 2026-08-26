@@ -1,47 +1,3 @@
-// import { Helmet } from 'react-helmet-async'
-// import Navbar from '../components/Navbar'
-// import ContactForm from '../components/ContactForm'
-// import Footer from '../components/Footer'
-
-// function Contact() {
-//   return (
-//     <div className="App">
-//       <Helmet>
-//         <title>Contact Us | Aegis Coworking, ADGM Addax Tower</title>
-//         <meta
-//           name="description"
-//           content="Get in touch with Aegis Coworking in Addax Tower, ADGM, Abu Dhabi. Book a tour or request a quote for hot desks, private offices, and virtual offices."
-//         />
-//         <link rel="canonical" href="https://aegis-coworking.vercel.app/contact" />
-//         <meta property="og:title" content="Contact Aegis Coworking | ADGM Addax Tower" />
-//         <meta
-//           property="og:description"
-//           content="Book a tour or request a quote from Aegis Coworking, Addax Tower, ADGM."
-//         />
-//         <meta property="og:type" content="website" />
-//         <meta property="og:url" content="https://aegis-coworking.vercel.app/contact" />
-//         <meta property="og:image" content="https://aegis-coworking.vercel.app/og-image.jpg" />
-//       </Helmet>
-//       <Navbar />
-//       <ContactForm />
-//       <Footer />
-//     </div>
-//   )
-// }
-
-// export default Contact
-
-
-
-
-
-
-
-
-
-
-
-
 import { Helmet } from 'react-helmet-async'
 import Navbar from '../components/Navbar'
 import ContactForm from '../components/ContactForm'
@@ -63,8 +19,28 @@ function Contact() {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.aegiscoworking.ae/contact" />
-        <meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
-      </Helmet>
+<meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
+<script type="application/ld+json">
+  {JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://www.aegiscoworking.ae/"
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Contact",
+        item: "https://www.aegiscoworking.ae/contact"
+      }
+    ]
+  })}
+</script>
+</Helmet>
       <Navbar />
       <ContactForm />
       <Footer />
