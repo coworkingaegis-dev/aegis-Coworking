@@ -407,8 +407,8 @@ a {
   color: #d8dcd9;
   padding: 72px 60px 32px;
   display: grid;
-  grid-template-columns: 2fr 1fr 1.2fr 1fr;
-  gap: 48px;
+grid-template-columns: 1.8fr 1fr 1fr 1.1fr 1fr;
+  gap: 40px;
 }
 
 .footer-brand p {
