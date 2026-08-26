@@ -1,4 +1,8 @@
 {
+  "redirects": [
+    { "source": "/offices", "destination": "/office-spaces", "permanent": true },
+    { "source": "/office-solutions", "destination": "/office-spaces", "permanent": true }
+  ],
   "rewrites": [
     { "source": "/google880ac9059f6f4d4d.html", "destination": "/google880ac9059f6f4d4d.html" },
     { "source": "/sitemap.xml", "destination": "/sitemap.xml" },
