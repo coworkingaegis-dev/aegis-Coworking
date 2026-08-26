@@ -516,29 +516,36 @@ import { Link } from 'react-router-dom'
 const faqs = [
   {
     q: "How much does a coworking day pass in Abu Dhabi cost?",
-    a: "A day pass at Aegis Coworking is AED 100 for 9 AM–6 PM access, or AED 150 for full 24-hour access, with no long-term commitment required.",
+    a: "A coworking day pass at Aegis Coworking costs AED 100 for 9 AM–6 PM access or AED 150 for 24-hour access. No membership or long-term commitment is required.",
   },
   {
-    q: "Can I book a day pass without a membership?",
-    a: "Yes, day passes are available to anyone — no membership or long-term commitment required.",
+    q: "Can I book a coworking day pass without a membership?",
+    a: "Yes. Anyone can book a coworking day pass in Abu Dhabi without a membership or long-term commitment.",
   },
   {
     q: "What's included with a coworking day pass?",
-    a: "A day pass includes hot desk access, high-speed WiFi, premium coffee, print & scan, and all amenities, with no long-term commitment.",
+    a: "The coworking day pass includes hot desk access, high-speed WiFi, premium coffee, printing and scanning, and access to the coworking space and amenities.",
   },
   {
-  q: "Can I buy a coworking day pass more than once?",
-  a: "Yes, you can purchase a day pass as often as you like — it's ideal for occasional visits or trying out the space before committing to a membership.",
-  aDisplay: (
-    <>
-      Yes, you can purchase a day pass as often as you like — it's ideal for occasional
-      visits or trying out the space before committing to a{' '}
-      <Link to="/pricing" className="inline-link">membership</Link>.
-    </>
-  ),
-},
+    q: "Can I buy a coworking day pass more than once?",
+    a: "Yes. You can purchase a coworking day pass whenever you need a professional workspace in Abu Dhabi. It is a flexible option for occasional visits, freelancers, and remote workers.",
+    aDisplay: (
+      <>
+        Yes. You can purchase a coworking day pass whenever you need a
+        professional workspace in Abu Dhabi. It is a flexible option for
+        occasional visits, freelancers, and remote workers. See our{' '}
+        <Link to="/pricing" className="inline-link">
+          pricing
+        </Link>{' '}
+        for more details.
+      </>
+    ),
+  },
+  {
+    q: "Where can I use the coworking day pass?",
+    a: "The coworking day pass gives you access to Aegis Coworking in Addax Tower, Al Reem Island, within Abu Dhabi Global Market (ADGM).",
+  },
 ]
-
 function DayPass() {
   const [openIndex, setOpenIndex] = useState(null)
 
