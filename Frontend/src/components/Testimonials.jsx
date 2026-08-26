@@ -87,7 +87,7 @@ const testimonials = [
     initials: "ML"
   },
   {
-    quote: "The private office at Aegis is a great low cost office in ADGM compared with traditional office setups. The private office space in ADGM gives our team a professional environment and room to grow.",
+    quote: "The private office at Aegis is a great cheap cost office in ADGM compared with traditional office setups. The private office space in ADGM gives our team a professional environment and room to grow.",
     name: "Bilal H.",
     role: "Company Director",
     initials: "BH"
