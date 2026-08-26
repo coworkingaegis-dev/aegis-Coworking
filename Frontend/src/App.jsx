@@ -283,7 +283,7 @@ import DayPass from './pages/DayPass'
 import MeetingRoom from './pages/MeetingRoom'
 import VirtualOffice from './pages/VirtualOffice'
 import PrivateOffice from './pages/PrivateOffice'
-import OfficeSolutions from './pages/OfficeSolutions'
+
 import Admin from './pages/Admin'
 import ScrollToTop from './components/ScrollToTop'
 import Pricing from './pages/Pricing'
@@ -340,7 +340,7 @@ function App() {
         <Route path="/meeting-room" element={<MeetingRoom />} />
         <Route path="/virtual-office" element={<VirtualOffice />} />
         <Route path="/private-office" element={<PrivateOffice />} />
-        <Route path="/offices" element={<OfficeSolutions />} />
+       
         <Route path="/admin" element={<Admin />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/blogs" element={<Blogs />} />
