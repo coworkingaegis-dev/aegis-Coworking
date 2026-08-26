@@ -129,7 +129,7 @@ function Footer() {
       <div className="footer-col">
         <h4>OPENING HOURS</h4>
         <p>24/7 Access for Members</p>
-        <p>Tours: Mon–Fri, 9am–6pm</p>
+        <p>Tours: Mon–Fri</p>
       </div>
       <div className="footer-bottom">
         <p>© 2026 Aegis Coworking. All rights reserved.</p>
