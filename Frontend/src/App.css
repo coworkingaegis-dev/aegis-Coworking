@@ -1442,7 +1442,7 @@ a {
     grid-template-columns: 1fr;
   }
 
-  .bp-columns-3 {
+  .bp-columns.bp-columns-3 {
     grid-template-columns: 1fr;
   }
 }
