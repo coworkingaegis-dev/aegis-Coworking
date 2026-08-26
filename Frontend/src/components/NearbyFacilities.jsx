@@ -84,21 +84,25 @@ function NearbyFacilities() {
     <section className="nearby-facilities">
       <span className="contact-eyebrow">THE NEIGHBORHOOD</span>
       <h2>NEARBY FACILITIES AROUND ADGM, ADDAX TOWER &amp; AL REEM ISLAND</h2>
-      <p className="nearby-intro">
-        Aegis Coworking's business centre and coworking space sits in ADGM at Addax Tower
-        on Al Reem Island, Abu Dhabi — putting members minutes from everyday essentials,
-        dining, banking and transport.
-      </p>
+     
       <div className="facilities-grid">
         <div className="facility-block">
           <div className="facility-icon">🛍️</div>
           <h4>SHOPPING</h4>
-          <p>Al Reem Island offers convenient shopping at Boutik Mall and The Galleria, featuring fashion brands, electronics, home furnishing and daily essentials.</p>
+          <ul>
+            <li>Steps from Aegis Coworking's ADGM business centre</li>
+            <li>Boutik Mall — fashion, electronics &amp; daily essentials</li>
+            <li>The Galleria, Al Reem Island — home furnishing &amp; more</li>
+          </ul>
         </div>
         <div className="facility-block">
           <div className="facility-icon">🍽️</div>
           <h4>RESTAURANTS</h4>
-          <p>A wide range of dining options including cafes, restaurants, and international cuisine available at The Galleria and nearby Reem Central Mall.</p>
+          <ul>
+            <li>Near Addax Tower, Abu Dhabi</li>
+            <li>Cafes &amp; international cuisine at The Galleria</li>
+            <li>Reem Central Mall dining options nearby</li>
+          </ul>
         </div>
         <div className="facility-block">
           <div className="facility-icon">🏦</div>
