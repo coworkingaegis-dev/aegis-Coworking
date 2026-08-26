@@ -237,47 +237,100 @@ function Admin() {
           <title>Admin Login | Aegis Coworking</title>
         </Helmet>
         <Navbar />
-        <section className="admin-section">
-          <div className="admin-header">
-            <div>
+        <section
+          className="admin-section"
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            paddingTop: 60,
+            paddingBottom: 60,
+          }}
+        >
+          <div
+            style={{
+              width: '100%',
+              maxWidth: 380,
+              background: '#fff',
+              borderRadius: 12,
+              boxShadow: '0 4px 24px rgba(0,0,0,0.08)',
+              padding: '36px 32px',
+            }}
+          >
+            <div style={{ textAlign: 'center', marginBottom: 24 }}>
               <span className="contact-eyebrow">ADMIN</span>
-              <h1>Login</h1>
+              <h1 style={{ margin: '8px 0 0' }}>Login</h1>
             </div>
+
+            <form onSubmit={handleLogin}>
+              <div style={{ marginBottom: 16 }}>
+                <label
+                  htmlFor="admin-email"
+                  style={{ display: 'block', marginBottom: 6, fontWeight: 500, fontSize: 14 }}
+                >
+                  Email
+                </label>
+                <input
+                  id="admin-email"
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                  style={{
+                    width: '100%',
+                    padding: '10px 12px',
+                    border: '1px solid #ddd',
+                    borderRadius: 6,
+                    fontSize: 14,
+                    boxSizing: 'border-box',
+                  }}
+                />
+              </div>
+
+              <div style={{ marginBottom: 24 }}>
+                <label
+                  htmlFor="admin-password"
+                  style={{ display: 'block', marginBottom: 6, fontWeight: 500, fontSize: 14 }}
+                >
+                  Password
+                </label>
+                <input
+                  id="admin-password"
+                  type="password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  required
+                  style={{
+                    width: '100%',
+                    padding: '10px 12px',
+                    border: '1px solid #ddd',
+                    borderRadius: 6,
+                    fontSize: 14,
+                    boxSizing: 'border-box',
+                  }}
+                />
+              </div>
+
+              {loginError && (
+                <p className="admin-status error" style={{ marginBottom: 16 }}>
+                  {loginError}
+                </p>
+              )}
+
+              <button
+                type="submit"
+                className="btn-send-v2"
+                disabled={loggingIn}
+                style={{ width: '100%', padding: '12px', fontWeight: 600 }}
+              >
+                {loggingIn ? 'Logging in...' : 'Log in'}
+              </button>
+            </form>
           </div>
-          <form onSubmit={handleLogin} style={{ maxWidth: 360 }}>
-            <div style={{ marginBottom: 12 }}>
-              <label htmlFor="admin-email">Email</label>
-              <input
-                id="admin-email"
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                required
-                style={{ width: '100%', padding: 8 }}
-              />
-            </div>
-            <div style={{ marginBottom: 12 }}>
-              <label htmlFor="admin-password">Password</label>
-              <input
-                id="admin-password"
-                type="password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                required
-                style={{ width: '100%', padding: 8 }}
-              />
-            </div>
-            {loginError && <p className="admin-status error">{loginError}</p>}
-            <button type="submit" className="btn-send-v2" disabled={loggingIn}>
-              {loggingIn ? 'Logging in...' : 'Log in'}
-            </button>
-          </form>
         </section>
         <Footer />
       </div>
     )
   }
-
   // logged in -> your original admin table, unchanged
   return (
     <div className="App">
