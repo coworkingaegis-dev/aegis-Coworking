@@ -5,16 +5,17 @@ function ImpressClients() {
     <section className="impress-clients">
       <div className="impress-text">
         <span className="contact-eyebrow">WHY BOOK WITH US</span>
-        <h2>A Room That Speaks for You</h2>
-        <p>
-          First impressions matter. Our meeting rooms are built for client presentations, team
-          strategy sessions, and the conversations that move your business forward — all
-          available by the hour, with no long-term commitment required.
-        </p>
-        <p>
-          Every room comes equipped with the technology, seating, and finish you'd expect from
-          a professional space in Abu Dhabi's financial district — ready the moment you walk in.
-        </p>
+       <h2>Professional Meeting Rooms in ADGM</h2>
+<p>
+  Host client meetings, team discussions, presentations, and important business
+  conversations in a professional meeting room in ADGM. Book by the hour with
+  flexible options and no long-term commitment.
+</p>
+<p>
+  Located in Addax Tower, our meeting rooms in Abu Dhabi Global Market offer
+  comfortable seating, modern technology, and a professional setting ready for
+  your next meeting.
+</p>
       </div>
       <Link to="/contact" className="impress-box-link">
         <div className="impress-box">
