@@ -115,6 +115,92 @@
 
 
 
+// const features = [
+//   { icon: "🏙️", title: "Prime Location" },
+//   { icon: "🔐", title: "24/7 Access" },
+//   { icon: "🤝", title: "Thriving Business Community" },
+//   { icon: "⚡", title: "Flexible Office Space" }
+// ]
+
+// const whyUsStyles = {
+//   section: {
+//     padding: '80px 60px',
+//     textAlign: 'center',
+//     background: 'var(--color-bg-alt)',
+//   },
+//   heading: {
+//     fontSize: '34px',
+//     fontWeight: 800,
+//     margin: '12px 0 50px',
+//     color: 'var(--color-text)',
+//   },
+//   box: {
+//     display: 'grid',
+//     gridTemplateColumns: 'repeat(2, 1fr)',
+//     gap: '24px',
+//     maxWidth: '700px',
+//     margin: '0 auto',
+//   },
+//   item: {
+//     padding: '40px 24px',
+//     background: '#ffffff',
+//     borderRadius: 'var(--radius-md)',
+//     boxShadow: '0 4px 16px rgba(31, 92, 70, 0.06)',
+//     transition: 'transform 0.25s ease, box-shadow 0.25s ease',
+//   },
+//   icon: {
+//     fontSize: '34px',
+//     marginBottom: '14px',
+//   },
+//   title: {
+//     fontSize: '16px',
+//     fontWeight: 700,
+//     color: 'var(--color-text)',
+//     margin: 0,
+//   },
+// }
+
+// function WhyChooseUs() {
+//   return (
+//     <section style={whyUsStyles.section}>
+//       <span className="contact-eyebrow">WORKSPACE BENEFITS</span>
+//       <h2 style={whyUsStyles.heading}>Why Choose AEGIS Coworking Space in Abu Dhabi</h2>
+//       <div style={whyUsStyles.box}>
+//         {features.map((f, i) => (
+//           <div
+//             key={i}
+//             style={whyUsStyles.item}
+//             onMouseEnter={(e) => {
+//               e.currentTarget.style.transform = 'translateY(-4px)'
+//               e.currentTarget.style.boxShadow = '0 12px 30px rgba(31, 92, 70, 0.12)'
+//             }}
+//             onMouseLeave={(e) => {
+//               e.currentTarget.style.transform = 'translateY(0)'
+//               e.currentTarget.style.boxShadow = '0 4px 16px rgba(31, 92, 70, 0.06)'
+//             }}
+//           >
+//             <div style={whyUsStyles.icon}>{f.icon}</div>
+//             <h4 style={whyUsStyles.title}>{f.title}</h4>
+//           </div>
+//         ))}
+//       </div>
+//     </section>
+//   )
+// }
+
+// export default WhyChooseUs
+
+
+
+
+
+
+
+
+
+
+
+
 const features = [
   { icon: "🏙️", title: "Prime Location" },
   { icon: "🔐", title: "24/7 Access" },
@@ -137,16 +223,15 @@ const whyUsStyles = {
   box: {
     display: 'grid',
     gridTemplateColumns: 'repeat(2, 1fr)',
-    gap: '24px',
-    maxWidth: '700px',
+    maxWidth: '760px',
     margin: '0 auto',
-  },
-  item: {
-    padding: '40px 24px',
     background: '#ffffff',
     borderRadius: 'var(--radius-md)',
     boxShadow: '0 4px 16px rgba(31, 92, 70, 0.06)',
-    transition: 'transform 0.25s ease, box-shadow 0.25s ease',
+    overflow: 'hidden',
+  },
+  item: {
+    padding: '40px 24px',
   },
   icon: {
     fontSize: '34px',
@@ -167,18 +252,7 @@ function WhyChooseUs() {
       <h2 style={whyUsStyles.heading}>Why Choose AEGIS Coworking Space in Abu Dhabi</h2>
       <div style={whyUsStyles.box}>
         {features.map((f, i) => (
-          <div
-            key={i}
-            style={whyUsStyles.item}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.transform = 'translateY(-4px)'
-              e.currentTarget.style.boxShadow = '0 12px 30px rgba(31, 92, 70, 0.12)'
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.transform = 'translateY(0)'
-              e.currentTarget.style.boxShadow = '0 4px 16px rgba(31, 92, 70, 0.06)'
-            }}
-          >
+          <div key={i} style={whyUsStyles.item}>
             <div style={whyUsStyles.icon}>{f.icon}</div>
             <h4 style={whyUsStyles.title}>{f.title}</h4>
           </div>
