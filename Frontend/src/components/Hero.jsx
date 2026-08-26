@@ -87,9 +87,9 @@ function Hero() {
       <div className="hero-overlay"></div>
       <motion.div
         className="hero-content"
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.7 }}
+        initial={{ opacity: 1, y: 0 }}
+animate={{ opacity: 1, y: 0 }}
+transition={{ duration: 0 }}
       >
         <span className="hero-eyebrow">
           Coworking Space in ADGM • Business Centre, Addax Tower • Al Reem Island, Abu Dhabi
