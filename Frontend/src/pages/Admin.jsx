@@ -133,7 +133,6 @@
 import { Helmet } from 'react-helmet-async'
 import { useEffect, useState } from 'react'
 import { supabase } from '../supabaseClient'
-// import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 function Admin() {
@@ -219,7 +218,6 @@ function Admin() {
           <meta name="robots" content="noindex, nofollow" />
           <title>Admin | Aegis Coworking</title>
         </Helmet>
-        <Navbar />
         <section className="admin-section">
           <p className="admin-status">Checking session...</p>
         </section>
@@ -236,7 +234,6 @@ function Admin() {
           <meta name="robots" content="noindex, nofollow" />
           <title>Admin Login | Aegis Coworking</title>
         </Helmet>
-        <Navbar />
         <section
           className="admin-section"
           style={{
@@ -338,7 +335,6 @@ function Admin() {
         <meta name="robots" content="noindex, nofollow" />
         <title>Admin | Aegis Coworking</title>
       </Helmet>
-      {/* <Navbar /> */}
       <section className="admin-section">
         <div className="admin-header">
           <div>
