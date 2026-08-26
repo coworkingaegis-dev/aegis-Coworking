@@ -297,24 +297,15 @@ const whyUsStyles = {
     margin: '12px 0 50px',
     color: 'var(--color-text)',
   },
-  orbitWrap: {
-    position: 'relative',
-    width: '800px',
-    height: '800px',
-    margin: '0 auto',
-  },
   box: {
-    position: 'absolute',
-    top: '50%',
-    left: '50%',
     display: 'grid',
     gridTemplateColumns: 'repeat(3, 1fr)',
-    width: '600px',
+    maxWidth: '900px',
+    margin: '0 auto',
     background: '#ffffff',
     borderRadius: 'var(--radius-md)',
     boxShadow: '0 4px 16px rgba(31, 92, 70, 0.06)',
     overflow: 'hidden',
-    animation: 'orbitMove 12s linear infinite',
   },
   item: {
     padding: '36px 20px',
@@ -334,23 +325,15 @@ const whyUsStyles = {
 function WhyChooseUs() {
   return (
     <section style={whyUsStyles.section}>
-      <style>{`
-        @keyframes orbitMove {
-          0%   { transform: translate(-50%, -50%) rotate(0deg) translateX(140px) rotate(0deg); }
-          100% { transform: translate(-50%, -50%) rotate(360deg) translateX(140px) rotate(-360deg); }
-        }
-      `}</style>
       <span className="contact-eyebrow">WORKSPACE BENEFITS</span>
       <h2 style={whyUsStyles.heading}>Why Choose AEGIS Coworking Space in Abu Dhabi</h2>
-      <div style={whyUsStyles.orbitWrap}>
-        <div style={whyUsStyles.box}>
-          {features.map((f, i) => (
-            <div key={i} style={whyUsStyles.item}>
-              <div style={whyUsStyles.icon}>{f.icon}</div>
-              <h4 style={whyUsStyles.title}>{f.title}</h4>
-            </div>
-          ))}
-        </div>
+      <div style={whyUsStyles.box}>
+        {features.map((f, i) => (
+          <div key={i} style={whyUsStyles.item}>
+            <div style={whyUsStyles.icon}>{f.icon}</div>
+            <h4 style={whyUsStyles.title}>{f.title}</h4>
+          </div>
+        ))}
       </div>
     </section>
   )
