@@ -1445,7 +1445,7 @@ function PrivateOffice() {
   size.
 </p>
 
-        <div className="bp-columns">
+        <div className="bp-columns bp-columns-3">
           <div className="bp-column">
   <div className="bp-column-icon">🔒</div>
   <h4>PRIVATE OFFICE</h4>
