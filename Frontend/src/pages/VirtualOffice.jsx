@@ -716,33 +716,32 @@ function VirtualOffice() {
       <VirtualOfficeGallery />
       <BusinessPresence />
 
-      <VOTierCard
-        image={voBasic}
-        tier="BASIC"
-        title="BASIC ADGM VIRTUAL OFFICE"
-        desc="Built for founders, freelancers and international entrepreneurs who need a registered ADGM address at launch. You get a Category 1 business address inside Addax Tower for your ADGM licence application, mail receiving and forwarding, and your company name on our on-site directory. Start operating from one of the Middle East's leading financial free zones without committing to a full office lease."
-        buttons={[{ label: "REQUEST QUOTE", primary: true }]}
-        imageLeft={true}
-      />
+     <VOTierCard
+  image={voBasic}
+  tier="BASIC"
+  title="BASIC ADGM VIRTUAL OFFICE"
+  desc="A simple virtual office in ADGM for founders, freelancers, and international businesses. Get an ADGM business address at Addax Tower, Al Reem Island, with support for your ADGM licence application, mail receiving and forwarding, and company directory listing. A practical option for businesses looking for an ADGM registered office provider and a professional business presence."
+  buttons={[{ label: "REQUEST QUOTE", primary: true }]}
+  imageLeft={true}
+/>
 
-      <VOTierCard
-        tier="PREMIUM"
-        title="PREMIUM ADGM VIRTUAL OFFICE"
-        desc="Everything in Basic, plus a dedicated UAE phone number with live call answering in your company name, 5 hours of meeting room credits inside ADGM each month, and priority mail handling. Designed for growing businesses that need a polished client-facing presence in Abu Dhabi Global Market. Host meetings in our on-site rooms, receive clients at the Addax Tower reception, and benefit from concierge-style administrative support."
-        image={voPremium}
-        buttons={[{ label: "REQUEST QUOTE", primary: true }]}
-        imageLeft={false}
-      />
+<VOTierCard
+  tier="PREMIUM"
+  title="PREMIUM ADGM VIRTUAL OFFICE"
+  desc="Designed for growing businesses that need more than a business address. Get a UAE business phone number with live call answering, meeting room access, priority mail handling, and a professional business presence in ADGM. This virtual office in ADGM is ideal for companies that want a professional business address in Abu Dhabi without renting a full-time office."
+  image={voPremium}
+  buttons={[{ label: "REQUEST QUOTE", primary: true }]}
+  imageLeft={false}
+/>
 
-      <VOTierCard
-        tier="ENTERPRISE"
-        title="ENTERPRISE ADGM VIRTUAL OFFICE"
-        desc="Our most complete ADGM virtual office package. Includes everything in Premium, plus 10 hours of meeting room credits, a dedicated account manager, priority administrative and PRO support, and flexible access to our coworking floor. Ideal for international groups and regulated entities establishing an ADGM presence, or UAE-based companies that want maximum flexibility. Convert to a dedicated desk or private office at Addax Tower at any time at preferential rates."
-        image={voEnterprise}
-        buttons={[{ label: "REQUEST QUOTE", primary: true }]}
-        imageLeft={true}
-      />
-
+<VOTierCard
+  tier="ENTERPRISE"
+  title="ENTERPRISE ADGM VIRTUAL OFFICE"
+  desc="Built for established businesses and international companies that need a complete business presence in ADGM. Includes meeting room access, a dedicated account manager, priority administrative support, and flexible coworking access at Addax Tower. A complete ADGM business address solution with the flexibility to move into a dedicated desk or private office as your business grows."
+  image={voEnterprise}
+  buttons={[{ label: "REQUEST QUOTE", primary: true }]}
+  imageLeft={true}
+/>
       
 
 
