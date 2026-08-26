@@ -11,7 +11,7 @@ const faqs = [
   },
   {
     question: "What's included in the one-time Due Diligence Fee?",
-    answer: "The AED 1,200 Due Diligence Fee covers the compliance and background checks required by ADGM before your licence and registered address can be activated. It's a one-time cost, separate from your monthly rent."
+    answer: "The AED 1,100 Due Diligence Fee covers the compliance and background checks required by ADGM before your licence and registered address can be activated. It's a one-time cost, separate from your monthly rent."
   },
   
 {
