@@ -90,7 +90,7 @@ function Membership() {
             "serviceType": "Coworking Membership",
             "name": "Coworking Membership in ADGM",
             "description": "Flexible coworking membership plans in ADGM, Addax Tower, from Hot Desk to Private Office.",
-            "provider": { "@type": "LocalBusiness", "name": "Aegis Coworking" },
+            "provider": { "@type": "LocalBusiness", "@id": "https://www.aegiscoworking.ae/#business" },
             "areaServed": "Abu Dhabi",
             "offers": {
               "@type": "Offer",
