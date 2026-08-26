@@ -267,25 +267,29 @@ import Footer from '../components/Footer'
 
 const faqs = [
   {
-  q: "How much does coworking cost in Abu Dhabi (ADGM)?",
+  q: "How much does coworking cost in Abu Dhabi ADGM?",
   a: "At Aegis Coworking, the cheapest coworking space in Abu Dhabi's ADGM district starts from AED 1,000/month for a hot desk, AED 1,150/month for a dedicated desk, AED 3,500/year for a virtual office, and AED 4,500/month for a private office.",
 },
   {
-    q: "Is there a cheaper option than a dedicated desk?",
-    a: "Yes, our Hot Desk plan starts from AED 1,000/month and gives you access to shared workspace, high-speed internet, and meeting room credits.",
+    q: "What is the cheapest coworking option in ADGM?",
+    a: "The Hot Desk is our most affordable coworking option, starting from AED 1,000/month. It provides access to a professional coworking space in ADGM with high-speed internet and meeting room credits."
   },
   {
-    q: "Does the dedicated desk plan include an ADGM-eligible address?",
-    a: "Yes, the Dedicated Desk plan includes an office address suitable for an ADGM licence application, along with 24/7 access and lockable storage.",
+    q: "Does the dedicated desk include an ADGM business address?",
+    a: "Yes. The Dedicated Desk includes an ADGM-eligible business address, 24/7 access, lockable storage, and a dedicated workspace."
   },
   {
     q: "How much does a virtual office cost in ADGM?",
-    a: "Aegis Coworking's virtual office starts from AED 3,500/year and includes a registered ADGM business address suitable for company registration, without requiring a physical desk.",
+    a: "Aegis Coworking offers virtual office options in ADGM for businesses that need a professional ADGM business address without renting a full-time office."
   },
   {
-    q: "Are there any hidden fees?",
-    a: "No. Our pricing is transparent with no hidden fees or long-term contracts — you only pay for the plan you choose.",
+    q: "Are there any hidden fees for coworking?",
+    a: "No. Aegis Coworking provides clear pricing for its coworking space, dedicated desk, private office, and virtual office options. You pay for the plan you choose."
   },
+  {
+    q: "Where is the coworking space located?",
+    a: "Aegis Coworking is located in Addax Tower, Al Reem Island, within Abu Dhabi Global Market (ADGM), offering a professional coworking space in Abu Dhabi."
+  }
 ]
 
 function Pricing() {
