@@ -11,9 +11,7 @@ function DayPassPricing() {
         <p className="desk-eyebrow">FLEXIBLE WORKSPACE SOLUTION</p>
         <h2>COWORKING DAY PASS</h2>
         <p className="desk-desc">
-          A professional workspace in ADGM, available by the day — no lease, no commitment.
-          Ideal for freelancers, remote teams, and business travelers who need reliable access
-          without a long-term contract.
+        A professional workspace in ADGM, available by the day, with no lease and no long-term commitment. It's built for freelancers, remote teams, and business travelers who need reliable access without signing a contract.
         </p>
 
         <div className="day-pass-box">
