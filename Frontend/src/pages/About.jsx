@@ -74,7 +74,7 @@ function About() {
               Aegis Coworking was established at Addax Tower to provide
               businesses in ADGM with a professional workspace that
               combines a prestigious business address, flexible workspace
-              solutions, and a premium working environment.
+              solutions, and a cheap working environment.
             </p>
           </div>
 
