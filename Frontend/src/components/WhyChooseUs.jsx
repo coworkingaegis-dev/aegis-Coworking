@@ -22,7 +22,7 @@ const whyUsStyles = {
   box: {
     display: 'grid',
     gridTemplateColumns: 'repeat(3, 1fr)',
-    maxWidth: '900px',
+    maxWidth: '1100px',
     margin: '0 auto',
     background: '#ffffff',
     borderRadius: 'var(--radius-md)',
