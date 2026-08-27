@@ -2313,6 +2313,59 @@ grid-template-columns: 1.8fr 1fr 1fr 1.1fr 1fr;
   }
 }
 
+/* ===== WHY CHOOSE US (icon grid, WhyChooseUs.jsx) ===== */
+.wcu-box {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: var(--radius-md);
+  box-shadow: 0 4px 16px rgba(31, 92, 70, 0.06);
+  overflow: hidden;
+}
+
+.wcu-item {
+  padding: 32px 12px;
+}
+
+.wcu-icon {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.wcu-title {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .wcu-box {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .wcu-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .wcu-item {
+    padding: 26px 10px;
+  }
+
+  .wcu-icon {
+    font-size: 26px;
+  }
+
+  .wcu-title {
+    font-size: 12.5px;
+  }
+}
+
 
 
 
