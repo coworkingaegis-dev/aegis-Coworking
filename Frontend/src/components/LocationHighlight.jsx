@@ -7,7 +7,7 @@ function LocationHighlight() {
           <h2>Located in Addax Tower, Al Reem Island</h2>
          <p>
   Aegis Coworking is located in Addax Tower, Al Reem Island, within ADGM,
-  Abu Dhabi's leading financial free zone. Our affordable coworking space
+  Abu Dhabi's leading financial free zone. Our cheapest coworking space
   in Al Reem Island provides easy access to banks, restaurants, business
   hubs, and the waterfront, making it a convenient coworking space in ADGM
   for startups, freelancers, individuals and small businesses.
