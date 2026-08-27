@@ -5,16 +5,25 @@ import { motion } from 'framer-motion'
 import { supabase } from '../supabaseClient'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import { usePreloadedData } from '../PreloadedDataContext.jsx'
 
 function BlogDetail() {
   const { id } = useParams()
-  const [post, setPost] = useState(null)
-  const [relatedPosts, setRelatedPosts] = useState([])
-  const [loading, setLoading] = useState(true)
+  const preloaded = usePreloadedData()
+  const hasPreloaded =
+    preloaded?.type === 'blogDetail' && String(preloaded.post?.id) === String(id)
+
+  const [post, setPost] = useState(hasPreloaded ? preloaded.post : null)
+  const [relatedPosts, setRelatedPosts] = useState(hasPreloaded ? preloaded.relatedPosts : [])
+  const [loading, setLoading] = useState(!hasPreloaded)
   const [error, setError] = useState(null)
   const [copied, setCopied] = useState(false)
 
 useEffect(() => {
+    if (hasPreloaded) {
+      window.prerenderReady = true
+      return
+    }
     window.prerenderReady = false
     fetchPost()
   }, [id])
