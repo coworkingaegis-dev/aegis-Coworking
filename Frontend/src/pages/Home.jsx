@@ -11,7 +11,7 @@ import LocationHighlight from '../components/LocationHighlight'
 import FinalCTA from '../components/FinalCTA'
 import Footer from '../components/Footer'
 import Reveal from '../components/Reveal'
-import homeBannerImage from '../assets/meeting-room-view.webp'
+import homeBannerImage from '../assets/Coworking_space_ADGM_AbuDhabi.webp'
 
 const faqs = [
   {
