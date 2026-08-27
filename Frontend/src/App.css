@@ -4494,6 +4494,7 @@ grid-template-columns: 1.8fr 1fr 1fr 1.1fr 1fr;
 
 .vo-plans-table thead th.vo-plans-price-col {
   text-align: right;
+  border-left: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .vo-plans-table tbody td {
@@ -4522,11 +4523,15 @@ grid-template-columns: 1.8fr 1fr 1fr 1.1fr 1fr;
   font-weight: 600;
   color: var(--color-primary);
   text-align: right;
+  border-left: 1px solid var(--color-border);
 }
 
 @media (max-width: 640px) {
   .vo-plans-table-wrap {
     border-radius: var(--radius-sm);
+  }
+     .vo-plans-price {
+    border-left: none;
   }
 
   .vo-plans-table thead {
