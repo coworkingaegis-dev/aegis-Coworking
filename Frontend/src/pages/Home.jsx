@@ -15,24 +15,24 @@ import homeBannerImage from '../assets/meeting-room-view.webp'
 
 const faqs = [
   {
-    q: "Does my business need physical office space in ADGM?",
-   a: "No — you need a registered office address in ADGM, but not necessarily a private office. At Aegis Coworking in Addax Tower, a Dedicated Desk or Virtual Office can provide a registered ADGM business address, while a Private Office gives you a dedicated workspace for your team. This makes Aegis a flexible option if you need an ADGM business address without committing to a traditional office lease."
+    q: "Does my ADGM Business need physical office space?",
+   a: "No — you need a registered office address in ADGM, but not necessarily a private office. At Aegis Coworking in Addax Tower, a Dedicated Desk can provide a registered ADGM business address, while a Private Office gives you a dedicated workspace for your team. This makes Aegis a flexible option if you need an ADGM business address without committing to a traditional office lease."
   },
 
   {
     q: "What are ADGM's flexi desk requirements?",
-    a: "ADGM businesses need a qualifying registered office arrangement within ADGM. At Aegis Coworking, our Dedicated Desk plan provides a permanent workspace together with a registered ADGM business address, making it suitable for businesses looking for an ADGM flexi desk or registered office provider. Aegis is located in Addax Tower on Al Reem Island, within the ADGM jurisdiction."
+    a: "ADGM businesses need a qualifying registered office arrangement within ADGM. At Aegis Coworking, our Dedicated Desk plan provides a permanent workspace together with a registered ADGM business address. This makes Aegis suitable for the businesses looking for the cheaper option of these provider. Aegis is located in Addax Tower on Al Reem Island, within the ADGM jurisdiction."
   },
 
   {
     q: "What documents are needed for an ADGM license?",
-    a: "ADGM licence requirements depend on your business activity and company structure, but applicants may typically need identification documents, incorporation documents, a business plan and proof of a registered ADGM office address. Aegis Coworking can provide the registered ADGM business address through eligible workspace plans, while ADGM's Registration Authority or your corporate service provider should confirm the exact documents required for your licence."
+    a: "ADGM licence requirements depend on your business activity and company structure, but applicants may typically need identification documents, incorporation documents, a business plan and proof of a registered ADGM office address. Aegis Coworking can provide the registered ADGM business address at affordable price. However, ADGM's Registration Authority or your corporate service provider can confirm the exact documents required for your licence."
   },
 
-  {
-    q: "Hot desk vs flexi desk vs dedicated desk in ADGM — what's the difference?",
-    a: "A hot desk at Aegis Coworking is a flexible shared workspace and is ideal for working without a fixed seat or registered business address. A Dedicated Desk provides your own permanent workspace together with a registered ADGM business address and is designed for businesses that need an ADGM flexi desk arrangement. In simple terms, a hot desk is primarily for flexible working, while a dedicated desk is a stronger option when you need both workspace and an ADGM registered office address."
-  },
+ {
+  q: "Hot desk vs flexi desk vs dedicated desk in ADGM — what's the difference?",
+  a: "A hot desk at Aegis Coworking is a flexible shared workspace and is ideal for individuals or businesses that do not require ADGM's registered business address.<br /><br />A Dedicated Desk provides your own permanent workspace together with a registered ADGM business address and is designed for businesses that need an ADGM flexi desk arrangement.<br /><br />In simple terms, a hot desk is primarily for flexible working, while a dedicated desk is a stronger option when you need both workspace and an ADGM registered office address."
+},
 
  {
   q: "What documents are needed for an ADGM license?",
@@ -49,7 +49,7 @@ const faqs = [
 
   {
     q: "What is the ADGM company registration office requirement?",
-    a: "An ADGM company needs a registered office address within the ADGM jurisdiction. Aegis Coworking provides registered ADGM business address options through eligible Dedicated Desk and Virtual Office plans, giving businesses an alternative to leasing a traditional private office. If you are looking for an ADGM registered office provider, Aegis is located at Addax Tower on Al Reem Island and offers flexible workspace solutions for startups, SMEs and established businesses."
+    a: "An ADGM company needs a registered office address within the ADGM jurisdiction. Aegis Coworking provides registered ADGM business address options through eligible Dedicated Desk and Virtual Office plans, giving businesses an alternative to leasing a traditional private office. If you are looking for an ADGM registered office provider, Aegis is located at Addax Tower on Al Reem Island and offers cheap workspace solutions for startups, SMEs and established businesses."
   },
 ]
 
