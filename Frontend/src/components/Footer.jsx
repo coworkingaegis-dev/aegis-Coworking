@@ -29,7 +29,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-col">
-        <h4>QUICK LINKS</h4>
+         <h3>QUICK LINKS</h3>
         <Link to="/">Home</Link>
         <Link to="/pricing">Hot Deals</Link>
          <Link to="/blogs">Blog</Link>
@@ -37,7 +37,7 @@ function Footer() {
        
       </div>
       <div className="footer-col">
-        <h4>OUR SPACES</h4>
+       <h3>OUR SPACES</h3>
         <Link to="/office-spaces">Office Spaces</Link>
         <Link to="/private-office">Private Office</Link>
         <Link to="/virtual-office">Virtual Office</Link>
@@ -47,13 +47,13 @@ function Footer() {
         <Link to="/about">About Us</Link>
       </div>
       <div className="footer-col">
-        <h4>CONTACT US</h4>
+        <h3>CONTACT US</h3>
         <p><strong>Phone:</strong>‎ <a href="tel:+971503926316">+971 50 392 6316</a></p>
         <p><strong>Email:</strong> contact@aegiscoworking.ae</p>
         <p><strong>Address:</strong> Addax Tower, Al Reem Island, Abu Dhabi</p>
       </div>
       <div className="footer-col">
-        <h4>OPENING HOURS</h4>
+       <h3>OPENING HOURS</h3>
         <p>24/7 Access for Members</p>
         <p>Tours: Mon–Fri</p>
       </div>
