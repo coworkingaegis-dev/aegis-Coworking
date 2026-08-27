@@ -68,24 +68,24 @@ function Home() {
   <title>Coworking Space in ADGM, Abu Dhabi | Aegis Coworking</title>
   <meta
     name="description"
-    content="Affordable Coworking space in ADGM starting from AED 1000, Addax Tower, Abu Dhabi. Private offices, virtual offices, meeting rooms & day passes. Book a tour and see pricing today."
+    content="Affordable Coworking space in ADGM starting from AED 1000, Addax Tower, Abu Dhabi.Private office,virtual office,meeting room & day passe.Book a tour and see pricing today."
   />
   <link rel="canonical" href="https://www.aegiscoworking.ae/" />
 
   <meta property="og:title" content="Coworking Space in ADGM, Abu Dhabi | Aegis Coworking" />
   <meta
     property="og:description"
-    content="Affordable Coworking space in ADGM starting from AED 1000, Addax Tower, Abu Dhabi. Private offices, virtual offices, meeting rooms & day passes. Book a tour and see pricing today."
+    content="Affordable Coworking space in ADGM starting from AED 1000, Addax Tower, Abu Dhabi.Private office,virtual office,meeting room & day passe.Book a tour and see pricing today."
   />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.aegiscoworking.ae/" />
   <meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="ADGM Office Space in Abu Dhabi | Aegis Coworking Center" />
+  <meta name="twitter:title" content="Coworking Space in ADGM, Abu Dhabi | Aegis Coworking" />
   <meta
     name="twitter:description"
-    content="Premium office space in ADGM, Addax Tower, Abu Dhabi. Private offices, virtual offices, meeting rooms & day passes."
+    content="Affordable Coworking space in ADGM starting from AED 1000, Addax Tower, Abu Dhabi.Private office,virtual office,meeting room & day passe.Book a tour and see pricing today.."
   />
   <meta name="twitter:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 <script type="application/ld+json">
