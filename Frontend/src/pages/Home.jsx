@@ -31,7 +31,7 @@ const faqs = [
 
  {
   q: "Hot desk vs flexi desk vs dedicated desk in ADGM — what's the difference?",
-  a: "A hot desk at Aegis Coworking is a flexible shared workspace and is ideal for individuals or businesses that do not require ADGM's registered business address.<br /><br />A Dedicated Desk provides your own permanent workspace together with a registered ADGM business address and is designed for businesses that need an ADGM flexi desk arrangement.<br /><br />In simple terms, a hot desk is primarily for flexible working, while a dedicated desk is a stronger option when you need both workspace and an ADGM registered office address."
+  a: "A hot desk at Aegis Coworking is a flexible shared workspace and is ideal for individuals or businesses that do not require ADGM's registered business address. A Dedicated Desk provides your own permanent workspace together with a registered ADGM business address and is designed for businesses that need an ADGM flexi desk arrangement. In simple terms, a hot desk is primarily for flexible working, while a dedicated desk is a stronger option when you need both workspace and an ADGM registered office address."
 },
 
  {
