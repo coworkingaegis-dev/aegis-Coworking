@@ -125,38 +125,7 @@ function Home() {
       <Hero />
       <Reveal><Services /></Reveal>
 
-            <section className="vo-faq" style={{ paddingTop: 0 }}>
-        <h2>ADGM Workspace Plans at a Glance</h2>
-        <div className="vo-plans-table-wrap">
-          <table className="vo-plans-table">
-            <thead>
-              <tr>
-                <th>Workspace</th>
-                <th className="vo-plans-price-col">Starting Price</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="vo-plans-name" data-label="Workspace">Hot Desk</td>
-                <td className="vo-plans-price" data-label="Starting Price">AED 1,000/month</td>
-              </tr>
-              <tr>
-                <td className="vo-plans-name" data-label="Workspace">Dedicated Desk</td>
-                <td className="vo-plans-price" data-label="Starting Price">AED 1,150/month</td>
-              </tr>
-              <tr>
-                <td className="vo-plans-name" data-label="Workspace">Virtual Office</td>
-                <td className="vo-plans-price" data-label="Starting Price">AED 3,500/year</td>
-              </tr>
-              <tr>
-                <td className="vo-plans-name" data-label="Workspace">Private Office</td>
-                <td className="vo-plans-price" data-label="Starting Price">AED 4,500/month</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
+           
       
       <Reveal delay={0.1}><WhyChooseUs /></Reveal>
       <Reveal delay={0.1}>
