@@ -43,9 +43,9 @@ function Pricing() {
     <>
       <Helmet>
        <title>Cheapest Coworking Space in Abu Dhabi | Aegis Coworking</title>
-       <meta
+<meta
   name="description"
-   content="Compare Aegis Coworking's ADGM pricing in Abu Dhabi: hot desks from AED 1,000/month, dedicated desks from AED 1,150/month, private offices from AED 4,500/month, virtual offices from AED 3,500/year."
+   content="Compare Aegis Coworking's ADGM pricing: hot desks from AED 1,000/month, dedicated desks from AED 1,150/month, private offices from AED 4,500/month."
 />
         <link rel="canonical" href="https://www.aegiscoworking.ae/pricing" />
 
@@ -57,6 +57,10 @@ function Pricing() {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.aegiscoworking.ae/pricing" />
         <meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Cheapest Coworking Space in Abu Dhabi | Aegis Coworking" />
+<meta name="twitter:description" content="Compare Aegis Coworking's ADGM pricing: hot desks from AED 1,000/month, dedicated desks from AED 1,150/month, private offices from AED 4,500/month." />
+<meta name="twitter:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 
         <script type="application/ld+json">
           {JSON.stringify({
