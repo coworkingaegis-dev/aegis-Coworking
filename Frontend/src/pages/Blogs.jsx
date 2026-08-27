@@ -5,13 +5,21 @@ import { motion } from 'framer-motion'
 import { supabase } from '../supabaseClient'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import { usePreloadedData } from '../PreloadedDataContext.jsx'
 
 function Blogs() {
-  const [blogs, setBlogs] = useState([])
-  const [loading, setLoading] = useState(true)
+  const preloaded = usePreloadedData()
+  const hasPreloaded = preloaded?.type === 'blogsList'
+
+  const [blogs, setBlogs] = useState(hasPreloaded ? preloaded.blogs : [])
+  const [loading, setLoading] = useState(!hasPreloaded)
   const [error, setError] = useState(null)
 
 useEffect(() => {
+    if (hasPreloaded) {
+      window.prerenderReady = true
+      return
+    }
     window.prerenderReady = false
     fetchBlogs()
   }, [])
