@@ -99,7 +99,7 @@ transition={{ duration: 0 }}
           <span className="hero-title-mobile">YOUR ADGM<br />IN ADGM ABUDHABI </span>
         </h1>
         <p>
-          Aegis Coworking offers affordable hot desks, dedicated desk, private office,
+          Aegis Coworking offers affordable hot desk, dedicated desk, private office,
           virtual office, meeting room and day pass — a business centre in ADGM,
           Abu Dhabi Global Market, with plans starting from AED 1,000.
         </p>
