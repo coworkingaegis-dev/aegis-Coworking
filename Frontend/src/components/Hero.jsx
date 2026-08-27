@@ -95,8 +95,8 @@ transition={{ duration: 0 }}
           Coworking Space in ADGM • Business Centre, Addax Tower • Al Reem Island, Abu Dhabi
         </span>
         <h1>
-          <span className="hero-title-desktop">YOUR&nbsp;ADGM&nbsp;WORKSPACE</span>
-          <span className="hero-title-mobile">YOUR ADGM<br />WORKSPACE</span>
+          <span className="hero-title-desktop">COWORKING&nbsp;SPACE&nbsp;IN&nbsp;ADGM&nbsp;ABUDHABI</span>
+          <span className="hero-title-mobile">YOUR ADGM<br />IN ADGM ABUDHABI </span>
         </h1>
         <p>
           Aegis Coworking offers affordable hot desks, dedicated desks, private offices,
