@@ -4464,6 +4464,111 @@ grid-template-columns: 1.8fr 1fr 1fr 1.1fr 1fr;
 }
 
 
+/* ===== VO PLANS TABLE ===== */
+.vo-plans-table-wrap {
+  max-width: 780px;
+  margin: 0 auto;
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+}
+
+.vo-plans-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.vo-plans-table thead th {
+  background: var(--color-primary);
+  color: #fff;
+  font-family: var(--font-heading);
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  padding: 16px 24px;
+}
+
+.vo-plans-table thead th.vo-plans-price-col {
+  text-align: right;
+}
+
+.vo-plans-table tbody td {
+  padding: 18px 24px;
+  font-size: 15px;
+  color: var(--color-text-muted);
+  border-bottom: 1px solid var(--color-border);
+  transition: background 0.2s ease;
+}
+
+.vo-plans-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.vo-plans-table tbody tr:hover td {
+  background: var(--color-bg-soft);
+}
+
+.vo-plans-name {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.vo-plans-price {
+  font-weight: 600;
+  color: var(--color-primary);
+  text-align: right;
+}
+
+@media (max-width: 640px) {
+  .vo-plans-table-wrap {
+    border-radius: var(--radius-sm);
+  }
+
+  .vo-plans-table thead {
+    display: none;
+  }
+
+  .vo-plans-table,
+  .vo-plans-table tbody,
+  .vo-plans-table tr,
+  .vo-plans-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .vo-plans-table tr {
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .vo-plans-table tr:last-child {
+    border-bottom: none;
+  }
+
+  .vo-plans-table td {
+    border: none;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .vo-plans-table td::before {
+    content: attr(data-label);
+    font-family: var(--font-heading);
+    font-weight: 700;
+    color: var(--color-text);
+    font-size: 12.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+  }
+}
 
 .hero-subhead {
   font-size: 15px;
