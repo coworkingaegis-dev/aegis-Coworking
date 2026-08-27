@@ -19,29 +19,30 @@ const whyUsStyles = {
     margin: '12px 0 50px',
     color: 'var(--color-text)',
   },
-  box: {
-    display: 'grid',
-    gridTemplateColumns: 'repeat(3, 1fr)',
-    maxWidth: '1100px',
-    margin: '0 auto',
-    background: '#ffffff',
-    borderRadius: 'var(--radius-md)',
-    boxShadow: '0 4px 16px rgba(31, 92, 70, 0.06)',
-    overflow: 'hidden',
-  },
-  item: {
-    padding: '36px 20px',
-  },
-  icon: {
-    fontSize: '32px',
-    marginBottom: '12px',
-  },
-  title: {
-    fontSize: '15px',
-    fontWeight: 700,
-    color: 'var(--color-text)',
-    margin: 0,
-  },
+ box: {
+  display: 'grid',
+  gridTemplateColumns: 'repeat(6, 1fr)',   // was repeat(3, 1fr) — all 6 items in one row
+  maxWidth: '1100px',
+  width: '100%',
+  margin: '0 auto',
+  background: '#ffffff',
+  borderRadius: 'var(--radius-md)',
+  boxShadow: '0 4px 16px rgba(31, 92, 70, 0.06)',
+  overflow: 'hidden',
+},
+item: {
+  padding: '32px 12px',   // was 40px 28px — narrower cells need less horizontal padding
+},
+icon: {
+  fontSize: '28px',       // was 32px
+  marginBottom: '10px',   // was 12px
+},
+title: {
+  fontSize: '13.5px',     // was 15px — so 6 columns fit without crowding
+  fontWeight: 700,
+  color: 'var(--color-text)',
+  margin: 0,
+},
 }
 
 function WhyChooseUs() {
