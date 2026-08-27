@@ -124,6 +124,40 @@ function Home() {
       <Navbar />
       <Hero />
       <Reveal><Services /></Reveal>
+
+            <section className="vo-faq" style={{ paddingTop: 0 }}>
+        <h2>ADGM Workspace Plans at a Glance</h2>
+        <div className="vo-plans-table-wrap">
+          <table className="vo-plans-table">
+            <thead>
+              <tr>
+                <th>Workspace</th>
+                <th className="vo-plans-price-col">Starting Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="vo-plans-name" data-label="Workspace">Hot Desk</td>
+                <td className="vo-plans-price" data-label="Starting Price">AED 1,000/month</td>
+              </tr>
+              <tr>
+                <td className="vo-plans-name" data-label="Workspace">Dedicated Desk</td>
+                <td className="vo-plans-price" data-label="Starting Price">AED 1,150/month</td>
+              </tr>
+              <tr>
+                <td className="vo-plans-name" data-label="Workspace">Virtual Office</td>
+                <td className="vo-plans-price" data-label="Starting Price">AED 3,500/year</td>
+              </tr>
+              <tr>
+                <td className="vo-plans-name" data-label="Workspace">Private Office</td>
+                <td className="vo-plans-price" data-label="Starting Price">AED 4,500/month</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      
       <Reveal delay={0.1}><WhyChooseUs /></Reveal>
       <Reveal delay={0.1}>
         <ImageBanner image={homeBannerImage} alt="Coworking space with skyline view" />
@@ -157,40 +191,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="vo-faq" style={{ paddingTop: 0 }}>
-        <h2>ADGM Workspace Plans at a Glance</h2>
-        <table style={{ width: '100%', maxWidth: 780, margin: '0 auto', borderCollapse: 'collapse' }}>
-          <thead>
-            <tr>
-              <th style={{ textAlign: 'left', padding: '10px 12px', borderBottom: '2px solid #ddd' }}>Plan</th>
-              <th style={{ textAlign: 'left', padding: '10px 12px', borderBottom: '2px solid #ddd' }}>Starting Price</th>
-              <th style={{ textAlign: 'left', padding: '10px 12px', borderBottom: '2px solid #ddd' }}>Registered ADGM Address</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td style={{ padding: '10px 12px', borderBottom: '1px solid #eee' }}>Hot Desk</td>
-              <td style={{ padding: '10px 12px', borderBottom: '1px solid #eee' }}>AED 1,000/month</td>
-              <td style={{ padding: '10px 12px', borderBottom: '1px solid #eee' }}>No</td>
-            </tr>
-            <tr>
-              <td style={{ padding: '10px 12px', borderBottom: '1px solid #eee' }}>Dedicated Desk</td>
-              <td style={{ padding: '10px 12px', borderBottom: '1px solid #eee' }}>AED 1,150/month</td>
-              <td style={{ padding: '10px 12px', borderBottom: '1px solid #eee' }}>Yes</td>
-            </tr>
-            <tr>
-              <td style={{ padding: '10px 12px', borderBottom: '1px solid #eee' }}>Virtual Office</td>
-              <td style={{ padding: '10px 12px', borderBottom: '1px solid #eee' }}>AED 3,500/year</td>
-              <td style={{ padding: '10px 12px', borderBottom: '1px solid #eee' }}>Yes</td>
-            </tr>
-            <tr>
-              <td style={{ padding: '10px 12px' }}>Private Office</td>
-              <td style={{ padding: '10px 12px' }}>AED 4,500/month</td>
-              <td style={{ padding: '10px 12px' }}>Yes</td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
+    
 
       <Reveal delay={0.1}><Testimonials /></Reveal>
      
