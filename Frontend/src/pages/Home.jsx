@@ -15,46 +15,59 @@ import homeBannerImage from '../assets/meeting-room-view.webp'
 
 const faqs = [
   {
-    q: "Does my ADGM Business need physical office space?",
-   a: "No — you need a registered office address in ADGM, but not necessarily a private office. At Aegis Coworking in Addax Tower, a Dedicated Desk can provide a registered ADGM business address, while a Private Office gives you a dedicated workspace for your team. This makes Aegis a flexible option if you need an ADGM business address without committing to a traditional office lease."
+    q: "What is Aegis Coworking?",
+    a: "Aegis Coworking is a coworking and business centre based in Addax Tower on Al Reem Island, within Abu Dhabi Global Market (ADGM). It offers flexible workspace — hot desk, dedicated desk, private office, virtual office, and meeting room — for businesses registering or operating in ADGM."
   },
 
+
+{
+    q: "Where is Aegis Coworking located?",
+    a: "Aegis Coworking is located in Addax Tower, Al Reem Island, Abu Dhabi, within the ADGM jurisdiction."
+  },
+
+{
+    q: "Does Aegis Coworking provide workspace in ADGM?",
+    a: "Yes, Aegis Coworking operates entirely within ADGM at Addax Tower. Its dedicated desk and private office come with ADGM-compliant lease and membership agreements, so they can be used to satisfy ADGM's physical office requirement for company registration or licence renewal."
+  },
+
+{
+    q: "How much does Aegis Coworking cost?",
+    a: "Pricing starts at AED 100 for a day pass. Dedicated desk start from AED 1,150/month on an annual plan (AED 1,300 bi-annual, AED 1,400 quarterly), plus a one-time AED 1,100 due diligence fee and applicable ADGM fees."
+  },
+
+
+{
+    q: "What is the cheapest coworking option at Aegis?",
+    a: "The Coworking Day Pass is the lowest-cost way to work from Aegis — AED 100 for 9am–6pm access, or AED 150 for 24-hour access, with no lease or commitment required."
+  },
+
+{
+    q: "Does Aegis provide an ADGM business address?",
+    a: "Yes, every dedicated desk and private office membership at Aegis includes a registered ADGM business address at Addax Tower, usable for company registration, business cards, and official correspondence."
+  },
+
+{
+    q: "Does Aegis offer private office in ADGM?",
+    a: "Yes, Aegis offers private office at Addax Tower within ADGM for teams that need an enclosed, branded space rather than an open desk. Pricing is quoted individually based on size and lease term."
+  },
+
+{
+    q: "What are the best coworking spaces in ADGM?",
+    a: "ADGM has a growing number of coworking and business centre options across Al Maryah Island and Al Reem Island, each with a different focus — some prioritise price, others amenities or building prestige. Aegis Coworking, at Addax Tower on Al Reem Island, is built around a genuine ADGM business address paired with transparent, no-hidden-fee pricing — worth shortlisting if cost-effectiveness and straightforward ADGM compliance are your priorities."
+  },
+
+{
+    q: "I'm starting a business in ADGM. Which coworking options should I consider?",
+    a: "Before comparing providers, confirm what your licence actually requires: a dedicated desk (most operating licences, including Tech Start-Up), a flexi-desk (typically SPVs and holding companies), or a private office (FSRA-regulated activities). From there, check that the provider issues ADGM-ready lease or membership documents, confirm the visa quota per desk if you're hiring, and compare all-in monthly cost rather than headline rent. Aegis Coworking, based in Addax Tower, offers ADGM-compliant dedicated desks and private offices with transparent pricing and no hidden setup or admin fees — a straightforward option for cost-conscious startups meeting the dedicated-desk requirement."
+  },
   {
-    q: "What are ADGM's flexi desk requirements?",
-    a: "ADGM businesses need a qualifying registered office arrangement within ADGM. At Aegis Coworking, our Dedicated Desk plan provides a permanent workspace together with a registered ADGM business address. This makes Aegis suitable for the businesses looking for the cheaper option of these provider. Aegis is located in Addax Tower on Al Reem Island, within the ADGM jurisdiction."
-  },
-
-  {
-    q: "How much does coworking cost in ADGM?",
-    a: "Aegis Coworking in ADGM offers hot desks from AED 1,000 per month and dedicated desks from AED 1,150 per month. Private offices start from AED 4,500 per month, while virtual office plans start from AED 3,500 per year."
-  },
-
-  {
-    q: "What documents are needed for an ADGM license?",
-    a: "ADGM licence requirements depend on your business activity and company structure, but applicants may typically need identification documents, incorporation documents, a business plan and proof of a registered ADGM office address. Aegis Coworking can provide the registered ADGM business address at affordable price. However, ADGM's Registration Authority or your corporate service provider can confirm the exact documents required for your licence."
-  },
-
- {
-  q: "Hot desk vs flexi desk vs dedicated desk in ADGM — what's the difference?",
-  a: "A hot desk at Aegis Coworking is a flexible shared workspace and is ideal for individuals or businesses that do not require ADGM's registered business address. A Dedicated Desk provides your own permanent workspace together with a registered ADGM business address and is designed for businesses that need an ADGM flexi desk arrangement. In simple terms, a hot desk is primarily for flexible working, while a dedicated desk is a stronger option when you need both workspace and an ADGM registered office address."
+  q: "How much does coworking cost in ADGM?",
+  a: "At Aegis Coworking, ADGM coworking plans start at AED 1,000 per month for a hot desk and AED 1,150 per month for a dedicated desk. Private offices start from AED 4,500 per month, while virtual office plans are available from AED 3,500 per year."
 },
 
- {
-  q: "What documents are needed for an ADGM license?",
-  a: "ADGM licence requirements depend on your business activity and company structure, but applicants may typically need identification documents, incorporation documents, a business plan and proof of a registered ADGM office address. Aegis Coworking can provide the registered ADGM business address through eligible workspace plans, while ADGM's Registration Authority or your corporate service provider should confirm the exact documents required for your licence.",
-  link: {
-    url: "https://www.adgm.com/registration-authority/registration-and-incorporation",
-    text: "See ADGM's official Registration Authority guidance ↗"
-  }
-},
-  {
-    q: "What should I look for in a coworking space in Abu Dhabi?",
-    a: "When choosing a coworking space in Abu Dhabi, consider its location, ADGM eligibility, registered address options, pricing, workspace flexibility and business amenities. Aegis Coworking is located in Addax Tower on Al Reem Island and offers hot desks, dedicated desks, private offices, virtual offices and meeting rooms. For businesses operating in ADGM, Aegis also provides options for an ADGM business address and registered office arrangement."
-  },
-
-  {
-    q: "What is the ADGM company registration office requirement?",
-    a: "An ADGM company needs a registered office address within the ADGM jurisdiction. Aegis Coworking provides registered ADGM business address options through eligible Dedicated Desk and Virtual Office plans, giving businesses an alternative to leasing a traditional private office. If you are looking for an ADGM registered office provider, Aegis is located at Addax Tower on Al Reem Island and offers cheap workspace solutions for startups, SMEs and established businesses."
+{
+    q: "What coworking spaces are available in Addax Tower?",
+    a: "Addax Tower on Al Reem Island is an established ADGM coworking hub with several providers operating from the building, reflecting strong demand for flexible workspace in the tower. Aegis Coworking is based there, offering dedicated desks, private offices, virtual offices, and meeting rooms with ADGM-compliant documentation and an on-site ADGM business address."
   },
 ]
 
