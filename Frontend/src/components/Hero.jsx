@@ -65,7 +65,7 @@
 
 
 import { Link } from 'react-router-dom'
-import { motion } from 'framer-motion'
+
 import heroVideo from '../assets/hero_video_compressed.mp4'
 import heroPoster from '../assets/hero-poster.jpg'
 
@@ -79,18 +79,13 @@ function Hero() {
         loop
         muted
         playsInline
-        preload="auto"
+        preload="metadata"
         aria-label="Aegis Coworking space at Addax Tower, ADGM, Abu Dhabi"
       >
         <source src={heroVideo} type="video/mp4" />
       </video>
       <div className="hero-overlay"></div>
-      <motion.div
-        className="hero-content"
-        initial={{ opacity: 1, y: 0 }}
-animate={{ opacity: 1, y: 0 }}
-transition={{ duration: 0 }}
-      >
+     <div className="hero-content">
         <span className="hero-eyebrow">
           Coworking Space in ADGM • Business Centre, Addax Tower • Al Reem Island, Abu Dhabi
         </span>
@@ -108,7 +103,7 @@ transition={{ duration: 0 }}
             BOOK TOUR
           </button>
         </Link>
-      </motion.div>
+     </div>
     </section>
   )
 }
