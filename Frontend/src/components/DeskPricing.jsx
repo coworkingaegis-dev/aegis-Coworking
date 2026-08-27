@@ -51,13 +51,13 @@
 
 
 
-import myDeskImage from '../assets/my-desk.jpg'
+import myDeskImage from '../assets/aegis-coworking-dedicated-desk-ADGM.jpg'
 
 function DeskPricing() {
   return (
     <section className="desk-pricing">
       <div className="desk-image">
-        <img src={myDeskImage} alt="My Desk workspace" />
+        <img src={myDeskImage} alt="Dedicated desk workspace at Aegis Coworking, Addax Tower, ADGM" />
       </div>
       <div className="desk-details">
         <p className="desk-eyebrow">OFFICE SPACES IN ADGM</p>
