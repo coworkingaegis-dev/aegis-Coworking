@@ -19,7 +19,7 @@ const faqs = [
     a: "Yes. The Dedicated Desk includes an ADGM-eligible business address, 24/7 access, lockable storage, and a dedicated workspace."
   },
   { q: "How much does a virtual office cost in ADGM?",
-   a: "Aegis Coworking offers virtual office options in ADGM starting from AED 3,500/year for businesses that need a professional ADGM business address without renting a full-time office." }
+   a: "Aegis Coworking offers virtual office options in ADGM starting from AED 3,500/year for businesses that need a professional ADGM business address without renting a full-time office." },
   {
     q: "Are there any hidden fees for coworking?",
     a: "No. Aegis Coworking provides clear pricing for its coworking space, dedicated desk, private office, and virtual office options. You pay for the plan you choose."
