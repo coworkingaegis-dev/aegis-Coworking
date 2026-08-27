@@ -23,8 +23,7 @@ const testimonials = [
   },
 
 {
-    quote: "I was specifically looking for the cheapest coworking space in ADGM and wanted a privacy environment rather than just a desk. Aegis offered a good balance of price, location, and facilities.
-",
+    quote: "I was specifically looking for the cheapest coworking space in ADGM and wanted a privacy environment rather than just a desk. Aegis offered a good balance of price, location, and facilities.",
     name: "Hossam Ali ",
     role: " Software analyst ",
     initials: "HA"
