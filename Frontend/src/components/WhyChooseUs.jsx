@@ -19,30 +19,6 @@ const whyUsStyles = {
     margin: '12px 0 50px',
     color: 'var(--color-text)',
   },
- box: {
-  display: 'grid',
-  gridTemplateColumns: 'repeat(6, 1fr)',   // was repeat(3, 1fr) — all 6 items in one row
-  maxWidth: '1100px',
-  width: '100%',
-  margin: '0 auto',
-  background: '#ffffff',
-  borderRadius: 'var(--radius-md)',
-  boxShadow: '0 4px 16px rgba(31, 92, 70, 0.06)',
-  overflow: 'hidden',
-},
-item: {
-  padding: '32px 12px',   // was 40px 28px — narrower cells need less horizontal padding
-},
-icon: {
-  fontSize: '28px',       // was 32px
-  marginBottom: '10px',   // was 12px
-},
-title: {
-  fontSize: '13.5px',     // was 15px — so 6 columns fit without crowding
-  fontWeight: 700,
-  color: 'var(--color-text)',
-  margin: 0,
-},
 }
 
 function WhyChooseUs() {
@@ -50,11 +26,11 @@ function WhyChooseUs() {
     <section style={whyUsStyles.section}>
       <span className="contact-eyebrow">WORKSPACE BENEFITS</span>
       <h2 style={whyUsStyles.heading}>Why Choose AEGIS Coworking Space in Abu Dhabi</h2>
-      <div style={whyUsStyles.box}>
+      <div className="wcu-box">
         {features.map((f, i) => (
-          <div key={i} style={whyUsStyles.item}>
-            <div style={whyUsStyles.icon}>{f.icon}</div>
-           <h3 style={whyUsStyles.title}>{f.title}</h3>
+          <div key={i} className="wcu-item">
+            <div className="wcu-icon">{f.icon}</div>
+           <h3 className="wcu-title">{f.title}</h3>
           </div>
         ))}
       </div>
