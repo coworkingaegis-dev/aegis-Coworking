@@ -136,11 +136,19 @@ if (error) {
           <meta property="og:type" content="article" />
           <meta property="og:url" content={`https://www.aegiscoworking.ae/blog/${post.id}`} />
           <meta
-            property="og:image"
-            content={post.image_url || 'https://www.aegiscoworking.ae/og-image.jpg'}
-          />
+  property="og:image"
+  content={post.image_url || 'https://www.aegiscoworking.ae/og-image.jpg'}
+/>
 
-        <meta property="article:author" content={post.author} />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={post.title} />
+<meta name="twitter:description" content={getMetaDescription(post)} />
+<meta
+  name="twitter:image"
+  content={post.image_url || 'https://www.aegiscoworking.ae/og-image.jpg'}
+/>
+
+<meta property="article:author" content={post.author} />
           {post.category && <meta property="article:section" content={post.category} />}
 
           <script type="application/ld+json">
