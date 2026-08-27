@@ -20,6 +20,10 @@ function Contact() {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.aegiscoworking.ae/contact" />
 <meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Contact Aegis Coworking | ADGM Addax Tower" />
+<meta name="twitter:description" content="Book a tour or request a quote from Aegis Coworking, Addax Tower, ADGM." />
+<meta name="twitter:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 <script type="application/ld+json">
   {JSON.stringify({
     "@context": "https://schema.org",
