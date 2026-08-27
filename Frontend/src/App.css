@@ -2191,7 +2191,7 @@ grid-template-columns: 1.8fr 1fr 1fr 1.1fr 1fr;
 .hero-content h1 {
   color: #fff;
   font-size: 68px;
-  font-weight: 800;
+  font-weight: 600;   /* was 800 */
   letter-spacing: -2px;
   margin-bottom: 40px;
   line-height: 1.08;
