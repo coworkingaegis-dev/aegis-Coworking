@@ -2155,6 +2155,7 @@ grid-template-columns: 1.8fr 1fr 1fr 1.1fr 1fr;
   animation: kenBurns 20s ease-in-out infinite alternate;
 }
 
+
 @keyframes kenBurns {
   0% {
     transform: scale(1);
@@ -2221,6 +2222,22 @@ grid-template-columns: 1.8fr 1fr 1fr 1.1fr 1fr;
   margin-bottom: 40px;
   text-transform: uppercase;
 }
+
+/* ===== MOBILE: USE HERO POSTER INSTEAD OF VIDEO ===== */
+@media (max-width: 768px) {
+  .hero-video {
+    display: none;
+  }
+
+  .hero-video-wrap {
+    background-image: url("/hero-poster.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+
 /* Scroll indicator */
 .scroll-indicator {
   position: absolute;
