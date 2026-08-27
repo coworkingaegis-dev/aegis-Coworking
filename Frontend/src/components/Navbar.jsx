@@ -221,7 +221,7 @@ const toggleWhatWeOffer = () => {
         </li>
         <li><Link to="/pricing" onClick={closeAll}>Hot Deals</Link></li>
         
-        <li><Link to="/membership" onClick={closeAll}>Membership</Link></li>
+        <li><Link to="/about" onClick={closeAll}>About</Link></li>
         
         <li><Link to="/contact" onClick={closeAll}>Contact Us</Link></li>
         <li className="nav-mobile-cta">
