@@ -125,10 +125,7 @@ function About() {
             <div className="about-block-icon">📖</div>
             <h3>THE AEGIS STORY</h3>
             <p>
-              Aegis Coworking was established at Addax Tower to provide
-              businesses in ADGM with a professional workspace that
-              combines a prestigious business address, flexible workspace
-              solutions, and a cheap working environment.
+              Aegis Coworking began as a small coworking space at Addax Tower, right on Al Reem Island, built around one idea: businesses registering in ADGM shouldn't have to choose between a prestigious address and an affordable one. We grew that into a full coworking space in ADGM — flexible desks, a genuine ADGM business address, and rates that don't quietly climb once you're settled in.
             </p>
           </div>
 
@@ -136,10 +133,7 @@ function About() {
             <div className="about-block-icon">🎯</div>
             <h3>OUR MISSION</h3>
             <p>
-              Our mission is to provide businesses with flexible and
-              professional workspace solutions that support every stage of
-              growth from independent professionals and emerging
-              startups to established teams operating within ADGM.
+              Our mission is to make ADGM easier to operate in, whatever stage your business is at. That's a dedicated desk or private office in ADGM for teams that need a fixed base, a serviced office for those who'd rather have everything handled, and a virtual office in ADGM for companies that need a real business address without renting a desk. Need to meet a client properly? Our meeting room on Al Reem Island covers that too.
             </p>
           </div>
 
@@ -147,10 +141,7 @@ function About() {
             <div className="about-block-icon">🤝</div>
             <h3>OUR VALUES</h3>
             <p>
-              We are guided by professionalism, flexibility, integrity, and
-              community. We create an environment where businesses can
-              establish their presence, build meaningful connections, and
-              operate with confidence in ADGM.
+              We're guided by four things: professionalism, flexibility, integrity, and community. In practice, that means running a business centre in ADGM you can actually rely on — a registered office provider that gets your ADGM paperwork right, and a serviced office in Abu Dhabi where showing up next to other founders and finance professionals is part of the point. We also happen to be one of the more affordable coworking spaces in ADGM, because values shouldn't come with a premium price tag.
             </p>
           </div>
         </div>
