@@ -8,7 +8,7 @@ function Footer() {
           <span className="footer-logo-dot"></span>
           AEGIS <span className="footer-logo-accent">COWORKING</span>
         </div>
-        <p>Coworking Business Center in Addax Tower, Al Reem Island, Abu Dhabi.</p>
+        <p>Business Center in Addax Tower, Al Reem Island, Abu Dhabi.</p>
          <img src={aegisLogo} alt="Aegis Coworking" className="footer-logo-image" />
         <div className="footer-socials">
           <a href="https://www.instagram.com/aegis.coworking/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
@@ -43,7 +43,7 @@ function Footer() {
         <Link to="/virtual-office">Virtual Office</Link>
         <Link to="/meeting-room">Meeting Room</Link>
         <Link to="/day-pass">Day Pass</Link>
-        <Link to="/membership">Membership</Link>
+
         <Link to="/about">About Us</Link>
       </div>
       <div className="footer-col">
