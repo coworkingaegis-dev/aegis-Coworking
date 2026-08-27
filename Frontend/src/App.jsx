@@ -52,6 +52,17 @@ function App() {
             },
             "hasMap": "https://www.google.com/maps/place/Aegis+Coworking+Space+ADGM/@24.4989303,54.4031693,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5e67ada3bb067b:0x5674c5ba5c0f061e!8m2!3d24.4989303!4d54.4031693!16s%2Fg%2F11zdd3lyxf",
             "openingHours": "Mo-Su 00:00-23:59",
+                       "sameAs": ["https://www.linkedin.com/company/aegis-coworking/", "https://www.instagram.com/aegis.coworking/"]
+          })}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "@id": "https://www.aegiscoworking.ae/#organization",
+            "name": "Aegis Coworking Space ADGM",
+            "url": "https://www.aegiscoworking.ae",
+            "logo": "https://www.aegiscoworking.ae/logo.png",
             "sameAs": ["https://www.linkedin.com/company/aegis-coworking/", "https://www.instagram.com/aegis.coworking/"]
           })}
         </script>
