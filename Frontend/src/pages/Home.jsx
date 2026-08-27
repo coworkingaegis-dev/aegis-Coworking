@@ -25,6 +25,11 @@ const faqs = [
   },
 
   {
+    q: "How much does coworking cost in ADGM?",
+    a: "Aegis Coworking in ADGM offers hot desks from AED 1,000 per month and dedicated desks from AED 1,150 per month. Private offices start from AED 4,500 per month, while virtual office plans start from AED 3,500 per year."
+  },
+
+  {
     q: "What documents are needed for an ADGM license?",
     a: "ADGM licence requirements depend on your business activity and company structure, but applicants may typically need identification documents, incorporation documents, a business plan and proof of a registered ADGM office address. Aegis Coworking can provide the registered ADGM business address at affordable price. However, ADGM's Registration Authority or your corporate service provider can confirm the exact documents required for your licence."
   },
