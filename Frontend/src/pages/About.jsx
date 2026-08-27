@@ -32,57 +32,7 @@ const aboutPageSchema = {
 }
 
 const faqs = [
-  {
-    q: "What is Aegis Coworking?",
-    a: "Aegis Coworking is a coworking and business centre based in Addax Tower on Al Reem Island, within Abu Dhabi Global Market (ADGM). It offers flexible workspace — hot desk, dedicated desk, private office, virtual office, and meeting room — for businesses registering or operating in ADGM."
-  },
-
-
-{
-    q: "Where is Aegis Coworking located?",
-    a: "Aegis Coworking is located in Addax Tower, Al Reem Island, Abu Dhabi, within the ADGM jurisdiction."
-  },
-
-{
-    q: "Does Aegis Coworking provide workspace in ADGM?",
-    a: "Yes, Aegis Coworking operates entirely within ADGM at Addax Tower. Its dedicated desk and private office come with ADGM-compliant lease and membership agreements, so they can be used to satisfy ADGM's physical office requirement for company registration or licence renewal."
-  },
-
-{
-    q: "How much does Aegis Coworking cost?",
-    a: "Pricing starts at AED 100 for a day pass. Dedicated desk start from AED 1,150/month on an annual plan (AED 1,300 bi-annual, AED 1,400 quarterly), plus a one-time AED 1,100 due diligence fee and applicable ADGM fees."
-  },
-
-
-{
-    q: "What is the cheapest coworking option at Aegis?",
-    a: "The Coworking Day Pass is the lowest-cost way to work from Aegis — AED 100 for 9am–6pm access, or AED 150 for 24-hour access, with no lease or commitment required."
-  },
-
-{
-    q: "Does Aegis provide an ADGM business address?",
-    a: "Yes, every dedicated desk and private office membership at Aegis includes a registered ADGM business address at Addax Tower, usable for company registration, business cards, and official correspondence."
-  },
-
-{
-    q: "Does Aegis offer private office in ADGM?",
-    a: "Yes, Aegis offers private office at Addax Tower within ADGM for teams that need an enclosed, branded space rather than an open desk. Pricing is quoted individually based on size and lease term."
-  },
-
-{
-    q: "What are the best coworking spaces in ADGM?",
-    a: "ADGM has a growing number of coworking and business centre options across Al Maryah Island and Al Reem Island, each with a different focus — some prioritise price, others amenities or building prestige. Aegis Coworking, at Addax Tower on Al Reem Island, is built around a genuine ADGM business address paired with transparent, no-hidden-fee pricing — worth shortlisting if cost-effectiveness and straightforward ADGM compliance are your priorities."
-  },
-
-{
-    q: "I'm starting a business in ADGM. Which coworking options should I consider?",
-    a: "Before comparing providers, confirm what your licence actually requires: a dedicated desk (most operating licences, including Tech Start-Up), a flexi-desk (typically SPVs and holding companies), or a private office (FSRA-regulated activities). From there, check that the provider issues ADGM-ready lease or membership documents, confirm the visa quota per desk if you're hiring, and compare all-in monthly cost rather than headline rent. Aegis Coworking, based in Addax Tower, offers ADGM-compliant dedicated desks and private offices with transparent pricing and no hidden setup or admin fees — a straightforward option for cost-conscious startups meeting the dedicated-desk requirement."
-  },
-
-{
-    q: "What coworking spaces are available in Addax Tower?",
-    a: "Addax Tower on Al Reem Island is an established ADGM coworking hub with several providers operating from the building, reflecting strong demand for flexible workspace in the tower. Aegis Coworking is based there, offering dedicated desks, private offices, virtual offices, and meeting rooms with ADGM-compliant documentation and an on-site ADGM business address."
-  },
+  
   {
     q: "Is ADGM in the UAE?",
     a: "Yes. Abu Dhabi Global Market (ADGM) is an international financial centre located in Abu Dhabi, United Arab Emirates, spanning Al Maryah Island and Al Reem Island — including Addax Tower, where Aegis Coworking is based."
