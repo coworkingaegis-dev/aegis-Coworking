@@ -8,7 +8,7 @@ import RoomFeatures from '../components/RoomFeatures'
 import RoomCapacities from '../components/RoomCapacities'
 import Footer from '../components/Footer'
 import { Link } from 'react-router-dom'
-import meetingRoomBanner from '../assets/meeting-room-addax-tower.jpg'
+import meetingRoomBanner from '../assets/meeting-room-addax-tower.webp'
 const faqs = [
   {
     q: "Can anyone book a meeting room in ADGM?",
