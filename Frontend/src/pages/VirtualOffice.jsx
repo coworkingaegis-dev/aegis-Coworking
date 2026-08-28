@@ -9,8 +9,8 @@ import InquiryCTA from '../components/InquiryCTA'
 import Footer from '../components/Footer'
 
 import voBasic from '../assets/virtual-office-basic-ADGM_AbuDhabi.webp'
-import voPremium from '../assets/virtual-office-premium-ADGM.jpg'
-import voEnterprise from '../assets/virtual-office-enterprise-ADGM-abu-dhabi.jpg'
+import voPremium from '../assets/virtual-office-premium-ADGM.webp'
+import voEnterprise from '../assets/virtual-office-enterprise-ADGM-abu-dhabi.webp'
 
 import { Link } from 'react-router-dom'
 
