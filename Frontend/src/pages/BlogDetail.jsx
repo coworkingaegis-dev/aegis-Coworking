@@ -253,7 +253,7 @@ if (error) {
 
           {post.image_url && (
             <div className="blog-detail-image">
-              <img src={post.image_url} alt={post.title} />
+             <img src={post.image_url} alt={post.title} decoding="async" fetchpriority="high" />
             </div>
           )}
 
@@ -296,7 +296,7 @@ if (error) {
                   <Link to={`/blog/${rp.id}`} key={rp.id} className="related-post-card">
                     {rp.image_url && (
                       <div className="related-post-image">
-                        <img src={rp.image_url} alt={rp.title} />
+                       <img src={rp.image_url} alt={rp.title} loading="lazy" decoding="async" />
                       </div>
                     )}
                     <div className="related-post-body">
