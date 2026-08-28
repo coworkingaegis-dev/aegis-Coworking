@@ -5,8 +5,8 @@ import { motion } from 'framer-motion'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
-import smallOfficeImg from '../assets/po-small.jpg'
-import mediumOfficeImg from '../assets/po-medium.jpg'
+import smallOfficeImg from '../assets/private-office-small-adgm-abu-dhabi.jpg'
+import mediumOfficeImg from '../assets/private-office-medium-adgm-abu-dhabi.jpg'
 
 
 const faqs = [
@@ -191,7 +191,7 @@ function PrivateOffice() {
       {/* Small Office */}
       <section className="vo-tier">
         <div className="vo-tier-image">
-          <img src={smallOfficeImg} alt="Small ADGM Private Office" />
+          <img src={smallOfficeImg} alt="Small private office at Aegis Coworking in ADGM, Abu Dhabi" />
         </div>
         <div className="vo-tier-content">
           <span className="vo-tier-badge" style={{ background: '#e5e5e0', color: 'var(--color-primary)' }}>SMALL</span>
@@ -214,7 +214,7 @@ function PrivateOffice() {
       {/* Medium Office */}
       <section className="vo-tier vo-tier-reverse">
         <div className="vo-tier-image">
-          <img src={mediumOfficeImg} alt="Medium ADGM Private Office" />
+          <img src={mediumOfficeImg} alt="Medium private office at Aegis Coworking in ADGM, Abu Dhabi" />
         </div>
         <div className="vo-tier-content">
           <span className="vo-tier-badge" style={{ background: '#fdeecb', color: '#b8860b' }}>MEDIUM</span>
