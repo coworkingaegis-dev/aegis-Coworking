@@ -5,7 +5,7 @@ function DayPassPricing() {
   return (
     <section className="desk-pricing">
       <div className="desk-image">
-        <img src={dayPassImage} alt="Coworking day pass workspace at Aegis Coworking in ADGM, Abu Dhabi" />
+<img src={dayPassImage} alt="Coworking day pass workspace at Aegis Coworking in ADGM, Abu Dhabi" width="1333" height="768" loading="lazy" decoding="async" />
       </div>
       <div className="desk-details">
         <p className="desk-eyebrow">FLEXIBLE WORKSPACE SOLUTION</p>
