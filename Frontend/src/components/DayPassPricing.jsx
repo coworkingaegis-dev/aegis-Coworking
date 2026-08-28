@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import dayPassImage from '../assets/aegis-coworking-day-pass-adgm.jpg'
+import dayPassImage from '../assets/aegis-coworking-day-pass-adgm.webp'
 
 function DayPassPricing() {
   return (
