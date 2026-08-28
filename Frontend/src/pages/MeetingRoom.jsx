@@ -8,7 +8,7 @@ import RoomFeatures from '../components/RoomFeatures'
 import RoomCapacities from '../components/RoomCapacities'
 import Footer from '../components/Footer'
 import { Link } from 'react-router-dom'
-import meetingRoomBanner from '../assets/meeting-room-banner.jpg'
+import meetingRoomBanner from '../assets/meeting-room-addax-tower.jpg'
 const faqs = [
   {
     q: "Can anyone book a meeting room in ADGM?",
@@ -132,7 +132,7 @@ function MeetingRoom() {
         title="MEETING ROOMS IN ADGM"
         subtitle="FULLY EQUIPPED · FLEXIBLE BOOKING · PRIME LOCATION"
       />
-      <ImageBanner image={meetingRoomBanner} alt="Meeting room in session" />
+      <ImageBanner image={meetingRoomBanner} alt="Meeting room at Aegis Coworking, Addax Tower, ADGM, Abu Dhabi" />
       <ImpressClients />
       <RoomFeatures />
       <RoomCapacities />
