@@ -156,7 +156,7 @@ function VirtualOffice() {
   desc="Designed for growing businesses that need more than a business address. Get a UAE business phone number with live call answering, meeting room access, priority mail handling, and a professional business presence in ADGM. This virtual office in ADGM is ideal for companies that want a professional business address in Abu Dhabi without renting a full-time office."
   image={voPremium}
   imageWidth={1200} 
-  imageHeight={800
+  imageHeight={800}
   buttons={[{ label: "REQUEST QUOTE", primary: true }]}
   imageLeft={false}
 />
@@ -164,11 +164,11 @@ function VirtualOffice() {
 <VOTierCard
   tier="ENTERPRISE"
   title="ENTERPRISE ADGM VIRTUAL OFFICE"
-   alt="Enterprise virtual office package at Aegis Coworking in ADGM, Abu Dhabi"
+  alt="Enterprise virtual office package at Aegis Coworking in ADGM, Abu Dhabi"
   desc="Built for established businesses and international companies that need a complete business presence in ADGM. Includes meeting room access, a dedicated account manager, priority administrative support, and flexible coworking access at Addax Tower. A complete ADGM business address solution with the flexibility to move into a dedicated desk or private office as your business grows."
   image={voEnterprise}
   imageWidth={512} 
-  imageHeight={512
+  imageHeight={512}
   buttons={[{ label: "REQUEST QUOTE", primary: true }]}
   imageLeft={true}
 />
