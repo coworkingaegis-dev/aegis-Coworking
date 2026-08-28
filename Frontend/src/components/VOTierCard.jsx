@@ -6,22 +6,14 @@ const tierBadgeColors = {
   ENTERPRISE: { bg: '#e8e0f7', color: '#5b3ea6' },
 }
 
-function VOTierCard({
-  image,
-  alt,
-  eyebrow,
-  title,
-  desc,
-  buttons,
-  imageLeft = true,
-  tier
-}) {
+function VOTierCard({ image, alt, eyebrow, title, desc, buttons, imageLeft = true, tier, imageWidth, imageHeight }) {
+
   const badge = tierBadgeColors[tier] || tierBadgeColors.BASIC
 
   return (
     <section className={`vo-tier ${imageLeft ? '' : 'vo-tier-reverse'}`}>
       <div className="vo-tier-image">
-<img src={image} alt={alt || title} loading="lazy" />
+<img src={image} alt={alt || title} loading="lazy" decoding="async" width={imageWidth} height={imageHeight} />
       </div>
       <div className="vo-tier-content">
         {tier && (
