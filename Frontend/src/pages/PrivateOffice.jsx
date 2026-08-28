@@ -5,8 +5,8 @@ import { motion } from 'framer-motion'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
-import smallOfficeImg from '../assets/private-office-small-adgm-abu-dhabi.jpg'
-import mediumOfficeImg from '../assets/private-office-medium-adgm-abu-dhabi.jpg'
+import smallOfficeImg from '../assets/private-office-small-adgm-abu-dhabi.webp'
+import mediumOfficeImg from '../assets/private-office-medium-adgm-abu-dhabi.webp'
 
 
 const faqs = [
