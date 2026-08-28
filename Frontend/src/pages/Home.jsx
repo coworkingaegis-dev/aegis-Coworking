@@ -132,7 +132,7 @@ function Home() {
       
       <Reveal delay={0.1}><WhyChooseUs /></Reveal>
       <Reveal delay={0.1}>
-        <ImageBanner image={homeBannerImage} alt="Coworking space with skyline view" />
+        <ImageBanner image={homeBannerImage} alt="Aegis Coworking workspace with Abu Dhabi skyline view in ADGM" width={1024} height={683} />
       </Reveal>
        <Reveal delay={0.1}><Amenities /></Reveal>
        <section className="vo-faq">
