@@ -8,9 +8,9 @@ import VOTierCard from '../components/VOTierCard'
 import InquiryCTA from '../components/InquiryCTA'
 import Footer from '../components/Footer'
 
-import voBasic from '../assets/vo-basic.webp'
-import voPremium from '../assets/vo-premium.jpg'
-import voEnterprise from '../assets/vo-enterprise.jpg'
+import voBasic from '../assets/virtual-office-basic-ADGM_AbuDhabi.webp'
+import voPremium from '../assets/virtual-office-premium-ADGM.jpg'
+import voEnterprise from '../assets/virtual-office-enterprise-ADGM-abu-dhabi.jpg'
 
 import { Link } from 'react-router-dom'
 
@@ -139,6 +139,7 @@ function VirtualOffice() {
 
      <VOTierCard
   image={voBasic}
+  alt="Basic virtual office package at Aegis Coworking in ADGM, Abu Dhabi"
   tier="BASIC"
   title="BASIC ADGM VIRTUAL OFFICE"
   desc="A simple virtual office in ADGM for founders, freelancers, and international businesses. Get an ADGM business address at Addax Tower, Al Reem Island, with support for your ADGM licence application, mail receiving and forwarding, and company directory listing. A practical option for businesses looking for an ADGM registered office provider and a professional business presence."
@@ -149,6 +150,7 @@ function VirtualOffice() {
 <VOTierCard
   tier="PREMIUM"
   title="PREMIUM ADGM VIRTUAL OFFICE"
+  alt="Premium virtual office package at Aegis Coworking in ADGM, Abu Dhabi"
   desc="Designed for growing businesses that need more than a business address. Get a UAE business phone number with live call answering, meeting room access, priority mail handling, and a professional business presence in ADGM. This virtual office in ADGM is ideal for companies that want a professional business address in Abu Dhabi without renting a full-time office."
   image={voPremium}
   buttons={[{ label: "REQUEST QUOTE", primary: true }]}
@@ -158,6 +160,7 @@ function VirtualOffice() {
 <VOTierCard
   tier="ENTERPRISE"
   title="ENTERPRISE ADGM VIRTUAL OFFICE"
+   alt="Enterprise virtual office package at Aegis Coworking in ADGM, Abu Dhabi"
   desc="Built for established businesses and international companies that need a complete business presence in ADGM. Includes meeting room access, a dedicated account manager, priority administrative support, and flexible coworking access at Addax Tower. A complete ADGM business address solution with the flexibility to move into a dedicated desk or private office as your business grows."
   image={voEnterprise}
   buttons={[{ label: "REQUEST QUOTE", primary: true }]}
