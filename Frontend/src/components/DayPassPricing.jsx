@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom'
-import dayPassImage from '../assets/day-pass.jpg'
+import dayPassImage from '../assets/aegis-coworking-day-pass-adgm.jpg'
 
 function DayPassPricing() {
   return (
     <section className="desk-pricing">
       <div className="desk-image">
-        <img src={dayPassImage} alt="Coworking day pass workspace" />
+        <img src={dayPassImage} alt="Coworking day pass workspace at Aegis Coworking in ADGM, Abu Dhabi" />
       </div>
       <div className="desk-details">
         <p className="desk-eyebrow">FLEXIBLE WORKSPACE SOLUTION</p>
