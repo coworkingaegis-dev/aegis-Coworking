@@ -1,26 +1,7 @@
-// function ImageBanner({ image, alt = "Coworking space" }) {
-//   return (
-//     <section className="image-banner">
-//       <img src={image} alt={alt} />
-//     </section>
-//   )
-// }
-
-// export default ImageBanner
-
-
-
-
-
-function ImageBanner({ image, alt = "Coworking space in Abu Dhabi" }) {
+function ImageBanner({ image, alt = "Coworking space in Abu Dhabi", width, height }) {
   return (
     <section className="image-banner">
-      <img
-        src={image}
-        alt={alt}
-        loading="lazy"
-        decoding="async"
-      />
+      <img src={image} alt={alt} width={width} height={height} loading="lazy" decoding="async" />
     </section>
   )
 }
