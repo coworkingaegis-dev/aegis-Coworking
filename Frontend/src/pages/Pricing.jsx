@@ -106,45 +106,41 @@ function Pricing() {
           })}
         </script>
 
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "ItemList",
-            "itemListElement": [
-              {
-                "@type": "Offer",
-                "name": "Hot Desk",
-                "price": "1000",
-                "priceCurrency": "AED",
-                "priceValidUntil": "2026-12-31",
-                "url": "https://www.aegiscoworking.ae/pricing",
-              },
-              {
-                "@type": "Offer",
-                "name": "Dedicated Desk",
-                "price": "1150",
-                "priceCurrency": "AED",
-                "priceValidUntil": "2026-12-31",
-                "url": "https://www.aegiscoworking.ae/pricing",
-              },
-              {
-                "@type": "Offer",
-                "name": "Virtual Office",
-                "price": "3500",
-                "priceCurrency": "AED",
-                "priceValidUntil": "2026-12-31",
-                "url": "https://www.aegiscoworking.ae/pricing",
-              },
-              {
-                "@type": "Offer",
-                "name": "Private Office",
-                "price": "4500",
-                "priceCurrency": "AED",
-                "priceValidUntil": "2026-12-31",
-                "url": "https://www.aegiscoworking.ae/pricing",
-              },
-            ],
-            })}
+<script type="application/ld+json">
+  {JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": [
+      {
+        "@type": "Service",
+        "name": "Hot Desk",
+        "provider": { "@type": "LocalBusiness", "@id": "https://www.aegiscoworking.ae/#business" },
+        "areaServed": "Abu Dhabi",
+        "offers": { "@type": "Offer", "price": "1000", "priceCurrency": "AED", "priceValidUntil": "2026-12-31", "url": "https://www.aegiscoworking.ae/pricing" }
+      },
+      {
+        "@type": "Service",
+        "name": "Dedicated Desk",
+        "provider": { "@type": "LocalBusiness", "@id": "https://www.aegiscoworking.ae/#business" },
+        "areaServed": "Abu Dhabi",
+        "offers": { "@type": "Offer", "price": "1150", "priceCurrency": "AED", "priceValidUntil": "2026-12-31", "url": "https://www.aegiscoworking.ae/pricing" }
+      },
+      {
+        "@type": "Service",
+        "name": "Virtual Office",
+        "provider": { "@type": "LocalBusiness", "@id": "https://www.aegiscoworking.ae/#business" },
+        "areaServed": "Abu Dhabi",
+        "offers": { "@type": "Offer", "price": "3500", "priceCurrency": "AED", "priceValidUntil": "2026-12-31", "url": "https://www.aegiscoworking.ae/pricing" }
+      },
+      {
+        "@type": "Service",
+        "name": "Private Office",
+        "provider": { "@type": "LocalBusiness", "@id": "https://www.aegiscoworking.ae/#business" },
+        "areaServed": "Abu Dhabi",
+        "offers": { "@type": "Offer", "price": "4500", "priceCurrency": "AED", "priceValidUntil": "2026-12-31", "url": "https://www.aegiscoworking.ae/pricing" }
+      }
+    ]
+  })}
 </script>
 <script type="application/ld+json">
   {JSON.stringify({
