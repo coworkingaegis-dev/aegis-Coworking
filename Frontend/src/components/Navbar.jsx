@@ -144,7 +144,7 @@ const toggleWhatWeOffer = () => {
     <nav className="navbar">
       <Link to="/" className="logo-link" onClick={closeAll}>
         <div className="logo">
-          <img src={aegisLogo} alt="Aegis Coworking" className="logo-img" />
+          <img src={aegisLogo} alt="Aegis Coworking" className="logo-img" width="1254" height="1254" decoding="async" />
           AEGIS <span className="logo-accent">COWORKING</span>
         </div>
       </Link>
