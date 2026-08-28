@@ -2230,7 +2230,7 @@ grid-template-columns: 1.8fr 1fr 1fr 1.1fr 1fr;
   }
 
   .hero-video-wrap {
-    background-image: url("/hero-poster.jpg");
+   background-image: url("/hero-poster.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
