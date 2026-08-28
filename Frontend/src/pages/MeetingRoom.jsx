@@ -132,7 +132,7 @@ function MeetingRoom() {
         title="MEETING ROOMS IN ADGM"
         subtitle="FULLY EQUIPPED · FLEXIBLE BOOKING · PRIME LOCATION"
       />
-      <ImageBanner image={meetingRoomBanner} alt="Meeting room at Aegis Coworking, Addax Tower, ADGM, Abu Dhabi" />
+      <ImageBanner image={meetingRoomBanner} alt="Meeting room at Aegis Coworking, Addax Tower, ADGM, Abu Dhabi" width={800} height={800} />
       <ImpressClients />
       <RoomFeatures />
       <RoomCapacities />
