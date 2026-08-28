@@ -191,7 +191,7 @@ function PrivateOffice() {
       {/* Small Office */}
       <section className="vo-tier">
         <div className="vo-tier-image">
-          <img src={smallOfficeImg} alt="Small private office at Aegis Coworking in ADGM, Abu Dhabi" />
+         <img src={smallOfficeImg} alt="Small private office at Aegis Coworking in ADGM, Abu Dhabi" width="474" height="664" loading="lazy" decoding="async" />
         </div>
         <div className="vo-tier-content">
           <span className="vo-tier-badge" style={{ background: '#e5e5e0', color: 'var(--color-primary)' }}>SMALL</span>
@@ -214,7 +214,7 @@ function PrivateOffice() {
       {/* Medium Office */}
       <section className="vo-tier vo-tier-reverse">
         <div className="vo-tier-image">
-          <img src={mediumOfficeImg} alt="Medium private office at Aegis Coworking in ADGM, Abu Dhabi" />
+<img src={mediumOfficeImg} alt="Medium private office at Aegis Coworking in ADGM, Abu Dhabi" width="1024" height="1024" loading="lazy" decoding="async" />
         </div>
         <div className="vo-tier-content">
           <span className="vo-tier-badge" style={{ background: '#fdeecb', color: '#b8860b' }}>MEDIUM</span>
