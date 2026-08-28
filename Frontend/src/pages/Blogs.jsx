@@ -142,7 +142,7 @@ useEffect(() => {
               >
                 {post.image_url && (
                   <div className="blog-card-image">
-                    <img src={post.image_url} alt={post.title} />
+                    <img src={post.image_url} alt={post.title} loading="lazy" decoding="async" />
                     <span className="blog-card-date">{formatDate(post.created_at)}</span>
                     {post.category && <span className="blog-tag">{post.category}</span>}
                   </div>
