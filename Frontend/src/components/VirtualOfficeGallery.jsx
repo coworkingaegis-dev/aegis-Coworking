@@ -1,4 +1,4 @@
-import officeImage from '../assets/aegis-coworking-virtual-office-ADGM.jpg'
+import officeImage from '../assets/aegis-coworking-virtual-office-ADGM.webp'
 
 function VirtualOfficeGallery() {
   return (
