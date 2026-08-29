@@ -169,11 +169,11 @@ function About() {
               </tr>
               <tr>
                 <td className="vo-plans-name" data-label="Workspace">Virtual Office</td>
-                <td className="vo-plans-price" data-label="Starting Price">AED 3,500/year</td>
+                <td className="vo-plans-price" data-label="Starting Price">AED 292/month</td>
               </tr>
               <tr>
                 <td className="vo-plans-name" data-label="Workspace">Private Office</td>
-                <td className="vo-plans-price" data-label="Starting Price">AED 4,500/month</td>
+                <td className="vo-plans-price" data-label="Starting Price">AED 4500/month</td>
               </tr>
             </tbody>
           </table>
