@@ -1,12 +1,10 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-
+import { Helmet } from 'react-helmet-async'
 import heroVideo from '../assets/hero_video_compressed.mp4'
 import heroPoster from '../assets/hero-poster.webp'
-
 function Hero() {
   const [loadVideo, setLoadVideo] = useState(false)
-
   useEffect(() => {
     const trigger = () => setLoadVideo(true)
     if ('requestIdleCallback' in window) {
@@ -17,9 +15,11 @@ function Hero() {
       return () => clearTimeout(t)
     }
   }, [])
-
   return (
     <section className="hero hero-video-wrap">
+      <Helmet>
+        <link rel="preload" as="image" href={heroPoster} fetchpriority="high" />
+      </Helmet>
       <img
         className="hero-video"
         src={heroPoster}
@@ -34,7 +34,6 @@ function Hero() {
         }}
         fetchpriority="high"
       />
-
       {loadVideo && (
         <video
           className="hero-video"
@@ -49,7 +48,6 @@ function Hero() {
           <source src={heroVideo} type="video/mp4" />
         </video>
       )}
-
       <div className="hero-overlay"></div>
       <div className="hero-content">
         <span className="hero-eyebrow">
@@ -73,5 +71,4 @@ function Hero() {
     </section>
   )
 }
-
 export default Hero
