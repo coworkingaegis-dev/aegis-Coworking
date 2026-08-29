@@ -46,7 +46,7 @@ const faqs = [
     a: "Before comparing providers, confirm what your licence actually requires: a dedicated desk (most operating licences, including Tech Start-Up), a flexi-desk (typically SPVs and holding companies), or a private office (FSRA-regulated activities). From there, check that the provider issues ADGM-ready lease or membership documents, confirm the visa quota per desk if you're hiring, and compare all-in monthly cost rather than headline rent. Aegis Coworking, based in Addax Tower, offers ADGM-compliant dedicated desks and private offices with transparent pricing and no hidden setup or admin fees — a straightforward option for cost-conscious startups meeting the dedicated-desk requirement."
   },
   {
-  q: "How much does coworking cost at Aegis Coworking?",
+  q: "How much do coworking plans cost at Aegis Coworking?",
   a: "Aegis Coworking pricing depends on the workspace type. Day passes start at AED 100/day, hot desks start at AED 1,000/month, dedicated desks start at AED 1,150/month, private offices start at AED 4,500/month, and virtual office plans start at AED 3,500/year."
 },
 
