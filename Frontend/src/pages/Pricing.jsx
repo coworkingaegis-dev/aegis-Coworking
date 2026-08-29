@@ -16,7 +16,7 @@ const faqs = [
     a: "Yes. The Dedicated Desk includes an ADGM-eligible business address, 24/7 access, lockable storage, and a dedicated workspace."
   },
   { q: "How much does a virtual office cost in ADGM?",
-   a: "Aegis Coworking offers virtual office options in ADGM starting from AED 3,500/year for businesses that need a professional ADGM business address without renting a full-time office." },
+   a: "Aegis Coworking offers virtual office options in ADGM starting from AED 292/month for businesses that need a professional ADGM business address without renting a full-time office." },
   {
     q: "Are there any hidden fees for coworking?",
     a: "No. Aegis Coworking provides clear pricing for its coworking space, dedicated desk, private office, and virtual office options. You pay for the plan you choose."
@@ -130,7 +130,7 @@ function Pricing() {
         "name": "Virtual Office",
         "provider": { "@type": "LocalBusiness", "@id": "https://www.aegiscoworking.ae/#business" },
         "areaServed": "Abu Dhabi",
-        "offers": { "@type": "Offer", "price": "3500", "priceCurrency": "AED", "priceValidUntil": "2026-12-31", "url": "https://www.aegiscoworking.ae/pricing" }
+        "offers": { "@type": "Offer", "price": "292", "priceCurrency": "AED", "priceValidUntil": "2026-12-31", "url": "https://www.aegiscoworking.ae/pricing" }
       },
       {
         "@type": "Service",
@@ -245,8 +245,8 @@ function Pricing() {
             <h3>VIRTUAL OFFICE</h3>
             <p className="pricing-subtitle">Cheapest virtual office in ADGM, registered business address</p>
             <div className="pricing-price">
-              <span className="pricing-strike">4,500</span>{' '}
-              AED 3,500<span>/year</span>
+              <span className="pricing-strike">350</span>{' '}
+              AED 292<span>/month</span>
             </div>
             <ul className="pricing-features">
               <li>Registered ADGM business address</li>
