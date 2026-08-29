@@ -6,6 +6,11 @@ import { createClient } from '@supabase/supabase-js'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const distDir = path.resolve(__dirname, '../dist')
 const template = fs.readFileSync(path.join(distDir, 'index.html'), 'utf-8')
+  .replace(
+    /<link rel="stylesheet" crossorigin href="([^"]+)">/,
+    `<link rel="stylesheet" crossorigin href="$1" media="print" onload="this.media='all'">` +
+    `<noscript><link rel="stylesheet" crossorigin href="$1"></noscript>`
+  )
 const { render } = await import(path.join(distDir, 'server/entry-server.js'))
 
 // Routes that get their own indexable, SEO-optimized static page.
