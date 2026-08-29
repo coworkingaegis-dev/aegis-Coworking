@@ -47,7 +47,7 @@ const faqs = [
   },
   {
   q: "How much do coworking plans cost at Aegis Coworking?",
-  a: "Aegis Coworking pricing depends on the workspace type. Day passes start at AED 100/day, hot desks start at AED 1,000/month, dedicated desks start at AED 1,150/month, private offices start at AED 4,500/month, and virtual office plans start at AED 3,500/year."
+  a: "Aegis Coworking pricing depends on the workspace type. Day passes start at AED 100/day, hot desks start at AED 1,000/month, dedicated desks start at AED 1,150/month, private offices start at AED 4,500/month, and virtual office plans start at AED 292/month."
 },
 
 {
