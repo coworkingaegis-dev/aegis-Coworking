@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: "What's included in an ADGM virtual office package, and how much does it cost?",
-    a: "Aegis Coworking offers three virtual office tiers — Basic, Premium, and Enterprise — each with a registered ADGM business address, mail handling, and increasing levels of phone support and meeting room credits. Pricing is customized based on the tier and your business needs — request a quote for current rates.",
+    a: "Aegis Coworking offers virtual office at  only AED 292 /month with a registered ADGM business address, mail handling, and increasing levels of phone support and meeting room credits.",
   },
   {
     q: "Can I use a virtual office in Abu Dhabi for my ADGM licence renewal?",
