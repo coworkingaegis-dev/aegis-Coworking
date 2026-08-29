@@ -11,6 +11,7 @@ function BusinessPresence() {
           <div className="bp-column-icon">🏢</div>
           <h4>WHAT YOU GET</h4>
           <ul>
+            <li>Book Virtual office at only AED 292/month</li>
             <li>Registered ADGM business address for company registration & licensing</li>
             <li>Professional mail handling plus a dedicated UAE phone line</li>
             <li>On-demand access to meeting rooms and the business lounge</li>
