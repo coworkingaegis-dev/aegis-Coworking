@@ -605,6 +605,35 @@ grid-template-columns: 1.8fr 1fr 1fr 1.1fr 1fr;
   letter-spacing: 0.4px;
 }
 
+
+.powered-by-bayana {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-soft);
+  color: var(--color-text-muted);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.powered-by-bayana:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.powered-by-bayana img {
+  height: 15px;
+  width: auto;
+  display: block;
+}
+
 /* ===== DESK PRICING ===== */
 .desk-pricing {
   display: grid;
