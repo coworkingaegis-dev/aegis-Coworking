@@ -269,22 +269,22 @@ function Pricing() {
         <div className="includes-grid">
           <div className="includes-item">
             <div className="includes-icon">☕</div>
-            <h4>PREMIUM COFFEE</h4>
+            <h3>PREMIUM COFFEE</h3>
             <p>Unlimited specialty coffee & tea</p>
           </div>
           <div className="includes-item">
             <div className="includes-icon">📶</div>
-            <h4>HIGH-SPEED WIFI</h4>
+            <h3>HIGH-SPEED WIFI</h3>
             <p>Fiber optic internet</p>
           </div>
           <div className="includes-item">
             <div className="includes-icon">🤝</div>
-            <h4>NETWORKING EVENTS</h4>
+            <h3>NETWORKING EVENTS</h3>
             <p>Monthly community gatherings</p>
           </div>
           <div className="includes-item">
             <div className="includes-icon">📍</div>
-            <h4>PRIME LOCATION</h4>
+            <h3>PRIME LOCATION</h3>
             <p>Heart of ADGM, Al Reem Island</p>
           </div>
         </div>
