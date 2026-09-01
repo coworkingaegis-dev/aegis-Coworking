@@ -167,7 +167,7 @@ All Aegis Coworking memberships are located in Addax Tower, Al Reem Island, in t
         <div className="perfect-for-grid" style={membershipGridStyle}>
           <div className="perfect-for-card">
             <div className="perfect-for-icon">💺</div>
-            <h4>HOT DESK</h4>
+            <h3>HOT DESK</h3>
             <p>
               Shared workspace access, high-speed internet and meeting room
               credits. The cheapest coworking membership in ADGM, ideal for
@@ -177,7 +177,7 @@ All Aegis Coworking memberships are located in Addax Tower, Al Reem Island, in t
           </div>
           <div className="perfect-for-card">
             <div className="perfect-for-icon">🖥️</div>
-            <h4>DEDICATED DESK</h4>
+            <h3>DEDICATED DESK</h3>
             <p>
               Your own permanent desk with 24/7 access and an ADGM-eligible
               office address, in Addax Tower.
@@ -186,7 +186,7 @@ All Aegis Coworking memberships are located in Addax Tower, Al Reem Island, in t
           </div>
           <div className="perfect-for-card">
             <div className="perfect-for-icon">📍</div>
-            <h4>VIRTUAL OFFICE</h4>
+            <h3>VIRTUAL OFFICE</h3>
             <p>
               A registered ADGM business address with mail handling — no
               physical desk required.
@@ -195,7 +195,7 @@ All Aegis Coworking memberships are located in Addax Tower, Al Reem Island, in t
           </div>
           <div className="perfect-for-card">
             <div className="perfect-for-icon">🚪</div>
-            <h4>PRIVATE OFFICE</h4>
+            <h3>PRIVATE OFFICE</h3>
             <p>
               A lockable, fully furnished suite for teams who need privacy
               and space to grow.
