@@ -33,7 +33,7 @@ const faqs = [
 
   {
     q: "How much does coworking cost in ADGM?",
-    a: "Aegis Coworking in ADGM offers hot desks from AED 1,000 per month and dedicated desks from AED 1,150 per month. Private offices start from AED 4,500 per month, while virtual office plans start from AED 3,500 per year."
+    a: "Aegis Coworking in ADGM offers hot desks from AED 1,000 per month, day pass from AED 100 per day and dedicated desks from AED 1,150 per month. Private offices start from AED 4,500 per month, while virtual office plans start from AED 3,500 per year."
   },
 
  {
