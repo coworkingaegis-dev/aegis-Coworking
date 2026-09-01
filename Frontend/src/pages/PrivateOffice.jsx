@@ -148,15 +148,14 @@ function PrivateOffice() {
       <section className="business-presence">
         <span className="contact-eyebrow">HOW IT WORKS</span>
         <h2>Your Own Private Office Inside ADGM</h2>
-        <p className="bp-intro">
-
-  Our private offices are located at Addax Tower, Al Reem Island, in the heart
-  of ADGM. Each private office in ADGM is lockable, fully furnished, and ready
-  for your ADGM licence. Choose professional private office space in ADGM with
-  the privacy of a traditional office and the flexibility of a modern business
-  centre. See full <Link to="/pricing">pricing details</Link> for every office
-  size.
-</p>
+                <p className="bp-intro">
+          Our private offices are located at Addax Tower, Al Reem Island, in the heart
+          of ADGM. Each private office in ADGM is lockable, fully furnished, and ready
+          for your ADGM licence. Choose professional private office space in ADGM,
+          starting from <strong>AED 4,500 /month</strong>, with the privacy of a
+          traditional office and the flexibility of a modern business centre. See full{' '}
+          <Link to="/pricing">pricing details</Link> for every office size.
+        </p>
 
         <div className="bp-columns bp-columns-3">
           <div className="bp-column">
