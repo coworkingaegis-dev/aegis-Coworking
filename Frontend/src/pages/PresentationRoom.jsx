@@ -139,15 +139,15 @@ function PresentationRoom() {
         <h2>PERFECT FOR</h2>
         <div className="room-capacities-grid">
           <div className="room-capacity-card">
-            <h4>BUSINESS PRESENTATIONS</h4>
+            <h3>BUSINESS PRESENTATIONS</h3>
             <p className="capacity-desc">Win over clients and investors</p>
           </div>
           <div className="room-capacity-card">
-            <h4>TRAINING SESSIONS</h4>
+            <h3>TRAINING SESSIONS</h3>
             <p className="capacity-desc">Level up your team's skills</p>
           </div>
           <div className="room-capacity-card">
-            <h4>PRODUCT LAUNCHES</h4>
+            <h3>PRODUCT LAUNCHES</h3>
             <p className="capacity-desc">Give your innovation a proper debut</p>
           </div>
         </div>
