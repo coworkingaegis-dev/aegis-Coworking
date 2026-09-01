@@ -138,7 +138,7 @@ All Aegis Coworking memberships are located in Addax Tower, Al Reem Island, in t
         <div className="bp-columns">
           <div className="bp-column">
            <div className="bp-column-icon">🔑</div>
-<h4>HOW MEMBERSHIP WORKS</h4>
+<h3>HOW MEMBERSHIP WORKS</h3>
 <ul>
   <li>Choose a coworking membership that fits your workspace needs and budget</li>
   <li>Pay monthly without committing to a traditional long-term office lease</li>
@@ -148,7 +148,7 @@ All Aegis Coworking memberships are located in Addax Tower, Al Reem Island, in t
 </div>
 <div className="bp-column">
   <div className="bp-column-icon">👥</div>
-  <h4>WHO MEMBERSHIP IS FOR</h4>
+  <h3>WHO MEMBERSHIP IS FOR</h3>
   <ul>
     <li>Freelancers and remote workers looking for a flexible coworking space</li>
     <li>Startups that need an ADGM registered business address</li>
