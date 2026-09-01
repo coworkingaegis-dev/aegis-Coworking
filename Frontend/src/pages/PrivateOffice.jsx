@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import PrivateOfficeGallery from '../components/PrivateOfficeGallery'
 
 import smallOfficeImg from '../assets/private-office-small-adgm-abu-dhabi.webp'
 import mediumOfficeImg from '../assets/private-office-medium-adgm-abu-dhabi.webp'
@@ -140,6 +141,8 @@ function PrivateOffice() {
         <h1>PRIVATE OFFICES IN ADGM</h1>
         <p>FURNISHED PRIVATE OFFICE | 24/7 ACCESS | ADGM LICENSED</p>
       </section>
+
+      <PrivateOfficeGallery />
 
       {/* Own Private Office */}
       <section className="business-presence">
