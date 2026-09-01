@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import LocationHighlight from '../components/LocationHighlight'
+import bayanaLogo from '../assets/bayana-logo.png'
 
 // ---- SEO CONFIG -----------------------------------------------------
 // Targets the top Search Console queries for aegiscoworking.ae:
@@ -107,7 +108,7 @@ function About() {
       <Navbar />
 
           {/* ---------- HEADER ---------- */}
-      <section className="page-hero">
+     <section className="page-hero">
         <h1>ABOUT AEGIS COWORKING</h1>
         <p>Empowering Abu Dhabi's Businesses to Grow and Thrive</p>
         <a
@@ -116,7 +117,7 @@ function About() {
           rel="noopener noreferrer"
           className="powered-by-bayana"
         >
-          <img src="https://www.bayana.info/logo.png" alt="Bayana Holdings logo" />
+          <img src={bayanaLogo} alt="Bayana Holdings logo" />
           <span>Powered By Bayana Holdings</span>
         </a>
       </section>
