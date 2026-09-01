@@ -21,7 +21,7 @@ function HotDeskPricing() {
     <span className="period">Monthly</span>
   </div>
 </div>
-        <p className="desk-fee-note">No Due Diligence Fee | Walk-in or Book Online</p>
+        {/* <p className="desk-fee-note">No Due Diligence Fee | Walk-in or Book Online</p> */}
         <div className="desk-perks">
           <div>✓ No Hidden Fees<br />✓ No Admin Fees</div>
           <div>✓ No Deposit<br />✓ No Outgoings</div>
