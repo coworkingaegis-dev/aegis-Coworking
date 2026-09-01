@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import aegisLogo from '../assets/aegis-logo.jpeg'
+import aegisLogo from '../assets/aegis-logo-footer.webp'
 function Footer() {
   return (
     <footer className="footer">
