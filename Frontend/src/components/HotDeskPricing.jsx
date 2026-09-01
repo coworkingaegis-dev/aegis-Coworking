@@ -15,26 +15,18 @@ function HotDeskPricing() {
   and the wider coworking community.
 </p>
         <p className="desk-rent-label">Monthly Rent:</p>
-        <div className="desk-rent-options">
-          <div>
-            <span className="price">AED 1,000</span>
-            <span className="period">Annual</span>
-          </div>
-          <div>
-            <span className="price">AED 1,150</span>
-            <span className="period">Bi-annual</span>
-          </div>
-          <div>
-            <span className="price">AED 1,250</span>
-            <span className="period">Quarterly</span>
-          </div>
-        </div>
+       <div className="desk-rent-options">
+  <div>
+    <span className="price">AED 1,000</span>
+    <span className="period">Monthly</span>
+  </div>
+</div>
         <p className="desk-fee-note">No Due Diligence Fee | Walk-in or Book Online</p>
         <div className="desk-perks">
           <div>✓ No Hidden Fees<br />✓ No Admin Fees</div>
           <div>✓ No Deposit<br />✓ No Outgoings</div>
           <div>✓ No Setup Fees<br />✓ Free Registration</div>
-          <p className="lease-note">Flexible monthly access</p>
+          {/* <p className="lease-note">Flexible monthly access</p> */}
         </div>
         <a href="/contact" className="reserve-link">Request Quote &gt;</a>
       </div>
