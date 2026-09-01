@@ -7,7 +7,7 @@ function HotDeskPricing() {
         <img src={hotDeskImage} alt="Hot desk workspace at Aegis Coworking, Addax Tower, ADGM" width="1448" height="1086" loading="lazy" decoding="async" />
       </div>
       <div className="desk-details">
-        <p className="desk-eyebrow">OFFICE SPACES IN ADGM</p>
+        <p className="desk-eyebrow">CHEAP COWORKING SPACE IN ADGM</p>
         <h2>HOT DESK SPACE ADGM</h2>
       <p className="desk-desc">
   A flexible hot desk in ADGM — pick any open seat on our shared coworking floor.
