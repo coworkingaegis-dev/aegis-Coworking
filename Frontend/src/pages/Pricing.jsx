@@ -167,9 +167,13 @@ function Pricing() {
       <Navbar />
 
      <section className="pricing-hero">
-  <h1>DISCOUNTED PRICES</h1>
-  <p className="pricing-price-intro">
+  <h1>AFFORDABLE WORKPLACE PRICING IN ADGM</h1>
+  {/* <p className="pricing-price-intro">
     Cheapest coworking and dedicated desk pricing in ADGM — hot desk from AED 1,000/month. No hidden fees.
+  </p> */}
+       <p className="pricing-price-intro">
+    Cheapest Coworking Workspace and Office Space in ADGM with flexible workplace options and transparent pricing for every business need.
+
   </p>
 </section>
 
@@ -179,7 +183,7 @@ function Pricing() {
           {/* HOT DESK */}
           <div className="pricing-card">
             <h2>HOT DESK</h2>
-            <p className="pricing-subtitle">Cheapest hot desk price in ADGM, perfect for freelancers</p>
+            <p className="pricing-subtitle">The cheapest hot desk in ADGM, perfect for freelancers</p>
             <div className="pricing-price">
              <span className="pricing-strike">1,200</span>{' '}
               AED 1,000<span>/month</span>
@@ -200,7 +204,7 @@ function Pricing() {
           <div className="pricing-card">
             <span className="pricing-badge">MOST POPULAR</span>
             <h2>DEDICATED DESK</h2>
-            <p className="pricing-subtitle">Cheapest dedicated desk in ADGM, your own workspace</p>
+            <p className="pricing-subtitle">An affordable dedicated workplace in ADGM, your own desk</p>
             <span className="pricing-save">Save AED 250/month</span>
             <div className="pricing-price">
               <span className="pricing-strike">1,450</span>{' '}
@@ -222,7 +226,7 @@ function Pricing() {
           {/* PRIVATE OFFICE */}
           <div className="pricing-card">
             <h2>PRIVATE OFFICE</h2>
-            <p className="pricing-subtitle">Cheapest private office in ADGM, for teams & companies</p>
+            <p className="pricing-subtitle">A cheaper private office space in ADGM, for teams & companies</p>
             <div className="pricing-price">
              <span className="pricing-strike">6,500</span>{' '}
               AED 4,500<span>/month</span>
@@ -243,7 +247,7 @@ function Pricing() {
           {/* VIRTUAL OFFICE */}
           <div className="pricing-card">
             <h2>VIRTUAL OFFICE</h2>
-            <p className="pricing-subtitle">Cheapest virtual office in ADGM, registered business address</p>
+            <p className="pricing-subtitle">The most affordable way to get a registered ADGM office address</p>
             <div className="pricing-price">
               <span className="pricing-strike">350</span>{' '}
               AED 292<span>/month</span>
@@ -259,6 +263,25 @@ function Pricing() {
               <button className="btn-pricing-solid">Get Started</button>
             </Link>
           </div>
+
+         {/* DAY PASS */}
+<div className="pricing-card">
+  <h2>DAY PASS</h2>
+ <p className="pricing-subtitle">Cheap, flexible office space in ADGM by the day</p>
+  <div className="pricing-price">
+    AED 100<span>/day</span>
+  </div>
+  <ul className="pricing-features">
+    <li>Full access to the shared coworking floor</li>
+    <li>High-speed WiFi</li>
+    <li>Premium coffee & tea</li>
+    <li>Print & scan access</li>
+    <li>No lease, no commitment</li>
+  </ul>
+  <Link to="/contact">
+    <button className="btn-pricing-solid">Get Started</button>
+  </Link>
+</div>
 
         </div>
       </section>
