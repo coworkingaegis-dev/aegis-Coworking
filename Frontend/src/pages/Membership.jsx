@@ -50,7 +50,7 @@ function Membership() {
         <title>Coworking Membership ADGM | Flexible Plans | Aegis Coworking</title>
         <meta
           name="description"
-          content="Explore flexible coworking membership plans in ADGM, Addax Tower — Hot Desk, Dedicated Desk, Virtual Office and Private Office. Cheapest membership in Abu Dhabi's ADGM, from AED 1,000/month."
+         content="Explore flexible coworking membership plans in ADGM, Addax Tower — Hot Desk, Dedicated Desk, Virtual Office and Private Office, from AED 1,000/month."
         />
         <link rel="canonical" href="https://www.aegiscoworking.ae/membership" />
 
