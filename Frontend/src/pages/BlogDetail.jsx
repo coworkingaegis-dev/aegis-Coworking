@@ -107,6 +107,15 @@ if (error) {
     return text.length > 155 ? text.slice(0, 155) + '...' : text
   }
 
+  const getSeoTitle = (post) => {
+  const suffix = ' | Aegis Coworking Blog'
+  const maxLen = 60 - suffix.length
+  const title = post.title.length > maxLen
+    ? post.title.slice(0, maxLen).trim() + '…'
+    : post.title
+  return `${title}${suffix}`
+}
+
   const handleShare = async () => {
     const shareUrl = window.location.href
     const shareData = {
@@ -136,7 +145,7 @@ if (error) {
     <div className="App">
       {post && (
         <Helmet>
-          <title>{post.title} | Aegis Coworking Blog</title>
+          <title>{getSeoTitle(post)}</title>
           <meta name="description" content={getMetaDescription(post)} />
           <link rel="canonical" href={`https://www.aegiscoworking.ae/blog/${post.id}`} />
 
@@ -267,7 +276,7 @@ if (error) {
           />
 
           <div className="blog-detail-cta">
-            <h3>Let's Build Your Workspace</h3>
+            <h2>Let's Build Your Workspace</h2>
             <p>Where productivity meets community, every single day</p>
             <Link to="/contact">
               <button className="btn-primary">REQUEST QUOTE</button>
