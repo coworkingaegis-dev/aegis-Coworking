@@ -2,6 +2,7 @@ import { Helmet } from 'react-helmet-async'
 import Navbar from '../components/Navbar'
 import PageHero from '../components/PageHero'
 import DeskPricing from '../components/DeskPricing'
+import HotDeskPricing from '../components/HotDeskPricing'
 import NearbyFacilities from '../components/NearbyFacilities'
 import Amenities from '../components/Amenities'
 import FAQ from '../components/FAQ'
@@ -121,6 +122,7 @@ function OfficeSpaces() {
         subtitle="PRIVATE DESK | 24/7 ACCESS | FLEXIBLE MEMBERSHIP"
       />
       <DeskPricing />
+       <HotDeskPricing />
       <NearbyFacilities />
       <Amenities title="ADGM AMENITIES" />
       <FAQ />
