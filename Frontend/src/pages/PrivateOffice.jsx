@@ -160,7 +160,7 @@ function PrivateOffice() {
         <div className="bp-columns bp-columns-3">
           <div className="bp-column">
   <div className="bp-column-icon">🔒</div>
-  <h4>PRIVATE OFFICE</h4>
+  <h3>PRIVATE OFFICE</h3>
   <ul>
     <li>Lockable private office with 24/7 secure access in ADGM</li>
     <li>Fully furnished with ergonomic desks, chairs, and storage</li>
@@ -170,7 +170,7 @@ function PrivateOffice() {
 
 <div className="bp-column">
   <div className="bp-column-icon">🏢</div>
-  <h4>ADGM BUSINESS PRESENCE</h4>
+  <h3>ADGM BUSINESS PRESENCE</h3>
   <ul>
     <li>Registered business address for your ADGM commercial licence</li>
     <li>Professional setting for client meetings and business visits</li>
@@ -180,7 +180,7 @@ function PrivateOffice() {
 
 <div className="bp-column">
   <div className="bp-column-icon">🛎️</div>
-  <h4>OFFICE SERVICES</h4>
+  <h3>OFFICE SERVICES</h3>
   <ul>
     <li>High-speed fibre internet and secure WiFi</li>
     <li>Meeting room access, phone answering, and mail handling</li>
