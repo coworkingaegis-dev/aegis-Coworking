@@ -5,7 +5,7 @@ function WhatsAppButton() {
   const href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(DEFAULT_MESSAGE)}`
 
   return (
-    
+    <a
       href={href}
       target="_blank"
       rel="noopener noreferrer"
