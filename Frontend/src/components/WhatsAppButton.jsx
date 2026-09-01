@@ -1,11 +1,10 @@
 const WHATSAPP_NUMBER = '971503926316' // +971 50 392 6316, no + or spaces for wa.me
-const DEFAULT_MESSAGE = "Hi Aegis Coworking, I'd like to know more about your workspace options."
 
 function WhatsAppButton() {
-  const href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(DEFAULT_MESSAGE)}`
+  const href = `https://wa.me/${WHATSAPP_NUMBER}`
 
   return (
-    <a
+    
       href={href}
       target="_blank"
       rel="noopener noreferrer"
