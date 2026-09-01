@@ -36,7 +36,7 @@ function PresentationRoom() {
         <title>Presentation Room ADGM | Addax Tower | Aegis Coworking</title>
         <meta
           name="description"
-          content="Book a state-of-the-art presentation room at Aegis Coworking, ADGM, Addax Tower. 4K display, professional audio, seating for up to 50 — ideal for workshops, launches, and training."
+         content="Book a state-of-the-art presentation room at Aegis Coworking, ADGM, Addax Tower. 4K display, professional audio, and seating for up to 50 guests."
         />
         <link rel="canonical" href="https://www.aegiscoworking.ae/presentation-room" />
 
