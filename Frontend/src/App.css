@@ -3624,7 +3624,7 @@ grid-template-columns: 1.8fr 1fr 1fr 1.1fr 1fr;
   font-weight: 600;
   margin-bottom: 12px;
 }
-.blog-card h3 {
+.blog-card h2 {
   font-size: 20px;
   font-weight: 800;
   color: var(--color-primary);
