@@ -300,7 +300,7 @@ if (error) {
                       </div>
                     )}
                     <div className="related-post-body">
-                      <h4>{rp.title}</h4>
+                      <h3>{rp.title}</h3>
                       <p>{getExcerpt(rp)}</p>
                     </div>
                   </Link>
