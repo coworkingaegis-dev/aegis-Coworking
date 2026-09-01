@@ -16,7 +16,7 @@ function RoomFeatures() {
         {features.map((item, i) => (
           <div className="room-feature-cell" key={i}>
             <div className="room-feature-icon">{item.icon}</div>
-            <h4>{item.title}</h4>
+            <h3>{item.title}</h3>
             <p>{item.desc}</p>
           </div>
         ))}
