@@ -15,7 +15,7 @@ function RoomCapacities() {
         {rooms.map((room, i) => (
           <div className="room-capacity-card" key={i}>
             <div className="capacity-icon">{room.icon}</div>
-            <h4>{room.title}</h4>
+            <h3>{room.title}</h3>
             <p className="capacity-count">{room.capacity}</p>
             <p className="capacity-desc">{room.desc}</p>
           </div>
