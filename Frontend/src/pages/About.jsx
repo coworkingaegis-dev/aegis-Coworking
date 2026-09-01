@@ -118,7 +118,7 @@ function About() {
           className="powered-by-bayana"
         >
           <img src={bayanaLogo} alt="Bayana Holdings logo" />
-          <span>Powered By Bayana Holdings</span>
+          <span>Powered By Bayana Global Limited</span>
         </a>
       </section>
 
