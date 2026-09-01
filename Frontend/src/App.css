@@ -4193,7 +4193,7 @@ grid-template-columns: 1.8fr 1fr 1fr 1.1fr 1fr;
   margin: 56px 0 40px;
 }
 
-.blog-detail-cta h3 {
+.blog-detail-cta h2 {
   font-size: 20px;
   font-weight: 800;
   color: var(--color-text);
