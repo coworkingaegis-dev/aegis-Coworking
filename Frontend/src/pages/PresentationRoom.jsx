@@ -92,7 +92,7 @@ function PresentationRoom() {
         </div>
         <div className="impress-box">
           <div className="impress-icon">🎬</div>
-          <h4>PROFESSIONAL SETUP</h4>
+          <h3>PROFESSIONAL SETUP</h3>
           <p>Everything you need, ready before you walk in</p>
         </div>
       </section>
