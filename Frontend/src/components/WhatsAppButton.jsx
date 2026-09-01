@@ -4,7 +4,7 @@ function WhatsAppButton() {
   const href = `https://wa.me/${WHATSAPP_NUMBER}`
 
   return (
-    
+    <a
       href={href}
       target="_blank"
       rel="noopener noreferrer"
