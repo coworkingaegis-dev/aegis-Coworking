@@ -111,7 +111,7 @@ function About() {
      <section className="page-hero">
         <h1>ABOUT AEGIS COWORKING</h1>
         <p>Empowering Abu Dhabi's Businesses to Grow and Thrive</p>
-        <a
+        {/* <a
           href="https://www.bayana.info/"
           target="_blank"
           rel="noopener noreferrer"
@@ -119,7 +119,7 @@ function About() {
         >
           <img src={bayanaLogo} alt="Bayana Holdings logo" />
           <span>Powered By Bayana Global Limited</span>
-        </a>
+        </a> */}
       </section>
 
     
