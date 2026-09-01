@@ -149,7 +149,7 @@ useEffect(() => {
                 )}
                 <div className="blog-card-body">
                   <Link to={`/blog/${post.id}`} className="blog-title-link">
-                    <h3>{post.title}</h3>
+                   <h2>{post.title}</h2>
                   </Link>
                   <p className="blog-excerpt">{getExcerpt(post)}</p>
                   <div className="blog-card-footer">
