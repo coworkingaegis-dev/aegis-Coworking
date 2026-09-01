@@ -9,7 +9,7 @@ function BusinessPresence() {
       <div className="bp-columns">
         <div className="bp-column">
           <div className="bp-column-icon">🏢</div>
-          <h4>WHAT YOU GET</h4>
+          <h3>WHAT YOU GET</h3>
           <ul>
             <li>Book Virtual office at only AED 292 /month</li>
             <li>Registered ADGM business address for company registration & licensing</li>
@@ -19,7 +19,7 @@ function BusinessPresence() {
         </div>
         <div className="bp-column">
           <div className="bp-column-icon">📋</div>
-          <h4>HOW WE SUPPORT YOU</h4>
+          <h3>HOW WE SUPPORT YOU</h3>
           <ul>
             <li>Worldwide mail forwarding with live call answering in your company name</li>
             <li>Building directory listing plus ADGM licensing & renewal support</li>
