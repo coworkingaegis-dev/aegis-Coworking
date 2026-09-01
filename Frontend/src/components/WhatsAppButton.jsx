@@ -1,0 +1,22 @@
+const WHATSAPP_NUMBER = '971503926316' // +971 50 392 6316, no + or spaces for wa.me
+const DEFAULT_MESSAGE = "Hi Aegis Coworking, I'd like to know more about your workspace options."
+
+function WhatsAppButton() {
+  const href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(DEFAULT_MESSAGE)}`
+
+  return (
+    
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="whatsapp-float"
+      aria-label="Chat with Aegis Coworking on WhatsApp"
+    >
+      <svg viewBox="0 0 32 32" width="30" height="30" fill="currentColor" aria-hidden="true">
+        <path d="M16.004 3C9.376 3 4 8.373 4 15c0 2.34.646 4.53 1.77 6.4L4 29l7.79-1.73A11.94 11.94 0 0 0 16.004 27C22.63 27 28 21.627 28 15S22.63 3 16.004 3Zm0 21.7c-1.97 0-3.85-.52-5.48-1.5l-.39-.23-4.63 1.03 1-4.5-.25-.4A9.63 9.63 0 0 1 5.3 15c0-5.9 4.8-10.7 10.7-10.7S26.7 9.1 26.7 15 21.9 24.7 16.004 24.7Zm5.86-8.01c-.32-.16-1.9-.94-2.2-1.05-.3-.11-.51-.16-.73.16-.21.32-.83 1.05-1.02 1.26-.19.21-.38.24-.7.08-.32-.16-1.34-.5-2.55-1.58-.94-.84-1.58-1.87-1.76-2.19-.19-.32-.02-.49.14-.65.14-.14.32-.38.48-.56.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.73-1.77-1-2.42-.26-.63-.53-.55-.73-.56h-.62c-.21 0-.56.08-.85.4-.29.32-1.12 1.1-1.12 2.67 0 1.57 1.15 3.09 1.31 3.3.16.21 2.26 3.46 5.48 4.85.77.33 1.36.53 1.83.68.77.24 1.47.21 2.02.13.62-.09 1.9-.78 2.17-1.53.27-.75.27-1.4.19-1.53-.08-.13-.29-.21-.61-.37Z" />
+      </svg>
+    </a>
+  )
+}
+
+export default WhatsAppButton
