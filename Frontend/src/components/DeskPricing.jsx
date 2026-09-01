@@ -7,7 +7,7 @@ function DeskPricing() {
         <img src={myDeskImage} alt="Dedicated desk workspace at Aegis Coworking, Addax Tower, ADGM" width="1000" height="850" loading="lazy" decoding="async" />
       </div>
       <div className="desk-details">
-        <p className="desk-eyebrow">OFFICE SPACES IN ADGM</p>
+        <p className="desk-eyebrow">AFFORDABLE WORKPLACE IN ADGM</p>
         <h2>DEDICATED DESK SPACE ADGM</h2>
       <p className="desk-desc">
   A dedicated desk in ADGM — one of Abu Dhabi's most established business districts.
