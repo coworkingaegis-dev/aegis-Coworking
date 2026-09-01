@@ -212,22 +212,22 @@ All Aegis Coworking memberships are located in Addax Tower, Al Reem Island, in t
         <div className="includes-grid">
           <div className="includes-item">
             <div className="includes-icon">☕</div>
-            <h4>PREMIUM COFFEE</h4>
+            <h3>PREMIUM COFFEE</h3>
             <p>Complimentary coffee & tea</p>
           </div>
           <div className="includes-item">
             <div className="includes-icon">📶</div>
-            <h4>HIGH-SPEED WIFI</h4>
+            <h3>HIGH-SPEED WIFI</h3>
             <p>Fibre optic internet</p>
           </div>
           <div className="includes-item">
             <div className="includes-icon">🤝</div>
-            <h4>NETWORKING EVENTS</h4>
+            <h3>NETWORKING EVENTS</h3>
             <p>Community gatherings</p>
           </div>
           <div className="includes-item">
             <div className="includes-icon">📍</div>
-            <h4>PRIME LOCATION</h4>
+            <h3>PRIME LOCATION</h3>
             <p>Heart of ADGM, Al Reem Island</p>
           </div>
         </div>
