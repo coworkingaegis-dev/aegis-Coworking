@@ -178,7 +178,7 @@ function Pricing() {
 
           {/* HOT DESK */}
           <div className="pricing-card">
-            <h3>HOT DESK</h3>
+            <h2>HOT DESK</h2>
             <p className="pricing-subtitle">Cheapest hot desk price in ADGM, perfect for freelancers</p>
             <div className="pricing-price">
              <span className="pricing-strike">1,200</span>{' '}
@@ -199,7 +199,7 @@ function Pricing() {
           {/* DEDICATED DESK — POPULAR */}
           <div className="pricing-card">
             <span className="pricing-badge">MOST POPULAR</span>
-            <h3>DEDICATED DESK</h3>
+            <h2>DEDICATED DESK</h2>
             <p className="pricing-subtitle">Cheapest dedicated desk in ADGM, your own workspace</p>
             <span className="pricing-save">Save AED 250/month</span>
             <div className="pricing-price">
@@ -221,7 +221,7 @@ function Pricing() {
 
           {/* PRIVATE OFFICE */}
           <div className="pricing-card">
-            <h3>PRIVATE OFFICE</h3>
+            <h2>PRIVATE OFFICE</h2>
             <p className="pricing-subtitle">Cheapest private office in ADGM, for teams & companies</p>
             <div className="pricing-price">
              <span className="pricing-strike">6,500</span>{' '}
@@ -242,7 +242,7 @@ function Pricing() {
 
           {/* VIRTUAL OFFICE */}
           <div className="pricing-card">
-            <h3>VIRTUAL OFFICE</h3>
+            <h2>VIRTUAL OFFICE</h2>
             <p className="pricing-subtitle">Cheapest virtual office in ADGM, registered business address</p>
             <div className="pricing-price">
               <span className="pricing-strike">350</span>{' '}
