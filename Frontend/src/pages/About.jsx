@@ -106,12 +106,22 @@ function About() {
 
       <Navbar />
 
-      {/* ---------- HEADER ---------- */}
+          {/* ---------- HEADER ---------- */}
       <section className="page-hero">
         <h1>ABOUT AEGIS COWORKING</h1>
         <p>Empowering Abu Dhabi's Businesses to Grow and Thrive</p>
+        
+          href="https://www.bayana.info/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="powered-by-bayana"
+        >
+          <img src="https://www.bayana.info/logo.png" alt="Bayana Holdings logo" />
+          <span>Powered By Bayana Holdings</span>
+        </a>
       </section>
 
+    
       {/* ---------- STORY / MISSION / VALUES ---------- */}
       <section className="about-simple">
         {/* <div className="services-header">
