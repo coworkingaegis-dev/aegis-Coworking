@@ -149,12 +149,15 @@ useEffect(() => {
                 )}
                 <div className="blog-card-body">
                   <Link to={`/blog/${post.id}`} className="blog-title-link">
+                      <Link to={`/blog/${post.slug}`} className="blog-title-link">
+                        
                    <h2>{post.title}</h2>
                   </Link>
                   <p className="blog-excerpt">{getExcerpt(post)}</p>
                   <div className="blog-card-footer">
                     <span className="blog-card-author">BY {post.author?.toUpperCase()}</span>
                     <Link to={`/blog/${post.id}`} className="blog-read-more">
+                      <Link to={`/blog/${post.slug}`} className="blog-read-more">
                       Read More <span>→</span>
                     </Link>
                   </div>
