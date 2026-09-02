@@ -87,6 +87,7 @@ function safeJsonForScript(obj) {
 
 const allBlogs = await getAllBlogs()
 const blogRoutePaths = allBlogs.map((row) => `/blog/${row.id}`)
+const blogRoutePaths = allBlogs.map((row) => `/blog/${row.slug}`)
 const ALL_ROUTES = [...STATIC_ROUTES, ...NOINDEX_ROUTES, ...blogRoutePaths]
 
 function getPreloadedDataForRoute(route) {
@@ -96,6 +97,8 @@ function getPreloadedDataForRoute(route) {
   if (route.startsWith('/blog/')) {
     const id = route.slice('/blog/'.length)
     const post = allBlogs.find((p) => String(p.id) === id)
+    const slug = route.slice('/blog/'.length)
+    const post = allBlogs.find((p) => String(p.slug) === slug)
     if (!post) return null
     return { type: 'blogDetail', post, relatedPosts: getRelatedPosts(allBlogs, post) }
   }
