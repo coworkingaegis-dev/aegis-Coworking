@@ -16,20 +16,13 @@ function DeskPricing() {
   and the wider coworking community.
 </p>
 
-        <p className="desk-rent-label">Monthly Rent:</p>
+        <p className="desk-rent-label">STARTING FROM:</p>
         <div className="desk-rent-options">
           <div>
             <span className="price">AED 1,150</span>
-            <span className="period">Annual</span>
+          
           </div>
-          <div>
-            <span className="price">AED 1,300</span>
-            <span className="period">Bi-annual</span>
-          </div>
-          <div>
-            <span className="price">AED 1,400</span>
-            <span className="period">Quarterly</span>
-          </div>
+        
         </div>
        
 
