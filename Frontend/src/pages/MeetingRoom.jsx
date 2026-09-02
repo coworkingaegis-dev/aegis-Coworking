@@ -125,7 +125,7 @@ function MeetingRoom() {
       <ImageBanner image={meetingRoomBanner} alt="Meeting room at Aegis Coworking, Addax Tower, ADGM, Abu Dhabi" width={800} height={800} />
       <ImpressClients />
       <RoomFeatures />
-      <RoomCapacities />
+   
       <section className="vo-faq">
         <span className="contact-eyebrow">MEETING ROOMS ADGM</span>
         <h2>FREQUENTLY ASKED QUESTIONS</h2>
