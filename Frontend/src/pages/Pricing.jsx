@@ -214,7 +214,7 @@ function Pricing() {
   <li>Office address suitable for an ADGM license</li>
 
   <li>24/7 access</li>
-  <li>Dedicated lockers for storge</li>
+  <li>Dedicated lockers for storage</li>
   <li>Extra meeting room credits every month</li>
   <li>Everything included in the Hot Desk plan</li>
 </ul>
