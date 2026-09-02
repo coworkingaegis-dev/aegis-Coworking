@@ -167,9 +167,9 @@ function Pricing() {
       <Navbar />
 
      <section className="pricing-hero">
-  <h1>AFFORDABLE PRICING IN ADGM</h1>
+  <h1>ADGM REGISTERED OFFICE PROVIDER</h1>
   <p className="pricing-price-intro">
-    Cheapest coworking and dedicated desk pricing in ADGM — hot desk from AED 1,000/month. No hidden fees.
+    Cheapest Coworking space in ADGM — Workspace from only AED 1000. No hidden fees.
   </p> 
        {/* <p className="pricing-price-intro">
     Cheapest Coworking Workspace and Office Space in ADGM with flexible workplace options and transparent pricing for every business need.
@@ -183,7 +183,7 @@ function Pricing() {
           {/* HOT DESK */}
           <div className="pricing-card">
             <h2>HOT DESK</h2>
-            <p className="pricing-subtitle">The cheapest hot desk in ADGM, perfect for freelancers</p>
+            <p className="pricing-subtitle">Office Space without ADGM liscence, perfect for freelancers</p>
             <div className="pricing-price">
              <span className="pricing-strike">1,200</span>{' '}
               AED 1,000<span>/month</span>
@@ -204,7 +204,7 @@ function Pricing() {
           <div className="pricing-card">
             <span className="pricing-badge">MOST POPULAR</span>
             <h2>DEDICATED DESK</h2>
-            <p className="pricing-subtitle">An affordable dedicated workplace in ADGM, your own desk</p>
+            <p className="pricing-subtitle"> Flexi desk in ADGM , your own desk</p>
             <span className="pricing-save">Save AED 250/month</span>
             <div className="pricing-price">
               <span className="pricing-strike">1,450</span>{' '}
@@ -226,7 +226,7 @@ function Pricing() {
           {/* PRIVATE OFFICE */}
           <div className="pricing-card">
             <h2>PRIVATE OFFICE</h2>
-            <p className="pricing-subtitle">A cheaper private office space in ADGM, for teams & companies</p>
+            <p className="pricing-subtitle">Your private office space in ADGM, for teams & companies</p>
             <div className="pricing-price">
              <span className="pricing-strike">6,500</span>{' '}
               AED 4,500<span>/month</span>
