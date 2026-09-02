@@ -3157,12 +3157,11 @@ grid-template-columns: 1.8fr 1fr 1fr 1.1fr 1fr;
 }
 
 .footer-logo-image {
-  width: 120px;
+  width: 32px;
   height: auto;
-  margin-top: 12px;
+  margin-top: 8px;
   display: block;
 }
-
 
 
 
