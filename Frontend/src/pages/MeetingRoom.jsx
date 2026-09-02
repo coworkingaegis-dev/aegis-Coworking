@@ -5,7 +5,7 @@ import PageHero from '../components/PageHero'
 import ImageBanner from '../components/ImageBanner'
 import ImpressClients from '../components/ImpressClients'
 import RoomFeatures from '../components/RoomFeatures'
-import RoomCapacities from '../components/RoomCapacities'
+
 import Footer from '../components/Footer'
 import { Link } from 'react-router-dom'
 import meetingRoomBanner from '../assets/meeting-room-addax-tower.webp'
@@ -20,18 +20,8 @@ const faqs = [
   },
   {
     q: "How much does a meeting room in Abu Dhabi cost?",
-    a: "Meeting room rates at Aegis Coworking vary by room size and booking time. Members receive meeting room credits, while non-members can book meeting rooms in Abu Dhabi by the hour. See our pricing for current rates.",
-    aDisplay: (
-      <>
-        Meeting room rates at Aegis Coworking vary by room size and booking
-        time. Members receive meeting room credits, while non-members can
-        book meeting rooms in Abu Dhabi by the hour. See{' '}
-        <Link to="/pricing" className="inline-link">
-          full pricing
-        </Link>{' '}
-        for current rates.
-      </>
-    ),
+    a: "Meeting room rates at Aegis Coworking vary by room size and booking time. Members receive meeting room credits, while non-members can book meeting rooms in Abu Dhabi by the hour. See our pricing for current rates."
+   
   },
   {
     q: "Where are the meeting rooms located?",
@@ -54,10 +44,10 @@ function MeetingRoom() {
   return (
     <div className="App">
       <Helmet>
-        <title>Meeting Rooms for Rent in ADGM Addax Tower, Abu Dhabi</title>
+        <title>Meeting Room Rental in ADGM, Addax Tower | Aegis Coworking</title>
         <meta
           name="description"
-          content="Book fully equipped meeting rooms at ADGM Addax Tower, Abu Dhabi. Hourly and daily rates, AV equipment included. Reserve your meeting room online today."
+          content="Book fully equipped meeting rooms at ADGM, Addax Tower, Abu Dhabi. Small, medium & large rooms, hourly rates, AV equipment included. Reserve online today."
         />
         <link rel="canonical" href="https://www.aegiscoworking.ae/meeting-room" />
         <meta property="og:title" content="Meeting Room Rental ADGM | Aegis Coworking" />
