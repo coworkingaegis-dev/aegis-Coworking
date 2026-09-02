@@ -183,7 +183,7 @@ function Pricing() {
           {/* HOT DESK */}
           <div className="pricing-card">
             <h2>HOT DESK</h2>
-            <p className="pricing-subtitle">Office Space without ADGM liscence, perfect for freelancers</p>
+            <p className="pricing-subtitle">Office space in ADGM , No license requirement, perfect for freelancers</p>
             <div className="pricing-price">
              <span className="pricing-strike">1,200</span>{' '}
               AED 1,000<span>/month</span>
