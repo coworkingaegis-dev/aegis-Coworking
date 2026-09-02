@@ -9,7 +9,7 @@ function Footer() {
           AEGIS <span className="footer-logo-accent">COWORKING</span>
         </div>
         <p>Business Center in Addax Tower, Al Reem Island, Abu Dhabi.</p>
-        <img src={aegisLogo} alt="Aegis Coworking" className="footer-logo-image" width="1254" height="1254" loading="lazy" decoding="async" />
+        <img src={aegisLogo} alt="Aegis Coworking" className="footer-logo-image" width="70" height="70" loading="lazy" decoding="async" />
         <div className="footer-socials">
           <a href="https://www.instagram.com/aegis.coworking/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
