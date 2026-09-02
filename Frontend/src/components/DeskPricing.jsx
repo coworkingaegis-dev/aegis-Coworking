@@ -13,7 +13,7 @@ function DeskPricing() {
       <p className="desk-desc">
   A dedicated desk in ADGM — one of Abu Dhabi's most established business districts.
   Fully furnished and accessible 24/7, full access to our meeting rooms, business lounge,
-  and the wider coworking community.
+  and the wider coworking community. Book your ADGM Coworking Space with Aegis Coworking that sits in office 3812, Addax Tower, Al Reem Island.
 </p>
 
         <p className="desk-rent-label">STARTING FROM:</p>
