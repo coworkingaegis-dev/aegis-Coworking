@@ -54,7 +54,7 @@ function DayPass() {
         <title>Day Pass & Hot Desk Coworking Space in Abu Dhabi, ADGM</title>
         <meta
           name="description"
-          content="Find the best day pass and hot desk coworking space in Abu Dhabi.Flexible hourly and daily rates at ADGM Addax Tower.Book online or walk in at Aegis today"
+          content="Find the best day pass and hot desk coworking space in Abu Dhabi. Flexible hourly and daily rates at ADGM, Addax Tower. Book online or walk in today."
         />
         <link rel="canonical" href="https://www.aegiscoworking.ae/day-pass" />
 
