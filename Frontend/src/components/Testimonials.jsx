@@ -71,19 +71,24 @@ function TestimonialCard({ t }) {
 
 function Testimonials() {
   // Duplicate the list so the loop feels seamless
-  const loopedTestimonials = [...testimonials, ...testimonials]
+
 
   return (
     <section className="testimonials">
       <span className="contact-eyebrow">WHAT MEMBERS SAY</span>
       <h2>Trusted by Startups and Businesses Across Abu Dhabi</h2>
 
-      <div className="testimonials-marquee">
-        <div className="testimonials-track">
-          {loopedTestimonials.map((t, i) => (
-            <TestimonialCard t={t} key={i} />
-          ))}
-        </div>
+<div className="testimonials-track">
+  {testimonials.map((t, i) => (
+    <TestimonialCard t={t} key={`original-${i}`} />
+  ))}
+
+  {testimonials.map((t, i) => (
+    <div aria-hidden="true" key={`duplicate-${i}`}>
+      <TestimonialCard t={t} />
+    </div>
+  ))}
+</div>
       </div>
     </section>
   )
