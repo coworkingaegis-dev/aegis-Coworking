@@ -72,7 +72,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/office-spaces" element={<OfficeSpaces />} />
+        <Route path="/office-space" element={<OfficeSpaces />} />
         <Route path="/day-pass" element={<DayPass />} />
         <Route path="/meeting-room" element={<MeetingRoom />} />
         <Route path="/virtual-office" element={<VirtualOffice />} />
