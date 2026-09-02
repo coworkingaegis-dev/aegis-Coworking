@@ -8,12 +8,10 @@ import Footer from '../components/Footer'
 import { usePreloadedData } from '../PreloadedDataContext.jsx'
 
 function BlogDetail() {
-  const { id } = useParams()
   const { slug } = useParams()
   const preloaded = usePreloadedData()
   const hasPreloaded =
-    preloaded?.type === 'blogDetail' && String(preloaded.post?.id) === String(id)
-  preloaded?.type === 'blogDetail' && String(preloaded.post?.slug) === String(slug)
+    preloaded?.type === 'blogDetail' && String(preloaded.post?.slug) === String(slug)
 
   const [post, setPost] = useState(hasPreloaded ? preloaded.post : null)
   const [relatedPosts, setRelatedPosts] = useState(hasPreloaded ? preloaded.relatedPosts : [])
@@ -28,7 +26,6 @@ useEffect(() => {
     }
     window.prerenderReady = false
     fetchPost()
-  }, [id])
   }, [slug])
 
   const fetchPost = async () => {
@@ -36,7 +33,6 @@ useEffect(() => {
     const { data, error } = await supabase
       .from('blogs')
       .select('*')
-      .eq('id', id)
       .eq('slug', slug)
       .single()
 
@@ -146,13 +142,11 @@ if (error) {
         <Helmet>
           <title>{getSeoTitle(post)}</title>
           <meta name="description" content={getMetaDescription(post)} />
-          <link rel="canonical" href={`https://www.aegiscoworking.ae/blog/${post.id}`} />
           <link rel="canonical" href={`https://www.aegiscoworking.ae/blog/${post.slug}`} />
 
           <meta property="og:title" content={post.title} />
           <meta property="og:description" content={getMetaDescription(post)} />
           <meta property="og:type" content="article" />
-          <meta property="og:url" content={`https://www.aegiscoworking.ae/blog/${post.id}`} />
           <meta property="og:url" content={`https://www.aegiscoworking.ae/blog/${post.slug}`} />
           <meta
   property="og:image"
@@ -193,7 +187,6 @@ if (error) {
               "dateModified": post.updated_at || post.created_at,
 "mainEntityOfPage": {
   "@type": "WebPage",
-  "@id": `https://www.aegiscoworking.ae/blog/${post.id}`,
   "@id": `https://www.aegiscoworking.ae/blog/${post.slug}`,
 },
 })}
@@ -219,7 +212,6 @@ if (error) {
         "@type": "ListItem",
         position: 3,
         name: post.title,
-        item: `https://www.aegiscoworking.ae/blog/${post.id}`
         item: `https://www.aegiscoworking.ae/blog/${post.slug}`
       }
     ]
@@ -305,8 +297,7 @@ if (error) {
               <h2>Related Posts</h2>
               <div className="related-posts-grid">
                 {relatedPosts.map((rp) => (
-                  <Link to={`/blog/${rp.id}`} key={rp.id} className="related-post-card">
-                     <Link to={`/blog/${rp.slug}`} key={rp.id} className="related-post-card">
+                  <Link to={`/blog/${rp.slug}`} key={rp.id} className="related-post-card">
                     {rp.image_url && (
                       <div className="related-post-image">
                        <img src={rp.image_url} alt={rp.title} loading="lazy" decoding="async" />
