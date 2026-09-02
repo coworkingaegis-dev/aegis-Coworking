@@ -2,6 +2,7 @@ import { Helmet } from 'react-helmet-async'
 import Navbar from '../components/Navbar'
 import ContactForm from '../components/ContactForm'
 import Footer from '../components/Footer'
+import LocationHighlight from '../components/LocationHighlight'
 function Contact() {
   return (
     <div className="App">
@@ -47,6 +48,7 @@ function Contact() {
 </Helmet>
       <Navbar />
       <ContactForm />
+      <LocationHighlight/>
       <Footer />
     </div>
   )
