@@ -50,9 +50,7 @@ function Hero() {
       )}
       <div className="hero-overlay"></div>
       <div className="hero-content">
-        <span className="hero-eyebrow">
-          Coworking Space in ADGM • Business Centre, Addax Tower • Al Reem Island, Abu Dhabi
-        </span>
+        
         <h1>
           <span className="hero-title-desktop">COWORKING&nbsp;SPACE&nbsp;IN&nbsp;ADGM&nbsp;ABUDHABI</span>
           <span className="hero-title-mobile">COWORKING SPACE<br />IN ADGM ABUDHABI </span>
