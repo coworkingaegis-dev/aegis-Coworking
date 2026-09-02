@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import aegisLogo from '../assets/aegis-logo-footer.webp'
 function Footer() {
   return (
-    <footer className="footer" style={{ minHeight: '300px' }}>
+    <footer className="footer" style={{ minHeight: '100px' }}>
       <div className="footer-col footer-brand">
         <div className="footer-logo">
           <span className="footer-logo-dot"></span>
