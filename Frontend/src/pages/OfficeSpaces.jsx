@@ -42,10 +42,10 @@ function OfficeSpaces() {
   return (
     <div className="App">
       <Helmet>
-        <title>Office Space for Rent in Abu Dhabi | Aegis Coworking</title>
+        <title>Hot Desk & Dedicated Desk Space in ADGM | Aegis Coworking</title>
         <meta
           name="description"
-          content="Find furnished, small office space for rent in Abu Dhabi. Flexible monthly coworking space at Addax Tower, ADGM. Compare plans and book a tour today"
+          content="Hot desk and dedicated desk space in ADGM, Addax Tower — from AED 1,000/month, 24/7 access, no hidden fees. Compare plans and book a tour today."
         />
         <link rel="canonical" href="https://www.aegiscoworking.ae/office-spaces" />
         <meta property="og:title" content="Office Spaces in ADGM | Aegis Coworking" />
