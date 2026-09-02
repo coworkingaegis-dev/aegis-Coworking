@@ -5,7 +5,7 @@ function ImpressClients() {
     <section className="impress-clients">
       <div className="impress-text">
         <span className="contact-eyebrow">WHY BOOK WITH US</span>
-       <h2>Professional Meeting Rooms in ADGM</h2>
+       <h2>Professional Meeting Room in ADGM</h2>
 <p>
   Host client meetings, team discussions, presentations, and important business
   conversations in a professional meeting room in ADGM. Book by the hour with
