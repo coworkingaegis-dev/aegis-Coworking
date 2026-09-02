@@ -446,7 +446,7 @@ grid-template-columns: 1.8fr 1fr 1fr 1.1fr 1fr;
   text-transform: uppercase;
 }
 
-.footer-col h4 {
+.footer-col h3 {
   font-size: 12.5px;
   font-weight: 700;
   margin-bottom: 20px;
