@@ -86,7 +86,6 @@ function safeJsonForScript(obj) {
 }
 
 const allBlogs = await getAllBlogs()
-const blogRoutePaths = allBlogs.map((row) => `/blog/${row.id}`)
 const blogRoutePaths = allBlogs.map((row) => `/blog/${row.slug}`)
 const ALL_ROUTES = [...STATIC_ROUTES, ...NOINDEX_ROUTES, ...blogRoutePaths]
 
@@ -95,8 +94,6 @@ function getPreloadedDataForRoute(route) {
     return { type: 'blogsList', blogs: allBlogs }
   }
   if (route.startsWith('/blog/')) {
-    const id = route.slice('/blog/'.length)
-    const post = allBlogs.find((p) => String(p.id) === id)
     const slug = route.slice('/blog/'.length)
     const post = allBlogs.find((p) => String(p.slug) === slug)
     if (!post) return null
@@ -182,11 +179,9 @@ const staticEntries = STATIC_ROUTES.map((route) => {
   </url>`
 })
 
-const blogEntries = allBlogs.map(({ id, created_at }) => {
-  const blogEntries = allBlogs.map(({ slug, created_at }) => {
+const blogEntries = allBlogs.map(({ slug, created_at }) => {
   const lastmod = created_at ? created_at.split('T')[0] : today
   return `  <url>
-    <loc>https://www.aegiscoworking.ae/blog/${id}</loc>
     <loc>https://www.aegiscoworking.ae/blog/${slug}</loc>
     <lastmod>${lastmod}</lastmod>
     <changefreq>monthly</changefreq>
