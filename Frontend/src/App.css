@@ -486,8 +486,8 @@ grid-template-columns: 1.8fr 1fr 1fr 1.1fr 1fr;
   display: flex;
   justify-content: space-between;
   border-top: 1px solid rgba(255,255,255,0.08);
-  padding-top: 16px;
-  margin-top: 12px;
+  padding-top: 10px;
+  margin-top: 4px;
   font-size: 13px;
   color: #7f8a83;
 }
