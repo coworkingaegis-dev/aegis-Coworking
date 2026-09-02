@@ -63,7 +63,7 @@ const amenitiesStyles = {
 }
 
 function Amenities() {
-  const loopedAmenities = [...amenities, ...amenities]
+  
 
   return (
     <section style={amenitiesStyles.section}>
@@ -81,14 +81,25 @@ function Amenities() {
           e.currentTarget.querySelector('.amenities-track').style.animationPlayState = 'running'
         }}
       >
-        <div className="amenities-track" style={amenitiesStyles.track}>
-          {loopedAmenities.map((item, i) => (
-            <div style={amenitiesStyles.item} key={i}>
-              <span style={amenitiesStyles.icon}>{item.icon}</span>
-              <h3 style={amenitiesStyles.title}>{item.title}</h3>
-            </div>
-          ))}
-        </div>
+       <div className="amenities-track" style={amenitiesStyles.track}>
+  {amenities.map((item, i) => (
+    <div style={amenitiesStyles.item} key={`original-${i}`}>
+      <span style={amenitiesStyles.icon}>{item.icon}</span>
+      <h3 style={amenitiesStyles.title}>{item.title}</h3>
+    </div>
+  ))}
+
+  {amenities.map((item, i) => (
+    <div
+      style={amenitiesStyles.item}
+      key={`duplicate-${i}`}
+      aria-hidden="true"
+    >
+      <span style={amenitiesStyles.icon}>{item.icon}</span>
+      <h3 style={amenitiesStyles.title}>{item.title}</h3>
+    </div>
+  ))}
+</div>
       </div>
     </section>
   )
