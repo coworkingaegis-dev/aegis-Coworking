@@ -51,10 +51,10 @@ function PrivateOffice() {
   return (
     <div className="App">
       <Helmet>
-        <title>Private Office for Rent in Abu Dhabi | ADGM Addax Tower</title>
+        <title>Private Office Space in ADGM, Abu Dhabi | Aegis Coworking</title>
         <meta
           name="description"
-          content="Rent a fully furnished private office in Abu Dhabi's ADGM Addax Tower with 24/7 access. Flexible monthly terms. Get pricing details and book a tour today"
+          content="Rent a fully furnished private office in ADGM, Addax Tower, from AED 4,500/month. Lockable, 24/7 secure access, ADGM-licence ready. Book a tour today."
         />
         <link rel="canonical" href="https://www.aegiscoworking.ae/private-office" />
 
@@ -138,8 +138,8 @@ function PrivateOffice() {
 
       {/* Page Hero */}
       <section className="page-hero">
-        <h1>PRIVATE OFFICES IN ADGM</h1>
-        <p>FURNISHED PRIVATE OFFICE | 24/7 ACCESS | ADGM LICENSED</p>
+        <h1>PRIVATE OFFICE IN ADGM</h1>
+        <p>FURNISHED PRIVATE OFFICE | 24/7 ACCESS | ADGM BUSINESS ADDRESS</p>
       </section>
 
       <PrivateOfficeGallery />
@@ -149,12 +149,11 @@ function PrivateOffice() {
         <span className="contact-eyebrow">HOW IT WORKS</span>
         <h2>Your Own Private Office Inside ADGM</h2>
                 <p className="bp-intro">
-          Our private offices are located at Addax Tower, Al Reem Island, in the heart
+          Our private office are located at Addax Tower, Al Reem Island, in the heart
           of ADGM. Each private office in ADGM is lockable, fully furnished, and ready
           for your ADGM licence. Choose professional private office space in ADGM,
-          starting from <strong>AED 4,500 /month</strong>, with the privacy of a
-          traditional office and the flexibility of a modern business centre. See full{' '}
-          <Link to="/pricing">pricing details</Link> for every office size.
+           from <strong>AED 4,500 / month</strong>, with the privacy of a
+          traditional office and the flexibility of a modern business centre.
         </p>
 
         <div className="bp-columns bp-columns-3">
