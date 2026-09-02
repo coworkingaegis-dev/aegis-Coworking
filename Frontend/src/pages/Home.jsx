@@ -66,14 +66,14 @@ function Home() {
   <title>Coworking Space in ADGM, Abu Dhabi | Aegis Coworking</title>
   <meta
     name="description"
-    content="Affordable Coworking space in ADGM starting from AED 1000, Addax Tower, Abu Dhabi. Private & virtual offices, meeting room, day pass."
+    content="Affordable coworking space in ADGM, Addax Tower, Al Reem Island. Hot desks from AED 1,000/month, private & virtual offices, meeting rooms, day passes. Book a free tour."
   />
   <link rel="canonical" href="https://www.aegiscoworking.ae/" />
 
   <meta property="og:title" content="Coworking Space in ADGM, Abu Dhabi | Aegis Coworking" />
   <meta
     property="og:description"
-    content="Affordable Coworking space in ADGM starting from AED 1000, Addax Tower, Abu Dhabi. Private & virtual offices, meeting room, day pass."
+    content="Affordable coworking space in ADGM, Addax Tower, Al Reem Island. Hot desks from AED 1,000/month, private & virtual offices, meeting rooms, day passes. Book a free tour."
   />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.aegiscoworking.ae/" />
@@ -83,7 +83,7 @@ function Home() {
   <meta name="twitter:title" content="Coworking Space in ADGM, Abu Dhabi | Aegis Coworking" />
   <meta
     name="twitter:description"
-    content="Affordable Coworking space in ADGM starting from AED 1000, Addax Tower, Abu Dhabi. Private & virtual offices, meeting room, day pass."
+    content="Affordable coworking space in ADGM, Addax Tower, Al Reem Island. Hot desks from AED 1,000/month, private & virtual offices, meeting rooms, day passes. Book a free tour."
   />
   <meta name="twitter:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 <script type="application/ld+json">
