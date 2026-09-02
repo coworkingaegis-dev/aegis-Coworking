@@ -168,15 +168,7 @@ const toggleWhatWeOffer = () => {
                   an affordable, flexible coworking space for businesses of
                   every size.
                 </p>
-                <Link
-                  to="/pricing"
-                  onClick={closeAll}
-                  style={whoWeServeStyles.learnMore(hoveredLink === 'learn-more')}
-                  onMouseEnter={() => setHoveredLink('learn-more')}
-                  onMouseLeave={() => setHoveredLink(null)}
-                >
-                  Learn more →
-                </Link>
+               
               </div>
 
               <div style={whoWeServeStyles.divider}>
