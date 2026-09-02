@@ -107,13 +107,8 @@ if (error) {
     return text.length > 155 ? text.slice(0, 155) + '...' : text
   }
 
-  const getSeoTitle = (post) => {
-  const suffix = ' | Aegis Coworking Blog'
-  const maxLen = 60 - suffix.length
-  const title = post.title.length > maxLen
-    ? post.title.slice(0, maxLen).trim() + '…'
-    : post.title
-  return `${title}${suffix}`
+ const getSeoTitle = (post) => {
+  return `${post.title} | Aegis Coworking Blog`
 }
 
   const handleShare = async () => {
