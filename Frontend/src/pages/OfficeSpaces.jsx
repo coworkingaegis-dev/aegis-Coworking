@@ -119,7 +119,7 @@ function OfficeSpaces() {
       <Navbar />
       <PageHero
         title="OFFICE SPACE IN ADGM"
-        subtitle="PRIVATE DESK | 24/7 ACCESS | FLEXIBLE MEMBERSHIP"
+        subtitle="DEDICATED DESK | HOT DESK | SHARED COWORKING"
       />
       <DeskPricing />
        <HotDeskPricing />
