@@ -50,7 +50,7 @@ function Footer() {
         <h3>CONTACT US</h3>
         <p><strong>Phone:</strong>‎ <a href="tel:+971503926316">+971 50 392 6316</a></p>
         <p><strong>Email:</strong> contact@aegiscoworking.ae</p>
-        <p><strong>Address:</strong> Addax Tower - 3812 - Al Reem Island - RT3 - Abu Dhabi</p>
+        <p><strong>Address:</strong> 3812 Addax Tower Al Reem island RT3 Abu Dhabi</p>
       </div>
       <div className="footer-col">
        <h3>OPENING HOURS</h3>
