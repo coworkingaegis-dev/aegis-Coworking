@@ -405,7 +405,7 @@ a {
 .footer {
   background: #14231d;
   color: #d8dcd9;
-  padding: 72px 60px 32px;
+ padding: 48px 60px 24px;
   display: grid;
 grid-template-columns: 1.8fr 1fr 1fr 1.1fr 1fr;
   gap: 40px;
@@ -486,8 +486,8 @@ grid-template-columns: 1.8fr 1fr 1fr 1.1fr 1fr;
   display: flex;
   justify-content: space-between;
   border-top: 1px solid rgba(255,255,255,0.08);
-  padding-top: 26px;
-  margin-top: 20px;
+  padding-top: 16px;
+  margin-top: 12px;
   font-size: 13px;
   color: #7f8a83;
 }
