@@ -52,8 +52,8 @@ function Hero() {
       <div className="hero-content">
         
         <h1>
-          <span className="hero-title-desktop">COWORKING&nbsp;SPACE&nbsp;IN&nbsp;ADGM&nbsp;ABUDHABI</span>
-          <span className="hero-title-mobile">COWORKING SPACE<br />IN ADGM ABUDHABI </span>
+          <span className="hero-title-desktop">COWORKING&nbsp;SPACE&nbsp;IN&nbsp;ADGM</span>
+          <span className="hero-title-mobile">COWORKING SPACE<br />IN ADGM</span>
         </h1>
         <p>
           Aegis Coworking offers affordable hot desk, dedicated desk, private office,
