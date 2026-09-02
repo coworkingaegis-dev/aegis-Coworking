@@ -36,7 +36,7 @@ function DeskPricing() {
           <div>✓ No Hidden Fees<br />✓ No Admin Fees</div>
           <div>✓ No Deposit<br />✓ No Outgoings</div>
           <div>✓ No Setup Fees<br />✓ Free Registration</div>
-          <p className="lease-note">Lease: 12-36 months</p>
+       
         </div>
 
         <a href="/contact" className="reserve-link">Request Quote &gt;</a>
