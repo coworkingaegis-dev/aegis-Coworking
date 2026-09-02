@@ -183,9 +183,11 @@ const staticEntries = STATIC_ROUTES.map((route) => {
 })
 
 const blogEntries = allBlogs.map(({ id, created_at }) => {
+  const blogEntries = allBlogs.map(({ slug, created_at }) => {
   const lastmod = created_at ? created_at.split('T')[0] : today
   return `  <url>
     <loc>https://www.aegiscoworking.ae/blog/${id}</loc>
+    <loc>https://www.aegiscoworking.ae/blog/${slug}</loc>
     <lastmod>${lastmod}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
