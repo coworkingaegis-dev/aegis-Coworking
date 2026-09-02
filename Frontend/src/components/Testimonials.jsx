@@ -1,6 +1,6 @@
 const testimonials = [
   {
-    quote: "Really satisfied with service at Aegis Coworking. Staff was cooperative and service was fast. Worth having ADGM registered address at such affordable price.",
+    quote: "Really satisfied with service at Aegis Coworking. Staff was cooperative and service was fast. Best Coworking Space in ADGM.",
     name: "Hassan A.",
     role: "Startup Founder",
     initials: "HA"
@@ -37,7 +37,7 @@ const testimonials = [
   },
 
 {
-    quote: "I was comparing affordable coworking space in ADGM and found Aegis to be a very practical choice. The workspace feels professional while keeping costs affordable",
+    quote: "I was comparing the best coworking space in ADGM and found Aegis to be a very practical choice. The workspace feels professional while keeping costs affordable",
     name: "Madona Paul",
     role: " Entrepreneur",
     initials: "HA"
