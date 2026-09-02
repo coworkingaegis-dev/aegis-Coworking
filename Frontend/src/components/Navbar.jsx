@@ -202,7 +202,7 @@ const toggleWhatWeOffer = () => {
         >
           What We Offer ▾
           <ul className="dropdown-menu">
-        <li><Link to="/office-spaces" onClick={closeAll}>Office Desk</Link></li>
+        <li><Link to="/office-spaces" onClick={closeAll}>Office Space</Link></li>
             <li><Link to="/virtual-office" onClick={closeAll}>Virtual Office</Link></li>
                    <li><Link to="/private-office" onClick={closeAll}>Private Office</Link></li>
          
