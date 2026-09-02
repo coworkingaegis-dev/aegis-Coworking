@@ -147,11 +147,13 @@ if (error) {
           <title>{getSeoTitle(post)}</title>
           <meta name="description" content={getMetaDescription(post)} />
           <link rel="canonical" href={`https://www.aegiscoworking.ae/blog/${post.id}`} />
+          <link rel="canonical" href={`https://www.aegiscoworking.ae/blog/${post.slug}`} />
 
           <meta property="og:title" content={post.title} />
           <meta property="og:description" content={getMetaDescription(post)} />
           <meta property="og:type" content="article" />
           <meta property="og:url" content={`https://www.aegiscoworking.ae/blog/${post.id}`} />
+          <meta property="og:url" content={`https://www.aegiscoworking.ae/blog/${post.slug}`} />
           <meta
   property="og:image"
   content={post.image_url || 'https://www.aegiscoworking.ae/og-image.jpg'}
@@ -192,6 +194,7 @@ if (error) {
 "mainEntityOfPage": {
   "@type": "WebPage",
   "@id": `https://www.aegiscoworking.ae/blog/${post.id}`,
+  "@id": `https://www.aegiscoworking.ae/blog/${post.slug}`,
 },
 })}
 </script>
@@ -217,6 +220,7 @@ if (error) {
         position: 3,
         name: post.title,
         item: `https://www.aegiscoworking.ae/blog/${post.id}`
+        item: `https://www.aegiscoworking.ae/blog/${post.slug}`
       }
     ]
   })}
@@ -302,6 +306,7 @@ if (error) {
               <div className="related-posts-grid">
                 {relatedPosts.map((rp) => (
                   <Link to={`/blog/${rp.id}`} key={rp.id} className="related-post-card">
+                     <Link to={`/blog/${rp.slug}`} key={rp.id} className="related-post-card">
                     {rp.image_url && (
                       <div className="related-post-image">
                        <img src={rp.image_url} alt={rp.title} loading="lazy" decoding="async" />
