@@ -9,9 +9,11 @@ import { usePreloadedData } from '../PreloadedDataContext.jsx'
 
 function BlogDetail() {
   const { id } = useParams()
+  const { slug } = useParams()
   const preloaded = usePreloadedData()
   const hasPreloaded =
     preloaded?.type === 'blogDetail' && String(preloaded.post?.id) === String(id)
+  preloaded?.type === 'blogDetail' && String(preloaded.post?.slug) === String(slug)
 
   const [post, setPost] = useState(hasPreloaded ? preloaded.post : null)
   const [relatedPosts, setRelatedPosts] = useState(hasPreloaded ? preloaded.relatedPosts : [])
@@ -27,6 +29,7 @@ useEffect(() => {
     window.prerenderReady = false
     fetchPost()
   }, [id])
+  }, [slug])
 
   const fetchPost = async () => {
     setLoading(true)
@@ -34,6 +37,7 @@ useEffect(() => {
       .from('blogs')
       .select('*')
       .eq('id', id)
+      .eq('slug', slug)
       .single()
 
 if (error) {
