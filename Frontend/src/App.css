@@ -3890,9 +3890,9 @@ grid-template-columns: 1.8fr 1fr 1fr 1.1fr 1fr;
   line-height: 1.4;
   width: 100%;
   display: block;
-  margin: 0 0 24px;
-  padding-top: 44px;
-  padding-bottom: 16px;
+  margin: 0 0 20px;
+  padding-top: 28px;
+  padding-bottom: 12px;
   border-bottom: 1px solid var(--color-border);
 }
 
@@ -3904,9 +3904,10 @@ grid-template-columns: 1.8fr 1fr 1fr 1.1fr 1fr;
   font-size: 18px;
   font-weight: 700;
   color: var(--color-text);
-  padding-top: 32px;
+  padding-top: 22px;
   margin: 0 0 14px;
 }
+
 
 .blog-detail-content strong {
   color: var(--color-text);
