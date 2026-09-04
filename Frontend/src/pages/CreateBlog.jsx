@@ -11,11 +11,12 @@ import Footer from '../components/Footer'
 
 function CreateBlog() {
   const [formData, setFormData] = useState({
-    title: '',
-    summary: '',
-    author: '',
-    category: '',
-  })
+  title: '',
+  summary: '',
+  author: '',
+  category: '',
+  imageAlt: '',
+})
   const [imageFile, setImageFile] = useState(null)
   const [imagePreview, setImagePreview] = useState(null)
   const [errors, setErrors] = useState({})
@@ -91,24 +92,25 @@ function CreateBlog() {
       .replace(/[^a-z0-9\s-]/g, '')
       .replace(/\s+/g, '-')
 
-    const { error } = await supabase.from('blogs').insert([
-      {
-        title: formData.title,
-        summary: formData.summary || null,
-        author: formData.author,
-        category: formData.category || null,
-        content: editor.getHTML(),
-        image_url: imageUrl,
-        slug,
-      },
-    ])
+   const { error } = await supabase.from('blogs').insert([
+  {
+    title: formData.title,
+    summary: formData.summary || null,
+    author: formData.author,
+    category: formData.category || null,
+    content: editor.getHTML(),
+    image_url: imageUrl,
+    image_alt: formData.imageAlt || null,
+    slug,
+  },
+])
 
     if (error) {
       console.error(error)
       setStatus('error')
     } else {
       setStatus('success')
-      setFormData({ title: '', summary: '', author: '', category: '' })
+setFormData({ title: '', summary: '', author: '', category: '', imageAlt: '' })
       setImageFile(null)
       setImagePreview(null)
       editor.commands.clearContent()
@@ -219,6 +221,17 @@ function CreateBlog() {
               accept="image/*"
               onChange={handleImageChange}
               style={{ display: 'none' }}
+            />
+          </div>
+
+          <div className="field-wrap">
+            <label>Image alt text</label>
+            <input
+              type="text"
+              name="imageAlt"
+              placeholder="Describe what's in the cover image"
+              value={formData.imageAlt}
+              onChange={handleChange}
             />
           </div>
 
