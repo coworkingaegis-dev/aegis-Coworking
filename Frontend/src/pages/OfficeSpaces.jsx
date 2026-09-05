@@ -47,14 +47,14 @@ function OfficeSpaces() {
           name="description"
           content="Hot desk and dedicated desk space in ADGM, Addax Tower — from AED 1,000/month, 24/7 access, no hidden fees. Compare plans and book a tour today."
         />
-        <link rel="canonical" href="https://www.aegiscoworking.ae/office-spaces" />
+        <link rel="canonical" href="https://www.aegiscoworking.ae/office-space" />
         <meta property="og:title" content="Office Spaces in ADGM | Aegis Coworking" />
         <meta
           property="og:description"
           content="Dedicated desks with 24/7 access in ADGM, Addax Tower, from AED 1150/month."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.aegiscoworking.ae/office-spaces" />
+        <meta property="og:url" content="https://www.aegiscoworking.ae/office-space" />
 <meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Office Spaces in ADGM | Aegis Coworking" />
@@ -90,7 +90,7 @@ function OfficeSpaces() {
       "price": "1150",
       "priceCurrency": "AED",
       "availability": "https://schema.org/InStock",
-      "url": "https://www.aegiscoworking.ae/office-spaces"
+      "url": "https://www.aegiscoworking.ae/office-space"
     }
   })}
 </script>
@@ -110,7 +110,8 @@ function OfficeSpaces() {
         "@type": "ListItem",
         position: 2,
         name: "Office Spaces",
-        item: "https://www.aegiscoworking.ae/office-spaces"
+        item: "https://www.aegiscoworking.ae/office-space
+          
       }
     ]
   })}
