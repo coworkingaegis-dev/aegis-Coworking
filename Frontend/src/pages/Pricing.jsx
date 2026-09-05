@@ -204,7 +204,7 @@ function Pricing() {
           <div className="pricing-card">
             <span className="pricing-badge">MOST POPULAR</span>
             <h2>DEDICATED DESK</h2>
-            <p className="pricing-subtitle"> Flexi desk in ADGM , your own desk</p>
+            <p className="pricing-subtitle"> Office Space in ADGM , your own desk</p>
             <span className="pricing-save">Save AED 250/month</span>
             <div className="pricing-price">
               <span className="pricing-strike">1,450</span>{' '}
