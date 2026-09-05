@@ -110,7 +110,8 @@ function OfficeSpaces() {
         "@type": "ListItem",
         position: 2,
         name: "Office Spaces",
-        item: "https://www.aegiscoworking.ae/office-space
+        item: "https://www.aegiscoworking.ae/office-space"
+        
           
       }
     ]
