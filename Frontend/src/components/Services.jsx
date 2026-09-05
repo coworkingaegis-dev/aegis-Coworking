@@ -1,27 +1,10 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import { Link } from 'react-router-dom'
 
 const services = [
   {
     icon: "🏢",
     title: "OFFICE SPACES IN ADGM",
-    link: "/office-spaces",
+    link: "/office-space",
   },
   {
     icon: "🎟️",
