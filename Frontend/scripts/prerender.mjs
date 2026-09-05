@@ -18,7 +18,7 @@ const STATIC_ROUTES = [
   '/',
   '/about',
   '/contact',
-  '/office-spaces',
+  '/office-space',
   '/day-pass',
   '/meeting-room',
   '/virtual-office',
@@ -155,7 +155,7 @@ console.log(`\nPrerendering complete: ${ALL_ROUTES.length} routes + 404 page.`)
 const STATIC_SITEMAP_META = {
   '/': { changefreq: 'weekly', priority: '1.0' },
   '/about': { changefreq: 'monthly', priority: '0.8' },
-  '/office-spaces': { changefreq: 'monthly', priority: '0.9' },
+  '/office-space': { changefreq: 'monthly', priority: '0.9' },
   '/private-office': { changefreq: 'monthly', priority: '0.9' },
   '/virtual-office': { changefreq: 'monthly', priority: '0.9' },
   '/meeting-room': { changefreq: 'monthly', priority: '0.8' },
