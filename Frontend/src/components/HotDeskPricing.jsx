@@ -10,7 +10,7 @@ function HotDeskPricing() {
         <p className="desk-eyebrow">COWORKING SPACE Al REEM ISLAND</p>
         <h2>HOT DESK SPACE ADGM</h2>
       <p className="desk-desc">
-  A flexible hot desk in ADGM — pick any open seat on our shared coworking floor.
+  A flexi desk in ADGM — pick any open seat on our shared coworking floor.
   Fully furnished and accessible 24/7, full access to our meeting rooms, business lounge,
   and the wider coworking community.
 </p>
