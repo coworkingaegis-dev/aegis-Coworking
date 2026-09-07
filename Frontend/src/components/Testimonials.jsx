@@ -83,8 +83,8 @@ function Testimonials() {
     <TestimonialCard t={t} key={`original-${i}`} />
   ))}
 
-  {testimonials.map((t, i) => (
-    <div aria-hidden="true" key={`duplicate-${i}`}>
+    {testimonials.map((t, i) => (
+    <div aria-hidden="true" inert="" key={`duplicate-${i}`}>
       <TestimonialCard t={t} />
     </div>
   ))}
