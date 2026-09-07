@@ -4916,22 +4916,14 @@ html, body {
 
 
 
-/* ===== HERO TITLE — RESPONSIVE SPLIT ===== */
-.hero-title-mobile {
+/* ===== HERO TITLE — RESPONSIVE LINE BREAK ===== */
+.hero-line-break {
   display: none;
 }
 
 @media (max-width: 600px) {
-  .hero-title-desktop {
-    display: none;
-  }
-
- .hero-title-mobile {
+  .hero-line-break {
     display: block;
-    font-size: 34px;
-    line-height: 1.35;
-    letter-spacing: -0.5px;
-    margin-bottom: 28px;
   }
 
   .hero-content h1,
@@ -4940,7 +4932,6 @@ html, body {
     margin-bottom: 28px;
   }
 }
-
 
 
 
