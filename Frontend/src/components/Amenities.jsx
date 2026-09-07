@@ -94,6 +94,7 @@ function Amenities() {
       style={amenitiesStyles.item}
       key={`duplicate-${i}`}
       aria-hidden="true"
+      inert=""
     >
       <span style={amenitiesStyles.icon}>{item.icon}</span>
       <h3 style={amenitiesStyles.title}>{item.title}</h3>
