@@ -51,10 +51,10 @@ function Hero() {
       <div className="hero-overlay"></div>
       <div className="hero-content">
         
-        <h1>
-          <span className="hero-title-desktop">COWORKING&nbsp;SPACE&nbsp;IN&nbsp;ADGM</span>
-          <span className="hero-title-mobile">COWORKING SPACE<br />IN ADGM</span>
-        </h1>
+       <h1>
+  COWORKING&nbsp;SPACE <br className="hero-line-break" />
+  IN&nbsp;ADGM
+</h1>
         <p>
           Aegis Coworking offers affordable hot desk, dedicated desk, private office,
           virtual office, meeting room and day pass — a business centre in ADGM,
