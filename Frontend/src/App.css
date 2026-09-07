@@ -3916,9 +3916,7 @@ grid-template-columns: 1.8fr 1fr 1fr 1.1fr 1fr;
 
 .blog-detail-content a {
   color: var(--color-primary);
-  font-weight: 600;
-  text-decoration: underline;
-  text-underline-offset: 2px;
+  font-weight: 700;
 }
 
 .blog-detail-content ul,
