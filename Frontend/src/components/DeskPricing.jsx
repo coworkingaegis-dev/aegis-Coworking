@@ -1,4 +1,4 @@
-import myDeskImage from '../assets/aegis-coworking-dedicated-desk-ADGM.webp'
+import myDeskImage from '../assets/Dedicated-desk-ADGM-Abu-Dhabi.webp'
 
 function DeskPricing() {
   return (
