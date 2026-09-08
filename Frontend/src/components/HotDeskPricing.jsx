@@ -8,7 +8,7 @@ function HotDeskPricing() {
       </div>
       <div className="desk-details">
         <h2>FLEXI DESK SPACE ADGM</h2>
-        <p className="desk-eyebrow">COWORKING SPACE Al REEM ISLAND</p>
+        <p className="desk-eyebrow">COWORKING SPACE IN Al REEM ISLAND</p>
         
       <p className="desk-desc">
   A Flexi Desk is a practical choice if you don't need the same workstation every day but still want a professional place to work in ADGM.
