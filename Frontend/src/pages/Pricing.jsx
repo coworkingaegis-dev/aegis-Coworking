@@ -19,16 +19,26 @@ const faqs = [
     q: "Does the dedicated desk include an ADGM business address?",
     a: "Yes. The Dedicated Desk includes an ADGM-eligible business address, 24/7 access, lockable storage, and a dedicated workspace."
   },
-  { q: "How much does a virtual office cost in ADGM?",
-   a: "Aegis Coworking offers virtual office options in ADGM starting from AED 292/month for businesses that need a professional ADGM business address without renting a full-time office." },
+ {
+  q: "How much does a virtual office cost in ADGM?",
+  a: (
+    <>
+      Aegis Coworking offers <a href="/virtual-office">virtual office</a> options in ADGM starting from AED 292 /month for businesses that need a professional ADGM business address without renting a full-time office.
+    </>
+  ),
+},
   {
     q: "Are there any hidden fees for coworking?",
     a: "No. Aegis Coworking provides clear pricing for its coworking space, dedicated desk, private office, and virtual office options. You pay for the plan you choose."
   },
   {
-    q: "Does my ADGM Business need physical office space?",
-   a: "No — you need a registered office address in ADGM, but not necessarily a private office. At Aegis Coworking in Addax Tower, a Dedicated Desk can provide a registered ADGM business address, while a Private Office gives you a dedicated workspace for your team. This makes Aegis a flexible option if you need an ADGM business address without committing to a traditional office lease."
-  },
+  q: "Does my ADGM Business need physical office space?",
+  a: (
+    <>
+      No — you need a registered office address in ADGM, but not necessarily a private office. At Aegis Coworking in Addax Tower, a <a href="/office-space">Dedicated Desk</a> can provide a registered ADGM business address, while a <a href="/private-office">Private Office</a> gives you a dedicated workspace for your team. This makes Aegis a flexible option if you need an ADGM business address without committing to a traditional office lease.
+    </>
+  ),
+},
 
   {
     q: "What are ADGM's flexi desk requirements?",
