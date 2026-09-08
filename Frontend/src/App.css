@@ -5286,7 +5286,7 @@ html, body {
 
 
 
-/* ===== OFFICE INFO (single box, 3 parallel columns) ===== */
+/* ===== OFFICE INFO (separate cards, icon + heading + bullets) ===== */
 .office-info {
   background: var(--color-bg-soft);
   padding: 90px 60px;
@@ -5300,76 +5300,61 @@ html, body {
   color: var(--color-text);
 }
 
-.office-info-box {
+.office-info-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
   max-width: 1100px;
   margin: 0 auto;
-  background: var(--color-bg-alt);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-card);
-  overflow: hidden;
   text-align: left;
 }
 
-.office-info-col {
-  padding: 36px 32px;
+.office-info-card {
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 32px 28px;
+  box-shadow: var(--shadow-card);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
-.office-info-col:not(:last-child) {
-  border-right: 1px solid var(--color-border);
+.office-info-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-soft);
+  border-color: var(--color-primary-soft);
 }
 
-.office-info-col h3 {
-  font-size: 16px;
-  font-weight: 800;
-  color: var(--color-primary);
-  text-transform: uppercase;
-  letter-spacing: 0.4px;
-  margin-bottom: 20px;
-}
-
-.office-info-list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-}
-
-.office-info-list li {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 14px;
-  color: var(--color-text-muted);
-  font-weight: 600;
-}
-
-.office-info-icon {
-  width: 30px;
-  height: 30px;
-  flex-shrink: 0;
-  background: var(--color-primary-soft);
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 15px;
-}
-
-.office-info-number {
-  width: 26px;
-  height: 26px;
-  flex-shrink: 0;
+.office-info-card-icon {
+  width: 48px;
+  height: 48px;
   background: var(--color-primary);
-  color: #fff;
-  border-radius: 50%;
+  border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 12.5px;
+  font-size: 22px;
+  margin-bottom: 18px;
+  box-shadow: 0 8px 20px rgba(31, 92, 70, 0.25);
+}
+
+.office-info-card h3 {
+  font-size: 15px;
   font-weight: 800;
+  letter-spacing: 0.3px;
+  color: var(--color-text);
+  margin-bottom: 16px;
+}
+
+.office-info-card ul {
+  list-style: disc;
+  padding-left: 18px;
+  font-size: 13.5px;
+  color: var(--color-text-muted);
+  line-height: 1.9;
+}
+
+.office-info-card ul li::marker {
+  color: var(--color-primary);
 }
 
 @media (max-width: 900px) {
@@ -5377,12 +5362,7 @@ html, body {
     padding: 60px 24px;
   }
 
-  .office-info-box {
+  .office-info-grid {
     grid-template-columns: 1fr;
-  }
-
-  .office-info-col:not(:last-child) {
-    border-right: none;
-    border-bottom: 1px solid var(--color-border);
   }
 }
