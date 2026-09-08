@@ -15,10 +15,14 @@ const faqs = [
     </>
   ),
 },
-  {
-    q: "Does the dedicated desk include an ADGM business address?",
-    a: "Yes. The Dedicated Desk includes an ADGM-eligible business address, 24/7 access, lockable storage, and a dedicated workspace."
-  },
+ {
+  q: "Does the dedicated desk include an ADGM business address?",
+  a: (
+    <>
+      Yes. The <a href="/office-space">Dedicated Desk</a> includes an ADGM-eligible business address, 24/7 access, lockable storage, and a dedicated workspace.
+    </>
+  ),
+},
  {
   q: "How much does a virtual office cost in ADGM?",
   a: (
@@ -35,7 +39,7 @@ const faqs = [
   q: "Does my ADGM Business need physical office space?",
   a: (
     <>
-      No — you need a registered office address in ADGM, but not necessarily a private office. At Aegis Coworking in Addax Tower, a <a href="/office-space">Dedicated Desk</a> can provide a registered ADGM business address, while a <a href="/private-office">Private Office</a> gives you a dedicated workspace for your team. This makes Aegis a flexible option if you need an ADGM business address without committing to a traditional office lease.
+      No — you need a registered office address in ADGM, but not necessarily a private office. At Aegis Coworking in Addax Tower, Dedicated desk can provide a registered ADGM business address, while a <a href="/private-office">Private Office</a> gives you a dedicated workspace for your team. This makes Aegis a flexible option if you need an ADGM business address without committing to a traditional office lease.
     </>
   ),
 },
