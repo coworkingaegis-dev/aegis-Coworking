@@ -8,9 +8,13 @@ import Footer from '../components/Footer'
 const faqs = [
  
   {
-    q: "What is the cheapest coworking option in ADGM?",
-    a: "The Hot Desk is our most affordable coworking option, starting from AED 1,000/month. It provides access to a professional coworking space in ADGM with high-speed internet and meeting room credits."
-  },
+  question: "What is the cheapest coworking option in ADGM?",
+  answer: (
+    <>
+      The <a href="/office-space">Hot Desk</a> is our most affordable coworking option, starting from AED 1,000/month. It provides access to a professional coworking space in ADGM with high-speed internet and meeting room credits.
+    </>
+  ),
+},
   {
     q: "Does the dedicated desk include an ADGM business address?",
     a: "Yes. The Dedicated Desk includes an ADGM-eligible business address, 24/7 access, lockable storage, and a dedicated workspace."
@@ -204,7 +208,7 @@ function Pricing() {
           <div className="pricing-card">
             <span className="pricing-badge">MOST POPULAR</span>
             <h2>DEDICATED DESK</h2>
-            <p className="pricing-subtitle"> Office Space in ADGM , your own desk</p>
+            <p className="pricing-subtitle"> Office Space in ADGM , your own parmanent desk space</p>
             <span className="pricing-save">Save AED 250/month</span>
             <div className="pricing-price">
               <span className="pricing-strike">1,450</span>{' '}
