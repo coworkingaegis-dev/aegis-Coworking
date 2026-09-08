@@ -7,9 +7,9 @@ import Footer from '../components/Footer'
 
 const faqs = [
  
-  {
-  question: "What is the cheapest coworking option in ADGM?",
-  answer: (
+ {
+  q: "What is the cheapest coworking option in ADGM?",
+  a: (
     <>
       The <a href="/office-space">Hot Desk</a> is our most affordable coworking option, starting from AED 1,000/month. It provides access to a professional coworking space in ADGM with high-speed internet and meeting room credits.
     </>
