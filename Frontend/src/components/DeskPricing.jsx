@@ -11,12 +11,12 @@ function DeskPricing() {
         <h2>DEDICATED DESK SPACE ADGM</h2>
          <p className="desk-eyebrow">Ideal for founders and solo professionals who want the same seat every day and a lockable spot for equipment</p>
       <p className="desk-desc">
-  A dedicated desk in ADGM — one of Abu Dhabi's most established business districts.
-  Fully furnished and accessible 24/7, full access to our meeting rooms, business lounge,
-  and the wider coworking community. Book your ADGM Coworking Space with Aegis Coworking that sits in office 3812, Addax Tower, Al Reem Island.
+  A dedicated desk in ADGM — one of Abu Dhabi's most established business districts. 
+ If you work from ADGM regularly and want a workspace that is always yours, a Dedicated Desk gives you the convenience and consistency of a private workspace at a much lower cost. Only AED 150 more than a Flexi Desk — making it an excellent option for regular users.
+ No hidden charges apply and only due diligence fee applies for one time only. Book your ADGM Coworking Space with Aegis Coworking that sits in office 3812, Addax Tower, Al Reem Island.
 </p>
 
-        <p className="desk-rent-label">STARTING FROM:</p>
+        <p className="desk-rent-label">DISCOUNTED PRICE:</p>
         <div className="desk-rent-options">
           <div>
             <span className="price">AED 1,150</span>
