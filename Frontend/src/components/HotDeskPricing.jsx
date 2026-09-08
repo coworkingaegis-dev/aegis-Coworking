@@ -12,7 +12,7 @@ function HotDeskPricing() {
       <p className="desk-desc">
   A Flexi Desk is a practical choice if you don't need the same workstation every day but still want a professional place to work in ADGM.
 
-Need your own permanent desk? Upgrade to a Dedicated Desk for AED 150 more per month.
+<strong> Need your own permanent desk? Upgrade to a Dedicated Desk for AED 150 more per month. </strong>
   Fully furnished and accessible 24/7, full access to our meeting rooms, business lounge,
   and the wider coworking community.
 </p>
