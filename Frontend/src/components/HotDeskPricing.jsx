@@ -4,7 +4,7 @@ function HotDeskPricing() {
   return (
     <section className="desk-pricing">
       <div className="desk-image">
-        <img src={hotDeskImage} alt="Hot desk workspace at Aegis Coworking, Addax Tower, ADGM" width="1448" height="1086" loading="lazy" decoding="async" />
+        <img src={hotDeskImage} alt="Hot desk workspace at Aegis Coworking, Addax Tower, ADGM"  width="1000" height="850" loading="lazy" decoding="async" />
       </div>
       <div className="desk-details">
         <h2>FLEXI DESK SPACE ADGM</h2>
