@@ -114,43 +114,44 @@ const steps = [
 function NearbyFacilities() {
   return (
     <section className="office-info">
-      <div className="office-info-block">
-        <span className="contact-eyebrow">WHAT'S INCLUDED</span>
-        <h2>EVERYTHING YOU NEED, INCLUDED</h2>
-        <div className="included-grid">
-          {included.map((item) => (
-            <div className="included-item" key={item.label}>
-              <div className="included-icon">{item.icon}</div>
-              <p>{item.label}</p>
-            </div>
-          ))}
-        </div>
-      </div>
+      <span className="contact-eyebrow">EVERYTHING YOU NEED TO KNOW</span>
+      <h2>WORKING WITH AEGIS COWORKING</h2>
 
-      <div className="office-info-block">
-        <span className="contact-eyebrow">WHY AEGIS</span>
-        <h2>WHY CHOOSE AEGIS COWORKING</h2>
-        <div className="why-aegis-grid">
-          {whyAegis.map((item) => (
-            <div className="why-aegis-item" key={item.label}>
-              <div className="why-aegis-icon">{item.icon}</div>
-              <p>{item.label}</p>
-            </div>
-          ))}
+      <div className="office-info-box">
+        <div className="office-info-col">
+          <h3>What's Included</h3>
+          <ul className="office-info-list">
+            {included.map((item) => (
+              <li key={item.label}>
+                <span className="office-info-icon">{item.icon}</span>
+                {item.label}
+              </li>
+            ))}
+          </ul>
         </div>
-      </div>
 
-      <div className="office-info-block">
-        <span className="contact-eyebrow">GETTING STARTED</span>
-        <h2>HOW IT WORKS</h2>
-        <div className="how-it-works-grid">
-          {steps.map((step, i) => (
-            <div className="how-it-works-step" key={step.number}>
-              {i < steps.length - 1 && <div className="how-it-works-connector" />}
-              <div className="how-it-works-number">{step.number}</div>
-              <p>{step.title}</p>
-            </div>
-          ))}
+        <div className="office-info-col">
+          <h3>Why Aegis</h3>
+          <ul className="office-info-list">
+            {whyAegis.map((item) => (
+              <li key={item.label}>
+                <span className="office-info-icon">{item.icon}</span>
+                {item.label}
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div className="office-info-col">
+          <h3>How It Works</h3>
+          <ul className="office-info-list office-info-steps">
+            {steps.map((step) => (
+              <li key={step.number}>
+                <span className="office-info-number">{step.number}</span>
+                {step.title}
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </section>
