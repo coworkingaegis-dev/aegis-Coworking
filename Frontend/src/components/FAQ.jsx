@@ -85,9 +85,9 @@
 import { useState } from 'react'
 
 const faqs = [
-  {
-    question: "Is the desk truly mine, or shared with other members?",
-    answer: "Your desk is fully dedicated to you — no one else uses it. You keep the same spot every time you come in, and your belongings can stay set up between visits."
+   {
+    q: "What is Dedicated and FLexi desk in ADGM?",
+    a: "Dedicated and flexi desk are fully dedicated to you — no one else uses it. A Dedicated desk only cost you AED 1150 while Flexi desk cost you only AED 1000. You keep the same spot every time you come in, and your belongings can stay set up between visits.",
   },
   {
     question: "Can I upgrade my office space in Abu Dhabi to a private office?",
