@@ -1,5 +1,4 @@
 import myDeskImage from '../assets/Dedicated-desk-ADGM-Abu-Dhabi.webp'
-
 function DeskPricing() {
   return (
     <section className="desk-pricing">
@@ -12,10 +11,9 @@ function DeskPricing() {
          <p className="desk-eyebrow">Ideal for founders and solo professionals who want the same seat every day and a lockable spot for equipment</p>
       <p className="desk-desc">
   A dedicated desk in ADGM — one of Abu Dhabi's most established business districts. 
- If you work from ADGM regularly and want a workspace that is always yours, a Dedicated Desk gives you the convenience and consistency of a private workspace at a much lower cost. Only AED 150 more than a Flexi Desk — making it an excellent option for regular users.
+ If you work from ADGM regularly and want a workspace that is always yours, a Dedicated Desk gives you the convenience and consistency of a private workspace at a much lower cost. <strong>Only AED 150 more than a Flexi Desk — making it an excellent option for regular users.</strong>
  No hidden charges apply and only due diligence fee applies for one time only. Book your ADGM Coworking Space with Aegis Coworking that sits in office 3812, Addax Tower, Al Reem Island.
 </p>
-
         <p className="desk-rent-label">DISCOUNTED PRICE:</p>
         <div className="desk-rent-options">
           <div>
@@ -25,7 +23,6 @@ function DeskPricing() {
         
         </div>
        
-
        <div className="desk-perks">
   <div>✓ No Hidden Fees</div>
   <div>✓ No Deposit</div>
@@ -34,11 +31,9 @@ function DeskPricing() {
   <div>✓ No Setup Fees</div>
   <div>✓ Free Registration</div>
 </div>
-
         <a href="/contact" className="reserve-link">Request Quote &gt;</a>
       </div>
     </section>
   )
 }
-
 export default DeskPricing
