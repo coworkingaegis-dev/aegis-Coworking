@@ -10,13 +10,10 @@ import FinalCTA from '../components/FinalCTA'
 import Footer from '../components/Footer'
 const faqSchema = [
   {
-    q: "Is the desk truly mine, or shared with other members?",
-    a: "Your desk is fully dedicated to you — no one else uses it. You keep the same spot every time you come in, and your belongings can stay set up between visits.",
+    q: "What is Dedicated and FLexi desk in ADGM?",
+    a: "Dedicated and flexi desk are fully dedicated to you — no one else uses it. A Dedicated desk only cost you AED 1150 while Flexi desk cost you only AED 1000. You keep the same spot every time you come in, and your belongings can stay set up between visits.",
   },
-  {
-    q: "Can I upgrade my office space in ADGM, Abu Dhabi to a private office?",
-    a: "Yes. Many of our members start with a dedicated desk and move into a private office as their team grows. There's no penalty for upgrading — just let us know and we'll handle the transition.",
-  },
+  
   {
     q: "What's included in the one-time Due Diligence Fee?",
     a: "The AED 1,100 Due Diligence Fee covers the compliance and background checks required by ADGM before your licence and registered address can be activated. It's a one-time cost, separate from your monthly rent.",
