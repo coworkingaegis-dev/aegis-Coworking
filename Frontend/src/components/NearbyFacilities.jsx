@@ -86,71 +86,47 @@
 
 
 
-const included = [
-  { icon: '🔑', label: '24/7 Access' },
-  { icon: '📶', label: 'WiFi' },
-  { icon: '🤝', label: 'Meeting Rooms' },
-  { icon: '☕', label: 'Coffee' },
-  { icon: '🖨️', label: 'Printing' },
-  { icon: '🪑', label: 'Furniture' },
-  { icon: '🏢', label: 'Business Environment' },
-]
-
-const whyAegis = [
-  { icon: '📍', label: 'ADGM Location' },
-  { icon: '💰', label: 'Transparent Pricing' },
-  { icon: '⚡', label: 'No Unnecessary Setup' },
-  { icon: '💼', label: 'Professional Workspace' },
-  { icon: '🔄', label: 'Flexible Options' },
-]
-
-const steps = [
-  { number: '1', title: 'Choose Your Desk' },
-  { number: '2', title: 'Book a Tour' },
-  { number: '3', title: 'Complete Onboarding' },
-  { number: '4', title: 'Start Working' },
-]
-
 function NearbyFacilities() {
   return (
     <section className="office-info">
       <span className="contact-eyebrow">EVERYTHING YOU NEED TO KNOW</span>
       <h2>WORKING WITH AEGIS COWORKING</h2>
 
-      <div className="office-info-box">
-        <div className="office-info-col">
-          <h3>What's Included</h3>
-          <ul className="office-info-list">
-            {included.map((item) => (
-              <li key={item.label}>
-                <span className="office-info-icon">{item.icon}</span>
-                {item.label}
-              </li>
-            ))}
+      <div className="office-info-grid">
+        <div className="office-info-card">
+          <div className="office-info-card-icon">🔑</div>
+          <h3>WHAT'S INCLUDED</h3>
+          <ul>
+            <li>24/7 Access</li>
+            <li>WiFi</li>
+            <li>Meeting Rooms</li>
+            <li>Coffee</li>
+            <li>Printing</li>
+            <li>Furniture</li>
+            <li>Business Environment</li>
           </ul>
         </div>
 
-        <div className="office-info-col">
-          <h3>Why Aegis</h3>
-          <ul className="office-info-list">
-            {whyAegis.map((item) => (
-              <li key={item.label}>
-                <span className="office-info-icon">{item.icon}</span>
-                {item.label}
-              </li>
-            ))}
+        <div className="office-info-card">
+          <div className="office-info-card-icon">📍</div>
+          <h3>WHY AEGIS</h3>
+          <ul>
+            <li>ADGM Location</li>
+            <li>Transparent Pricing</li>
+            <li>No Unnecessary Setup</li>
+            <li>Professional Workspace</li>
+            <li>Flexible Options</li>
           </ul>
         </div>
 
-        <div className="office-info-col">
-          <h3>How It Works</h3>
-          <ul className="office-info-list office-info-steps">
-            {steps.map((step) => (
-              <li key={step.number}>
-                <span className="office-info-number">{step.number}</span>
-                {step.title}
-              </li>
-            ))}
+        <div className="office-info-card">
+          <div className="office-info-card-icon">🚀</div>
+          <h3>HOW IT WORKS</h3>
+          <ul>
+            <li>Choose your desk</li>
+            <li>Book a tour</li>
+            <li>Complete onboarding</li>
+            <li>Start working</li>
           </ul>
         </div>
       </div>
