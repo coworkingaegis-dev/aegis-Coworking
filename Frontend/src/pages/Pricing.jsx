@@ -49,14 +49,22 @@ const faqs = [
     a: "ADGM businesses need a qualifying registered office arrangement within ADGM. At Aegis Coworking, our Dedicated Desk plan provides a permanent workspace together with a registered ADGM business address. This makes Aegis suitable for the businesses looking for the cheaper option of these provider. Aegis is located in Addax Tower on Al Reem Island, within the ADGM jurisdiction."
   },
 
-  {
-    q: "How much does coworking cost in ADGM?",
-    a: "Aegis Coworking in ADGM offers hot desks from AED 1,000 per month, day pass from AED 100 per day and dedicated desks from AED 1,150 per month. Private offices start from AED 4,500 per month, while virtual office plans start from AED 3,500 per year."
-  },
+{
+  q: "How much does coworking cost in ADGM?",
+  a: (
+    <>
+      <a href="/pricing">Aegis Coworking</a> in ADGM offers hot desks from AED 1,000 per month, day pass from AED 100 per day and dedicated desks from AED 1,150 per month. Private offices start from AED 4,500 per month, while virtual office plans start from AED 3,500 per year.
+    </>
+  ),
+},
 
- {
+{
   q: "Hot desk vs flexi desk vs dedicated desk in ADGM — what's the difference?",
-  a: "A hot desk at Aegis Coworking is a flexible shared workspace and is ideal for individuals or businesses that do not require ADGM's registered business address. A Dedicated Desk provides your own permanent workspace together with a registered ADGM business address and is designed for businesses that need an ADGM flexi desk arrangement. In simple terms, a hot desk is primarily for flexible working, while a dedicated desk is a stronger option when you need both workspace and an ADGM registered office address."
+  a: (
+    <>
+      A hot desk at Aegis Coworking is a <a href="/office-space">flexible</a> shared workspace and is ideal for individuals or businesses that do not require ADGM's registered business address. A Dedicated Desk provides your own permanent workspace together with a registered ADGM business address and is designed for businesses that need an ADGM flexi desk arrangement. In simple terms, a hot desk is primarily for flexible working, while a dedicated desk is a stronger option when you need both workspace and an ADGM registered office address.
+    </>
+  ),
 },
 
  {
