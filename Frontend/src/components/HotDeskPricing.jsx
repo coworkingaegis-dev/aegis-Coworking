@@ -15,7 +15,8 @@ function HotDeskPricing() {
 
 
   Fully furnished and accessible 24/7, full access to our meeting rooms, business lounge,
-  and the wider coworking community. Book your ADGM Coworking Space with Aegis Coworking that sits in office 3812, Addax Tower, Al Reem Island.
+  and the wider coworking community. </p>
+       <p className="desk-desc">   Book your ADGM Coworking Space with Aegis Coworking that sits in office 3812, Addax Tower, Al Reem Island.
         <strong> Need your own permanent desk? Upgrade to a Dedicated Desk for AED 150 more per month. </strong>
 </p>
         <p className="desk-rent-label">DISCOUNTED PRICE:</p>
