@@ -44,11 +44,14 @@ const faqs = [
   ),
 },
 
-  {
-    q: "What are ADGM's flexi desk requirements?",
-    a: "ADGM businesses need a qualifying registered office arrangement within ADGM. At Aegis Coworking, our Dedicated Desk plan provides a permanent workspace together with a registered ADGM business address. This makes Aegis suitable for the businesses looking for the cheaper option of these provider. Aegis is located in Addax Tower on Al Reem Island, within the ADGM jurisdiction."
-  },
-
+ {
+  q: "What are ADGM's flexi desk requirements?",
+  a: (
+    <>
+      ADGM businesses need a qualifying registered office arrangement within ADGM. At Aegis Coworking, our <a href="/office-space">Dedicated Desk</a> plan provides a permanent workspace together with a registered ADGM business address. This makes Aegis suitable for the businesses looking for the cheaper option of these provider. Aegis is located in Addax Tower on Al Reem Island, within the ADGM jurisdiction.
+    </>
+  ),
+},
 {
   q: "How much does coworking cost in ADGM?",
   a: (
@@ -76,14 +79,29 @@ const faqs = [
   }
 },
   {
-    q: "What should I look for in a coworking space in Abu Dhabi?",
-    a: "When choosing a coworking space in Abu Dhabi, consider its location, ADGM eligibility, registered address options, pricing, workspace flexibility and business amenities. Aegis Coworking is located in Addax Tower on Al Reem Island and offers hot desks, dedicated desks, private offices, virtual offices and meeting rooms. For businesses operating in ADGM, Aegis also provides options for an ADGM business address and registered office arrangement."
-  },
+  q: "What should I look for in a coworking space in Abu Dhabi?",
+  a: (
+    <>
+      When choosing a <a href="/">coworking space</a> in Abu Dhabi, consider its location, ADGM eligibility, registered address options, pricing, workspace flexibility and business amenities. Aegis Coworking is located in Addax Tower on Al Reem Island and offers hot desks, dedicated desks, private offices, virtual offices and meeting rooms. For businesses operating in ADGM, Aegis also provides options for an ADGM business address and registered office arrangement.
+    </>
+  ),
+},
 
   {
-    q: "What is the ADGM company registration office requirement?",
-    a: "An ADGM company needs a registered office address within the ADGM jurisdiction. Aegis Coworking provides registered ADGM business address options through eligible Dedicated Desk and Virtual Office plans, giving businesses an alternative to leasing a traditional private office. If you are looking for an ADGM registered office provider, Aegis is located at Addax Tower on Al Reem Island and offers cheap workspace solutions for startups, SMEs and established businesses."
-  },
+
+  q: "What is the ADGM company registration office requirement?",
+
+  a: (
+
+    <>
+
+      An ADGM company needs a registered office <a href="https://maps.google.com/?cid=6229821588759315998&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAMYASAF&hl=en&source=embed" target="_blank" rel="noopener noreferrer"> address </a>within the ADGM jurisdiction. Aegis Coworking provides registered ADGM business address options through eligible Dedicated Desk and Virtual Office plans, giving businesses an alternative to leasing a traditional private office. If you are looking for an ADGM registered office provider, Aegis is located at Addax Tower on Al Reem Island and offers cheap workspace solutions for startups, SMEs and established businesses.
+
+    </>
+
+  ),
+
+}, 
   {
     q: "Where is the coworking space located?",
     a: "Aegis Coworking is located in Addax Tower, Al Reem Island, within Abu Dhabi Global Market (ADGM), offering a professional coworking space in Abu Dhabi."
