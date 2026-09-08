@@ -25,10 +25,10 @@ function DeskPricing() {
         </div>
        
        <div className="desk-perks">
-  <div>✓ No Hidden Fees</div>
+
   <div>✓ No Deposit</div>
   <div>✓ No Admin Fees</div>
-  <div>✓ No Outgoings</div>
+ 
   <div>✓ No Setup Fees</div>
   <div>✓ Free Registration</div>
 </div>
