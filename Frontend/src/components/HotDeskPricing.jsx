@@ -35,7 +35,7 @@ function HotDeskPricing() {
   <div>✓ No Setup Fees</div>
   <div>✓ Free Registration</div>
 </div>
-        <a href="/contact" className="reserve-link">Request Quote &gt;</a>
+        <a href="/pricing" className="reserve-link">Other Discounts &gt;</a>
       </div>
     </section>
   )
