@@ -23,11 +23,13 @@ function HotDeskPricing() {
 </div>
         {/* <p className="desk-fee-note">No Due Diligence Fee | Walk-in or Book Online</p> */}
         <div className="desk-perks">
-          <div>✓ No Hidden Fees<br />✓ No Admin Fees</div>
-          <div>✓ No Deposit<br />✓ No Outgoings</div>
-          <div>✓ No Setup Fees<br />✓ Free Registration</div>
-          {/* <p className="lease-note">Flexible monthly access</p> */}
-        </div>
+  <div>✓ No Hidden Fees</div>
+  <div>✓ No Deposit</div>
+  <div>✓ No Admin Fees</div>
+  <div>✓ No Outgoings</div>
+  <div>✓ No Setup Fees</div>
+  <div>✓ Free Registration</div>
+</div>
         <a href="/contact" className="reserve-link">Request Quote &gt;</a>
       </div>
     </section>
