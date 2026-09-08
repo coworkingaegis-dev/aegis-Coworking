@@ -119,10 +119,11 @@ function OfficeSpaces() {
 </script>
       </Helmet>
       <Navbar />
-      <PageHero
-        title="OFFICE SPACE IN ADGM"
-        subtitle="DEDICATED DESK | HOT DESK | SHARED COWORKING"
-      />
+     <PageHero
+  title="OFFICE SPACE IN ADGM"
+  subtitle="Dedicated & Flexi Desks in ADGM from AED 1,000/month"
+  description="ADGM-ready workspace at Addax Tower, Al Reem Island — with 24/7 access, meeting-room access and a professional business address"
+/>
       <DeskPricing />
        <HotDeskPricing />
       <NearbyFacilities />
