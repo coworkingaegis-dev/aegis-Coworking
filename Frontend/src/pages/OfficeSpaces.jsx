@@ -48,14 +48,14 @@ function OfficeSpaces() {
         <meta property="og:title" content="Office Spaces in ADGM | Aegis Coworking" />
         <meta
           property="og:description"
-          content="Dedicated desks with 24/7 access in ADGM, Addax Tower, from AED 1150/month."
+          content="Dedicated desks with 24/7 access in ADGM, Addax Tower, from AED 1150 /month."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.aegiscoworking.ae/office-space" />
 <meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Office Spaces in ADGM | Aegis Coworking" />
-<meta name="twitter:description" content="Dedicated desks with 24/7 access in ADGM, Addax Tower, from AED 1150/month." />
+<meta name="twitter:description" content="Dedicated desks with 24/7 access in ADGM, Addax Tower, from AED 1150 /month." />
 <meta name="twitter:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 <script type="application/ld+json">
           {JSON.stringify({
@@ -118,7 +118,7 @@ function OfficeSpaces() {
       <Navbar />
      <PageHero
   title="OFFICE SPACE IN ADGM"
-  subtitle="Dedicated & Flexi Desks in ADGM from AED 1,000/month"
+  subtitle="Dedicated & Flexi Desks in ADGM from AED 1,000 /month"
   description="ADGM-ready workspace at Addax Tower, Al Reem Island — with 24/7 access, meeting-room access and a professional business address"
 />
       <div className="pricing-compare">
