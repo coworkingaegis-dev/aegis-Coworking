@@ -10,11 +10,13 @@ function HotDeskPricing() {
         <p className="desk-eyebrow">COWORKING SPACE Al REEM ISLAND</p>
         <h2>HOT DESK SPACE ADGM</h2>
       <p className="desk-desc">
-  A flexi desk in ADGM — pick any open seat on our shared coworking floor.
+  A Flexi Desk is a practical choice if you don't need the same workstation every day but still want a professional place to work in ADGM.
+
+Need your own permanent desk? Upgrade to a Dedicated Desk for AED 150 more per month.
   Fully furnished and accessible 24/7, full access to our meeting rooms, business lounge,
   and the wider coworking community.
 </p>
-        <p className="desk-rent-label">Monthly Rent:</p>
+        <p className="desk-rent-label">DISCOUNTED PRICE:</p>
        <div className="desk-rent-options">
   <div>
     <span className="price">AED 1,000</span>
