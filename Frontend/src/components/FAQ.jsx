@@ -3,7 +3,7 @@ import { useState } from 'react'
 const faqs = [
   {
     question: "What is Dedicated and Flexi desk in ADGM?",
-    answer: "Dedicated and flexi desk are fully dedicated to you — no one else uses it. A Dedicated desk only cost you AED 1150 while Flexi desk cost you only AED 1000. You keep the same spot every time you come in, and your belongings can stay set up between visits.",
+    answer: "A Dedicated desk provides you registered ADGM Business Address for the liscence but Flexi Desk is suitable for the individuals or companies without ADGM liscencing requirement. A Dedicated desk only cost you AED 1150 while Flexi desk cost you only AED 1000. You keep the same spot every time you come in, and your belongings can stay set up between visits.",
   },
   
   {
