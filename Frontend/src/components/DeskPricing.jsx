@@ -18,6 +18,7 @@ function DeskPricing() {
         <div className="desk-rent-options">
           <div>
             <span className="price">AED 1,150</span>
+             <span className="period">Monthly</span>
           
           </div>
         
