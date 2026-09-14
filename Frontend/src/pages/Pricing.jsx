@@ -213,7 +213,7 @@ function Pricing() {
      <section className="pricing-hero">
   <h1>ADGM REGISTERED OFFICE PROVIDER</h1>
   <p className="pricing-price-intro">
-    Cheapest Coworking space in ADGM — Workspace from only AED 1000. No hidden fees.
+    Cheapest Coworking Space & Business Center in ADGM — Workspace from only AED 1,000. No hidden fees.
   </p> 
        {/* <p className="pricing-price-intro">
     Cheapest Coworking Workspace and Office Space in ADGM with flexible workplace options and transparent pricing for every business need.
