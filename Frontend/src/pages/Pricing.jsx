@@ -646,7 +646,7 @@ function Pricing() {
       </section>
 
       <section className="pricing-section">
-        <h2 className="pricing-section-heading">ADGM Coworking Space Pricing Plans</h2>
+        
         <div className="pricing-grid">
 
           {/* HOT DESK */}
