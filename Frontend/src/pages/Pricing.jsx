@@ -547,10 +547,10 @@ function Pricing() {
     <>
       <Helmet>
         <title>ADGM Coworking Pricing — Plans from AED 292/mo | Aegis Coworking</title>
-        <meta
-          name="description"
-          content="ADGM coworking pricing at Aegis: hot desks from AED 1,000/month, dedicated desks from AED 1,150/month, private offices from AED 4,500/month, virtual offices from AED 292/month."
-        />
+       <meta
+  name="description"
+  content="Explore affordable ADGM coworking spaces at Aegis, with hot desks from AED 1,000 a month, dedicated desks, private offices and virtual offices."
+/>
         <link rel="canonical" href="https://www.aegiscoworking.ae/pricing" />
 
         <meta property="og:title" content="ADGM Coworking Pricing — Plans from AED 292/mo | Aegis Coworking" />
