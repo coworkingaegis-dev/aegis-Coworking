@@ -44,7 +44,7 @@ function Footer() {
       </div>
       <div className="footer-col">
        <h3>OUR SPACES</h3>
-        <Link to="/office-space">Office Spaces</Link>
+        <Link to="/office-space">Office Space</Link>
         <Link to="/private-office">Private Office</Link>
         <Link to="/virtual-office">Virtual Office</Link>
         <Link to="/meeting-room">Meeting Room</Link>
