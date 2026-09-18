@@ -13,9 +13,7 @@ import WhatsAppButton from './components/WhatsAppButton'
 import Pricing from './pages/Pricing'
 import Blogs from './pages/Blogs'
 import BlogDetail from './pages/BlogDetail'
-import PresentationRoom from './pages/PresentationRoom'
 import About from './pages/About'
-import Membership from './pages/Membership'
 import NotFound from './pages/NotFound'
 import './App.css'
 
@@ -97,8 +95,8 @@ function App() {
           }
         />
 <Route path="/blog/:slug" element={<BlogDetail />} />
-        <Route path="/presentation-room" element={<PresentationRoom />} />
-        <Route path="/membership" element={<Membership />} />
+      
+     
         <Route path="/about" element={<About />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
