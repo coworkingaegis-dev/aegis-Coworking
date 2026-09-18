@@ -32,7 +32,7 @@ function App() {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "@id": "https://www.aegiscoworking.ae/#business",
-      "name": "Aegis Coworking Space ADGM",
+    "name": "Aegis Coworking - ADGM",
       "url": "https://www.aegiscoworking.ae",
       "logo": "https://www.aegiscoworking.ae/logo.png",
       "image": "https://www.aegiscoworking.ae/og-image.jpg",
@@ -42,7 +42,7 @@ function App() {
       "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Addax Tower, Al Reem Island, Tamouh",
+       "streetAddress": "Addax Tower, 3812, Al Reem Island, RT3",
         "addressLocality": "Abu Dhabi",
         "addressRegion": "Abu Dhabi",
         "addressCountry": "AE"
@@ -58,7 +58,7 @@ function App() {
       "@context": "https://schema.org",
       "@type": "Organization",
       "@id": "https://www.aegiscoworking.ae/#organization",
-      "name": "Aegis Coworking Space ADGM",
+     "name": "Aegis Coworking - ADGM",
       "url": "https://www.aegiscoworking.ae",
       "logo": "https://www.aegiscoworking.ae/logo.png",
       "sameAs": ["https://www.linkedin.com/company/aegis-coworking/", "https://www.instagram.com/aegis.coworking/"]
