@@ -1,14 +1,14 @@
-# Aegis Coworking
+# Aegis Coworking - ADGM
 
-> Official website of Aegis Coworking, a coworking and business centre located in Abu Dhabi Global Market (ADGM), Addax Tower, Al Reem Island, Abu Dhabi, United Arab Emirates.
+> Official website of Aegis Coworking - ADGM, a coworking and business centre located in Abu Dhabi Global Market (ADGM), Addax Tower, Al Reem Island, Abu Dhabi, United Arab Emirates.
 
 Aegis Coworking provides flexible workspace solutions for freelancers, startups, SMEs, remote workers, and international businesses establishing a presence in Abu Dhabi.
 
 ## Business
 
-- Business Name: Aegis Coworking
+- Business Name: Aegis Coworking - ADGM
 - Business Type: Coworking Space & Business Centre
-- Location: Addax Tower, Abu Dhabi Global Market (ADGM), Al Reem Island, Abu Dhabi, UAE
+- Location: Addax Tower, 3812, Al Reem Island, RT3, Abu Dhabi, United Arab Emirates
 
 ## Services
 
@@ -53,12 +53,10 @@ Aegis Coworking provides flexible workspace solutions for freelancers, startups,
 
 - [Home](https://www.aegiscoworking.ae/) — Overview of Aegis Coworking.
 - [Pricing](https://www.aegiscoworking.ae/pricing) — Membership plans and pricing.
-- [Membership](https://www.aegiscoworking.ae/membership) — Coworking membership plans and options.
 - [Office Spaces](https://www.aegiscoworking.ae/office-spaces) — Dedicated desks and flexible office space.
 - [Private Office](https://www.aegiscoworking.ae/private-office) — Furnished private offices.
 - [Virtual Office](https://www.aegiscoworking.ae/virtual-office) — Registered ADGM business address.
-- [Meeting Room](https://www.aegiscoworking.ae/meeting-room) — Hourly meeting room rental.
-- [Presentation Room](https://www.aegiscoworking.ae/presentation-room) — Training and presentation venue.
+- [Meeting Room](https://www.aegiscoworking.ae/meeting-room) — Hourly meeting room rental, also used for presentation/training bookings.
 - [Day Pass](https://www.aegiscoworking.ae/day-pass) — Flexible coworking for one day.
 - [Blogs](https://www.aegiscoworking.ae/blogs) — Articles and guides.
 - [Contact](https://www.aegiscoworking.ae/contact) — Contact information.
