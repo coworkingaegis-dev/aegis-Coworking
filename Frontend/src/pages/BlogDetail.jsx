@@ -176,7 +176,7 @@ if (error) {
                 "name": post.author,
               },
              "publisher": { "@id": "https://www.aegiscoworking.ae/#organization" },
-              },
+              
               "datePublished": post.created_at,
               "dateModified": post.updated_at || post.created_at,
 "mainEntityOfPage": {
