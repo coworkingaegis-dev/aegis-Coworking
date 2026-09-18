@@ -4741,12 +4741,13 @@ padding: 40px 24px 50px;
   display: none;
   flex-direction: column;
   justify-content: space-between;
+   box-sizing: content-box;
   width: 26px;
   height: 20px;
   background: none;
   border: none;
   cursor: pointer;
-  padding: 0;
+  padding: 12px 9px;
   z-index: 1100;
 }
 
