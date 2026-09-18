@@ -175,13 +175,7 @@ if (error) {
                 "@type": "Person",
                 "name": post.author,
               },
-              "publisher": {
-                "@type": "Organization",
-                "name": "Aegis Coworking",
-                "logo": {
-                  "@type": "ImageObject",
-                  "url": "https://www.aegiscoworking.ae/og-image.jpg",
-                },
+             "publisher": { "@id": "https://www.aegiscoworking.ae/#organization" },
               },
               "datePublished": post.created_at,
               "dateModified": post.updated_at || post.created_at,
