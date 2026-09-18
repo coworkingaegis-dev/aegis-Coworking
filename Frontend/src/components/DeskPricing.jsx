@@ -1,4 +1,5 @@
 import myDeskImage from '../assets/Dedicated-desk-ADGM-Abu-Dhabi.webp'
+import { Link } from 'react-router-dom'
 function DeskPricing() {
   return (
     <section className="desk-pricing">
@@ -32,7 +33,7 @@ function DeskPricing() {
   <div>✓ No Setup Fees</div>
   <div>✓ Free Registration</div>
 </div>
-        <a href="/contact" className="reserve-link">Request Quote &gt;</a>
+       <Link to="/contact" className="reserve-link">Request Quote &gt;</Link>
       </div>
     </section>
   )
