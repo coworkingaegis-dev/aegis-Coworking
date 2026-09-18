@@ -14,7 +14,7 @@ const faqs = [
     q: "What is the cheapest coworking option in ADGM?",
     a: (
       <>
-        The <Link to="/office-space">Hot Desk</Link> is our most affordable coworking option, starting from AED 1,000/month. It provides access to a professional coworking space in ADGM with high-speed internet and meeting room credits.
+        The <Link to="/office-space">Hot Desk</Link> is our most affordable coworking option, starting from AED 1,000 per month. It provides access to a professional coworking space in ADGM with high-speed internet and meeting room credits.
       </>
     ),
     plainText: "The Hot Desk is our most affordable coworking option, starting from AED 1,000/month. It provides access to a professional coworking space in ADGM with high-speed internet and meeting room credits.",
@@ -35,7 +35,7 @@ const faqs = [
         Aegis Coworking offers <Link to="/virtual-office">virtual office</Link> options in ADGM starting from AED 292 /month for businesses that need a professional ADGM business address without renting a full-time office.
       </>
     ),
-    plainText: "Aegis Coworking offers virtual office options in ADGM starting from AED 292/month for businesses that need a professional ADGM business address without renting a full-time office.",
+    plainText: "Aegis Coworking offers virtual office options in ADGM starting from AED 292 /month for businesses that need a professional ADGM business address without renting a full-time office.",
   },
   {
     q: "Are there any hidden fees for coworking?",
