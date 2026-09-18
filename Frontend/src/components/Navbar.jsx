@@ -133,11 +133,12 @@ const toggleWhatWeOffer = () => {
   setDropdownOpen(prev => !prev)
 }
 
-  const audiences = [
-    { title: 'Freelancers', subtitle: 'Flexible desks for solo professionals' },
-    { title: 'Startups', subtitle: 'Room to grow, from one desk to a full team' },
-    { title: 'Individuals', subtitle: 'Flexible workspace access, no long-term commitment' },
-    { title: 'Small Businesses', subtitle: 'Dedicated space to run and scale your team' },
+   const audiences = [
+
+{ title: 'Freelancers', subtitle: 'Flexible desks for solo professionals', to: '/office-space' },
+{ title: 'Startups', subtitle: 'Room to grow, from one desk to a full team', to: '/office-space' },
+{ title: 'Individuals', subtitle: 'Flexible workspace access, no long-term commitment', to: '/day-pass' },
+{ title: 'Small Businesses', subtitle: 'Dedicated space to run and scale your team', to: '/private-office' },
   ]
 
   return (
