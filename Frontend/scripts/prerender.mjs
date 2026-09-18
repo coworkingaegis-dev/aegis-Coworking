@@ -25,8 +25,7 @@ const STATIC_ROUTES = [
   '/private-office',
   '/pricing',
   '/blogs',
-  '/presentation-room',
-  '/membership',
+
 ]
 
 // Real routes that must still work when visited directly (bookmarked,
@@ -159,12 +158,12 @@ const STATIC_SITEMAP_META = {
   '/private-office': { changefreq: 'monthly', priority: '0.9' },
   '/virtual-office': { changefreq: 'monthly', priority: '0.9' },
   '/meeting-room': { changefreq: 'monthly', priority: '0.8' },
-  '/presentation-room': { changefreq: 'monthly', priority: '0.8' },
+
   '/day-pass': { changefreq: 'monthly', priority: '0.8' },
   '/pricing': { changefreq: 'weekly', priority: '0.9' },
   '/contact': { changefreq: 'yearly', priority: '0.6' },
   '/blogs': { changefreq: 'weekly', priority: '0.7' },
-  '/membership': { changefreq: 'monthly', priority: '0.8' },
+  
 }
 
 const today = new Date().toISOString().split('T')[0]
