@@ -1,4 +1,5 @@
 import hotDeskImage from '../assets/aegis-coworking-hot-desk-ADGM.webp'
+import { Link } from 'react-router-dom'
 
 function HotDeskPricing() {
   return (
@@ -35,7 +36,7 @@ function HotDeskPricing() {
   <div>✓ No Setup Fees</div>
   <div>✓ Free Registration</div>
 </div>
-        <a href="/pricing" className="reserve-link">Other Discounts &gt;</a>
+       <Link to="/pricing" className="reserve-link">Other Discounts &gt;</Link>
       </div>
     </section>
   )
