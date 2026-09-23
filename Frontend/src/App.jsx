@@ -40,7 +40,7 @@ function App() {
       "telephone": "+971503926316",
       "email": "contact@aegiscoworking.ae",
       "description": "Aegis Coworking provides coworking spaces, private offices, virtual offices, meeting rooms, office spaces and day passes in Addax Tower, ADGM, Abu Dhabi.",
-      "priceRange": "$$",
+      "priceRange": "AED 100 – AED 4,500",
       "address": {
         "@type": "PostalAddress",
        "streetAddress": "Addax Tower, 3812, Al Reem Island, RT3",
@@ -51,7 +51,7 @@ function App() {
       "geo": { "@type": "GeoCoordinates", "latitude": 24.4989303, "longitude": 54.4031693 },
       "hasMap": "https://www.google.com/maps/place/Aegis+Coworking+Space+ADGM/@24.4989303,54.4031693,17z",
       "openingHours": "Mo-Su 00:00-23:59",
-      "sameAs": ["https://www.linkedin.com/company/aegis-coworking/", "https://www.instagram.com/aegis.coworking/"]
+    "sameAs": ["https://www.linkedin.com/company/aegis-coworking/", "https://www.instagram.com/aegis.coworking/", "https://www.facebook.com/aegis.coworking"]
     })}
   </script>
   <script type="application/ld+json">
@@ -62,7 +62,7 @@ function App() {
      "name": "Aegis Coworking - ADGM",
       "url": "https://www.aegiscoworking.ae",
       "logo": "https://www.aegiscoworking.ae/logo.png",
-      "sameAs": ["https://www.linkedin.com/company/aegis-coworking/", "https://www.instagram.com/aegis.coworking/"]
+      "sameAs": ["https://www.linkedin.com/company/aegis-coworking/", "https://www.instagram.com/aegis.coworking/", "https://www.facebook.com/aegis.coworking"]
     })}
   </script>
 </Helmet>
