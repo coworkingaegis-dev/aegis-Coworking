@@ -33,12 +33,12 @@ The business operates inside Abu Dhabi Global Market (ADGM), one of the UAE's le
 
 Workspace solutions include:
 
-- Hot Desks
-- Dedicated Desks
-- Private Offices
-- Virtual Offices
-- Meeting Rooms
-- Coworking Day Passes
+- Hot Desk
+- Dedicated Desk
+- Private Office
+- Virtual Office
+- Meeting Room
+- Coworking Day Pass
 
 ---
 
@@ -156,7 +156,7 @@ From AED 1,150 /month
 
 Page
 
-https://www.aegiscoworking.ae/office-spaces
+https://www.aegiscoworking.ae/office-space
 
 ---
 
@@ -421,7 +421,7 @@ Day passes are available without any long-term commitment.
 
 - Home — https://www.aegiscoworking.ae/
 - Pricing — https://www.aegiscoworking.ae/pricing
-- Office Spaces — https://www.aegiscoworking.ae/office-spaces
+- Office Spaces — https://www.aegiscoworking.ae/office-space
 - Private Office — https://www.aegiscoworking.ae/private-office
 - Virtual Office — https://www.aegiscoworking.ae/virtual-office
 - Meeting Room — https://www.aegiscoworking.ae/meeting-room
