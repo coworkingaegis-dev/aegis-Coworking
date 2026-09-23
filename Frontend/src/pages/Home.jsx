@@ -22,7 +22,7 @@ const faqs = [
 
 {
     q: "Where is Aegis Coworking located?",
-    a: "Aegis Coworking is located in Addax Tower, Al Reem Island, Abu Dhabi, within the ADGM jurisdiction."
+    a: "Aegis Coworking is located in Office # 3812 Addax Tower Al Reem Island RT3 Abu Dhabi, United Arab Emirates within the ADGM jurisdiction."
   },
 
 {
