@@ -53,7 +53,7 @@ Aegis Coworking provides flexible workspace solutions for freelancers, startups,
 
 - [Home](https://www.aegiscoworking.ae/) — Overview of Aegis Coworking.
 - [Pricing](https://www.aegiscoworking.ae/pricing) — Membership plans and pricing.
-- [Office Spaces](https://www.aegiscoworking.ae/office-spaces) — Dedicated desks and flexible office space.
+- [Office Spaces](https://www.aegiscoworking.ae/office-space) — Dedicated desks and flexible office space.
 - [Private Office](https://www.aegiscoworking.ae/private-office) — Furnished private offices.
 - [Virtual Office](https://www.aegiscoworking.ae/virtual-office) — Registered ADGM business address.
 - [Meeting Room](https://www.aegiscoworking.ae/meeting-room) — Hourly meeting room rental, also used for presentation/training bookings.
