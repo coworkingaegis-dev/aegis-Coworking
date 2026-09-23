@@ -1,6 +1,7 @@
 {
   "redirects": [
     { "source": "/offices", "destination": "/office-space", "permanent": true },
+    { "source": "/office-spaces", "destination": "/office-space", "permanent": true },
     { "source": "/office-solutions", "destination": "/office-space", "permanent": true },
     { "source": "/membership", "destination": "/pricing", "permanent": true },
     { "source": "/presentation-room", "destination": "/meeting-room", "permanent": true }
