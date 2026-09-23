@@ -33,7 +33,7 @@ const faqs = [
   aDisplay: (
     <>
       Yes. Our meeting rooms in Abu Dhabi Global Market are suitable for client meetings, presentations, interviews, team discussions, and business meetings. For {' '}
-      <Link to="/contact" className="inline-link">Booking</Link>.
+      <Link to="/contact" className="inline-link">Booking</Link>
     </>
   ),
 },
