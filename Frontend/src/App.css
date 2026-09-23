@@ -5379,3 +5379,20 @@ html, body {
 .faq-answer a:hover {
   color: var(--color-primary-hover);
 }
+
+
+
+
+.inline-link,
+.faq-answer a,
+.vo-faq-answer a {
+  color: var(--color-primary);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.inline-link:hover,
+.faq-answer a:hover,
+.vo-faq-answer a:hover {
+  color: var(--color-primary-hover);
+}
