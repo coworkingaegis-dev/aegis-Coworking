@@ -14,7 +14,7 @@ const faqs = [
     q: "What is the cheapest coworking option in ADGM?",
     a: (
       <>
-        The <Link to="/office-space">Hot Desk</Link> is our most affordable coworking option, starting from AED 1,000 per month. It provides access to a professional coworking space in ADGM with high-speed internet and meeting room credits.
+        The <Link to="/office-space">Flexi Desk</Link> is our most affordable coworking option, starting from AED 1,000 per month. It provides access to a professional coworking space in ADGM with high-speed internet and meeting room credits.
       </>
     ),
     plainText: "The Hot Desk is our most affordable coworking option, starting from AED 1,000/month. It provides access to a professional coworking space in ADGM with high-speed internet and meeting room credits.",
@@ -61,13 +61,13 @@ const faqs = [
     plainText: "ADGM businesses need a qualifying registered office arrangement within ADGM. At Aegis Coworking, our Dedicated Desk plan provides a permanent workspace together with a registered ADGM business address. Aegis is located in Addax Tower on Al Reem Island, within the ADGM jurisdiction.",
   },
   {
-    q: "How much does coworking cost in ADGM?",
+    q: "How much does coworking cost in ADGM Abu Dhabi?",
     a: (
       <>
-        <Link to="/pricing">Aegis Coworking</Link> in ADGM offers hot desks from AED 1,000 per month, day pass from AED 100 per day and dedicated desks from AED 1,150 per month. Private offices start from AED 4,500 per month, while virtual office plans start from AED 3,500 per year.
+        <Link to="/pricing">Aegis Coworking</Link> in ADGM offers flexi desk from AED 1,000 per month, day pass from AED 100 per day and dedicated desk from AED 1,150 per month. Private office start from AED 4,500 per month, while virtual office plans start from AED 292 per month.
       </>
     ),
-    plainText: "Aegis Coworking in ADGM offers hot desks from AED 1,000 per month, day pass from AED 100 per day and dedicated desks from AED 1,150 per month. Private offices start from AED 4,500 per month, while virtual office plans start from AED 3,500 per year.",
+    plainText: "Aegis Coworking in ADGM offers flexi desk from AED 1,000 per month, day pass from AED 100 per day and dedicated desk from AED 1,150 per month. Private office start from AED 4,500 per month, while virtual office plans start from AED 292 per month.",
   },
 
   {
@@ -89,7 +89,7 @@ const faqs = [
     }
   },
   {
-    q: "What should I look for in a coworking space in Abu Dhabi?",
+    q: "What should I look for in a coworking space in Abu Dhabi Global Market?",
     a: (
       <>
         When choosing a <Link to="/">coworking space</Link> in Abu Dhabi, consider its location, ADGM eligibility, registered address options, pricing, workspace flexibility and business amenities. Aegis Coworking is located in Addax Tower on Al Reem Island and offers hot desks, dedicated desks, private offices, virtual offices and meeting rooms. For businesses operating in ADGM, Aegis also provides options for an ADGM business address and registered office arrangement.
@@ -107,10 +107,7 @@ const faqs = [
     ),
     plainText: "An ADGM company needs a registered office address within the ADGM jurisdiction. Aegis Coworking provides registered ADGM business address options through eligible Dedicated Desk and Virtual Office plans, giving businesses an alternative to leasing a traditional private office. Aegis is located at Addax Tower on Al Reem Island and offers cheap workspace solutions for startups, SMEs and established businesses.",
   },
-  {
-    q: "Where is the coworking space located?",
-    a: "Aegis Coworking is located in Addax Tower, Al Reem Island, within Abu Dhabi Global Market (ADGM), offering a professional coworking space in Abu Dhabi."
-  }
+  
 ]
 
 function Pricing() {
