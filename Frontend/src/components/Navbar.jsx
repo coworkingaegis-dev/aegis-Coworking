@@ -234,8 +234,7 @@ const toggleWhatWeOffer = () => {
     <button className="btn-primary">REQUEST QUOTE</button>
   </Link>
 </div>
-        <button className="btn-primary">REQUEST QUOTE</button>
-      </Link>
+        
       <button
         className={`nav-toggle ${menuOpen ? 'open' : ''}`}
         onClick={() => setMenuOpen(!menuOpen)}
