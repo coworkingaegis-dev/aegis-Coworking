@@ -68,7 +68,7 @@ function VirtualOffice() {
         />
         <link rel="canonical" href="https://www.aegiscoworking.ae/virtual-office" />
 
-        <meta property="og:title" content="Virtual Office ADGM | Aegis Coworking" />
+       <meta property="og:title" content="Virtual Office Abu Dhabi | ADGM Registered Address" />
         <meta
           property="og:description"
           content="Registered ADGM business address, mail handling, and phone support at Addax Tower — from Basic to Enterprise packages."
