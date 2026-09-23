@@ -153,7 +153,7 @@ function PrivacyPolicy() {
             delete old enquiries after 24 months. You can also ask us to delete yours sooner.
           </p>
 
-          <h2 id="kyc">Why do you ask for ID when I sign up?</h2>
+          <h2 id="kyc">Why do you ask for ID Documents when I want to become a member?</h2>
           <p>
             Aegis operates inside Abu Dhabi Global Market, where business centres must know who
             their clients are. Before we give you a workspace or a registered business address, we
@@ -191,7 +191,7 @@ function PrivacyPolicy() {
 
           <h2 id="cookies">Do you track me on the website?</h2>
           <p>
-            Lightly. We use Google Analytics and PostHog to count visits and see which pages people
+            Lightly. We use Google Analytics to count visits and see which pages people
             find useful. They set cookies in your browser and tell us things like which page you
             came from and what device you used. We look at this as overall trends, not to build a
             profile of you. You can clear or block cookies in your browser settings at any time,
