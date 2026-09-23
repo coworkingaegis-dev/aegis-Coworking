@@ -56,7 +56,7 @@ function MeetingRoom() {
           content="Book fully equipped meeting rooms at ADGM, Addax Tower, Abu Dhabi. Small, medium & large rooms, hourly rates, AV equipment included. Reserve online today."
         />
         <link rel="canonical" href="https://www.aegiscoworking.ae/meeting-room" />
-        <meta property="og:title" content="Meeting Room Rental ADGM | Aegis Coworking" />
+       <meta property="og:title" content="Meeting Room Rental in ADGM, Addax Tower | Aegis Coworking" />
         <meta
           property="og:description"
           content="Fully equipped, flexible meeting rooms at Addax Tower, ADGM."
@@ -66,7 +66,7 @@ function MeetingRoom() {
         <meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Meeting Rooms for Rent in ADGM Addax Tower, Abu Dhabi" />
+<meta name="twitter:title" content="Meeting Room Rental in ADGM, Addax Tower | Aegis Coworking" />
 <meta name="twitter:description" content="Book fully equipped meeting rooms at ADGM Addax Tower, Abu Dhabi. Hourly and daily rates, AV equipment included." />
 <meta name="twitter:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 
