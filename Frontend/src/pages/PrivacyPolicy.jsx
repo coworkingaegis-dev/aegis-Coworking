@@ -250,7 +250,7 @@ function PrivacyPolicy() {
           <h2 id="contact">Talk to us about privacy</h2>
           <div className="policy-contact">
             <p><strong>{COMPANY}</strong></p>
-            <p>Office 3812, 38th Floor, Addax Tower, Al Reem Island, RT3, Abu Dhabi, United Arab Emirates</p>
+           <p>Addax Tower, 3812, Al Reem Island, RT3, Abu Dhabi, United Arab Emirates</p>
             <p>Email: <a href={`mailto:${EMAIL}`}>{EMAIL}</a></p>
             <p>Phone: <a href="tel:+971503926316">+971 50 392 6316</a></p>
           </div>
