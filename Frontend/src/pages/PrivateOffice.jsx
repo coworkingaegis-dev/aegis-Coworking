@@ -12,9 +12,15 @@ import mediumOfficeImg from '../assets/private-office-medium-adgm-abu-dhabi.webp
 
 const faqs = [
   {
-    q: "How much does a private office cost in ADGM?",
-    a: "Private offices in ADGM at Aegis Coworking start from AED 4,500/month. Pricing depends on team size and private office space configuration."
-  },
+  q: "How much does a private office cost in ADGM?",
+  a: "Private offices in ADGM at Aegis Coworking start from AED 4,500 per month. Pricing depends on team size and private office space configuration. View more prices.",
+  aDisplay: (
+    <>
+      Private offices in ADGM at Aegis Coworking start from AED 4,500 per month. Pricing depends on team size and private office space configuration. View more{' '}
+      <Link to="/pricing" className="inline-link">prices</Link>.
+    </>
+  ),
+},
   {
     q: "Can a private office be used for ADGM company registration?",
     a: "Yes. Each private office in ADGM includes a registered business address suitable for your ADGM commercial licence application."
@@ -28,17 +34,14 @@ const faqs = [
     a: "Our private office spaces in ADGM can accommodate teams of 1 to 20+ professionals, with Small, Medium, and Large office options."
   },
   {
-    q: "Where are the private offices located?",
-    a: "Our private offices are located in Addax Tower, Al Reem Island, within Abu Dhabi Global Market (ADGM)."
+    q: "Where are the private office located?",
+    a: "Our private office are located in Addax Tower 38 floor, Al Reem Island, within Abu Dhabi Global Market (ADGM)."
   },
   {
     q: "What is included with a private office in ADGM?",
-    a: "Private offices include a furnished workspace, ergonomic desks and chairs, lockable storage, high-speed internet, 24/7 access, and a registered ADGM business address."
+    a: "Private office include a furnished workspace, ergonomic desks and chairs, lockable storage, high-speed internet, 24/7 access, and a registered ADGM business address."
   },
-  {
-    q: "Is Aegis Coworking a business centre in ADGM?",
-    a: "Yes. Aegis Coworking is a professional business centre in ADGM offering private offices, dedicated desks, coworking spaces, meeting rooms, and virtual office solutions."
-  }
+  
 ]
 
 function PrivateOffice() {
