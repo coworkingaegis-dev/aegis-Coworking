@@ -12,13 +12,12 @@ Aegis Coworking provides flexible workspace solutions for freelancers, startups,
 
 ## Services
 
-- Hot Desks
-- Dedicated Desks
-- Private Offices
-- Virtual Offices
-- Meeting Rooms
-- Presentation Rooms
-- Coworking Day Passes
+- Hot Desk
+- Dedicated Desk
+- Private Office
+- Virtual Office
+- Meeting Room
+- Coworking Day Pass
 
 ## Membership
 
@@ -38,16 +37,16 @@ Aegis Coworking provides flexible workspace solutions for freelancers, startups,
 - Day Pass — AED 100 (9 AM–6 PM) or AED 150 (24 Hours)
 - Virtual Office — Basic, Premium & Enterprise Packages (Request Quote)
 - Meeting Room — Hourly Booking
-- Presentation Room — Hourly & Half-Day Booking
+
 
 ## Key Facts
 
 - Located inside Abu Dhabi Global Market (ADGM).
-- Dedicated desks, private offices and virtual offices include a registered business address suitable for ADGM company registration and licence renewal.
-- Dedicated desks and private offices include secure 24/7 access.
+- Dedicated desk, private office and virtual office include a registered business address suitable for ADGM company registration and licence renewal.
+- Dedicated desk and private offices include secure 24/7 access.
 - Meeting room credits are included with eligible membership plans.
-- Hot desks and day passes require no long-term commitment.
-- Presentation room accommodates up to 50 attendees.
+- Hot desk and day pass require no long-term commitment.
+
 
 ## Main Pages
 
@@ -56,7 +55,7 @@ Aegis Coworking provides flexible workspace solutions for freelancers, startups,
 - [Office Spaces](https://www.aegiscoworking.ae/office-space) — Dedicated desks and flexible office space.
 - [Private Office](https://www.aegiscoworking.ae/private-office) — Furnished private offices.
 - [Virtual Office](https://www.aegiscoworking.ae/virtual-office) — Registered ADGM business address.
-- [Meeting Room](https://www.aegiscoworking.ae/meeting-room) — Hourly meeting room rental, also used for presentation/training bookings.
+- [Meeting Room](https://www.aegiscoworking.ae/meeting-room) — Hourly meeting room rental, Hourly meeting room rental.
 - [Day Pass](https://www.aegiscoworking.ae/day-pass) — Flexible coworking for one day.
 - [Blogs](https://www.aegiscoworking.ae/blogs) — Articles and guides.
 - [Contact](https://www.aegiscoworking.ae/contact) — Contact information.
