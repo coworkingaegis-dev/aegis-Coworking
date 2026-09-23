@@ -16,6 +16,7 @@ import BlogDetail from './pages/BlogDetail'
 import About from './pages/About'
 import NotFound from './pages/NotFound'
 import './App.css'
+import PrivacyPolicy from './pages/PrivacyPolicy'
 
 // Lazy-load the heaviest, least-visited routes so their JS (TipTap
 // editor, Supabase admin logic) only downloads when someone actually
@@ -99,6 +100,7 @@ function App() {
      
         <Route path="/about" element={<About />} />
         <Route path="*" element={<NotFound />} />
+           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
     </>
   )
