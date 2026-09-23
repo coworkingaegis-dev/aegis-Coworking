@@ -46,7 +46,7 @@ function DeskPricing() {
   </div>
 </div>
 
-        <Link to="/pricing" className="reserve-link">Promotional Offers &gt;</Link>
+        <Link to="/pricing" className="reserve-link">See Our Promotional Offers &gt;</Link>
       </div>
     </section>
   )
