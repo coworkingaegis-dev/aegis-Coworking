@@ -13,7 +13,7 @@ function Contact() {
           content="Visit or contact Aegis Coworking at ADGM Addax Tower, Abu Dhabi. Schedule a tour, ask about pricing, or book your workspace. We're here to help today"
         />
         <link rel="canonical" href="https://www.aegiscoworking.ae/contact" />
-        <meta property="og:title" content="Contact Aegis Coworking | ADGM Addax Tower" />
+       <meta property="og:title" content="Contact Aegis Coworking | ADGM Addax Tower, Abu Dhabi" />
         <meta
           property="og:description"
           content="Book a tour or request a quote from Aegis Coworking, Addax Tower, ADGM."
@@ -22,7 +22,7 @@ function Contact() {
         <meta property="og:url" content="https://www.aegiscoworking.ae/contact" />
 <meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Contact Aegis Coworking | ADGM Addax Tower" />
+<meta name="twitter:title" content="Contact Aegis Coworking | ADGM Addax Tower, Abu Dhabi" />
 <meta name="twitter:description" content="Book a tour or request a quote from Aegis Coworking, Addax Tower, ADGM." />
 <meta name="twitter:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 <script type="application/ld+json">
