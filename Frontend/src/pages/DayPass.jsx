@@ -10,13 +10,19 @@ import { Link } from 'react-router-dom'
 
 const faqs = [
   {
-    q: "How much does a coworking day pass in Abu Dhabi cost?",
+    q: "How much does a coworking day pass in Abu Dhabi Global Market cost?",
     a: "A coworking day pass at Aegis Coworking costs AED 100 for 9 AM–6 PM access or AED 150 for 24-hour access. No membership or long-term commitment is required.",
   },
-  {
-    q: "Can I book a coworking day pass without a membership?",
-    a: "Yes. Anyone can book a coworking day pass in Abu Dhabi without a membership or long-term commitment.",
-  },
+ {
+  q: "Can I book a coworking day pass without a membership?",
+  a: "Yes. Anyone can book a coworking day pass in Abu Dhabi without a membership or long-term commitment.",
+  aDisplay: (
+    <>
+      Yes. Anyone can{' '}
+      <Link to="/contact" className="inline-link">Book</Link> a coworking day pass in Abu Dhabi without a membership or long-term commitment.
+    </>
+  ),
+},
   {
     q: "What's included with a coworking day pass?",
     a: "The coworking day pass includes hot desk access, high-speed WiFi, premium coffee, printing and scanning, and access to the coworking space and amenities.",
