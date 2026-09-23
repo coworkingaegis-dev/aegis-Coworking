@@ -6,11 +6,55 @@ import Footer from '../components/Footer'
 const SEO = {
   title: 'Privacy Policy | Aegis Coworking ADGM',
   description:
-    'How Aegis Coworking in Addax Tower, ADGM collects, uses and protects your personal data under the ADGM Data Protection Regulations 2021.',
+    'Plain-English privacy policy for Aegis Coworking, Addax Tower, ADGM: what we collect from enquiries, members and website visitors, why, for how long, and your rights.',
   canonical: 'https://www.aegiscoworking.ae/privacy-policy',
 }
 
 const LAST_UPDATED = '23 September 2026'
+const COMPANY = 'Aegis Coworking - ADGM'
+const EMAIL = 'contact@aegiscoworking.ae'
+
+// Short promises shown as cards at the top of the page
+const promises = [
+  { icon: '🚫', title: 'We never sell your data', text: 'Not to advertisers, list brokers or anyone else.' },
+  { icon: '🎯', title: 'We ask only for what we need', text: 'Enough to answer you and, if you join, to meet ADGM rules.' },
+  { icon: '📭', title: 'No spam', text: 'Your enquiry gets a reply, not a mailing list.' },
+  { icon: '🗑️', title: 'You stay in control', text: 'Ask us to see, fix or delete your data at any time.' },
+]
+
+// "Your data at a glance" table
+const dataTable = [
+  {
+    when: 'You send an enquiry',
+    what: 'Name, email, phone, company (optional), service of interest, your message, consent tick',
+    why: 'To reply, send a quote or book a tour',
+    keep: 'Up to 24 months after our last conversation',
+  },
+  {
+    when: 'You become a member',
+    what: 'ID documents, company and licence details, shareholder / beneficial owner information, billing records',
+    why: 'To provide your workspace or registered address and to complete KYC and AML checks required in ADGM',
+    keep: 'For your membership, then as long as ADGM and UAE law requires',
+  },
+  {
+    when: 'You visit Addax Tower',
+    what: 'Visitor name, time of visit, bookings',
+    why: 'Building access and the safety of everyone in the space',
+    keep: 'Only as long as needed for access and security',
+  },
+  {
+    when: 'You browse our website',
+    what: 'Pages viewed, device and browser type, approximate city or country, referring site',
+    why: 'To see which pages help people and to fix problems',
+    keep: 'According to our analytics tools’ settings',
+  },
+  {
+    when: 'You message us on WhatsApp, email or phone',
+    what: 'Your number or email and the conversation',
+    why: 'To follow up on what you asked',
+    keep: 'Same as enquiries, or as a member record if you join',
+  },
+]
 
 function PrivacyPolicy() {
   return (
@@ -43,192 +87,175 @@ function PrivacyPolicy() {
       <Navbar />
 
       <section className="page-hero">
-        <h1>Privacy Policy</h1>
-        <p>Last updated: {LAST_UPDATED}</p>
+        <h1>Your Privacy at Aegis</h1>
+        <p>Written in plain English · Last updated {LAST_UPDATED}</p>
       </section>
 
       <section className="policy-page">
         <div className="policy-content">
 
           <p className="policy-lead">
-            Aegis Coworking - ADGM (“Aegis Coworking”, “we”, “us” or “our”) is a company
-            registered in Abu Dhabi Global Market (ADGM), operating from Office 3812, Addax Tower,
-            Al Reem Island, Abu Dhabi. We respect your privacy. This policy explains what personal
-            data we collect when you use aegiscoworking.ae, contact us, or become a member, why we
-            collect it, and the choices you have. We handle personal data in line with the
-            ADGM Data Protection Regulations 2021.
+            When you reach out about a desk, an office or a registered address in ADGM, you trust
+            us with your details. This page explains, in plain language, exactly what happens to
+            them. It applies to everyone who contacts {COMPANY}, visits our space in Addax Tower
+            or uses aegiscoworking.ae, and it follows the ADGM Data Protection Regulations 2021.
           </p>
 
-          <nav className="policy-toc" aria-label="On this page">
-            <p className="policy-toc-title">On this page</p>
-            <ol>
-              <li><a href="#who-we-are">Who is responsible for your data</a></li>
-              <li><a href="#what-we-collect">What we collect</a></li>
-              <li><a href="#how-we-use">How we use your data</a></li>
-              <li><a href="#legal-basis">Our legal basis</a></li>
-              <li><a href="#sharing">Who we share it with</a></li>
-              <li><a href="#cookies">Cookies and analytics</a></li>
-              <li><a href="#transfers">Where your data is stored</a></li>
-              <li><a href="#retention">How long we keep it</a></li>
-              <li><a href="#security">How we protect it</a></li>
-              <li><a href="#rights">Your rights</a></li>
-              <li><a href="#children">Children</a></li>
-              <li><a href="#changes">Changes to this policy</a></li>
-              <li><a href="#contact">Contact us</a></li>
-            </ol>
-          </nav>
+          {/* ---- Our promises ---- */}
+          <h2 id="promises">Our four promises</h2>
+          <div className="policy-promises">
+            {promises.map((p) => (
+              <div className="policy-promise" key={p.title}>
+                <span className="policy-promise-icon" aria-hidden="true">{p.icon}</span>
+                <h3>{p.title}</h3>
+                <p>{p.text}</p>
+              </div>
+            ))}
+          </div>
 
-          <h2 id="who-we-are">1. Who is responsible for your data</h2>
+          {/* ---- At a glance ---- */}
+          <h2 id="at-a-glance">Your data at a glance</h2>
           <p>
-           Aegis Coworking - ADGM is the controller of the personal data described in
-            this policy. That means we decide how and why your data is used, and we are responsible
-            for protecting it.
+            Here is everything we collect, grouped by the moment you share it with us.
+          </p>
+          <div className="policy-table-wrap">
+            <table className="policy-table">
+              <thead>
+                <tr>
+                  <th>When</th>
+                  <th>What we collect</th>
+                  <th>Why</th>
+                  <th>How long we keep it</th>
+                </tr>
+              </thead>
+              <tbody>
+                {dataTable.map((row) => (
+                  <tr key={row.when}>
+                    <td data-label="When"><strong>{row.when}</strong></td>
+                    <td data-label="What we collect">{row.what}</td>
+                    <td data-label="Why">{row.why}</td>
+                    <td data-label="How long">{row.keep}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {/* ---- Q&A sections ---- */}
+          <h2 id="enquiry">What happens after I press “Send”?</h2>
+          <p>
+            Your enquiry is saved securely in our database and sent to our team. Someone from
+            Aegis reads it and replies by email, phone or WhatsApp, whichever suits your request.
+            The consent box you tick is also recorded, so we can show you agreed to be contacted.
+          </p>
+          <p>
+            If you decide not to go ahead, that is fine. We will not keep chasing you, and we
+            delete old enquiries after 24 months. You can also ask us to delete yours sooner.
           </p>
 
-          <h2 id="what-we-collect">2. What we collect</h2>
-          <h3>When you fill in our contact form</h3>
+          <h2 id="kyc">Why do you ask for ID when I sign up?</h2>
+          <p>
+            Aegis operates inside Abu Dhabi Global Market, where business centres must know who
+            their clients are. Before we give you a workspace or a registered business address, we
+            check your identity and, for companies, who owns and controls the business. These
+            know-your-customer (KYC) and anti-money laundering checks are a legal requirement,
+            not a choice, so we cannot offer a membership without them.
+          </p>
+          <p>
+            Your documents are stored securely, seen only by the people who need to review them,
+            and kept for the period the law requires after your membership ends.
+          </p>
+
+          <h2 id="legal-reasons">What gives you the right to use my data?</h2>
           <ul>
-            <li>Your full name</li>
-            <li>Email address</li>
-            <li>Contact number</li>
-            <li>Company name (optional)</li>
-            <li>The service you are interested in, such as a dedicated desk, private office, virtual office, meeting room or day pass</li>
-            <li>Your message</li>
-            <li>A record that you agreed to this Privacy Policy, with the date and time</li>
+            <li><strong>You agreed</strong> — by ticking the consent box on our form.</li>
+            <li><strong>You asked for a service</strong> — we need your details to provide it.</li>
+            <li><strong>The law requires it</strong> — for KYC, anti-money laundering, tax and company records.</li>
+            <li><strong>It is a fair business need</strong> — for example keeping our space secure or improving our website, as long as it does not outweigh your rights.</li>
           </ul>
 
-          <h3>When you become a member or book a service</h3>
-          <p>
-            As an ADGM business centre, we must verify who our clients are before we provide a
-            workspace or a registered business address. For this we may ask for:
-          </p>
+          <h2 id="who-sees">Who else sees my information?</h2>
+          <p>Only people and companies that help us serve you, and only what they need:</p>
           <ul>
-            <li>Passport, Emirates ID or other identity documents</li>
-            <li>Company registration documents, licence details and shareholder or beneficial owner information</li>
-            <li>Billing details and payment records</li>
-            <li>Visitor, access and booking records at our premises</li>
-          </ul>
-
-          <h3>When you contact us in other ways</h3>
-          <p>
-            If you call, email or message us on WhatsApp, we keep the details you share and our
-            replies so we can follow up on your enquiry.
-          </p>
-
-          <h3>When you browse our website</h3>
-          <p>
-            We collect limited technical information automatically, such as your browser type,
-            device, approximate location (city or country), pages visited and how you arrived at
-            our site. See <a href="#cookies">Cookies and analytics</a> below.
-          </p>
-
-          <h2 id="how-we-use">3. How we use your data</h2>
-          <ul>
-            <li><strong>To answer your enquiry:</strong> sending quotes, arranging tours and replying to your questions.</li>
-            <li><strong>To provide our services:</strong> setting up your membership, desk, office, virtual office or meeting room booking.</li>
-            <li><strong>To meet our legal duties:</strong> carrying out know-your-customer (KYC), due diligence and anti-money laundering checks required of us in ADGM.</li>
-            <li><strong>To manage billing:</strong> issuing invoices and keeping financial records.</li>
-            <li><strong>To keep our premises safe:</strong> managing access to Addax Tower and our office.</li>
-            <li><strong>To improve our website:</strong> understanding which pages are useful and fixing problems.</li>
-            <li><strong>To share offers, only with your permission:</strong> if you ask to hear about promotions, you can opt out at any time.</li>
-          </ul>
-          <p>We do not sell your personal data, and we do not use it for automated decisions that affect you.</p>
-
-          <h2 id="legal-basis">4. Our legal basis</h2>
-          <p>We only use your personal data when we have a lawful reason to do so:</p>
-          <ul>
-            <li><strong>Consent:</strong> when you tick the consent box on our contact form or agree to receive marketing.</li>
-            <li><strong>Contract:</strong> when we need the data to provide a service you have asked for.</li>
-            <li><strong>Legal obligation:</strong> when ADGM or UAE law requires it, for example due diligence and record keeping.</li>
-            <li><strong>Legitimate interests:</strong> running and improving our business, provided this does not override your rights.</li>
-          </ul>
-
-          <h2 id="sharing">5. Who we share it with</h2>
-          <p>We share personal data only where needed, and only with:</p>
-          <ul>
-            <li><strong>Service providers</strong> who help us run our business, such as website hosting, database, email and analytics providers. They may only use your data to provide their service to us.</li>
-            <li><strong>Our compliance partners</strong> who support our due diligence and anti-money laundering obligations.</li>
-            <li><strong>Building management at Addax Tower</strong>, where needed for access to the premises.</li>
-            <li><strong>Regulators and authorities</strong>, including ADGM Registration Authority and other UAE authorities, when the law requires it.</li>
-            <li><strong>Professional advisers</strong> such as auditors and lawyers, under a duty of confidentiality.</li>
-          </ul>
-
-          <h2 id="cookies">6. Cookies and analytics</h2>
-          <p>
-            Our website uses a small number of cookies and similar technologies. Some are needed
-            for the site to work. Others come from analytics tools, such as Google Analytics and
-            PostHog, which help us understand how visitors use our pages. This information is
-            used in summary form and is not used to identify you personally.
-          </p>
-          <p>
-            You can block or delete cookies in your browser settings. The website will still work
-            if you do, although some features may not behave as expected.
-          </p>
-
-          <h2 id="transfers">7. Where your data is stored</h2>
-          <p>
-            Some of our service providers store data on servers outside ADGM and the UAE. When
-            this happens, we take steps to make sure your data stays protected, such as working
-            with reputable providers and relying on contractual safeguards, as permitted under the
-            ADGM Data Protection Regulations 2021.
-          </p>
-
-          <h2 id="retention">8. How long we keep it</h2>
-          <ul>
-            <li><strong>Enquiries that do not lead to a membership:</strong> up to 24 months after our last contact with you, then deleted.</li>
-            <li><strong>Member, KYC and billing records:</strong> for as long as you are a member, and afterwards for the period required by applicable ADGM and UAE anti-money laundering, tax and company laws.</li>
-            <li><strong>Website analytics:</strong> in line with the retention settings of our analytics providers.</li>
-          </ul>
-
-          <h2 id="security">9. How we protect it</h2>
-          <p>
-            We use appropriate technical and organisational measures to keep your data safe. These
-            include encrypted connections (HTTPS), restricted access to our database, access only
-            for team members who need it, and secure storage of identity documents. No system is
-            completely secure, but we work to protect your information and will act promptly if
-            a problem arises.
-          </p>
-
-          <h2 id="rights">10. Your rights</h2>
-          <p>Under the ADGM Data Protection Regulations 2021, you can ask us to:</p>
-          <ul>
-            <li>Tell you what personal data we hold about you and give you a copy</li>
-            <li>Correct data that is wrong or incomplete</li>
-            <li>Delete your data, where we no longer have a legal reason to keep it</li>
-            <li>Restrict or object to how we use your data</li>
-            <li>Send your data to you or another organisation in a portable format</li>
-            <li>Withdraw your consent at any time, without affecting anything we did before</li>
-            <li>Stop sending you marketing messages</li>
+            <li>Technology providers that host our website, store our database and send our emails</li>
+            <li>Our anti-money laundering and compliance adviser</li>
+            <li>Addax Tower building management, for visitor access</li>
+            <li>ADGM Registration Authority and other UAE authorities, when the law requires it</li>
+            <li>Our accountants, auditors or lawyers, who are bound to keep it confidential</li>
           </ul>
           <p>
-            To make a request, email us at the address below. We will reply within one month. We
-            may need to confirm your identity first. If you are not satisfied with our response,
-            you can complain to the ADGM Office of Data Protection.
+            Some of these providers keep data on servers outside the UAE. When they do, we choose
+            established providers and rely on the safeguards allowed under ADGM data protection
+            rules, so your information stays protected wherever it is held.
           </p>
 
-          <h2 id="children">11. Children</h2>
+          <h2 id="cookies">Do you track me on the website?</h2>
           <p>
-            Our services are for businesses and adults. We do not knowingly collect personal data
-            from anyone under 18. If you believe a child has sent us their details, please contact
-            us and we will delete them.
+            Lightly. We use Google Analytics and PostHog to count visits and see which pages people
+            find useful. They set cookies in your browser and tell us things like which page you
+            came from and what device you used. We look at this as overall trends, not to build a
+            profile of you. You can clear or block cookies in your browser settings at any time,
+            and the site will still work.
           </p>
-
-          <h2 id="changes">12. Changes to this policy</h2>
           <p>
-            We may update this policy when our services or the law change. The date at the top of
-            this page shows when it was last updated. If we make important changes, we will let
-            members know directly.
+            The WhatsApp button opens WhatsApp, which is run by Meta. Anything you send there is
+            also covered by WhatsApp’s own privacy policy.
           </p>
 
-          <h2 id="contact">13. Contact us</h2>
+          <h2 id="safety">How do you keep my data safe?</h2>
+          <ul>
+            <li>Every page on aegiscoworking.ae uses an encrypted (HTTPS) connection</li>
+            <li>Access to our enquiry database is restricted and protected by login</li>
+            <li>Only team members who need your details can access them</li>
+            <li>Identity documents are handled with extra care and shared only with those who must review them</li>
+          </ul>
+          <p>
+            If something ever goes wrong and your data is put at risk, we will take action straight
+            away and tell you and the regulator where the law requires.
+          </p>
+
+          <h2 id="rights">What can I ask you to do?</h2>
+          <div className="policy-rights">
+            <div><strong>See it</strong><span>Get a copy of the data we hold about you</span></div>
+            <div><strong>Fix it</strong><span>Correct anything wrong or out of date</span></div>
+            <div><strong>Delete it</strong><span>Unless the law says we must keep it</span></div>
+            <div><strong>Pause it</strong><span>Limit or object to how we use it</span></div>
+            <div><strong>Move it</strong><span>Receive it in a format you can take elsewhere</span></div>
+            <div><strong>Change your mind</strong><span>Withdraw your consent at any time</span></div>
+          </div>
+          <p>
+            Just email <a href={`mailto:${EMAIL}`}>{EMAIL}</a> with the subject line
+            “Privacy request”. We may ask you to confirm who you are, and we will respond within
+            one month. It is free of charge.
+          </p>
+          <p>
+            If you are unhappy with how we handled your request, you can complain to the ADGM
+            Office of Data Protection. We would appreciate the chance to put things right first.
+          </p>
+
+          <h2 id="under-18">Is Aegis for under-18s?</h2>
+          <p>
+            No. Our workspaces and services are for businesses and adults, and we do not knowingly
+            collect details from anyone under 18.
+          </p>
+
+          <h2 id="updates">Will this policy change?</h2>
+          <p>
+            Sometimes, when we add new services or the rules change. We will update the date at
+            the top of this page, and if a change affects our members in a meaningful way we will
+            tell them directly.
+          </p>
+
+          {/* ---- Contact ---- */}
+          <h2 id="contact">Talk to us about privacy</h2>
           <div className="policy-contact">
-            <p><strong>Aegis Coworking Business Center Ltd</strong></p>
-            <p>Office 3812, Addax Tower, Al Reem Island, RT3, Abu Dhabi, United Arab Emirates</p>
-            <p>Email: <a href="mailto:contact@aegiscoworking.ae">contact@aegiscoworking.ae</a></p>
+            <p><strong>{COMPANY}</strong></p>
+            <p>Office 3812, 38th Floor, Addax Tower, Al Reem Island, RT3, Abu Dhabi, United Arab Emirates</p>
+            <p>Email: <a href={`mailto:${EMAIL}`}>{EMAIL}</a></p>
             <p>Phone: <a href="tel:+971503926316">+971 50 392 6316</a></p>
           </div>
           <p>
-            Have a question about our workspaces instead? <Link to="/contact">Contact our team</Link>.
+            Looking for a workspace instead? <Link to="/contact">Send us an enquiry</Link>.
           </p>
         </div>
       </section>
