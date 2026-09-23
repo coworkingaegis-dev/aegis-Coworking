@@ -19,7 +19,7 @@ const faqs = [
     a: "Our meeting rooms in ADGM include high-speed WiFi, presentation screens, comfortable seating, and a professional setting for client meetings, team sessions, and presentations."
   },
   {
-    q: "How much does a meeting room in Abu Dhabi cost?",
+    q: "How much does a meeting room in ADGM Abu Dhabi cost?",
     a: "Meeting room rates at Aegis Coworking vary by room size and booking time. Members receive meeting room credits, while non-members can book meeting rooms in Abu Dhabi by the hour. See our pricing for current rates."
    
   },
@@ -28,9 +28,15 @@ const faqs = [
     a: "Our meeting rooms are located in Addax Tower, Al Reem Island, within Abu Dhabi Global Market (ADGM), providing a convenient and professional business setting."
   },
   {
-    q: "Can I book a meeting room in Abu Dhabi Global Market for a client meeting?",
-    a: "Yes. Our meeting rooms in Abu Dhabi Global Market are suitable for client meetings, presentations, interviews, team discussions, and business meetings."
-  },
+  q: "Can I book a meeting room in Abu Dhabi Global Market for a client meeting?",
+  a: "Yes. Our meeting rooms in Abu Dhabi Global Market are suitable for client meetings, presentations, interviews, team discussions, and business meetings. For booking, contact us.",
+  aDisplay: (
+    <>
+      Yes. Our meeting rooms in Abu Dhabi Global Market are suitable for client meetings, presentations, interviews, team discussions, and business meetings. For {' '}
+      <Link to="/contact" className="inline-link">Booking</Link>.
+    </>
+  ),
+},
   {
     q: "How far in advance do I need to book a meeting room?",
     a: "We recommend booking in advance to secure your preferred meeting room and time. Same-day bookings may also be available depending on the room and time slot."
