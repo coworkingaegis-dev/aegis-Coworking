@@ -144,7 +144,7 @@ if (error) {
           <meta name="description" content={getMetaDescription(post)} />
           <link rel="canonical" href={`https://www.aegiscoworking.ae/blog/${post.slug}`} />
 
-          <meta property="og:title" content={post.title} />
+          <meta property="og:title" content={getSeoTitle(post)} />
           <meta property="og:description" content={getMetaDescription(post)} />
           <meta property="og:type" content="article" />
           <meta property="og:url" content={`https://www.aegiscoworking.ae/blog/${post.slug}`} />
@@ -154,7 +154,7 @@ if (error) {
 />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content={post.title} />
+<meta name="twitter:title" content={getSeoTitle(post)} />
 <meta name="twitter:description" content={getMetaDescription(post)} />
 <meta
   name="twitter:image"
