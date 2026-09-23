@@ -40,7 +40,7 @@ function DayPassPricing() {
           </div>
         </div>
 
-        <Link to="/contact" className="reserve-link">Request Quote &gt;</Link>
+        <Link to="/pricing" className="reserve-link">See Our Promotional Offers &gt;</Link>
       </div>
     </section>
   )
