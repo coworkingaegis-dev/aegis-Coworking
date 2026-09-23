@@ -106,6 +106,7 @@
 
 
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const faqs = [
   {
@@ -122,13 +123,25 @@ const faqs = [
     answer: "Yes. Our dedicated desk qualifies as an ADGM flexi desk, meeting the physical presence and registered address requirement for your ADGM business license application."
   },
   {
-    question: "Can I use this office space in ADGM to register my business?",
-    answer: "Yes. A dedicated desk includes a registered address that qualifies for your ADGM commercial licence application, so you can operate fully compliant from day one."
-  },
-  {
-    question: "What are the lease term options?",
-    answer: "Leases run from 12 to 36 months, with pricing that improves the longer you commit — annual, bi-annual, and quarterly rates are all available depending on what suits your business."
-  },
+  question: "Can I use this office space in ADGM to register my business?",
+  answer: (
+    <>
+      Yes. A dedicated desk includes a{' '}
+      <Link to="https://www.aegiscoworking.ae/">registered address</Link>{' '}
+      that qualifies for your ADGM commercial licence application, so you can operate fully compliant from day one.
+    </>
+  )
+},
+ {
+  question: "What are the lease term options?",
+  answer: (
+    <>
+      Leases run from 12 to 36 months, with{' '}
+      <Link to="https://www.aegiscoworking.ae/pricing">pricing</Link>{' '}
+      that improves the longer you commit — annual, bi-annual, and quarterly rates are all available depending on what suits your business.
+    </>
+  )
+},
   {
     question: "Does your office space in ADGM include 24/7 access?",
     answer: "Yes — dedicated desk members get secure building access around the clock, every day of the week, not just during standard business hours."
