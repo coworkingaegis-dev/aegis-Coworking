@@ -5373,7 +5373,7 @@ html, body {
 .faq-answer a {
   color: var(--color-primary);
   font-weight: 700;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .faq-answer a:hover {
