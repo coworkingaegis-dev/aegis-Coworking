@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom'
 
 const faqs = [
   {
-    q: "Do I need a physical office or can I use a virtual office in Abu Dhabi?",
+    q: "Do I need a physical office or can I use a virtual office in ADGM Abu Dhabi?",
     a: "No. ADGM accepts a registered virtual office address for most licence categories, as long as it includes mail handling and a valid business address inside ADGM, such as our Category 1 address at Addax Tower.",
   },
   {
