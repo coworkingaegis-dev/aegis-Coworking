@@ -2,40 +2,40 @@ import { useEffect, useRef } from 'react'
 
 const testimonials = [
   {
-    quote: "Really satisfied with service at Aegis Coworking. Staff was cooperative and service was fast. Best Coworking Space in ADGM.",
-    name: "Hassan A.",
-    role: "Startup Founder",
-    initials: "HA"
+    quote: "Really satisfied with Cheapest Coworking desk in ADGM Addax tower with fast lease service.",
+    name: "Asmaa Saqib.",
+    role: "Software Engineer",
+    initials: "AS"
   },
 {
-    quote: "I was looking for a virtual office in ADGM with a professional business address. Aegis Coworking made the process straightforward, and the team was very helpful from the start.",
-    name: "George Ann.",
+    quote: "Very happy with the service from Aegis Coworking. We needed a professional business address in Abu Dhabi without committing to a large traditional office, and Aegis provided a practical solution. The team is responsive and professional. Recommended for companies looking for a flexible office or virtual office solution in ADGM.",
+    name: "Uzair Tahir.",
     role: " Tech Startup Founder",
-    initials: "GA"
+    initials: "UT"
   },
 {
-    quote: " The coworking day pass is a convenient way to use a professional workspace. The daily coworking pass in just AED 100 per day is a great option for freelancers and remote workers.",
-    name: "Simdhi Chakbotri.",
-    role: " Software Engineer ",
-    initials: "SC"
+    quote: " I was specifically looking for the cheapest coworking space in ADGM and wanted a privacy environment rather than just a desk. Aegis offered a good balance of price, location, and facilities.",
+    name: "Naveeda Haseeb.",
+    role: " Startup Founder ",
+    initials: "NH"
   },
 {
-    quote: "I was specifically looking for the cheapest coworking space in ADGM and wanted a private environment rather than just a desk. Aegis offered a good balance of price, location, and facilities.",
-    name: "Jackob Smith. ",
+    quote: "We were comparing affordable coworking space in ADGM and found Aegis to be a very practical choice. The workspace feels professional while keeping costs affordable.",
+    name: "John Paints. ",
     role: " Software analyst ",
-    initials: "JS"
+    initials: "JP"
   },
 {
-    quote: "For businesses looking for a low cost office in ADGM, Aegis provides flexible office space and a professional seating. The team made the setup process very easy.",
+    quote: "We wanted a professional flexi office in Business Center in ADGM jurisdiction without the high cost and commitment of a traditional office. Aegis Coworking is excellent option and the workspace provides a professional setting for our business. Good option for companies looking for flexible office space in Addax Tower Abu Dhabi.",
     name: "Claire D.",
     role: " Business Analyst",
     initials: "CD"
   },
 {
-    quote: "I was comparing the best coworking space in ADGM and found Aegis to be a very practical choice. The workspace feels professional while keeping costs affordable",
-    name: "Madona Paul",
+    quote: "For businesses looking for a low cost office in ADGM, Aegis provides flexible office space and a professional seating. The team made the setup process very easy.",
+    name: "Haseeb Awan.",
     role: " Entrepreneur",
-    initials: "MD"
+    initials: "HA"
   },
 {
     quote: "Aegis Coworking is a convenient Workspace in Abu Dhabi for startups and growing companies. The flexible workspace options , meeting room and Hot Desk helped us avoid the commitment of a traditional office.",
