@@ -77,16 +77,7 @@ function DeskPricing() {
           No hidden charges apply and only due diligence fee applies for one time only. Book your ADGM Coworking Space with Aegis Coworking that sits in office 3812, Addax Tower, Al Reem Island.
         </p>
 
-        {/* Due diligence fee line */}
-       <p
-  style={{
-    fontSize: '0.8rem',
-    color: '#b45309',
-    margin: '4px 0 10px',
-  }}
->
-   AED 1,200 Due Diligence Fee (one-time)
-</p>
+       
 
         <p className="desk-rent-label">DISCOUNTED PRICE:</p>
         <div className="desk-rent-options">
@@ -96,12 +87,16 @@ function DeskPricing() {
           </div>
         </div>
 
-        <div className="desk-perks">
-          <div>✓ No Deposit</div>
-          <div>✓ No Admin Fees</div>
-          <div>✓ No Setup Fees</div>
-          <div>✓ Free Registration</div>
-        </div>
+<div className="desk-perks">
+  <div>✓ No Deposit</div>
+  <div>✓ No Admin Fees</div>
+  <div>✓ No Setup Fees</div>
+  <div>✓ Free Registration</div>
+</div>
+
+<p style={{ fontSize: '0.8rem', color: '#b45309', margin: '8px 0 12px' }}>
+  *Due Diligence Fee of AED 1,200 applicable (One-Time)
+</p>
 
         <Link to="/contact" className="reserve-link">Request Quote &gt;</Link>
       </div>
