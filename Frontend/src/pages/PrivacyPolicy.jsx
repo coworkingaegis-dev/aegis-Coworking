@@ -80,7 +80,7 @@ function PrivacyPolicy() {
 
           <h2 id="who-we-are">1. Who is responsible for your data</h2>
           <p>
-            Aegis Coworking Business Center Ltd is the controller of the personal data described in
+           Aegis Coworking - ADGM is the controller of the personal data described in
             this policy. That means we decide how and why your data is used, and we are responsible
             for protecting it.
           </p>
