@@ -51,7 +51,7 @@ function PrivacyPolicy() {
         <div className="policy-content">
 
           <p className="policy-lead">
-            Aegis Coworking Business Center Ltd (“Aegis Coworking”, “we”, “us” or “our”) is a company
+            Aegis Coworking - ADGM (“Aegis Coworking”, “we”, “us” or “our”) is a company
             registered in Abu Dhabi Global Market (ADGM), operating from Office 3812, Addax Tower,
             Al Reem Island, Abu Dhabi. We respect your privacy. This policy explains what personal
             data we collect when you use aegiscoworking.ae, contact us, or become a member, why we
