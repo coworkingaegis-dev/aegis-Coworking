@@ -43,7 +43,7 @@ function App() {
       "priceRange": "AED 100 – AED 4,500",
       "address": {
         "@type": "PostalAddress",
-       "streetAddress": "3812 Addax Tower Al Reem Island RT3",
+      "streetAddress": "Office # 3812 Addax Tower Al Reem Island RT3",
 "addressLocality": "Abu Dhabi",
 "addressRegion": "Abu Dhabi",
 "addressCountry": "AE"
