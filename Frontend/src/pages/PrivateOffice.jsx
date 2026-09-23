@@ -156,7 +156,7 @@ function PrivateOffice() {
           for your ADGM licence. Choose professional private office space in ADGM,
            from <strong>AED 4,500 / month</strong>, with the privacy of a
           traditional office and the flexibility of a modern business centre.
-          Aegis Coworking offers private office at best price and is located at at Addax Tower, Office 3812, Al Reem Island, in the heart
+          Aegis Coworking offers private office at best price and is located at Addax Tower, Office 3812, Al Reem Island, in the heart
           of ADGM. {' '}
                    <Link to="/pricing" className="inline-link"> See Our Promotional Offers</Link>
         </p>
