@@ -110,9 +110,14 @@ import { Link } from 'react-router-dom'
 
 const faqs = [
   {
-    question: "What is Dedicated and Flexi desk in ADGM?",
-    answer: "A Dedicated desk provides you a registered ADGM Business Address for the licence, but a Flexi Desk is suitable for individuals or companies without an ADGM licensing requirement. A Dedicated desk only costs AED 1,150 while a Flexi Desk costs only AED 1,000. You keep the same spot every time you come in, and your belongings can stay set up between visits.",
-  },
+  question: "What is Dedicated and Flexi desk in ADGM?",
+  answer: (
+    <>
+      A Dedicated desk provides you a registered ADGM Business Address for the licence, but a Flexi Desk is suitable for individuals or companies without an ADGM licensing requirement. A Dedicated desk only costs AED 1,150 while a Flexi Desk costs only AED 1,000. You keep the same spot every time you come in, and your belongings can stay set up between visits. For{' '}
+      <Link to="https://www.aegiscoworking.ae/contact">Booking</Link>.
+    </>
+  ),
+},
   
   {
     question: "What's included in the one-time Due Diligence Fee?",
