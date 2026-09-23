@@ -5396,3 +5396,26 @@ html, body {
 .vo-faq-answer a:hover {
   color: var(--color-primary-hover);
 }
+
+
+.nav-desktop-actions {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.nav-phone {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--color-text);
+  font-weight: 700;
+  font-size: 14.5px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 0.2s ease;
+}
+
+.nav-phone:hover {
+  color: var(--color-primary);
+}
