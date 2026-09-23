@@ -92,11 +92,17 @@ function DeskPricing() {
   <div>✓ No Admin Fees</div>
   <div>✓ No Setup Fees</div>
   <div>✓ Free Registration</div>
+  <div
+    style={{
+      gridColumn: '1 / -1',
+      fontSize: '0.78rem',
+      color: '#f5c16c',
+      marginTop: '4px',
+    }}
+  >
+    *Due Diligence Fee of AED 1,200 applicable (One-Time)
+  </div>
 </div>
-
-<p style={{ fontSize: '0.8rem', color: '#b45309', margin: '8px 0 12px' }}>
-  *Due Diligence Fee of AED 1,200 applicable (One-Time)
-</p>
 
         <Link to="/contact" className="reserve-link">Request Quote &gt;</Link>
       </div>
