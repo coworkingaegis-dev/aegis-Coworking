@@ -296,7 +296,7 @@ function Pricing() {
             <ul className="pricing-features">
               <li>Registered ADGM business address</li>
               <li>Mail handling & forwarding</li>
-              <li>Company name on on-site directory</li>
+            <li>Company name on the on-site directory</li>
               <li>Meeting room credits</li>
               <li>Upgrade to a desk or office anytime</li>
             </ul>
