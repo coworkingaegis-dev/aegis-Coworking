@@ -15,10 +15,15 @@ import voEnterprise from '../assets/virtual-office-enterprise-ADGM-abu-dhabi.web
 import { Link } from 'react-router-dom'
 
 const faqs = [
-  {
-    q: "Do I need a physical office or can I use a virtual office in ADGM Abu Dhabi?",
-    a: "No. ADGM accepts a registered virtual office address for most licence categories, as long as it includes mail handling and a valid business address inside ADGM, such as our Category 1 address at Addax Tower.",
-  },
+ {
+  q: "Do I need a physical office or can I use a virtual office in ADGM Abu Dhabi?",
+  a: (
+    <>
+      Many non-regulated ADGM companies can use a virtual office or flexi-desk, while FSRA-regulated firms usually need physical premises. Aegis Coworking provides ADGM virtual office addresses at Addax Tower, Al Reem Island, with mail handling. For{' '}
+      <Link to="https://www.aegiscoworking.ae/contact">Booking</Link>.
+    </>
+  ),
+},
   {
     q: "What's included in an ADGM virtual office package, and how much does it cost?",
     a: "Aegis Coworking offers virtual office at  only AED 292 /month with a registered ADGM business address, mail handling, and increasing levels of phone support and meeting room credits.",
