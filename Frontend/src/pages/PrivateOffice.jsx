@@ -61,7 +61,7 @@ function PrivateOffice() {
         />
         <link rel="canonical" href="https://www.aegiscoworking.ae/private-office" />
 
-        <meta property="og:title" content="Private Office ADGM | Aegis Coworking" />
+      <meta property="og:title" content="Private Office Space in ADGM, Abu Dhabi | Aegis Coworking" />
         <meta
           property="og:description"
           content="Lockable, fully furnished private offices in ADGM, Addax Tower, from AED 4500/month."
@@ -73,7 +73,7 @@ function PrivateOffice() {
 
 
        <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Private Office for Rent in Abu Dhabi | ADGM Addax Tower" />
+<meta name="twitter:title" content="Private Office Space in ADGM, Abu Dhabi | Aegis Coworking" />
 <meta name="twitter:description" content="Rent a fully furnished private office in Abu Dhabi's ADGM Addax Tower with 24/7 access. Flexible monthly terms." />
 <meta name="twitter:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 
