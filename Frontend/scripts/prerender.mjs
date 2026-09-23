@@ -25,6 +25,7 @@ const STATIC_ROUTES = [
   '/private-office',
   '/pricing',
   '/blogs',
+  '/privacy-policy',
 
 ]
 
