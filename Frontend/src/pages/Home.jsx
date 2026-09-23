@@ -38,7 +38,7 @@ const faqs = [
 
 {
   q: "What are the best coworking spaces in ADGM?",
-  a: "The best coworking space in ADGM depends on your requirements, including location, price, registered business address, workspace type, amenities, and licence requirements. Aegis Coworking is one option at Addax Tower on Al Reem Island, offering hot desks, dedicated desks, private offices, virtual offices, and meeting rooms. Businesses should compare providers based on the workspace and ADGM requirements applicable to their licence."
+  a: "The best coworking space in ADGM depends on your requirements, including location, price, registered business address, workspace type, amenities, and licence requirements. Aegis Coworking is one option at Addax Tower on Al Reem Island, offering flexi desk, dedicated desk, private office, virtual office, and meeting room. Businesses should compare providers based on the workspace and ADGM requirements applicable to their licence."
 },
 
 {
@@ -47,12 +47,12 @@ const faqs = [
   },
   {
   q: "How much do coworking plans cost at Aegis Coworking?",
-  a: "Aegis Coworking pricing depends on the workspace type. Day passes start at AED 100/day, hot desks start at AED 1,000/month, dedicated desks start at AED 1,150/month, private offices start at AED 4,500/month, and virtual office plans start at AED 292/month."
+  a: "Aegis Coworking pricing depends on the workspace type. Day passes start at AED 100 per day, flexi desk start at AED 1,000 per month, dedicated desk start at AED 1,150 per month, private office start at AED 4,500 per month, and virtual office plans start at AED 292 per month."
 },
 
 {
     q: "What coworking spaces are available in Addax Tower?",
-    a: "Addax Tower on Al Reem Island is an established ADGM coworking hub with several providers operating from the building, reflecting strong demand for flexible workspace in the tower. Aegis Coworking is based there, offering dedicated desks, private offices, virtual offices, and meeting rooms with ADGM-compliant documentation and an on-site ADGM business address."
+    a: "Addax Tower on Al Reem Island is an established ADGM coworking hub with several providers including Aegis Coworking, operating from the building, reflecting strong demand for flexible workspace in the tower. Aegis Coworking is offering dedicated desk, private office, virtual office, and meeting room with ADGM-compliant documentation and an on-site ADGM business address."
   },
 ]
 
