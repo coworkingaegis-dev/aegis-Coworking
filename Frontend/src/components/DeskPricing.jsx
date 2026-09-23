@@ -78,22 +78,15 @@ function DeskPricing() {
         </p>
 
         {/* Due diligence fee line */}
-        <p
-          style={{
-            display: 'inline-block',
-            fontSize: '0.8rem',
-            fontWeight: 500,
-            color: '#b45309',
-            background: 'rgba(180, 83, 9, 0.08)',
-            border: '1px solid rgba(180, 83, 9, 0.25)',
-            borderRadius: '6px',
-            padding: '4px 10px',
-            margin: '4px 0 12px',
-            letterSpacing: '0.2px',
-          }}
-        >
-          + AED 1,200 Due Diligence Fee <span style={{ opacity: 0.8 }}>(one-time)</span>
-        </p>
+       <p
+  style={{
+    fontSize: '0.8rem',
+    color: '#b45309',
+    margin: '4px 0 10px',
+  }}
+>
+   AED 1,200 Due Diligence Fee (one-time)
+</p>
 
         <p className="desk-rent-label">DISCOUNTED PRICE:</p>
         <div className="desk-rent-options">
