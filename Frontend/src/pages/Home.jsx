@@ -51,6 +51,11 @@ const faqs = [
 },
 
 {
+    q: "Is Aegis Coworking a serviced office or business centre?",
+    a: "Aegis Coworking is a fully serviced business centre in ADGM, Abu Dhabi — reception, cleaning, high-speed internet and utilities are included, so you're not managing a traditional office yourself.",
+  },
+
+{
     q: "What coworking spaces are available in Addax Tower?",
     a: "Addax Tower on Al Reem Island is an established ADGM coworking hub with several providers including Aegis Coworking, operating from the building, reflecting strong demand for flexible workspace in the tower. Aegis Coworking is offering dedicated desk, private office, virtual office, and meeting room with ADGM-compliant documentation and an on-site ADGM business address."
   },
