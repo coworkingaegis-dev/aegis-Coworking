@@ -197,3 +197,30 @@ ${[...staticEntries, ...blogEntries].join('\n')}
 
 fs.writeFileSync(path.join(distDir, 'sitemap.xml'), sitemapXml)
 console.log(`Sitemap written: ${staticEntries.length} static + ${blogEntries.length} blog URLs -> dist/sitemap.xml`)
+
+
+// ---- Refresh llms-full.txt: date + latest blog articles ----
+const llmsPath = path.join(distDir, 'llms-full.txt')
+if (fs.existsSync(llmsPath)) {
+  let llms = fs.readFileSync(llmsPath, 'utf8')
+
+  // 1. Update the "Last Updated" date to the build date
+  llms = llms.replace(/Last Updated\s*\n\s*\n\s*\d{4}-\d{2}-\d{2}/, `Last Updated\n\n${today}`)
+
+  // 2. Replace (or add) the auto-generated blog section
+  const START = '<!-- BLOG-LIST:START -->'
+  const END = '<!-- BLOG-LIST:END -->'
+  const blogList = allBlogs
+    .map((b) => `- ${b.title} — https://www.aegiscoworking.ae/blog/${b.slug}`)
+    .join('\n')
+  const blogSection = `${START}\n# Blog Articles\n\n${blogList}\n${END}`
+
+  if (llms.includes(START)) {
+    llms = llms.replace(new RegExp(`${START}[\\s\\S]*?${END}`), blogSection)
+  } else {
+    llms = llms.replace(/\n---\s*\n\s*Last Updated/, `\n${blogSection}\n\n---\n\nLast Updated`)
+  }
+
+  fs.writeFileSync(llmsPath, llms)
+  console.log(`llms-full.txt refreshed: ${allBlogs.length} blog links, dated ${today}`)
+}
