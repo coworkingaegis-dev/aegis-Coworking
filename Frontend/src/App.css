@@ -5407,8 +5407,7 @@ html, body {
 .nav-phone {
   display: inline-flex;
   align-items: center;
-  gap: 7px;
-  color: var(--color-text);
+  color: var(--color-primary);
   font-weight: 700;
   font-size: 14.5px;
   text-decoration: none;
@@ -5417,5 +5416,5 @@ html, body {
 }
 
 .nav-phone:hover {
-  color: var(--color-primary);
+  color: var(--color-primary-hover);
 }
