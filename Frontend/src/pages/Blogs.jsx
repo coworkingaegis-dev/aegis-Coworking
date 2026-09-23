@@ -65,7 +65,7 @@ useEffect(() => {
         />
         <link rel="canonical" href="https://www.aegiscoworking.ae/blogs" />
 
-        <meta property="og:title" content="Aegis Coworking Blog | ADGM Insights" />
+       <meta property="og:title" content="Coworking & ADGM Business Insights Blog | Abu Dhabi" />
         <meta
           property="og:description"
           content="ADGM licensing guides, workspace trends, and business tips from Aegis Coworking."
@@ -74,7 +74,7 @@ useEffect(() => {
         <meta property="og:url" content="https://www.aegiscoworking.ae/blogs" />
         <meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Aegis Coworking Blog | ADGM Insights" />
+<meta name="twitter:title" content="Coworking & ADGM Business Insights Blog | Abu Dhabi" />
 <meta name="twitter:description" content="ADGM licensing guides, workspace trends, and business tips from Aegis Coworking." />
 <meta name="twitter:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 <script type="application/ld+json">
