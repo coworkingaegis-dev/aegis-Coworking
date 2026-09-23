@@ -189,30 +189,6 @@ const faqSchema = [
     a: "Yes — dedicated desk members get secure building access around the clock, every day of the week, not just during standard business hours.",
   },
   {
-    q: "Where is Aegis Coworking located?",
-    a: "Aegis Coworking is a business centre in ADGM (Abu Dhabi Global Market), based at Addax Tower on Al Reem Island, Abu Dhabi — inside one of the emirate's main international financial centres.",
-  },
-  {
-    q: "What's the most affordable way to get started at Aegis Coworking?",
-    a: "A dedicated desk is our most affordable coworking option in ADGM, giving you a business address and workspace without the cost of a full private office. It's a low-cost way to stay ADGM-compliant while your business grows.",
-  },
-  {
-    q: "Do you offer a meeting room or boardroom in ADGM?",
-    a: "Yes — our ADGM business centre at Addax Tower includes a meeting room and boardroom suited to client meetings, presentations, and small business events.",
-  },
-  {
-    q: "Do you offer a virtual office or registered business address in ADGM?",
-    a: "Yes. Our virtual office option provides an ADGM registered business address without requiring a physical desk, so you can meet ADGM registration requirements while working remotely.",
-  },
-  {
-    q: "Can I get a day pass instead of a monthly membership?",
-    a: "Yes — a coworking day pass gives you access to our ADGM coworking space at Addax Tower for a single day, useful if you want to try the space before committing to a dedicated desk or private office.",
-  },
-  {
-    q: "Is Aegis Coworking a serviced office or business centre?",
-    a: "Aegis Coworking is a fully serviced business centre in ADGM, Abu Dhabi — reception, cleaning, high-speed internet and utilities are included, so you're not managing a traditional office yourself.",
-  },
-  {
     q: "Is this different from renting a traditional office space in ADGM?",
     a: "Yes — instead of a separate office for rent that you'd need to fit out yourself, you get fully furnished, flexible workspace in ADGM with utilities, cleaning and reception already included.",
   },
