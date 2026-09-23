@@ -64,7 +64,7 @@ function DayPass() {
         />
         <link rel="canonical" href="https://www.aegiscoworking.ae/day-pass" />
 
-        <meta property="og:title" content="Day Pass Coworking ADGM | Aegis Coworking" />
+       <meta property="og:title" content="Day Pass & Hot Desk Coworking Space in Abu Dhabi, ADGM" />
         <meta
           property="og:description"
           content="No-commitment day pass access to coworking space at Addax Tower, ADGM, from AED 100/day."
