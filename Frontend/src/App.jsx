@@ -43,10 +43,10 @@ function App() {
       "priceRange": "AED 100 – AED 4,500",
       "address": {
         "@type": "PostalAddress",
-       "streetAddress": "Addax Tower, 3812, Al Reem Island, RT3",
-        "addressLocality": "Abu Dhabi",
-        "addressRegion": "Abu Dhabi",
-        "addressCountry": "AE"
+       "streetAddress": "3812 Addax Tower Al Reem Island RT3",
+"addressLocality": "Abu Dhabi",
+"addressRegion": "Abu Dhabi",
+"addressCountry": "AE"
       },
       "geo": { "@type": "GeoCoordinates", "latitude": 24.4989303, "longitude": 54.4031693 },
       "hasMap": "https://www.google.com/maps/place/Aegis+Coworking+Space+ADGM/@24.4989303,54.4031693,17z",
