@@ -66,7 +66,7 @@ function Footer() {
       </div>
       <div className="footer-bottom">
         <p>© 2026 Aegis Coworking. All rights reserved.</p>
-        <p>Terms & Conditions&nbsp;&nbsp;·&nbsp;&nbsp;Privacy Policy</p>
+       <p>Terms & Conditions&nbsp;&nbsp;·&nbsp;&nbsp;<Link to="/privacy-policy">Privacy Policy</Link></p>
       </div>
     </footer>
   )
