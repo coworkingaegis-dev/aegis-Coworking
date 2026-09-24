@@ -213,7 +213,7 @@ function Pricing() {
       <Navbar />
 
       <section className="pricing-hero">
-        <h1>ADGM Coworking Pricing & Plans.</h1>
+        <h1>ADGM Coworking Pricing & Plans</h1>
         <p className="pricing-price-intro">
           Cheapest Coworking Space & Business Center in ADGM — Workspace from only AED 1,000. No hidden fees.
         </p>
