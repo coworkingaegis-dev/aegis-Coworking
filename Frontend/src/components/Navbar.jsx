@@ -150,9 +150,15 @@ const toggleWhatWeOffer = () => {
       AEGIS <span className="logo-accent">COWORKING</span>
     </div>
   </Link>
-  <a href="tel:+971503926316" className="logo-phone">
-    +971 50 392 6316
-  </a>
+<a
+  href="https://wa.me/971503926316"
+  className="logo-phone"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Chat with us on WhatsApp"
+>
+  +971 50 392 6316
+</a>
 </div>
       <ul className={`nav-links ${menuOpen ? 'nav-links-open' : ''}`}>
         <li><Link to="/" onClick={closeAll}>Home</Link></li>
