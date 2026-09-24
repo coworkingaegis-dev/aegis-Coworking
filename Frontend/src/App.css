@@ -5589,3 +5589,42 @@ html, body {
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+/* ===== SERVICE CARDS: whole card clickable ===== */
+.service-card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.service-card-link:hover,
+.service-card-link:visited,
+.service-card-link:active,
+.service-card-link:focus {
+  text-decoration: none;
+  color: inherit;
+}
+
+.service-learn-more {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 13.5px;
+  border-bottom: 1.5px solid transparent;
+  padding-bottom: 2px;
+  transition: border-color 0.2s ease;
+}
+
+.service-card-link:hover .service-learn-more {
+  border-bottom-color: var(--color-primary);
+}
