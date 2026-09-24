@@ -32,13 +32,13 @@ function Services() {
         <p>Affordable coworking and office solutions in the heart of ADGM, Abu Dhabi.</p>
       </div>
       <div className="services">
-        {services.map((item, i) => (
-          <div className="service-card" key={i}>
-            <div className="service-icon">{item.icon}</div>
-            <h3>{item.title}</h3>
-            <Link to={item.link}>Learn More &gt;</Link>
-          </div>
-        ))}
+        {services.map((item) => (
+  <Link to={item.link} className="service-card service-card-link" key={item.link}>
+    <div className="service-icon">{item.icon}</div>
+    <h3>{item.title}</h3>
+    <span className="service-learn-more">Learn More &gt;</span>
+  </Link>
+))}
       </div>
     </section>
   )
