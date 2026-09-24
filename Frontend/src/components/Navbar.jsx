@@ -150,15 +150,7 @@ const toggleWhatWeOffer = () => {
       AEGIS <span className="logo-accent">COWORKING</span>
     </div>
   </Link>
-<a
-  href="https://wa.me/971503926316"
-  className="logo-phone"
-  target="_blank"
-  rel="noopener noreferrer"
-  aria-label="Chat with us on WhatsApp"
->
-  +971 50 392 6316
-</a>
+
 </div>
       <ul className={`nav-links ${menuOpen ? 'nav-links-open' : ''}`}>
         <li><Link to="/" onClick={closeAll}>Home</Link></li>
@@ -250,15 +242,26 @@ const toggleWhatWeOffer = () => {
   </Link>
 </div>
         
-      <button
-        className={`nav-toggle ${menuOpen ? 'open' : ''}`}
-        onClick={() => setMenuOpen(!menuOpen)}
-        aria-label="Toggle menu"
-      >
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
+<div className="nav-right-mobile">
+  <button
+    className={`nav-toggle ${menuOpen ? 'open' : ''}`}
+    onClick={() => setMenuOpen(!menuOpen)}
+    aria-label="Toggle menu"
+  >
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <a
+    href="https://wa.me/971503926316"
+    className="menu-phone"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Chat with us on WhatsApp"
+  >
+    +971 50 392 6316
+  </a>
+</div>
     </nav>
   )
 }
