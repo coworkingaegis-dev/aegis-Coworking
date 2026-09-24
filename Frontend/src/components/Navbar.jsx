@@ -217,16 +217,17 @@ const toggleWhatWeOffer = () => {
         <li><Link to="/about" onClick={closeAll}>About</Link></li>
         
         <li><Link to="/contact" onClick={closeAll}>Contact Us</Link></li>
+         <li className="nav-mobile-phone">
+  <a href="tel:+971503926316" onClick={closeAll}>
+  +971 50 392 6316
+  </a>
+</li>
         <li className="nav-mobile-cta">
           <Link to="/contact" onClick={closeAll}>
             <button className="btn-primary">REQUEST QUOTE</button>
           </Link>
         </li>
-        <li className="nav-mobile-phone">
-  <a href="tel:+971503926316" onClick={closeAll}>
-  +971 50 392 6316
-  </a>
-</li>
+       
       </ul>
      <div className="nav-desktop-cta nav-desktop-actions">
   <a href="tel:+971503926316" className="nav-phone">
