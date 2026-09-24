@@ -6,6 +6,7 @@ import heroPoster from '../assets/hero-poster.webp'
 function Hero() {
   const [loadVideo, setLoadVideo] = useState(false)
   useEffect(() => {
+    if (window.matchMedia('(max-width: 768px)').matches) return
     const trigger = () => setLoadVideo(true)
     if ('requestIdleCallback' in window) {
       const id = requestIdleCallback(trigger, { timeout: 2000 })
