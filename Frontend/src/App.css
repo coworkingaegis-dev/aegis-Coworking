@@ -5462,3 +5462,19 @@ html, body {
   .policy-table td { display: block; border: none; padding: 6px 14px; }
   .policy-table td::before { content: attr(data-label); display: block; font-size: 11.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--color-primary); }
 }
+
+
+
+.nav-mobile-phone { display: none; }
+
+@media (max-width: 900px) {
+  /* hides the phone number next to the logo on mobile */
+  .nav-desktop-actions { display: none; }
+
+  /* shows the phone inside the menu, like the other items */
+  .nav-links li.nav-mobile-phone { display: block; }
+  .nav-mobile-phone a {
+    color: var(--color-primary);
+    font-weight: 700;
+  }
+}
