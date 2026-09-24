@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 const services = [
   {
     icon: "🏢",
-    title: "OFFICE SPACES IN ADGM",
+    title: "OFFICE SPACE IN ABU DHABI",
     link: "/office-space",
   },
   {
@@ -13,7 +13,7 @@ const services = [
   },
   {
     icon: "🤝",
-    title: "MEETING ROOMS IN ADGM ABU DHABI",
+    title: "MEETING ROOMS IN ADGM, ABU DHABI",
     link: "/meeting-room",
   },
   {
@@ -28,7 +28,7 @@ function Services() {
     <section className="services-section">
       <div className="services-header">
         <span className="contact-eyebrow">WHAT WE OFFER</span>
-        <h2>Coworking Spaces in ADGM</h2>
+        <h2>Coworking Space in Abu Dhabi, ADGM</h2>
         <p>Affordable coworking and office solutions in the heart of ADGM, Abu Dhabi.</p>
       </div>
       <div className="services">
