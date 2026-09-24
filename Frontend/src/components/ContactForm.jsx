@@ -198,7 +198,7 @@ function ContactForm() {
       }}
     />
     <span style={{ flex: 1 }}>
-         I agree to the <Link to="/privacy-policy" target="_blank">Privacy Policy</Link> and consent to be contacted regarding my inquiry.*
+         I agree to the <Link to="/privacy-policy">Privacy Policy</Link> and consent to be contacted regarding my inquiry.*
     </span>
   </label>
   {errors.agreed && <p className="field-error">{errors.agreed}</p>}
