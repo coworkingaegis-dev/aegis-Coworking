@@ -143,12 +143,17 @@ const toggleWhatWeOffer = () => {
 
   return (
     <nav className="navbar">
-      <Link to="/" className="logo-link" onClick={closeAll}>
-        <div className="logo">
-          <img src={aegisLogo} alt="Aegis Coworking" className="logo-img" width="1254" height="1254" decoding="async" />
-          AEGIS <span className="logo-accent">COWORKING</span>
-        </div>
-      </Link>
+<div className="logo-wrap">
+  <Link to="/" className="logo-link" onClick={closeAll}>
+    <div className="logo">
+      <img src={aegisLogo} alt="Aegis Coworking" className="logo-img" width="1254" height="1254" decoding="async" />
+      AEGIS <span className="logo-accent">COWORKING</span>
+    </div>
+  </Link>
+  <a href="tel:+971503926316" className="logo-phone">
+    +971 50 392 6316
+  </a>
+</div>
       <ul className={`nav-links ${menuOpen ? 'nav-links-open' : ''}`}>
         <li><Link to="/" onClick={closeAll}>Home</Link></li>
 
