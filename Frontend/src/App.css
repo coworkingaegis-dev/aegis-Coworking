@@ -2296,15 +2296,8 @@ padding: 40px 24px 50px;
 
 /* ===== MOBILE: USE HERO POSTER INSTEAD OF VIDEO ===== */
 @media (max-width: 768px) {
-  .hero-video {
+  video.hero-video {
     display: none;
-  }
-
-  .hero-video-wrap {
-   background-image: url("/hero-poster.webp");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
   }
 }
 
