@@ -4,7 +4,11 @@
     { "source": "/office-spaces", "destination": "/office-space", "permanent": true },
     { "source": "/office-solutions", "destination": "/office-space", "permanent": true },
     { "source": "/membership", "destination": "/pricing", "permanent": true },
-    { "source": "/presentation-room", "destination": "/meeting-room", "permanent": true }
+    { "source": "/presentation-room", "destination": "/meeting-room", "permanent": true },
+    { "source": "/blog/9", "destination": "/blog/adgm-license-workspace-questions-before-applying", "permanent": true },
+    { "source": "/blog/11", "destination": "/blog/adgm-tech-startup-licence-dedicated-desk", "permanent": true },
+    { "source": "/blog/17", "destination": "/blog/adgm-coworking-space-cost-2026", "permanent": true },
+    { "source": "/blog/19", "destination": "/blog/private-office-rent-adgm-cost-what-to-expect-in-2026", "permanent": true }
   ],
   "rewrites": [
     { "source": "/google880ac9059f6f4d4d.html", "destination": "/google880ac9059f6f4d4d.html" }
