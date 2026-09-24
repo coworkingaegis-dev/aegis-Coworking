@@ -5510,3 +5510,39 @@ html, body {
     box-shadow: var(--shadow-card);
   }
 }
+
+
+
+
+
+
+/* ===== PHONE UNDER LOGO (mobile only) ===== */
+.logo-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.logo-phone {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .logo-phone {
+    display: block;
+    margin-top: -10px;          /* pulls it up closer to the logo */
+    padding-left: 91px;         /* lines it up under the word "AEGIS" */
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--color-primary);
+    text-decoration: none;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 380px) {
+  .logo-phone {
+    font-size: 11px;
+  }
+}
