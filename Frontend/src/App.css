@@ -5516,22 +5516,21 @@ html, body {
 
 
 
-/* ===== PHONE UNDER LOGO (mobile only) ===== */
-.logo-wrap {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.logo-phone {
+/* ===== PHONE UNDER HAMBURGER (mobile only) ===== */
+.nav-right-mobile {
   display: none;
 }
 
 @media (max-width: 900px) {
-  .logo-phone {
-    display: block;
-    margin-top: -6px;
-    padding-left: 14px;         /* starts right under the logo image */
+  .nav-right-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;    /* keeps everything on the right edge */
+  }
+
+  .menu-phone {
+    margin-top: -8px;         /* pulls it up closer to the menu icon */
+    padding-right: 4px;
     font-size: 11px;
     font-weight: 600;
     color: var(--color-primary);
