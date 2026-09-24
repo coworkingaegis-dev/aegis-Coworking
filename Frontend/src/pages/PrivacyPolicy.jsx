@@ -88,7 +88,7 @@ function PrivacyPolicy() {
 
       <section className="page-hero">
         <h1>Your Privacy at Aegis</h1>
-        <p>Written in plain English · Last updated {LAST_UPDATED}</p>
+       
       </section>
 
       <section className="policy-page">
