@@ -82,10 +82,17 @@ function Testimonials() {
     <section className="testimonials">
       <span className="contact-eyebrow">WHAT MEMBERS SAY</span>
       <h2>Trusted by Startups and Businesses Across Abu Dhabi</h2>
-      <div className="testimonials-track" ref={trackRef}>
+      {/* <div className="testimonials-track" ref={trackRef}>
         {testimonials.map((t, i) => (
           <TestimonialCard t={t} key={`original-${i}`} />
         ))}
+      </div> */}
+            <div className="testimonials-marquee">
+        <div className="testimonials-track" ref={trackRef}>
+          {testimonials.map((t, i) => (
+            <TestimonialCard t={t} key={`original-${i}`} />
+          ))}
+        </div>
       </div>
     </section>
   )
