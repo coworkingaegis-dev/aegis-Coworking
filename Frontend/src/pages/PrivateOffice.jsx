@@ -12,18 +12,25 @@ import mediumOfficeImg from '../assets/private-office-medium-adgm-abu-dhabi.webp
 
 const faqs = [
   {
-  q: "How much does a private office cost in ADGM?",
-  a: "Private offices in ADGM at Aegis Coworking start from AED 4,500 per month. Pricing depends on team size and private office space configuration. View more prices.",
-  aDisplay: (
-    <>
-      Private offices in ADGM at Aegis Coworking start from AED 4,500 per month. Pricing depends on team size and private office space configuration. View more{' '}
-      <Link to="/pricing" className="inline-link">prices</Link>.
-    </>
-  ),
-},
+    q: "How much does a private office cost in ADGM?",
+    a: "Private offices in ADGM at Aegis Coworking start from AED 4,500 per month. Pricing depends on team size and office layout. Read our full guide to private office rent in ADGM.",
+    aDisplay: (
+      <>
+        Private offices in ADGM at Aegis Coworking start from AED 4,500 per month. Pricing depends on team size and office layout. See all{' '}
+        <Link to="/pricing" className="inline-link">prices</Link> or read our full guide to{' '}
+        <Link to="/blog/private-office-rent-adgm-cost-what-to-expect-in-2026" className="inline-link">private office rent in ADGM</Link>.
+      </>
+    ),
+  },
   {
     q: "Can a private office be used for ADGM company registration?",
-    a: "Yes. Each private office in ADGM includes a registered business address suitable for your ADGM commercial licence application."
+    a: "Yes. Each office includes a registered business address suitable for your ADGM commercial licence application. Before you apply, check the questions to ask before your ADGM licence application.",
+    aDisplay: (
+      <>
+        Yes. Each office includes a registered business address suitable for your ADGM commercial licence application. Before you apply, check the{' '}
+        <Link to="/blog/adgm-license-workspace-questions-before-applying" className="inline-link">questions to ask before your ADGM licence application</Link>.
+      </>
+    ),
   },
   {
     q: "Is 24/7 access included with a private office?",
@@ -31,7 +38,13 @@ const faqs = [
   },
   {
     q: "How many people can a private office accommodate?",
-    a: "Our private office spaces in ADGM can accommodate teams of 1 to 20+ professionals, with Small, Medium, and Large office options."
+    a: "Our offices in ADGM can accommodate teams of 1 to 20+ professionals, with Small, Medium and Large options. Not sure if you need your own room? Compare private office vs coworking in ADGM.",
+    aDisplay: (
+      <>
+        Our offices in ADGM can accommodate teams of 1 to 20+ professionals, with Small, Medium and Large options. Not sure if you need your own room? Compare{' '}
+        <Link to="/blog/private-office-vs-coworking-adgm-the-complete-cost-privacy-guide" className="inline-link">private office vs coworking in ADGM</Link>.
+      </>
+    ),
   },
   {
     q: "Where are the private office located?",
@@ -55,11 +68,11 @@ function PrivateOffice() {
     <div className="App">
       <Helmet>
         <title>Private Office in ADGM – Furnished & Serviced from AED 4,500</title>
-        <meta name="description" content="Furnished, serviced private office in ADGM, Abu Dhabi from AED 4,500 /month. Lockable offices in Addax Tower, Al Reem Island. 24/7 access, licence ready." />
+        <meta name="description" content="Furnished, serviced private office in ADGM, Abu Dhabi from AED 4,500 per month. Lockable offices in Addax Tower, Al Reem Island. 24/7 access, licence ready." />
         <link rel="canonical" href="https://www.aegiscoworking.ae/private-office" />
 
      <meta property="og:title" content="Private Office in ADGM – Furnished & Serviced from AED 4,500" />
-        <meta property="og:description" content="Furnished, serviced private office in ADGM, Abu Dhabi from AED 4,500 /month. Lockable offices in Addax Tower, Al Reem Island. 24/7 access, licence ready." />
+        <meta property="og:description" content="Furnished, serviced private office in ADGM, Abu Dhabi from AED 4,500 per month. Lockable offices in Addax Tower, Al Reem Island. 24/7 access, licence ready." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.aegiscoworking.ae/private-office" />
         <meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
@@ -68,7 +81,7 @@ function PrivateOffice() {
 
        <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Private Office in ADGM – Furnished & Serviced from AED 4,500" />
-<meta name="twitter:description" content="Furnished, serviced private office in ADGM, Abu Dhabi from AED 4,500 /month. Lockable offices in Addax Tower, Al Reem Island. 24/7 access, licence ready." />
+<meta name="twitter:description" content="Furnished, serviced private office in ADGM, Abu Dhabi from AED 4,500 per month. Lockable offices in Addax Tower, Al Reem Island. 24/7 access, licence ready." />
 <meta name="twitter:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 
 <script type="application/ld+json">
@@ -144,7 +157,7 @@ function PrivateOffice() {
       {/* Own Private Office */}
       <section className="business-presence">
         <span className="contact-eyebrow">HOW IT WORKS</span>
-        <h2>Your Own Private Office In ADGM</h2>
+        <h2>Furnished &amp; Serviced Private Office in ADGM</h2>
                 <p className="bp-intro">
           Each private office in ADGM is lockable, fully furnished, and ready
           for your ADGM licence. Choose professional private office space in ADGM,
@@ -253,7 +266,7 @@ function PrivateOffice() {
                 <span className="vo-faq-toggle">{openIndex === i ? '−' : '+'}</span>
               </div>
               <div className="vo-faq-answer-wrap">
-                <p className="vo-faq-answer">{f.a}</p>
+               <p className="vo-faq-answer">{f.aDisplay ?? f.a}</p>
               </div>
             </div>
           ))}
