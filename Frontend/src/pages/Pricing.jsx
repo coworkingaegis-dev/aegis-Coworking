@@ -55,7 +55,7 @@ const faqs = [
     q: "What are ADGM's flexi desk requirements?",
     a: (
       <>
-        ADGM businesses need a qualifying registered office arrangement within ADGM. At Aegis Coworking, our <Link to="/office-space">Dedicated Desk</Link> plan provides a permanent workspace together with a registered ADGM business address. This makes Aegis suitable for the businesses looking for the cheaper option of these provider. Aegis is located in Addax Tower on Al Reem Island, within the ADGM jurisdiction.
+        ADGM businesses need a qualifying registered office arrangement within ADGM. At Aegis Coworking, our <Link to="/office-space">Dedicated Desk</Link> plan provides a permanent workspace together with a registered ADGM business address. This makes Aegis a suitable, lower-cost option for businesses that need an ADGM registered office. Aegis is located in Addax Tower on Al Reem Island, within the ADGM jurisdiction.
       </>
     ),
     plainText: "ADGM businesses need a qualifying registered office arrangement within ADGM. At Aegis Coworking, our Dedicated Desk plan provides a permanent workspace together with a registered ADGM business address. Aegis is located in Addax Tower on Al Reem Island, within the ADGM jurisdiction.",
@@ -120,19 +120,19 @@ function Pricing() {
   return (
     <>
       <Helmet>
-        <title>Cheap Coworking in ADGM – Low-Cost Office from AED 1,000</title>
-     <meta name="description" content="Low-cost office & cheap coworking in ADGM: day pass AED 100 /day, Flexi Desk AED 1,000 /month, Dedicated Desk AED 1,150 /month, virtual office AED 292 /month." />
+       <title>Cheapest Coworking in ADGM – Low-Cost Office from AED 1,000</title>
+     <meta name="description" content="Cheap coworking in ADGM & low-cost office from AED 1,000/month. Day pass AED 100/day, virtual office AED 292/month. No hidden fees. Book a free tour." />
         <link rel="canonical" href="https://www.aegiscoworking.ae/pricing" />
 
-       <meta property="og:title" content="Cheap Coworking in ADGM – Low-Cost Office from AED 1,000" />
-      <meta property="og:description" content="Low-cost office & cheap coworking in ADGM: day pass AED 100 /day, Flexi Desk AED 1,000 /month, Dedicated Desk AED 1,150 /month, virtual office AED 292 /month." />
+       <meta property="og:title" content="Cheapest Coworking in ADGM – Low-Cost Office from AED 1,000" />
+      <meta property="og:description" content="Cheap coworking in ADGM & low-cost office from AED 1,000/month. Day pass AED 100/day, virtual office AED 292/month. No hidden fees. Book a free tour." />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.aegiscoworking.ae/pricing" />
         <meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Cheap Coworking in ADGM – Low-Cost Office from AED 1,000" />
-     <meta name="twitter:description" content="Low-cost office & cheap coworking in ADGM: day pass AED 100 /day, Flexi Desk AED 1,000 /month, Dedicated Desk AED 1,150 /month, virtual office AED 292 /month." />
+        <meta name="twitter:title" content="Cheapest Coworking in ADGM – Low-Cost Office from AED 1,000" />
+     <meta name="twitter:description" content="Cheap coworking in ADGM & low-cost office from AED 1,000/month. Day pass AED 100/day, virtual office AED 292/month. No hidden fees. Book a free tour." />
         <meta name="twitter:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 
         <script type="application/ld+json">
@@ -208,10 +208,10 @@ function Pricing() {
       <Navbar />
 
       <section className="pricing-hero">
-        <h1>ADGM Coworking Pricing & Plans</h1>
+       <h1>Cheapest Coworking in ADGM – Pricing & Plans</h1>
         <p className="pricing-price-intro">
-          Cheapest Coworking Space & Business Center in ADGM — Workspace from only AED 1,000. No hidden fees.
-        </p>
+  Low-cost coworking space and business centre in ADGM, Addax Tower. Plans from only AED 1,000/month. No hidden fees.
+</p>
       </section>
 
       <section className="pricing-section">
@@ -220,8 +220,8 @@ function Pricing() {
 
           {/* HOT DESK */}
           <div className="pricing-card">
-            <h2>HOT DESK</h2>
-            <p className="pricing-subtitle">Office space in ADGM , No license requirement, perfect for freelancers</p>
+            <h2>FLEXI DESK (HOT DESK)</h2>
+            <p className="pricing-subtitle">Shared office space in ADGM, no licence requirement, perfect for freelancers</p>
             <div className="pricing-price">
               <span className="pricing-strike">1,200</span>{' '}
               AED 1,000<span>/month</span>
@@ -243,7 +243,7 @@ function Pricing() {
             <span className="pricing-badge">MOST POPULAR</span>
             <h2>DEDICATED DESK</h2>
             <p className="pricing-subtitle"> Office Space in ADGM , your own permanent desk space</p>
-            <span className="pricing-save">Save AED 250/month</span>
+            <span className="pricing-save">Save AED 300/month</span>
             <div className="pricing-price">
               <span className="pricing-strike">1,450</span>{' '}
               AED 1,150<span>/month</span>
