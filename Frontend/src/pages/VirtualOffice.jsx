@@ -61,25 +61,19 @@ function VirtualOffice() {
   return (
     <div className="App">
       <Helmet>
-        <title>Virtual Office Abu Dhabi | ADGM Registered Address</title>
-        <meta
-          name="description"
-          content="Get a prestigious ADGM virtual office address in Abu Dhabi. Includes business registration support, mail handling and meeting room access. Enquire today."
-        />
+        <title>Virtual Office ADGM & Abu Dhabi from AED 292 | Aegis</title>
+        <meta name="description" content="ADGM virtual office and registered business address in Abu Dhabi from AED 292 /month. Mail handling, meeting room access and ADGM licence support." />
         <link rel="canonical" href="https://www.aegiscoworking.ae/virtual-office" />
 
-       <meta property="og:title" content="Virtual Office Abu Dhabi | ADGM Registered Address" />
-        <meta
-          property="og:description"
-          content="Registered ADGM business address, mail handling, and phone support at Addax Tower — from Basic to Enterprise packages."
-        />
+      <meta property="og:title" content="Virtual Office ADGM & Abu Dhabi from AED 292 | Aegis" />
+       <meta property="og:description" content="ADGM virtual office and registered business address in Abu Dhabi from AED 292 /month. Mail handling, meeting room access and ADGM licence support." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.aegiscoworking.ae/virtual-office" />
        <meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Virtual Office Abu Dhabi | ADGM Registered Address" />
-<meta name="twitter:description" content="Get a prestigious ADGM virtual office address in Abu Dhabi. Includes business registration support, mail handling and meeting room access." />
+<meta name="twitter:title" content="Virtual Office ADGM & Abu Dhabi from AED 292 | Aegis" />
+<meta name="twitter:description" content="ADGM virtual office and registered business address in Abu Dhabi from AED 292 /month. Mail handling, meeting room access and ADGM licence support." />
 <meta name="twitter:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 
 <script type="application/ld+json">
