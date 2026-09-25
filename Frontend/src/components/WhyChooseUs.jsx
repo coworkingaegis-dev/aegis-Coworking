@@ -25,7 +25,7 @@ function WhyChooseUs() {
   return (
     <section style={whyUsStyles.section}>
       <span className="contact-eyebrow">WORKSPACE BENEFITS</span>
-      <h2 style={whyUsStyles.heading}>Why Choose AEGIS Coworking Space in Abu Dhabi</h2>
+      <h2 style={whyUsStyles.heading}>Why Choose Aegis Business Centre in ADGM</h2>
       <div className="wcu-box">
         {features.map((f, i) => (
           <div key={i} className="wcu-item">
