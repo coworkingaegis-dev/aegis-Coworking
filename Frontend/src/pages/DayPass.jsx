@@ -15,10 +15,11 @@ const faqs = [
     aDisplay: (
       <>
         A coworking day pass at Aegis Coworking costs AED 100 for 9 AM–6 PM access or AED 150 for 24-hour access. No membership or long-term commitment is required. Wondering if it suits you? Read{' '}
-        <Link to="/blog/day-pass-coworking-abu-dhabi-your-flexible-workday-solved" className="inline-link">is a coworking day pass worth it</Link>.
+               <Link to="/blog/day-pass-coworking-abu-dhabi-your-flexible-workday-solved" className="inline-link">is a coworking day pass worth it</Link>.
       </>
     ),
- {
+  },
+  {
   q: "Can I book a coworking day pass without a membership?",
   a: "Yes. Anyone can book a coworking day pass in Abu Dhabi without a membership or long-term commitment.",
   aDisplay: (
