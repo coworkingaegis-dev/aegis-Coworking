@@ -12,12 +12,13 @@ const faqs = [
 
   {
     q: "What is the cheapest coworking option in ADGM?",
-    a: (
+       a: (
       <>
-        The <Link to="/office-space">Flexi Desk</Link> is our most affordable coworking option, starting from AED 1,000 per month. It provides access to a professional coworking space in ADGM with high-speed internet and meeting room credits.
+        The <Link to="/office-space">Flexi Desk</Link> is our most affordable coworking option, starting from AED 1,000 per month. It provides access to a professional coworking space in ADGM with high-speed internet and meeting room credits. If you need an ADGM licence, read the{' '}
+        <Link to="/blog/low-cost-office-adgm-budget-friendly-workspace-solutions-in-abu-dhabi" className="inline-link">cheapest way to meet ADGM's office requirement</Link>.
       </>
     ),
-    plainText: "The Hot Desk is our most affordable coworking option, starting from AED 1,000/month. It provides access to a professional coworking space in ADGM with high-speed internet and meeting room credits.",
+    plainText: "The Flexi Desk is our most affordable coworking option, starting from AED 1,000/month. It provides access to a professional coworking space in ADGM with high-speed internet and meeting room credits. If you need an ADGM licence, read the cheapest way to meet ADGM's office requirement.",
   },
   {
     q: "Does the dedicated desk include an ADGM business address?",
@@ -32,10 +33,10 @@ const faqs = [
     q: "How much does a virtual office cost in ADGM?",
     a: (
       <>
-        Aegis Coworking offers <Link to="/virtual-office">virtual office</Link> options in ADGM starting from AED 292 /month for businesses that need a professional ADGM business address without renting a full-time office.
+        Aegis Coworking offers <Link to="/virtual-office">virtual office</Link> options in ADGM starting from AED 292 per month for businesses that need a professional ADGM business address without renting a full-time office.
       </>
     ),
-    plainText: "Aegis Coworking offers virtual office options in ADGM starting from AED 292 /month for businesses that need a professional ADGM business address without renting a full-time office.",
+    plainText: "Aegis Coworking offers virtual office options in ADGM starting from AED 292 per month for businesses that need a professional ADGM business address without renting a full-time office.",
   },
   {
     q: "Are there any hidden fees for coworking?",
@@ -64,10 +65,11 @@ const faqs = [
     q: "How much does coworking cost in ADGM Abu Dhabi?",
     a: (
       <>
-        <Link to="/pricing">Aegis Coworking</Link> in ADGM offers flexi desk from AED 1,000 per month, day pass from AED 100 per day and dedicated desk from AED 1,150 per month. Private office start from AED 4,500 per month, while virtual office plans start from AED 292 per month.
+        Aegis Coworking in ADGM offers a Flexi Desk from AED 1,000 per month, a day pass from AED 100 per day and a Dedicated Desk from AED 1,150 per month. Private offices start from AED 4,500 per month, while virtual office plans start from AED 292 per month. For a full market breakdown, see{' '}
+        <Link to="/blog/adgm-coworking-space-cost-2026" className="inline-link">ADGM coworking cost in 2026</Link>.
       </>
     ),
-    plainText: "Aegis Coworking in ADGM offers flexi desk from AED 1,000 per month, day pass from AED 100 per day and dedicated desk from AED 1,150 per month. Private office start from AED 4,500 per month, while virtual office plans start from AED 292 per month.",
+    plainText: "Aegis Coworking in ADGM offers a Flexi Desk from AED 1,000 per month, a day pass from AED 100 per day and a Dedicated Desk from AED 1,150 per month. Private offices start from AED 4,500 per month, while virtual office plans start from AED 292 per month. For a full market breakdown, see ADGM coworking cost in 2026.",
   },
 
   {
@@ -154,7 +156,7 @@ function Pricing() {
             "itemListElement": [
               {
                 "@type": "Service",
-                "name": "Hot Desk",
+                "name": "Flexi Desk (Hot Desk)",
                 "provider": { "@type": "LocalBusiness", "@id": "https://www.aegiscoworking.ae/#business" },
                 "areaServed": "Abu Dhabi",
                 "offers": { "@type": "Offer", "price": "1000", "priceCurrency": "AED", "priceValidUntil": priceValidUntil, "url": "https://www.aegiscoworking.ae/pricing" }
@@ -242,7 +244,7 @@ function Pricing() {
           <div className="pricing-card">
             <span className="pricing-badge">MOST POPULAR</span>
             <h2>DEDICATED DESK</h2>
-            <p className="pricing-subtitle"> Office Space in ADGM , your own permanent desk space</p>
+            <p className="pricing-subtitle">Office space in ADGM, your own permanent desk</p>
             <span className="pricing-save">Save AED 300/month</span>
             <div className="pricing-price">
               <span className="pricing-strike">1,450</span>{' '}
@@ -253,7 +255,7 @@ function Pricing() {
               <li>24/7 access</li>
               <li>Dedicated lockers for storage</li>
               <li>Extra meeting room credits every month</li>
-              <li>Everything included in the Hot Desk plan</li>
+              <li>Everything included in the Flexi (Hot) Desk plan</li>
             </ul>
             <Link to="/contact">
               <button className="btn-pricing-solid">Get Started</button>
