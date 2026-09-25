@@ -15,37 +15,46 @@ import voEnterprise from '../assets/virtual-office-enterprise-ADGM-abu-dhabi.web
 import { Link } from 'react-router-dom'
 
 const faqs = [
- {
-  q: "Do I need a physical office or can I use a virtual office in ADGM Abu Dhabi?",
-  a: (
-    <>
-      Many non-regulated ADGM companies can use a virtual office or flexi-desk, while FSRA-regulated firms usually need physical premises. Aegis Coworking provides ADGM virtual office addresses at Addax Tower, Al Reem Island, with mail handling. For{' '}
-      <Link to="https://www.aegiscoworking.ae/contact">Booking</Link>
-    </>
-  ),
-},
   {
-  q: "What's included in an ADGM virtual office package, and how much does it cost?",
-  a: "Aegis Coworking offers virtual office at only AED 292/month with a registered ADGM business address, mail handling, and increasing levels of phone support and meeting room credits. View our pricing.",
-  aDisplay: (
-    <>
-      Aegis Coworking offers virtual office at only AED 292/month with a registered ADGM business address, mail handling, and increasing levels of phone support and meeting room credits. View our{' '}
-      <Link to="/pricing" className="inline-link">Pricing</Link>.
-    </>
-  ),
-},
+    q: "Do I need a physical office or can I use a virtual office in ADGM Abu Dhabi?",
+    a: "Many non-regulated ADGM companies can use a virtual office or flexi-desk, while FSRA-regulated firms usually need physical premises. Aegis Coworking provides ADGM virtual office addresses at Addax Tower, Al Reem Island, with mail handling. Read what an ADGM virtual office is and who can use one.",
+    aDisplay: (
+      <>
+        Many non-regulated ADGM companies can use a virtual office or flexi-desk, while FSRA-regulated firms usually need physical premises. Aegis Coworking provides ADGM virtual office addresses at Addax Tower, Al Reem Island, with mail handling. Read{' '}
+        <Link to="/blog/virtual-office-adgm-your-prestigious-business-address-minus-the-cost" className="inline-link">what an ADGM virtual office is</Link>, or{' '}
+        <Link to="/contact" className="inline-link">book a call</Link>.
+      </>
+    ),
+  },
+  {
+    q: "What's included in an ADGM virtual office package, and how much does it cost?",
+    a: "Aegis Coworking offers a virtual office from only AED 292/month with a registered ADGM business address, mail handling, and increasing levels of phone support and meeting room credits. View our pricing.",
+    aDisplay: (
+      <>
+        Aegis Coworking offers a virtual office from only AED 292/month with a registered ADGM business address, mail handling, and increasing levels of phone support and meeting room credits. View our{' '}
+        <Link to="/pricing" className="inline-link">pricing</Link>.
+      </>
+    ),
+  },
   {
     q: "Can I use a virtual office in Abu Dhabi for my ADGM licence renewal?",
-    a: "Yes, a virtual office address at Aegis Coworking can be used both for initial ADGM company registration and for ongoing licence renewals.",
+    a: "Yes, a virtual office address at Aegis Coworking can be used both for initial ADGM company registration and for ongoing licence renewals. Setting up from abroad? See how registering an ADGM company remotely works.",
+    aDisplay: (
+      <>
+        Yes, a virtual office address at Aegis Coworking can be used both for initial ADGM company registration and for ongoing licence renewals. Setting up from abroad? See how{' '}
+        <Link to="/blog/adgm-company-registration-remote-uae" className="inline-link">registering an ADGM company remotely</Link> works.
+      </>
+    ),
   },
   {
     q: "Can I upgrade from a virtual office to a private office later?",
-    a: "Yes, you can convert to a dedicated desk or private office at Addax Tower at any time at preferential rates.",
+    a: "Yes, you can convert to a dedicated desk or private office at Addax Tower at any time at preferential rates. Many founders start by running their ADGM company from home with a registered address.",
     aDisplay: (
       <>
         Yes, you can convert to a dedicated desk or{' '}
         <Link to="/private-office" className="inline-link">private office</Link> at
-        Addax Tower at any time at preferential rates.
+        Addax Tower at any time at preferential rates. Many founders start by{' '}
+        <Link to="/blog/adgm-work-from-home-registered-address" className="inline-link">running their ADGM company from home</Link> with a registered address.
       </>
     ),
   },
@@ -62,18 +71,18 @@ function VirtualOffice() {
     <div className="App">
       <Helmet>
         <title>Virtual Office ADGM & Abu Dhabi from AED 292 | Aegis</title>
-        <meta name="description" content="ADGM virtual office and registered business address in Abu Dhabi from AED 292 /month. Mail handling, meeting room access and ADGM licence support." />
+        <meta name="description" content="ADGM virtual office and registered business address in Abu Dhabi from AED 292 per month. Mail handling, meeting room access and ADGM licence support." />
         <link rel="canonical" href="https://www.aegiscoworking.ae/virtual-office" />
 
       <meta property="og:title" content="Virtual Office ADGM & Abu Dhabi from AED 292 | Aegis" />
-       <meta property="og:description" content="ADGM virtual office and registered business address in Abu Dhabi from AED 292 /month. Mail handling, meeting room access and ADGM licence support." />
+       <meta property="og:description" content="ADGM virtual office and registered business address in Abu Dhabi from AED 292 per month. Mail handling, meeting room access and ADGM licence support." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.aegiscoworking.ae/virtual-office" />
        <meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Virtual Office ADGM & Abu Dhabi from AED 292 | Aegis" />
-<meta name="twitter:description" content="ADGM virtual office and registered business address in Abu Dhabi from AED 292 /month. Mail handling, meeting room access and ADGM licence support." />
+<meta name="twitter:description" content="ADGM virtual office and registered business address in Abu Dhabi from AED 292 per month. Mail handling, meeting room access and ADGM licence support." />
 <meta name="twitter:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 
 <script type="application/ld+json">
