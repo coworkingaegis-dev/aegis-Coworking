@@ -12,8 +12,14 @@ import meetingRoomBanner from '../assets/meeting-room-adgm-abu-dhabi.webp'
 const faqs = [
   {
     q: "Can anyone book a meeting room in ADGM?",
-    a: "Yes. Members and non-members can book a meeting room in ADGM on an hourly basis, subject to availability at Aegis Coworking in Addax Tower."
-  },
+     a: "Yes. Our meeting rooms in Abu Dhabi Global Market are suitable for client meetings, presentations, interviews, team discussions, and business meetings. Not sure whether you need a meeting room or a private office for client meetings? Read our guide, or contact us to book.",
+  aDisplay: (
+    <>
+      Yes. Our meeting rooms in Abu Dhabi Global Market are suitable for client meetings, presentations, interviews, team discussions, and business meetings. Not sure what you need? Read{' '}
+      <Link to="/blog/adgm-meeting-room-vs-private-office-client-meetings" className="inline-link">meeting room or private office for client meetings</Link>, or{' '}
+      <Link to="/contact" className="inline-link">contact us to book</Link>.
+    </>
+  ),
   {
     q: "What's included with your meeting rooms in ADGM?",
     a: "Our meeting rooms in ADGM include high-speed WiFi, presentation screens, comfortable seating, and a professional setting for client meetings, team sessions, and presentations."
