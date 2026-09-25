@@ -57,25 +57,19 @@ function DayPass() {
   return (
     <div className="App">
       <Helmet>
-        <title>Day Pass & Hot Desk Coworking Space in Abu Dhabi, ADGM</title>
-        <meta
-          name="description"
-          content="Find the best day pass and hot desk coworking space in Abu Dhabi. Flexible daily rates at ADGM, Addax Tower. Book online or walk in today."
-        />
+        <title>Coworking Day Pass in Abu Dhabi & ADGM – AED 100 /day</title>
+        <meta name="description" content="Coworking day pass in ADGM, Abu Dhabi: AED 100 a day (9am–6pm) or AED 150 for 24 hours at Addax Tower. Wi-Fi, coffee, meeting rooms. Walk in today." />
         <link rel="canonical" href="https://www.aegiscoworking.ae/day-pass" />
 
-       <meta property="og:title" content="Day Pass & Hot Desk Coworking Space in Abu Dhabi, ADGM" />
-        <meta
-          property="og:description"
-          content="No-commitment day pass access to coworking space at Addax Tower, ADGM, from AED 100/day."
-        />
+     <meta property="og:title" content="Coworking Day Pass in Abu Dhabi & ADGM – AED 100 /day" />
+        <meta property="og:description" content="Coworking day pass in ADGM, Abu Dhabi: AED 100 a day (9am–6pm) or AED 150 for 24 hours at Addax Tower. Wi-Fi, coffee, meeting rooms. Walk in today." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.aegiscoworking.ae/day-pass" />
         <meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Day Pass & Hot Desk Coworking Space in Abu Dhabi, ADGM" />
-<meta name="twitter:description" content="Find the best day pass and hot desk coworking space in Abu Dhabi. Flexible daily rates at ADGM Addax Tower." />
+<meta name="twitter:title" content="Coworking Day Pass in Abu Dhabi & ADGM – AED 100 /day" />
+<meta name="twitter:description" content="Coworking day pass in ADGM, Abu Dhabi: AED 100 a day (9am–6pm) or AED 150 for 24 hours at Addax Tower. Wi-Fi, coffee, meeting rooms. Walk in today." />
 <meta name="twitter:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 
 <script type="application/ld+json">
