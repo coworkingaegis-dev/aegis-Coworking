@@ -54,18 +54,12 @@ function PrivateOffice() {
   return (
     <div className="App">
       <Helmet>
-        <title>Private Office Space in ADGM, Abu Dhabi | Aegis Coworking</title>
-        <meta
-          name="description"
-          content="Rent a fully furnished private office in ADGM, Addax Tower, from AED 4,500/month. Lockable, 24/7 secure access, ADGM-licence ready. Book a tour today."
-        />
+        <title>Private Office in ADGM – Furnished & Serviced from AED 4,500</title>
+        <meta name="description" content="Furnished, serviced private office in ADGM, Abu Dhabi from AED 4,500 /month. Lockable offices in Addax Tower, Al Reem Island. 24/7 access, licence ready." />
         <link rel="canonical" href="https://www.aegiscoworking.ae/private-office" />
 
-      <meta property="og:title" content="Private Office Space in ADGM, Abu Dhabi | Aegis Coworking" />
-        <meta
-          property="og:description"
-          content="Lockable, fully furnished private offices in ADGM, Addax Tower, from AED 4500/month."
-        />
+     <meta property="og:title" content="Private Office in ADGM – Furnished & Serviced from AED 4,500" />
+        <meta property="og:description" content="Furnished, serviced private office in ADGM, Abu Dhabi from AED 4,500 /month. Lockable offices in Addax Tower, Al Reem Island. 24/7 access, licence ready." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.aegiscoworking.ae/private-office" />
         <meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
@@ -73,8 +67,8 @@ function PrivateOffice() {
 
 
        <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Private Office Space in ADGM, Abu Dhabi | Aegis Coworking" />
-<meta name="twitter:description" content="Rent a fully furnished private office in Abu Dhabi's ADGM Addax Tower with 24/7 access. Flexible monthly terms." />
+<meta name="twitter:title" content="Private Office in ADGM – Furnished & Serviced from AED 4,500" />
+<meta name="twitter:description" content="Furnished, serviced private office in ADGM, Abu Dhabi from AED 4,500 /month. Lockable offices in Addax Tower, Al Reem Island. 24/7 access, licence ready." />
 <meta name="twitter:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 
 <script type="application/ld+json">
