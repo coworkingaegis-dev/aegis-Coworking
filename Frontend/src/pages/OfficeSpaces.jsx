@@ -15,7 +15,7 @@ const priceValidUntil = `${new Date().getFullYear()}-12-31`
 const faqSchema = [
   {
     q: "What is Dedicated and Flexi desk in ADGM?",
-    a: "A Dedicated desk provides you a registered ADGM Business Address for the licence, but a Flexi Desk is suitable for individuals or companies without an ADGM licensing requirement. A Dedicated desk only costs AED 1,150 while a Flexi Desk costs only AED 1,000. You keep the same spot every time you come in, and your belongings can stay set up between visits.",
+    a: "A Dedicated desk provides you a registered ADGM Business Address for the licence, but a Flexi Desk is suitable for individuals or companies without an ADGM licensing requirement. A Dedicated desk only costs AED 1,150 while a Flexi Desk costs only AED 1,000. You keep the same spot every time you come in, and your belongings can stay set up between visits. Working alone? Read is a dedicated desk enough for a solo business.",
   },
 
   {
@@ -87,7 +87,7 @@ function OfficeSpaces() {
     "offers": [
       {
         "@type": "Offer",
-        "name": "Hot Desk",
+       "name": "Flexi Desk (Hot Desk)",
         "price": "1000",
         "priceCurrency": "AED",
         "priceValidUntil": priceValidUntil,
