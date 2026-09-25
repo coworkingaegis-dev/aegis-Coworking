@@ -30,6 +30,7 @@ const faqs = [
         <Link to="/blog/affordable-coworking-al-reem-island-adgm" className="inline-link">coworking on Al Reem Island</Link>.
       </>
     ),
+   },
 {
     q: "Does Aegis Coworking provide workspace in ADGM?",
     a: "Yes, Aegis Coworking operates entirely within ADGM at Addax Tower. Its dedicated desk and private office come with ADGM-compliant lease and membership agreements, so they can be used to satisfy ADGM's physical office requirement for company registration or licence renewal."
@@ -54,7 +55,8 @@ const faqs = [
         Before comparing providers, confirm what your licence actually requires: a dedicated desk (most operating licences, including Tech Start-Up), a flexi-desk (typically SPVs and holding companies), or a private office (FSRA-regulated activities). From there, check that the provider issues ADGM-ready lease or membership documents, confirm the visa quota per desk if you're hiring, and compare all-in monthly cost rather than headline rent. Aegis Coworking, based in Addax Tower, offers ADGM-compliant dedicated desks and private offices with transparent pricing and no hidden setup or admin fees. Our guide explains{' '}
         <Link to="/blog/which-adgm-workspace-fits-you" className="inline-link">which ADGM workspace fits you</Link>.
       </>
-    )
+     ),
+  },
   {
   q: "How much do coworking plans cost at Aegis Coworking?",
   a: "Aegis Coworking pricing depends on the workspace type. Day pass start at AED 100 per day, a flexi desk starts at AED 1,000 per month, a dedicated desk starts at AED 1,150 per month, a private office starts at AED 4,500 per month, and virtual office plans start at AED 292 per month."
@@ -73,9 +75,9 @@ const faqs = [
         Addax Tower on Al Reem Island is an established ADGM coworking hub with several providers, including Aegis Coworking. Aegis offers dedicated desks, private offices, virtual offices and meeting rooms with ADGM-compliant documentation and an on-site ADGM business address. Read more about{' '}
         <Link to="/blog/addax-tower-adgm-business-workspace" className="inline-link">Addax Tower for businesses</Link>.
       </>
-    )
+    ),
+  },
 ]
-
 function Home() {
   const [openIndex, setOpenIndex] = useState(null)
   const toggleFAQ = (i) => setOpenIndex(openIndex === i ? null : i)
