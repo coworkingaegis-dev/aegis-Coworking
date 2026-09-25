@@ -120,24 +120,19 @@ function Pricing() {
   return (
     <>
       <Helmet>
-        <title>ADGM Coworking Pricing — Plans from AED 292/mo | Aegis Coworking</title>
-       <meta
-  name="description"
-  content="Explore affordable ADGM coworking spaces at Aegis, with hot desks from AED 1,000 a month, dedicated desks, private offices and virtual offices."
-/>
+        <title>Cheap Coworking in ADGM – Low-Cost Office from AED 1,000</title>
+     <meta name="description" content="Low-cost office & cheap coworking in ADGM: day pass AED 100 /day, Flexi Desk AED 1,000 /month, Dedicated Desk AED 1,150 /month, virtual office AED 292 /month." />
         <link rel="canonical" href="https://www.aegiscoworking.ae/pricing" />
 
-        <meta property="og:title" content="ADGM Coworking Pricing — Plans from AED 292/mo | Aegis Coworking" />
-        <meta
-          property="og:description"
-          content="ADGM coworking pricing at Aegis: hot desks from AED 1,000/month, dedicated desks from AED 1,150/month, private offices from AED 4,500/month, virtual offices from AED 292/month."
-        />
+       <meta property="og:title" content="Cheap Coworking in ADGM – Low-Cost Office from AED 1,000" />
+      <meta property="og:description" content="Low-cost office & cheap coworking in ADGM: day pass AED 100 /day, Flexi Desk AED 1,000 /month, Dedicated Desk AED 1,150 /month, virtual office AED 292 /month." />
+
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.aegiscoworking.ae/pricing" />
         <meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="ADGM Coworking Pricing — Plans from AED 292/mo | Aegis Coworking" />
-        <meta name="twitter:description" content="ADGM coworking pricing at Aegis: hot desks from AED 1,000/month, dedicated desks from AED 1,150/month, private offices from AED 4,500/month." />
+        <meta name="twitter:title" content="Cheap Coworking in ADGM – Low-Cost Office from AED 1,000" />
+     <meta name="twitter:description" content="Low-cost office & cheap coworking in ADGM: day pass AED 100 /day, Flexi Desk AED 1,000 /month, Dedicated Desk AED 1,150 /month, virtual office AED 292 /month." />
         <meta name="twitter:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 
         <script type="application/ld+json">
