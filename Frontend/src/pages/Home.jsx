@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Helmet } from 'react-helmet-async'
+import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import Services from '../components/Services'
@@ -22,9 +23,13 @@ const faqs = [
 
 {
     q: "Where is Aegis Coworking located?",
-    a: "Aegis Coworking is located at Addax Tower, 3812, Al Reem Island, RT3, Abu Dhabi, United Arab Emirates, within the ADGM jurisdiction."
-  },
-
+       a: "Aegis Coworking is located at Addax Tower, 3812, Al Reem Island, RT3, Abu Dhabi, United Arab Emirates, within the ADGM jurisdiction. Learn more about coworking on Al Reem Island.",
+    aDisplay: (
+      <>
+        Aegis Coworking is located at Addax Tower, 3812, Al Reem Island, RT3, Abu Dhabi, United Arab Emirates, within the ADGM jurisdiction. Learn more about{' '}
+        <Link to="/blog/affordable-coworking-al-reem-island-adgm" className="inline-link">coworking on Al Reem Island</Link>.
+      </>
+    ),
 {
     q: "Does Aegis Coworking provide workspace in ADGM?",
     a: "Yes, Aegis Coworking operates entirely within ADGM at Addax Tower. Its dedicated desk and private office come with ADGM-compliant lease and membership agreements, so they can be used to satisfy ADGM's physical office requirement for company registration or licence renewal."
@@ -43,8 +48,13 @@ const faqs = [
 
 {
     q: "I'm starting a business in ADGM. Which coworking options should I consider?",
-    a: "Before comparing providers, confirm what your licence actually requires: a dedicated desk (most operating licences, including Tech Start-Up), a flexi-desk (typically SPVs and holding companies), or a private office (FSRA-regulated activities). From there, check that the provider issues ADGM-ready lease or membership documents, confirm the visa quota per desk if you're hiring, and compare all-in monthly cost rather than headline rent. Aegis Coworking, based in Addax Tower, offers ADGM-compliant dedicated desks and private offices with transparent pricing and no hidden setup or admin fees — a straightforward option for cost-conscious startups meeting the dedicated-desk requirement."
-  },
+       a: "Before comparing providers, confirm what your licence actually requires: a dedicated desk (most operating licences, including Tech Start-Up), a flexi-desk (typically SPVs and holding companies), or a private office (FSRA-regulated activities). From there, check that the provider issues ADGM-ready lease or membership documents, confirm the visa quota per desk if you're hiring, and compare all-in monthly cost rather than headline rent. Aegis Coworking, based in Addax Tower, offers ADGM-compliant dedicated desks and private offices with transparent pricing and no hidden setup or admin fees. Our guide explains which ADGM workspace fits you.",
+    aDisplay: (
+      <>
+        Before comparing providers, confirm what your licence actually requires: a dedicated desk (most operating licences, including Tech Start-Up), a flexi-desk (typically SPVs and holding companies), or a private office (FSRA-regulated activities). From there, check that the provider issues ADGM-ready lease or membership documents, confirm the visa quota per desk if you're hiring, and compare all-in monthly cost rather than headline rent. Aegis Coworking, based in Addax Tower, offers ADGM-compliant dedicated desks and private offices with transparent pricing and no hidden setup or admin fees. Our guide explains{' '}
+        <Link to="/blog/which-adgm-workspace-fits-you" className="inline-link">which ADGM workspace fits you</Link>.
+      </>
+    )
   {
   q: "How much do coworking plans cost at Aegis Coworking?",
   a: "Aegis Coworking pricing depends on the workspace type. Day pass start at AED 100 per day, a flexi desk starts at AED 1,000 per month, a dedicated desk starts at AED 1,150 per month, a private office starts at AED 4,500 per month, and virtual office plans start at AED 292 per month."
@@ -57,8 +67,13 @@ const faqs = [
 
 {
     q: "What coworking spaces are available in Addax Tower?",
-    a: "Addax Tower on Al Reem Island is an established ADGM coworking hub with several providers including Aegis Coworking, operating from the building, reflecting strong demand for flexible workspace in the tower. Aegis Coworking is offering dedicated desk, private office, virtual office, and meeting room with ADGM-compliant documentation and an on-site ADGM business address."
-  },
+       a: "Addax Tower on Al Reem Island is an established ADGM coworking hub with several providers, including Aegis Coworking. Aegis offers dedicated desks, private offices, virtual offices and meeting rooms with ADGM-compliant documentation and an on-site ADGM business address. Read more about Addax Tower for businesses.",
+    aDisplay: (
+      <>
+        Addax Tower on Al Reem Island is an established ADGM coworking hub with several providers, including Aegis Coworking. Aegis offers dedicated desks, private offices, virtual offices and meeting rooms with ADGM-compliant documentation and an on-site ADGM business address. Read more about{' '}
+        <Link to="/blog/addax-tower-adgm-business-workspace" className="inline-link">Addax Tower for businesses</Link>.
+      </>
+    )
 ]
 
 function Home() {
@@ -145,7 +160,7 @@ function Home() {
                 <span className="vo-faq-toggle">{openIndex === i ? '−' : '+'}</span>
               </div>
               <div className="vo-faq-answer-wrap">
-                <p className="vo-faq-answer">{f.a}</p>
+                  <p className="vo-faq-answer">{f.aDisplay ?? f.a}</p>
                 {f.link && (
                   <p className="vo-faq-answer">
                     <a href={f.link.url} target="_blank" rel="noopener noreferrer">
