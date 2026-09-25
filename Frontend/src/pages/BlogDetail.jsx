@@ -108,7 +108,7 @@ if (error) {
   }
 
  const getSeoTitle = (post) => {
-  return `${post.title} | Aegis Coworking Blog`
+  return `${post.title} | Aegis`
 }
 
   const handleShare = async () => {
