@@ -145,7 +145,7 @@ function VirtualOffice() {
 
       <Navbar />
       <PageHero
-       title="VIRTUAL OFFICE IN ABU DHABI – ADGM ADDRESS"
+       title="VIRTUAL OFFICE IN ABU DHABI"
         subtitle="VIRTUAL BUSINESS ADDRESS | ADGM MAIL HANDLING  | PHONE SUPPORT"
       />
       <VirtualOfficeGallery />
