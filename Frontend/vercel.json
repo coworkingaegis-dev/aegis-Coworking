@@ -1,5 +1,5 @@
 {
-  "redirects": [
+    "redirects": [
     { "source": "/offices", "destination": "/office-space", "permanent": true },
     { "source": "/office-spaces", "destination": "/office-space", "permanent": true },
     { "source": "/office-solutions", "destination": "/office-space", "permanent": true },
@@ -8,7 +8,16 @@
     { "source": "/blog/9", "destination": "/blog/adgm-license-workspace-questions-before-applying", "permanent": true },
     { "source": "/blog/11", "destination": "/blog/adgm-tech-startup-licence-dedicated-desk", "permanent": true },
     { "source": "/blog/17", "destination": "/blog/adgm-coworking-space-cost-2026", "permanent": true },
-    { "source": "/blog/19", "destination": "/blog/private-office-rent-adgm-cost-what-to-expect-in-2026", "permanent": true }
+    { "source": "/blog/19", "destination": "/blog/private-office-rent-adgm-cost-what-to-expect-in-2026", "permanent": true },
+    { "source": "/blog/18", "destination": "/blog/private-office-vs-coworking-adgm-the-complete-cost-privacy-guide", "permanent": true },
+    { "source": "/blog/20", "destination": "/blog/day-pass-coworking-abu-dhabi-your-flexible-workday-solved", "permanent": true },
+    { "source": "/blog/12", "destination": "/blogs", "permanent": true },
+    { "source": "/blog/13", "destination": "/blogs", "permanent": true },
+    { "source": "/blog/14", "destination": "/blogs", "permanent": true },
+    { "source": "/blog/15", "destination": "/blogs", "permanent": true },
+    { "source": "/blog/16", "destination": "/blogs", "permanent": true },
+    { "source": "/blog-detail", "destination": "/blogs", "permanent": true },
+    { "source": "/blog/low-cost-office-adgm-budget-friendly-workspace-solutions", "destination": "/blog/low-cost-office-adgm-budget-friendly-workspace-solutions-in-abu-dhabi", "permanent": true }
   ],
   "rewrites": [
     { "source": "/google880ac9059f6f4d4d.html", "destination": "/google880ac9059f6f4d4d.html" }
