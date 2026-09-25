@@ -157,7 +157,7 @@ function PrivateOffice() {
       {/* Own Private Office */}
       <section className="business-presence">
         <span className="contact-eyebrow">HOW IT WORKS</span>
-        <h2>Furnished &amp; Serviced Private Office in ADGM</h2>
+        <h2>FURNISHED &amp; SERVICED PRIVATE OFFICE IN ADGM</h2>
                 <p className="bp-intro">
           Each private office in ADGM is lockable, fully furnished, and ready
           for your ADGM licence. Choose professional private office space in ADGM,
