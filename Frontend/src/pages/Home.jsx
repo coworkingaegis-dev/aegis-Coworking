@@ -17,7 +17,13 @@ import homeBannerImage from '../assets/Coworking_space_ADGM_AbuDhabi.webp'
 const faqs = [
   {
     q: "What is Aegis Coworking?",
-    a: "Aegis Coworking is a coworking and business centre based in Addax Tower on Al Reem Island, within Abu Dhabi Global Market (ADGM). It offers flexible workspace — hot desk, dedicated desk, private office, virtual office, and meeting room — for businesses registering or operating in ADGM."
+    a: "Aegis Coworking is a coworking and business centre based in Addax Tower on Al Reem Island, within Abu Dhabi Global Market (ADGM). It offers flexible workspace — flexi desk (hot desk), dedicated desk, private office, virtual office and meeting room — for businesses registering or operating in ADGM. Learn more about Aegis Coworking.",
+    aDisplay: (
+      <>
+        Aegis Coworking is a coworking and business centre based in Addax Tower on Al Reem Island, within Abu Dhabi Global Market (ADGM). It offers flexible workspace — flexi desk (hot desk), dedicated desk, private office, virtual office and meeting room — for businesses registering or operating in ADGM. Learn more{' '}
+        <Link to="/about" className="inline-link">about Aegis Coworking</Link>.
+      </>
+    ),
   },
 
 
@@ -33,18 +39,38 @@ const faqs = [
    },
 {
     q: "Does Aegis Coworking provide workspace in ADGM?",
-    a: "Yes, Aegis Coworking operates entirely within ADGM at Addax Tower. Its dedicated desk and private office come with ADGM-compliant lease and membership agreements, so they can be used to satisfy ADGM's physical office requirement for company registration or licence renewal."
+       a: "Yes, Aegis Coworking operates entirely within ADGM at Addax Tower. Its dedicated desk and private office come with ADGM-compliant lease and membership agreements, so they can be used to satisfy ADGM's physical office requirement for company registration or licence renewal.",
+    aDisplay: (
+      <>
+        Yes, Aegis Coworking operates entirely within ADGM at Addax Tower. Its{' '}
+        <Link to="/office-space" className="inline-link">dedicated desk</Link> and{' '}
+        <Link to="/private-office" className="inline-link">private office</Link> come with ADGM-compliant lease and membership agreements, so they can be used to satisfy ADGM's physical office requirement for company registration or licence renewal.
+      </>
+    ),
   },
 
 {
     q: "What is the cheapest coworking option at Aegis?",
-    a: "The Coworking Day Pass is the lowest-cost way to work from Aegis — AED 100 for 9am–6pm access, or AED 150 for 24-hour access, with no lease or commitment required."
+           a: "The Coworking Day Pass is the lowest-cost way to work from Aegis — AED 100 for 9am–6pm access, or AED 150 for 24-hour access, with no lease or commitment required. Need an ADGM licence? Read the cheapest way to meet ADGM's office requirement.",
+    aDisplay: (
+      <>
+        The{' '}
+        <Link to="/day-pass" className="inline-link">Coworking Day Pass</Link> is the lowest-cost way to work from Aegis — AED 100 for 9am–6pm access, or AED 150 for 24-hour access, with no lease or commitment required. Need an ADGM licence? Read the{' '}
+        <Link to="/blog/low-cost-office-adgm-budget-friendly-workspace-solutions-in-abu-dhabi" className="inline-link">cheapest way to meet ADGM's office requirement</Link>.
+      </>
+    ),
   },
 
 
 {
   q: "What are the best coworking spaces in ADGM?",
-  a: "The best coworking space in ADGM depends on your requirements, including location, price, registered business address, workspace type, amenities, and licence requirements. Aegis Coworking is one option at Addax Tower on Al Reem Island, offering flexi desk, dedicated desk, private office, virtual office, and meeting room. Businesses should compare providers based on the workspace and ADGM requirements applicable to their licence."
+   a: "The best coworking space in ADGM depends on your requirements, including location, price, registered business address, workspace type, amenities and licence requirements. Aegis Coworking is one option at Addax Tower on Al Reem Island, offering flexi desk, dedicated desk, private office, virtual office and meeting room. Compare our plans to see which fits your licence.",
+  aDisplay: (
+    <>
+      The best coworking space in ADGM depends on your requirements, including location, price, registered business address, workspace type, amenities and licence requirements. Aegis Coworking is one option at Addax Tower on Al Reem Island, offering flexi desk, dedicated desk, private office, virtual office and meeting room.{' '}
+      <Link to="/pricing" className="inline-link">Compare our plans</Link> to see which fits your licence.
+    </>
+  ),
 },
 
 {
@@ -59,8 +85,14 @@ const faqs = [
   },
   {
   q: "How much do coworking plans cost at Aegis Coworking?",
-  a: "Aegis Coworking pricing depends on the workspace type. Day pass start at AED 100 per day, a flexi desk starts at AED 1,000 per month, a dedicated desk starts at AED 1,150 per month, a private office starts at AED 4,500 per month, and virtual office plans start at AED 292 per month."
-},
+   a: "Aegis Coworking pricing depends on the workspace type. A day pass starts at AED 100 per day, a flexi desk at AED 1,000 per month, a dedicated desk at AED 1,150 per month, a private office at AED 4,500 per month, and virtual office plans at AED 292 per month. See our full guide to ADGM coworking cost in 2026.",
+  aDisplay: (
+    <>
+      Aegis Coworking pricing depends on the workspace type. A day pass starts at AED 100 per day, a flexi desk at AED 1,000 per month, a dedicated desk at AED 1,150 per month, a private office at AED 4,500 per month, and virtual office plans at AED 292 per month. See our full guide to{' '}
+      <Link to="/blog/adgm-coworking-space-cost-2026" className="inline-link">ADGM coworking cost in 2026</Link>.
+    </>
+  ),
+  },
 
 {
     q: "Is Aegis Coworking a serviced office or business centre?",
@@ -86,18 +118,18 @@ function Home() {
     <div className="App">
       <Helmet>
  <title>Coworking Space in ADGM & Abu Dhabi from AED 1,000 | Aegis</title>
- <meta name="description" content="Coworking space and business centre in ADGM, Addax Tower, Al Reem Island. Shared office space in Abu Dhabi from AED 1,000 /month. Book a free tour." />
+ <meta name="description" content="Coworking space and business centre in ADGM, Addax Tower, Al Reem Island. Shared office space in Abu Dhabi from AED 1,000 per month. Book a free tour." />
   <link rel="canonical" href="https://www.aegiscoworking.ae/" />
 
  <meta property="og:title" content="Coworking Space in ADGM & Abu Dhabi from AED 1,000 | Aegis" />
-  <meta property="og:description" content="Coworking space and business centre in ADGM, Addax Tower, Al Reem Island. Shared office space in Abu Dhabi from AED 1,000 /month. Book a free tour." />
+  <meta property="og:description" content="Coworking space and business centre in ADGM, Addax Tower, Al Reem Island. Shared office space in Abu Dhabi from AED 1,000 per month. Book a free tour." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.aegiscoworking.ae/" />
   <meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Coworking Space in ADGM & Abu Dhabi from AED 1,000 | Aegis" />
- <meta name="twitter:description" content="Coworking space and business centre in ADGM, Addax Tower, Al Reem Island. Shared office space in Abu Dhabi from AED 1,000 /month. Book a free tour." />
+ <meta name="twitter:description" content="Coworking space and business centre in ADGM, Addax Tower, Al Reem Island. Shared office space in Abu Dhabi from AED 1,000 per month. Book a free tour." />
   <meta name="twitter:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 <script type="application/ld+json">
   {JSON.stringify({
@@ -122,7 +154,7 @@ function Home() {
     name: "Coworking Space in Abu Dhabi – ADGM, Addax Tower | Aegis",
     isPartOf: { "@id": "https://www.aegiscoworking.ae/#business" },
     datePublished: "2026-06-01",
-    dateModified: "2026-09-24",
+    dateModified: "2026-09-25",
   })}
 </script>
 <script type="application/ld+json">
