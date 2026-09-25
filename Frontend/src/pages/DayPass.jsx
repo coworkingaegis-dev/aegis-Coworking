@@ -11,8 +11,13 @@ import { Link } from 'react-router-dom'
 const faqs = [
   {
     q: "How much does a coworking day pass in Abu Dhabi Global Market cost?",
-    a: "A coworking day pass at Aegis Coworking costs AED 100 for 9 AM–6 PM access or AED 150 for 24-hour access. No membership or long-term commitment is required.",
-  },
+        a: "A coworking day pass at Aegis Coworking costs AED 100 for 9 AM–6 PM access or AED 150 for 24-hour access. No membership or long-term commitment is required. Wondering if it suits you? Read is a coworking day pass worth it.",
+    aDisplay: (
+      <>
+        A coworking day pass at Aegis Coworking costs AED 100 for 9 AM–6 PM access or AED 150 for 24-hour access. No membership or long-term commitment is required. Wondering if it suits you? Read{' '}
+        <Link to="/blog/day-pass-coworking-abu-dhabi-your-flexible-workday-solved" className="inline-link">is a coworking day pass worth it</Link>.
+      </>
+    ),
  {
   q: "Can I book a coworking day pass without a membership?",
   a: "Yes. Anyone can book a coworking day pass in Abu Dhabi without a membership or long-term commitment.",
@@ -57,18 +62,18 @@ function DayPass() {
   return (
     <div className="App">
       <Helmet>
-        <title>Coworking Day Pass in Abu Dhabi & ADGM – AED 100 /day</title>
+        <title>Coworking Day Pass in Abu Dhabi & ADGM – AED 100 per day</title>
         <meta name="description" content="Coworking day pass in ADGM, Abu Dhabi: AED 100 a day (9am–6pm) or AED 150 for 24 hours at Addax Tower. Wi-Fi, coffee, meeting rooms. Walk in today." />
         <link rel="canonical" href="https://www.aegiscoworking.ae/day-pass" />
 
-     <meta property="og:title" content="Coworking Day Pass in Abu Dhabi & ADGM – AED 100 /day" />
+     <meta property="og:title" content="Coworking Day Pass in Abu Dhabi & ADGM – AED 100 per day" />
         <meta property="og:description" content="Coworking day pass in ADGM, Abu Dhabi: AED 100 a day (9am–6pm) or AED 150 for 24 hours at Addax Tower. Wi-Fi, coffee, meeting rooms. Walk in today." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.aegiscoworking.ae/day-pass" />
         <meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Coworking Day Pass in Abu Dhabi & ADGM – AED 100 /day" />
+<meta name="twitter:title" content="Coworking Day Pass in Abu Dhabi & ADGM – AED 100 per day" />
 <meta name="twitter:description" content="Coworking day pass in ADGM, Abu Dhabi: AED 100 a day (9am–6pm) or AED 150 for 24 hours at Addax Tower. Wi-Fi, coffee, meeting rooms. Walk in today." />
 <meta name="twitter:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 
