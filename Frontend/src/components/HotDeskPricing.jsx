@@ -8,7 +8,7 @@ function HotDeskPricing() {
         <img src={hotDeskImage} alt="Hot desk workspace at Aegis Coworking, Addax Tower, ADGM"  width="1000" height="850" loading="lazy" decoding="async" />
       </div>
       <div className="desk-details">
-        <h2>FLEXI DESK SPACE ADGM</h2>
+        <h2>FLEXI DESK (HOT DESK) SPACE IN ADGM</h2>
         <p className="desk-eyebrow">COWORKING SPACE IN Al REEM ISLAND</p>
         
       <p className="desk-desc">
