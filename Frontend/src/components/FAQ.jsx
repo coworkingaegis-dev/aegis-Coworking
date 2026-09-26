@@ -53,7 +53,7 @@ const faqs = [
 
   {
     question: "Is this different from renting a traditional office space in ADGM?",
-    answer: "Yes — instead of a separate office for rent that you'd need to fit out yourself, you get fully furnished, flexible workspace in ADGM with utilities, cleaning and reception already included."
+    answer: "Yes — while traditional ADGM office providers rent you an empty office to fit out yourself, you get fully furnished, flexible workspace in ADGM with utilities, cleaning and reception already included."
   },
 ]
 
