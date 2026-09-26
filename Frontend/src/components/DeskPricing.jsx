@@ -16,7 +16,7 @@ function DeskPricing() {
           If you work in ADGM regularly and want a workspace that is always yours, a Dedicated Desk gives you the convenience and consistency of a private workspace at a much lower cost. <strong>Only AED 150 more than a Flexi Desk — making it an excellent option for regular users.</strong>
         </p>
         <p className="desk-desc">
-          No hidden charges apply and only due diligence fee applies for one time only. Book your ADGM Coworking Space with Aegis Coworking that sits in office 3812, Addax Tower, Al Reem Island.
+          Unlike many ADGM office providers, we charge no hidden fees — only a one-time due diligence fee applies. Book your ADGM Coworking Space with Aegis Coworking that sits in office 3812, Addax Tower, Al Reem Island.
         </p>
 
        
