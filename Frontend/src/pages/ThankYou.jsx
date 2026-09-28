@@ -138,7 +138,7 @@ function ThankYou() {
               </li>
               <li>
                 <span className="ty-contact-label">Visit</span>
-                <span>Office 3812, Addax Tower, Al Reem Island, ADGM, Abu Dhabi</span>
+                <span>Addax Tower, 3812, Al Reem Island, RT3, Abu Dhabi, United Arab Emirates</span>
               </li>
             </ul>
           </div>
