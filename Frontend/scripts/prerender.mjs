@@ -35,7 +35,7 @@ const STATIC_ROUTES = [
 // listed in the sitemap. Prerendering them bakes their noindex tag into
 // the actual HTML a crawler receives, instead of relying only on
 // robots.txt (which also prevents Google from ever seeing that tag).
-const NOINDEX_ROUTES = ['/admin', '/create-blog']
+const NOINDEX_ROUTES = ['/admin', '/create-blog', '/thank-you']
 
 const supabase = createClient(
   process.env.VITE_SUPABASE_URL,
