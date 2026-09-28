@@ -27,6 +27,7 @@ const STATIC_ROUTES = [
   '/pricing',
   '/blogs',
   '/privacy-policy',
+  '/addax-tower-al-reem-island',
 
 ]
 
@@ -159,6 +160,7 @@ const STATIC_SITEMAP_META = {
   '/office-space': { changefreq: 'monthly', priority: '0.9' },
   '/private-office': { changefreq: 'monthly', priority: '0.9' },
   '/virtual-office': { changefreq: 'monthly', priority: '0.9' },
+  '/addax-tower-al-reem-island': { changefreq: 'monthly', priority: '0.9' },
   '/meeting-room': { changefreq: 'monthly', priority: '0.8' },
 
   '/day-pass': { changefreq: 'monthly', priority: '0.8' },
