@@ -102,7 +102,7 @@ const faqs = [
   },
   {
     q: 'What is AccessRP in ADGM?',
-    a: 'AccessRP is ADGM’s official digital platform for real property services on Al Reem Island and Al Maryah Island. Landlords, tenants and business centres use it to register, renew and modify leases, and users sign in with UAE Pass.',
+    a: 'AccessRP is ADGM’s official digital platform for real property services on Al Reem Island. Landlords, tenants and business centres use it to register, renew and modify leases, and users sign in with UAE Pass.',
   },
   {
     q: 'How does instant AccessRP lease registration work at Aegis Coworking?',
