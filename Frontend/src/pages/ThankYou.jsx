@@ -143,7 +143,7 @@ function ThankYou() {
             </ul>
           </div>
 
-          <div className="ty-explore">
+          {/* <div className="ty-explore">
             <h2>While you wait, explore</h2>
             <div className="ty-explore-links">
               {EXPLORE_LINKS.map((link) => (
@@ -153,7 +153,7 @@ function ThankYou() {
                 </Link>
               ))}
             </div>
-          </div>
+          </div> */}
         </section>
       </main>
 
