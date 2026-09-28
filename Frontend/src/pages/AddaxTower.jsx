@@ -23,35 +23,15 @@ const towerFacts = [
 ]
 
 
-const accessRpSteps = [
-  {
-    title: 'Choose your workspace',
-    text: 'Pick a dedicated desk, private office or virtual office in Addax Tower that matches your ADGM licence type.',
-  },
-  {
-    title: 'Sign your lease',
-    text: 'We prepare a standard ADGM tenancy contract with transparent pricing — no deposit, no setup fees and free registration.',
-  },
-  {
-    title: 'Instant AccessRP registration',
-    text: 'Our team submits your lease on AccessRP, ADGM’s official real property portal, as soon as it is signed. You simply accept it using UAE Pass.',
-  },
-  {
-    title: 'Use it for licensing & banking',
-    text: 'Your registered lease supports your ADGM company registration, licence renewal, visa quota and corporate bank account application.',
-  },
-]
-
-
 const faqs = [
   {
-    q: 'Is Addax Tower in ADGM?',
-    a: 'Yes. Addax Tower is in the City of Lights development on Al Reem Island, which became part of Abu Dhabi Global Market (ADGM) on 24 April 2023. Businesses here operate under the ADGM framework and English common law.',
+    q: 'Do existing Al Reem Island businesses need to switch to an ADGM licence?',
+    a: 'Yes. Since Al Reem Island joined ADGM, companies based on the island are licensed by the ADGM Registration Authority. More than 500 existing Al Reem Island companies have already moved to ADGM licences.',
     aDisplay: (
       <>
-        Yes. Addax Tower is in the City of Lights development on Al Reem Island, which became part of
-        Abu Dhabi Global Market (ADGM) on 24 April 2023. Businesses here operate under the ADGM framework
-        and English common law. Read more:{' '}
+        Yes. Since Al Reem Island joined ADGM, companies based on the island are licensed by the ADGM
+        Registration Authority. More than 500 existing Al Reem Island companies have already moved to ADGM
+        licences. Read more:{' '}
         <Link to="/blog/is-al-reem-island-part-of-adgm" className="inline-link">
           is Al Reem Island part of ADGM
         </Link>
@@ -60,59 +40,13 @@ const faqs = [
     ),
   },
   {
-    q: 'Do businesses on Al Reem Island need an ADGM licence?',
-    a: 'Yes. Since Al Reem Island joined ADGM, companies based on the island are licensed by the ADGM Registration Authority. Aegis Coworking provides a registered Addax Tower address that you can use for your ADGM licence application and renewal.',
+    q: 'I live outside the UAE. Can I still approve my lease on AccessRP?',
+    a: 'Yes. UAE residents sign in to UAE Pass with their Emirates ID, and non-residents can register for UAE Pass online. This lets overseas founders approve their lease and set up their ADGM company remotely.',
     aDisplay: (
       <>
-        Yes. Since Al Reem Island joined ADGM, companies based on the island are licensed by the ADGM
-        Registration Authority. Aegis Coworking provides a registered Addax Tower address that you can use
-        for your ADGM licence application and renewal. See{' '}
-        <Link to="/blog/adgm-license-workspace-questions-before-applying" className="inline-link">
-          questions to ask before your ADGM licence application
-        </Link>
-        .
-      </>
-    ),
-  },
-  {
-    q: 'What is AccessRP in ADGM?',
-    a: 'AccessRP is ADGM’s official digital platform for real property services on Al Reem Island. Landlords, tenants and business centres use it to register, renew and modify leases, and users sign in with UAE Pass.',
-  },
-  {
-    q: 'How does instant AccessRP lease registration work at Aegis Coworking?',
-    a: 'Once you choose your workspace and sign your lease, our team submits it on AccessRP straight away. You approve it through UAE Pass, with no office visits or paperwork. It applies to our dedicated desk and private office plans.',
-    aDisplay: (
-      <>
-        Once you choose your workspace and sign your lease, our team submits it on AccessRP straight
-        away. You approve it through UAE Pass, with no office visits or paperwork. It applies to our{' '}
-        <Link to="/office-space" className="inline-link">dedicated desk</Link> and{' '}
-        <Link to="/private-office" className="inline-link">private office</Link> plans.
-      </>
-    ),
-  },
-  {
-    q: 'What is the ADGM equivalent of Ejari for a tenancy contract?',
-    a: 'Ejari is Dubai’s tenancy system and does not apply in ADGM. Office leases on Al Reem Island are registered with the ADGM Registration Authority through AccessRP. Your AccessRP-registered lease is the proof of office used for licensing and visas.',
-    aDisplay: (
-      <>
-        Ejari is Dubai’s tenancy system and does not apply in ADGM. Office leases on Al Reem Island are
-        registered with the ADGM Registration Authority through AccessRP. Your AccessRP-registered lease
-        is the proof of office used for licensing and visas. Read about the{' '}
-        <Link to="/blog/adgm-coworking-visa-quota-employees-per-desk" className="inline-link">
-          ADGM visa quota per desk
-        </Link>
-        .
-      </>
-    ),
-  },
-  {
-    q: 'Do I need UAE Pass to accept my lease on AccessRP?',
-    a: 'Yes. AccessRP uses UAE Pass for secure sign-in. UAE residents log in with their Emirates ID, and non-residents can register for UAE Pass online, so founders can complete the process remotely.',
-    aDisplay: (
-      <>
-        Yes. AccessRP uses UAE Pass for secure sign-in. UAE residents log in with their Emirates ID, and
-        non-residents can register for UAE Pass online, so founders can complete the process remotely.
-        See{' '}
+        Yes. UAE residents sign in to UAE Pass with their Emirates ID, and non-residents can register for
+        UAE Pass online. This lets overseas founders approve their lease and set up their ADGM company
+        remotely. See{' '}
         <Link to="/blog/adgm-company-registration-remote-uae" className="inline-link">
           can you register an ADGM company remotely
         </Link>
@@ -121,47 +55,69 @@ const faqs = [
     ),
   },
   {
-    q: 'Can I register an ADGM company without a physical desk in Addax Tower?',
-    a: 'Yes. A virtual office at Aegis Coworking gives you a registered Addax Tower address for ADGM company registration. You can upgrade to a desk or private office at any time as your business grows.',
+    q: 'Can my lease be updated if I upgrade my workspace later?',
+    a: 'Yes. AccessRP also handles lease renewals and modifications. If you move from a desk to a private office, our team updates your registration on AccessRP for you.',
     aDisplay: (
       <>
-        Yes. A{' '}
-        <Link to="/virtual-office" className="inline-link">virtual office</Link> at Aegis Coworking gives
-        you a registered Addax Tower address for ADGM company registration. You can upgrade to a{' '}
-        <Link to="/office-space" className="inline-link">desk</Link> or{' '}
-        <Link to="/private-office" className="inline-link">private office</Link> at any time as your
-        business grows.
+        Yes. AccessRP also handles lease renewals and modifications. If you move from a{' '}
+        <Link to="/office-space" className="inline-link">desk</Link> to a{' '}
+        <Link to="/private-office" className="inline-link">private office</Link>, our team updates your
+        registration on AccessRP for you.
       </>
     ),
   },
   {
-    q: 'Can I use an Addax Tower office to open a corporate bank account?',
-    a: 'Yes. UAE banks usually ask for your company licence and a registered lease or office address. With an Aegis Coworking workspace in Addax Tower, you have a registered ADGM address and lease to submit with your application.',
+    q: 'Can I register an ADGM company without a physical desk?',
+    a: 'Yes. A virtual office gives you a registered Addax Tower address for ADGM company registration without renting a desk. You can add a desk or private office later as your business grows.',
     aDisplay: (
       <>
-        Yes. UAE banks usually ask for your company licence and a registered lease or office address.
-        With an Aegis Coworking workspace in Addax Tower, you have a registered ADGM address and lease to
-        submit with your application.{' '}
-        <Link to="/contact" className="inline-link">Talk to our team</Link> about the right plan.
+        Yes. A{' '}
+        <Link to="/virtual-office" className="inline-link">virtual office</Link> gives you a registered
+        Addax Tower address for ADGM company registration without renting a desk. You can add a desk or
+        private office later as your business grows.
+      </>
+    ),
+  },
+  {
+    q: 'Does my workspace affect how many visas I can get?',
+    a: 'Yes. In ADGM, your visa allocation is linked to your registered workspace, so the number of desks or the office size you lease matters.',
+    aDisplay: (
+      <>
+        Yes. In ADGM, your visa allocation is linked to your registered workspace, so the number of desks
+        or the office size you lease matters. See{' '}
+        <Link to="/blog/adgm-coworking-visa-quota-employees-per-desk" className="inline-link">
+          ADGM visa quota per desk
+        </Link>
+        .
       </>
     ),
   },
   {
     q: 'Can I hold client meetings in Addax Tower?',
-    a: 'Yes. Aegis Coworking has a professional meeting room on the 38th floor of Addax Tower for client meetings, interviews and presentations, bookable by the hour.',
+    a: 'Yes. Aegis Coworking has a professional meeting room on the 38th floor for client meetings, interviews and presentations, bookable by the hour.',
     aDisplay: (
       <>
         Yes. Aegis Coworking has a professional{' '}
-        <Link to="/meeting-room" className="inline-link">meeting room</Link> on the 38th floor of Addax
-        Tower for client meetings, interviews and presentations, bookable by the hour.
+        <Link to="/meeting-room" className="inline-link">meeting room</Link> on the 38th floor for client
+        meetings, interviews and presentations, bookable by the hour.
       </>
     ),
   },
   {
-    q: 'Is there parking at Addax Tower?',
-    a: 'Yes. Addax Tower has a multi-level car park with more than 1,100 spaces, plus easy taxi access and nearby bus stops on Al Reem Island.',
+    q: 'Can I visit the business centre before signing?',
+    a: 'Yes. You can book a free tour of Aegis Coworking in Addax Tower, Monday to Friday, 9:00 AM to 6:00 PM.',
+    aDisplay: (
+      <>
+        Yes. You can{' '}
+        <Link to="/contact" className="inline-link">book a free tour</Link> of Aegis Coworking in Addax
+        Tower, Monday to Friday, 9:00 AM to 6:00 PM.
+      </>
+    ),
   },
 ]
+
+
+
 /* ---------- Page ---------- */
 
 function AddaxTower() {
@@ -248,8 +204,8 @@ function AddaxTower() {
 
       <PageHero
         title="ADDAX TOWER BUSINESS CENTRE IN AL REEM ISLAND"
-        subtitle="ADGM BUSINESS CENTRE | 38TH FLOOR | INSTANT ACCESSRP LEASE REGISTRATION"
-        description="Aegis Coworking is an ADGM business centre on the 38th floor of Addax Tower, Al Reem Island — offering desks, private offices and virtual offices with a registered ADGM address."
+        subtitle="BUSINESS CENTRE IN ABU DHABI | 38TH FLOOR | INSTANT ACCESSRP LEASE REGISTRATION"
+        description="Desks, private offices and virtual offices with a registered ADGM address in Addax Tower."
       />
 
      
@@ -261,19 +217,16 @@ function AddaxTower() {
             <div className="at-intro-text">
               <span className="contact-eyebrow">ADDAX TOWER ADGM</span>
               <h2>YOUR BUSINESS ADDRESS IN ADDAX TOWER</h2>
-              <p className="at-lead">
-                <strong>Addax Tower</strong> is a 60-storey, 282-metre office tower in the City of Lights
-                development on <strong>Al Reem Island</strong>, inside the Abu Dhabi Global Market (ADGM)
-                financial free zone. Aegis Coworking operates from <strong>Unit 3812 on the 38th floor</strong>,
-                giving startups, freelancers, consultants and SMEs a fully furnished office with sweeping
-                views across the Arabian Gulf.
+               <p className="at-lead">
+                <strong>Addax Tower</strong> is a landmark office tower in the City of Lights development on{' '}
+                <strong>Al Reem Island</strong>, inside the Abu Dhabi Global Market (ADGM) financial free
+                zone. From our floor, startups, freelancers, consultants and SMEs work in a fully furnished
+                space with sweeping views across the Arabian Gulf.
               </p>
               <p>
-                Looking for the best office space in Abu Dhabi Global Market? Whether you need a flexible
-                desk for a day, a dedicated desk for your ADGM licence or a private office for your team,
-                you get a professional Addax Tower address, 24/7 member access, high-speed WiFi, meeting
-                rooms and a lease registered on AccessRP — with no deposit, no setup fees and free
-                registration.
+                Looking for the best office space in Abu Dhabi Global Market? Every member gets 24/7 access,
+                high-speed WiFi, meeting rooms and a professional business community — with no deposit, no
+                setup fees and free registration.
               </p>
             </div>
 
@@ -305,16 +258,16 @@ function AddaxTower() {
               <div className="at-reem-icon">⚖️</div>
               <h3>ENGLISH COMMON LAW</h3>
               <p>
-                Companies in Addax Tower are regulated by ADGM’s independent framework based on English
-                common law — trusted by international founders, investors and banks.
+                ADGM runs an independent legal framework based on English common law — trusted by
+                international founders, investors and banks.
               </p>
             </div>
             <div className="at-reem-card">
               <div className="at-reem-icon">💰</div>
               	<h3>LOWER ADGM LICENCE FEES</h3>
               <p>
-                From 1 January 2025, ADGM cut commercial licence fees for non-financial and retail
-                businesses by 50% or more, making Al Reem Island a cost-effective place to start.
+               From 1 January 2025, ADGM cut commercial licence fees for non-financial and retail
+                businesses by 50% or more.
               </p>
             </div>
             <div className="at-reem-card">
@@ -329,8 +282,8 @@ function AddaxTower() {
               <div className="at-reem-icon">✈️</div>
               <h3>EASY TO REACH</h3>
               <p>
-                Addax Tower sits on Al Reem Island’s main business strip, with direct highway access,
-                on-site parking and taxis at the door.
+                Addax Tower sits on Al Reem Island’s main business strip, with direct highway access and
+                taxis at the door.
               </p>
             </div>
           </div>
@@ -345,9 +298,9 @@ function AddaxTower() {
           <span className="contact-eyebrow">INSTANT REGISTRATION</span>
           <h2>INSTANT LEASE REGISTRATION ON ACCESSRP</h2>
           <p className="at-section-lead">
-            In ADGM there is no Ejari. Office tenancy contracts on Al Reem Island are registered with the
-            ADGM Registration Authority through <strong>AccessRP</strong>, ADGM’s digital real property
-            platform for lease registration, renewal and modification. Aegis Coworking handles it for you.
+            <strong>AccessRP</strong> is ADGM’s official digital real property platform. Every office lease
+            on Al Reem Island must be registered on it with the ADGM Registration Authority — and Aegis
+            Coworking handles it for you.
           </p>
 
           <ol className="at-steps">
@@ -366,16 +319,15 @@ function AddaxTower() {
             <div className="at-callout">
               <h3>ADGM tenancy contract — the “Ejari” of ADGM</h3>
               <p>
-                Your AccessRP-registered lease is the official proof of your office in ADGM. It is what the
-                Registration Authority checks for company registration, licence renewal and visa quota —
-                the role Ejari plays in Dubai.
+                Ejari is Dubai’s tenancy system and does not apply in ADGM. Here, your AccessRP-registered
+                lease is the official proof of office that the Registration Authority checks.
               </p>
             </div>
             <div className="at-callout">
               <h3>An ADGM office for your corporate bank account</h3>
               <p>
-                Banks in the UAE typically request your licence, a registered lease and a verifiable office
-                address. With a desk or office in Addax Tower, you can provide all three from day one.
+                UAE banks typically ask for your licence, a registered lease and a verifiable office
+                address. With a workspace in Addax Tower, you can provide all three from day one.
               </p>
             </div>
           </div>
