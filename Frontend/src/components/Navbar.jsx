@@ -119,7 +119,7 @@ function Navbar() {
   const [dropdownOpen, setDropdownOpen] = useState(false)
   const [whoWeServeOpen, setWhoWeServeOpen] = useState(false)
   const [hoveredLink, setHoveredLink] = useState(null)
-  const [phoneCopied, setPhoneCopied] = useState(false)
+
 
   const closeAll = () => {
     setMenuOpen(false)
@@ -127,27 +127,7 @@ function Navbar() {
     setWhoWeServeOpen(false)
   }
 
-   // Phone click: phones open the dialer directly (tel: link).
-  // Computers have no dialer, so instead of Windows' "Pick an app"
-  // popup we copy the number and show "Number copied".
-  const handlePhoneClick = (e) => {
-    if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
-      window.gtag('event', 'phone_call_click', { phone_number: PHONE_DISPLAY })
-    }
-
-    const isTouchDevice = window.matchMedia('(pointer: coarse)').matches
-    if (!isTouchDevice) {
-      e.preventDefault()
-      if (navigator.clipboard) {
-        navigator.clipboard.writeText(PHONE_DISPLAY).catch(() => {})
-      }
-      setPhoneCopied(true)
-      setTimeout(() => setPhoneCopied(false), 2000)
-    }
-
-    closeAll()
-  }
-
+  
   const toggleWhoWeServe = () => {
   setDropdownOpen(false)
   setWhoWeServeOpen(prev => !prev)
@@ -247,7 +227,7 @@ const toggleWhatWeOffer = () => {
         <li><Link to="/contact" onClick={closeAll}>Contact Us</Link></li>
          <li className="nav-mobile-phone">
    <a href={PHONE_TEL} onClick={handlePhoneClick}>
-    {phoneCopied ? 'Number copied ✓' : PHONE_DISPLAY}
+        {PHONE_DISPLAY}
   </a>
 </li>
         <li className="nav-mobile-cta">
@@ -262,9 +242,9 @@ const toggleWhatWeOffer = () => {
     href={PHONE_TEL}
     className="nav-phone"
     onClick={handlePhoneClick}
-    title="Click to copy number"
+   
   >
-    {phoneCopied ? 'Number copied ✓' : PHONE_DISPLAY}
+       {PHONE_DISPLAY}
   </a>
   <Link to="/contact">
     <button className="btn-primary">REQUEST QUOTE</button>
@@ -287,7 +267,7 @@ const toggleWhatWeOffer = () => {
     onClick={handlePhoneClick}
     aria-label="Call Aegis Coworking"
   >
-    {phoneCopied ? 'Number copied ✓' : PHONE_DISPLAY}
+      {PHONE_DISPLAY}
   </a>
 </div>
     </nav>
