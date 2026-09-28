@@ -223,7 +223,7 @@ function AddaxTower() {
       <PageHero
         title="ADDAX TOWER BUSINESS CENTRE IN AL REEM ISLAND"
         subtitle="BUSINESS CENTRE IN ABU DHABI | 38TH FLOOR | INSTANT ACCESSRP LEASE REGISTRATION"
-        description="Desks, private offices and virtual offices with a registered ADGM address in Addax Tower."
+         description="Aegis Coworking is an ADGM business centre on the 38th floor of Addax Tower, Al Reem Island — offering desks, private offices and virtual offices with a registered ADGM address."
       />
 
      
