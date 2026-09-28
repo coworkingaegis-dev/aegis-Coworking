@@ -42,32 +42,6 @@ const accessRpSteps = [
   },
 ]
 
-const relatedGuides = [
-  {
-    title: 'Addax Tower ADGM for Businesses: Workspace, Location & Practical Considerations',
-    to: '/blog/addax-tower-adgm-business-workspace',
-  },
-  {
-    title: 'Is Al Reem Island Part of ADGM? What Businesses Need to Know',
-    to: '/blog/is-al-reem-island-part-of-adgm',
-  },
-  {
-    title: 'Coworking Space on Al Reem Island: Prices & Options',
-    to: '/blog/affordable-coworking-al-reem-island-adgm',
-  },
-  {
-    title: 'What Is the Minimum Office You Need for an ADGM Licence?',
-    to: '/blog/low-cost-office-adgm-budget-friendly-workspace-solutions-in-abu-dhabi',
-  },
-  {
-    title: 'Can You Register an ADGM Company Remotely?',
-    to: '/blog/adgm-company-registration-remote-uae',
-  },
-  {
-    title: 'ADGM Coworking Visa Quota: Visas Per Desk Explained',
-    to: '/blog/adgm-coworking-visa-quota-employees-per-desk',
-  },
-]
 
 const faqs = [
   {
@@ -414,25 +388,7 @@ function AddaxTower() {
 
      
 
-      {/* ===== Related blogs ===== */}
-      <section className="at-guides">
-        <div className="at-container">
-          <span className="contact-eyebrow">GUIDES</span>
-          <h2>Addax Tower &amp; Al Reem Island guides</h2>
-          <div className="at-guides-grid">
-            {relatedGuides.map((g) => (
-              <Link to={g.to} className="at-guide-card" key={g.to}>
-                <span className="at-guide-tag">Blog</span>
-                <h3>{g.title}</h3>
-                <span className="at-guide-read">Read article →</span>
-              </Link>
-            ))}
-          </div>
-          <div className="at-guides-more">
-            <Link to="/blogs" className="inline-link">View all articles →</Link>
-          </div>
-        </div>
-      </section>
+
 
       {/* ===== FAQ ===== */}
       <section className="vo-faq">
