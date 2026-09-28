@@ -265,7 +265,7 @@ function AddaxTower() {
           <div className="at-intro-grid">
             <div className="at-intro-text">
               <span className="contact-eyebrow">ADDAX TOWER ADGM</span>
-              <h2>Your business address in Abu Dhabi’s landmark tower</h2>
+              <h2>YOUR BUSINESS ADDRESS IN ADDAX TOWER</h2>
               <p className="at-lead">
                 <strong>Addax Tower</strong> is a 60-storey, 282-metre office tower in the City of Lights
                 development on <strong>Al Reem Island</strong>, inside the Abu Dhabi Global Market (ADGM)
@@ -297,7 +297,7 @@ function AddaxTower() {
       <section className="at-reem">
         <div className="at-container">
           <span className="contact-eyebrow">AL REEM ISLAND</span>
-          <h2>Why set up on Al Reem Island, ADGM?</h2>
+          <h2>WHY SET UP ON AL REEM ISLAND, ADGM?</h2>
           <p className="at-section-lead">
             On 24 April 2023, ADGM’s jurisdiction expanded from Al Maryah Island to include Al Reem Island.
             Together the two islands now form one of the world’s largest financial districts, covering
@@ -307,7 +307,7 @@ function AddaxTower() {
           <div className="at-reem-grid">
             <div className="at-reem-card">
               <div className="at-reem-icon">⚖️</div>
-              <h3>English common law</h3>
+              <h3>ENGLISH COMMON LAW</h3>
               <p>
                 Companies in Addax Tower are regulated by ADGM’s independent framework based on English
                 common law — trusted by international founders, investors and banks.
@@ -315,7 +315,7 @@ function AddaxTower() {
             </div>
             <div className="at-reem-card">
               <div className="at-reem-icon">💰</div>
-              <h3>Lower ADGM licence fees</h3>
+              	<h3>LOWER ADGM LICENCE FEES</h3>
               <p>
                 From 1 January 2025, ADGM cut commercial licence fees for non-financial and retail
                 businesses by 50% or more, making Al Reem Island a cost-effective place to start.
@@ -323,7 +323,7 @@ function AddaxTower() {
             </div>
             <div className="at-reem-card">
               <div className="at-reem-icon">🌆</div>
-              <h3>Live, work &amp; meet</h3>
+              <h3>LIVE, WORK &amp; MEET</h3>
               <p>
                 Al Reem Island combines offices, residences, malls, hotels and waterfront promenades, with
                 quick bridge access to Al Maryah Island and downtown Abu Dhabi.
@@ -331,7 +331,7 @@ function AddaxTower() {
             </div>
             <div className="at-reem-card">
               <div className="at-reem-icon">✈️</div>
-              <h3>Easy to reach</h3>
+              <h3>EASY TO REACH</h3>
               <p>
                 Addax Tower sits on Al Reem Island’s main business strip, with direct highway access,
                 on-site parking and taxis at the door.
@@ -347,7 +347,7 @@ function AddaxTower() {
       <section className="at-accessrp">
         <div className="at-container">
           <span className="contact-eyebrow">INSTANT REGISTRATION</span>
-          <h2>Instant lease registration on AccessRP</h2>
+          <h2>INSTANT LEASE REGISTRATION ON ACCESSRP</h2>
           <p className="at-section-lead">
             In ADGM there is no Ejari. Office tenancy contracts on Al Reem Island are registered with the
             ADGM Registration Authority through <strong>AccessRP</strong>, ADGM’s digital real property
