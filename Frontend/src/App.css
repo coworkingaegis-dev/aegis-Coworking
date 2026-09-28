@@ -1563,9 +1563,19 @@ padding: 40px 24px 50px;
 
 .vo-tier-image img {
   width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;       /* landscape crop, so it's shorter */
+  max-height: 420px;         /* hard cap on desktop */
   border-radius: calc(var(--radius-md) - 3px);
-  object-fit: cover;
+  object-fit: cover;         /* crops instead of squashing */
+  object-position: center;
   display: block;
+}
+
+@media (max-width: 768px) {
+  .vo-tier-image img {
+    max-height: 280px;       /* shorter on mobile */
+  }
 }
 
 .vo-tier-eyebrow {
