@@ -3,6 +3,9 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import aegisLogo from '../assets/aegis-logo-transparent.png'
 
+const PHONE_TEL = 'tel:+971503926316'
+const PHONE_DISPLAY = '+971 50 392 6316'
+
 const ACCENT = '#1f4d3a' // swap for your exact brand green (matches REQUEST QUOTE button)
 
 const whoWeServeStyles = {
@@ -116,11 +119,33 @@ function Navbar() {
   const [dropdownOpen, setDropdownOpen] = useState(false)
   const [whoWeServeOpen, setWhoWeServeOpen] = useState(false)
   const [hoveredLink, setHoveredLink] = useState(null)
+  const [phoneCopied, setPhoneCopied] = useState(false)
 
   const closeAll = () => {
     setMenuOpen(false)
     setDropdownOpen(false)
     setWhoWeServeOpen(false)
+  }
+
+   // Phone click: phones open the dialer directly (tel: link).
+  // Computers have no dialer, so instead of Windows' "Pick an app"
+  // popup we copy the number and show "Number copied".
+  const handlePhoneClick = (e) => {
+    if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+      window.gtag('event', 'phone_call_click', { phone_number: PHONE_DISPLAY })
+    }
+
+    const isTouchDevice = window.matchMedia('(pointer: coarse)').matches
+    if (!isTouchDevice) {
+      e.preventDefault()
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(PHONE_DISPLAY).catch(() => {})
+      }
+      setPhoneCopied(true)
+      setTimeout(() => setPhoneCopied(false), 2000)
+    }
+
+    closeAll()
   }
 
   const toggleWhoWeServe = () => {
@@ -221,8 +246,8 @@ const toggleWhatWeOffer = () => {
         
         <li><Link to="/contact" onClick={closeAll}>Contact Us</Link></li>
          <li className="nav-mobile-phone">
-  <a href="tel:+971503926316" onClick={closeAll}>
-  +971 50 392 6316
+   <a href={PHONE_TEL} onClick={handlePhoneClick}>
+    {phoneCopied ? 'Number copied ✓' : PHONE_DISPLAY}
   </a>
 </li>
         <li className="nav-mobile-cta">
@@ -233,9 +258,13 @@ const toggleWhatWeOffer = () => {
        
       </ul>
      <div className="nav-desktop-cta nav-desktop-actions">
-  <a href="tel:+971503926316" className="nav-phone">
-  
-    +971 50 392 6316
+  <a
+    href={PHONE_TEL}
+    className="nav-phone"
+    onClick={handlePhoneClick}
+    title="Click to copy number"
+  >
+    {phoneCopied ? 'Number copied ✓' : PHONE_DISPLAY}
   </a>
   <Link to="/contact">
     <button className="btn-primary">REQUEST QUOTE</button>
@@ -252,14 +281,13 @@ const toggleWhatWeOffer = () => {
     <span></span>
     <span></span>
   </button>
-  <a
-    href="https://wa.me/971503926316"
+  <a  
+    href={PHONE_TEL}
     className="menu-phone"
-    target="_blank"
-    rel="noopener noreferrer"
-    aria-label="Chat with us on WhatsApp"
+    onClick={handlePhoneClick}
+    aria-label="Call Aegis Coworking"
   >
-    +971 50 392 6316
+    {phoneCopied ? 'Number copied ✓' : PHONE_DISPLAY}
   </a>
 </div>
     </nav>
