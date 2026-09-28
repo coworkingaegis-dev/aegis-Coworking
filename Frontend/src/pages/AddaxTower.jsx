@@ -252,12 +252,7 @@ function AddaxTower() {
         description="Aegis Coworking is an ADGM business centre on the 38th floor of Addax Tower, Al Reem Island — offering desks, private offices and virtual offices with a registered ADGM address."
       />
 
-      <div className="at-hero-actions">
-        <Link to="/contact">
-          <button className="btn-primary">BOOK A FREE TOUR</button>
-        </Link>
-       
-      </div>
+     
 
       {/* ===== Quick answer / intro ===== */}
       <section className="at-intro">
