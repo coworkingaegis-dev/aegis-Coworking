@@ -18,6 +18,7 @@ import NotFound from './pages/NotFound'
 import './App.css'
 import PrivacyPolicy from './pages/PrivacyPolicy'
 import ThankYou from './pages/ThankYou'
+import AddaxTower from './pages/AddaxTower'
 
 // Lazy-load the heaviest, least-visited routes so their JS (TipTap
 // editor, Supabase admin logic) only downloads when someone actually
@@ -77,6 +78,7 @@ function App() {
         <Route path="/meeting-room" element={<MeetingRoom />} />
         <Route path="/virtual-office" element={<VirtualOffice />} />
         <Route path="/private-office" element={<PrivateOffice />} />
+        <Route path="/addax-tower-al-reem-island" element={<AddaxTower />} />
 
         <Route
           path="/admin"
@@ -102,6 +104,7 @@ function App() {
               <Route path="/about" element={<About />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/thank-you" element={<ThankYou />} />
+        
         <Route path="*" element={<NotFound />} />
         
       </Routes>
