@@ -6033,15 +6033,6 @@ html, body {
 =========================================== */
 
 /* Hero additions (PageHero is shared; description styled here) */
-.at-page .page-hero .page-hero-description {
-  max-width: 720px;
-  margin: 18px auto 0;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.7;
-  letter-spacing: 0;
-  color: var(--color-text-muted);
-}
 
 .at-hero-actions {
   background: var(--color-bg);
@@ -6471,9 +6462,7 @@ html, body {
     grid-template-columns: 1fr;
   }
 
-  .at-page .page-hero .page-hero-description {
-    font-size: 15px;
-  }
+ 
 }
 
 @media (max-width: 600px) {
@@ -6615,5 +6604,17 @@ html, body {
   .at-container h2,
   .at-intro-text h2 {
     font-size: 24px;
+  }
+}
+
+
+/* Addax Tower — tighter spacing to match Office Space */
+.at-page .at-intro {
+  padding: 50px 60px 70px;
+}
+
+@media (max-width: 900px) {
+  .at-page .at-intro {
+    padding: 40px 24px 50px;
   }
 }
