@@ -5,6 +5,7 @@ import aegisLogo from '../assets/aegis-logo-transparent.png'
 
 const PHONE_TEL = 'tel:+971503926316'
 const PHONE_DISPLAY = '+971 50 392 6316'
+const WHATSAPP_URL = 'https://wa.me/971503926316'
 
 const ACCENT = '#1f4d3a' // swap for your exact brand green (matches REQUEST QUOTE button)
 
@@ -246,13 +247,15 @@ const toggleWhatWeOffer = () => {
        
       </ul>
      <div className="nav-desktop-cta nav-desktop-actions">
-  <a
-    href={PHONE_TEL}
+       <a
+ href={WHATSAPP_URL}
     className="nav-phone"
     onClick={handlePhoneClick}
-   
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Chat with Aegis Coworking on WhatsApp"
   >
-       {PHONE_DISPLAY}
+    {PHONE_DISPLAY}
   </a>
   <Link to="/contact">
     <button className="btn-primary">REQUEST QUOTE</button>
