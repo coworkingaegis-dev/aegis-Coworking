@@ -22,6 +22,24 @@ const towerFacts = [
   { value: '1,111', label: 'Car park spaces in the tower' },
 ]
 
+const accessRpSteps = [
+  {
+    title: 'Choose your workspace',
+    text: 'Pick a dedicated desk, private office or virtual office that suits your ADGM licence type.',
+  },
+  {
+    title: 'Sign your lease',
+    text: 'We prepare a standard ADGM tenancy contract for your chosen workspace in Addax Tower.',
+  },
+  {
+    title: 'Instant AccessRP registration',
+    text: 'Our team submits your lease on AccessRP as soon as it is signed. You simply approve it with UAE Pass — no office visits.',
+  },
+  {
+    title: 'Apply for your licence',
+    text: 'Submit your registered lease with your ADGM company registration or licence renewal.',
+  },
+]
 
 const faqs = [
   {
