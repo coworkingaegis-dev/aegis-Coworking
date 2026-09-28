@@ -5644,10 +5644,11 @@ html, body {
 .ty-page {
   background: var(--color-bg);
   padding: 150px 24px 90px;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 28px;
+  justify-content: center;
 }
 
 .ty-page > section {
