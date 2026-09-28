@@ -5,8 +5,6 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 const WHATSAPP_NUMBER = '971503926316'
-const PHONE_DISPLAY = '+971 50 392 6316'
-const EMAIL = 'contact@aegiscoworking.ae'
 
 // Maps the contact form's "interestedIn" values to readable labels
 const INTEREST_LABELS = {
@@ -15,28 +13,6 @@ const INTEREST_LABELS = {
   'private-office': 'Private Office',
   'meeting-room': 'Meeting Room',
 }
-
-const NEXT_STEPS = [
-  {
-    title: 'We review your enquiry',
-    text: 'Our team reads your message and checks availability for your requirement.',
-  },
-  {
-    title: 'We get back to you',
-    text: 'Expect a call or email from us within one business day with pricing and options.',
-  },
-  {
-    title: 'Visit or move in',
-    text: 'Book a tour of Addax Tower, ADGM, or get set up and start working right away.',
-  },
-]
-
-const EXPLORE_LINKS = [
-  { to: '/private-office', label: 'Private Offices' },
-  { to: '/virtual-office', label: 'Virtual Office' },
-  { to: '/meeting-room', label: 'Meeting Rooms' },
-  { to: '/pricing', label: 'Pricing' },
-]
 
 function ThankYou() {
   const { state } = useLocation()
@@ -107,53 +83,6 @@ function ThankYou() {
               Back to Home
             </Link>
           </div>
-        </section>
-
-        <section className="ty-steps" aria-labelledby="ty-steps-heading">
-          <h2 id="ty-steps-heading">What happens next</h2>
-          <ol className="ty-steps-list">
-            {NEXT_STEPS.map((step, i) => (
-              <li key={step.title} className="ty-step">
-                <span className="ty-step-num" aria-hidden="true">{i + 1}</span>
-                <div>
-                  <h3>{step.title}</h3>
-                  <p>{step.text}</p>
-                </div>
-              </li>
-            ))}
-          </ol>
-        </section>
-
-        <section className="ty-bottom">
-          <div className="ty-contact">
-            <h2>Need an answer sooner?</h2>
-            <ul>
-              <li>
-                <span className="ty-contact-label">Call</span>
-                <a href={`tel:+${WHATSAPP_NUMBER}`}>{PHONE_DISPLAY}</a>
-              </li>
-              <li>
-                <span className="ty-contact-label">Email</span>
-                <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
-              </li>
-              <li>
-                <span className="ty-contact-label">Visit</span>
-                <span>Addax Tower, 3812, Al Reem Island, RT3, Abu Dhabi, United Arab Emirates</span>
-              </li>
-            </ul>
-          </div>
-
-          {/* <div className="ty-explore">
-            <h2>While you wait, explore</h2>
-            <div className="ty-explore-links">
-              {EXPLORE_LINKS.map((link) => (
-                <Link key={link.to} to={link.to} className="ty-chip">
-                  {link.label}
-                  <span aria-hidden="true">→</span>
-                </Link>
-              ))}
-            </div>
-          </div> */}
         </section>
       </main>
 
