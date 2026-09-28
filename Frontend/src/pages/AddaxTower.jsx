@@ -247,7 +247,7 @@ function AddaxTower() {
       <Navbar />
 
       <PageHero
-        title="ADDAX TOWER BUSINESS CENTRE ON AL REEM ISLAND"
+        title="ADDAX TOWER BUSINESS CENTRE IN AL REEM ISLAND"
         subtitle="ADGM BUSINESS CENTRE | 38TH FLOOR | INSTANT ACCESSRP LEASE REGISTRATION"
         description="Aegis Coworking is an ADGM business centre on the 38th floor of Addax Tower, Al Reem Island — offering desks, private offices and virtual offices with a registered ADGM address."
       />
@@ -269,10 +269,11 @@ function AddaxTower() {
                 views across the Arabian Gulf.
               </p>
               <p>
-                Whether you need a flexible desk for a day, a dedicated desk for your ADGM licence or a
-                private office for your team, you get a professional Addax Tower address, 24/7 member
-                access, high-speed WiFi, meeting rooms and a lease registered on AccessRP — with no deposit,
-                no setup fees and free registration.
+                Looking for the best office space in Abu Dhabi Global Market? Whether you need a flexible
+                desk for a day, a dedicated desk for your ADGM licence or a private office for your team,
+                you get a professional Addax Tower address, 24/7 member access, high-speed WiFi, meeting
+                rooms and a lease registered on AccessRP — with no deposit, no setup fees and free
+                registration.
               </p>
             </div>
 
