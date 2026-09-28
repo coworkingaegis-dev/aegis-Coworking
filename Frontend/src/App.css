@@ -6496,3 +6496,124 @@ html, body {
     padding-bottom: 50px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+/* ===== ADDAX TOWER — match site-wide styling ===== */
+.at-container,
+.at-intro-grid {
+  max-width: 1100px;
+}
+
+.at-container h2,
+.at-intro-text h2 {
+  font-size: 30px;
+  font-weight: 800;
+  margin: 12px 0 20px;
+}
+
+.at-section-lead {
+  font-size: 15px;
+  line-height: 1.7;
+  max-width: 720px;
+  margin-bottom: 50px;
+}
+
+.at-intro-text p {
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.at-intro-text .at-lead {
+  font-size: 16px;
+}
+
+/* Section backgrounds: white / grey alternating */
+.at-intro {
+  background: var(--color-bg-alt);
+}
+
+.at-reem {
+  background: var(--color-bg-soft);
+  border-top: 1px solid var(--color-border);
+}
+
+.at-accessrp {
+  background: var(--color-bg-alt);
+}
+
+.at-accessrp .contact-eyebrow {
+  background: var(--color-primary-soft);
+}
+
+.at-page .vo-faq {
+  border-top: 1px solid var(--color-border);
+}
+
+/* Cards like "Working with Aegis" / "Perfect for" */
+.at-reem-card,
+.at-step {
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  padding: 32px 28px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.at-reem-card:hover,
+.at-step:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-soft);
+  border-color: var(--color-primary-soft);
+}
+
+.at-accessrp .at-step,
+.at-accessrp .at-callout {
+  background: var(--color-bg-soft);
+}
+
+.at-reem-icon {
+  width: 48px;
+  height: 48px;
+  background: var(--color-primary);
+  border-radius: 12px;
+  margin-bottom: 18px;
+  box-shadow: 0 8px 20px rgba(31, 92, 70, 0.25);
+}
+
+.at-reem-card h3 {
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+  margin-bottom: 12px;
+}
+
+.at-step h3,
+.at-callout h3 {
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.at-reem-card p,
+.at-step p,
+.at-callout p {
+  font-size: 13.5px;
+  line-height: 1.7;
+}
+
+.at-fact strong {
+  font-size: 30px;
+}
+
+@media (max-width: 900px) {
+  .at-container h2,
+  .at-intro-text h2 {
+    font-size: 24px;
+  }
+}
