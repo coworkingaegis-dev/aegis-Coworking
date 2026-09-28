@@ -121,13 +121,21 @@ function Navbar() {
   const [hoveredLink, setHoveredLink] = useState(null)
 
 
-  const closeAll = () => {
+   const closeAll = () => {
     setMenuOpen(false)
     setDropdownOpen(false)
     setWhoWeServeOpen(false)
   }
 
-  
+  // Phone click: opens the phone app (dialer on mobile, calling app on
+  // computers) and records the click in Google Analytics.
+  const handlePhoneClick = () => {
+    if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+      window.gtag('event', 'phone_call_click', { phone_number: PHONE_DISPLAY })
+    }
+    closeAll()
+  }
+
   const toggleWhoWeServe = () => {
   setDropdownOpen(false)
   setWhoWeServeOpen(prev => !prev)
