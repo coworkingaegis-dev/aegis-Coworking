@@ -40,6 +40,7 @@ function Footer() {
         <Link to="/pricing">Hot Deals</Link>
          <Link to="/blogs">Blog</Link>
         <Link to="/contact">Contact Us</Link>
+        <Link to="/addax-tower-al-reem-island">Addax Tower Business Centre</Link>
        
       </div>
       <div className="footer-col">
@@ -49,6 +50,7 @@ function Footer() {
         <Link to="/virtual-office">Virtual Office</Link>
         <Link to="/meeting-room">Meeting Room</Link>
         <Link to="/day-pass">Day Pass</Link>
+        <Link to="/addax-tower-al-reem-island">Addax Tower Business Centre</Link>
 
         <Link to="/about">About Us</Link>
       </div>
