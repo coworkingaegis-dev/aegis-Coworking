@@ -22,56 +22,6 @@ const towerFacts = [
   { value: '1,111', label: 'Car park spaces in the tower' },
 ]
 
-const workspaces = [
-  {
-    name: 'Hot Desk (Flexi Desk)',
-    price: 'From AED 1,000',
-    unit: '/month',
-    text: 'Flexible seat in our shared coworking area on the 38th floor. No long-term commitment.',
-    to: '/office-space',
-    cta: 'View office space',
-  },
-  {
-    name: 'Dedicated Desk',
-    price: 'From AED 1,150',
-    unit: '/month',
-    text: 'Your own permanent desk with a registered ADGM business address for licensing.',
-    to: '/office-space',
-    cta: 'View dedicated desks',
-  },
-  {
-    name: 'Private Office',
-    price: 'From AED 4,500',
-    unit: '/month',
-    text: 'Lockable, fully furnished office for teams, with Gulf views and 24/7 access.',
-    to: '/private-office',
-    cta: 'View private offices',
-  },
-  {
-    name: 'Virtual Office',
-    price: 'From AED 292',
-    unit: '/month',
-    text: 'A prestigious Addax Tower address for company registration without a physical desk.',
-    to: '/virtual-office',
-    cta: 'View virtual office',
-  },
-  {
-    name: 'Meeting Room',
-    price: 'Hourly',
-    unit: 'booking',
-    text: 'Professional meeting room for client meetings, interviews and presentations.',
-    to: '/meeting-room',
-    cta: 'View meeting room',
-  },
-  {
-    name: 'Day Pass',
-    price: 'AED 100',
-    unit: '/day',
-    text: 'Work from Addax Tower for a day (9 AM–6 PM), or AED 150 for 24-hour access.',
-    to: '/day-pass',
-    cta: 'View day pass',
-  },
-]
 
 const accessRpSteps = [
   {
@@ -378,36 +328,7 @@ function AddaxTower() {
         </div>
       </section>
 
-      {/* ===== Workspace options ===== */}
-      <section className="at-spaces">
-        <div className="at-container">
-          <span className="contact-eyebrow">WORKSPACE OPTIONS</span>
-          <h2>Workspace options inside Addax Tower</h2>
-          <p className="at-section-lead">
-            Affordable, fully furnished workspace in ADGM — from a single-day hot desk to a lockable
-            private office for your whole team.
-          </p>
 
-          <div className="at-spaces-grid">
-            {workspaces.map((w) => (
-              <div className="at-space-card" key={w.name}>
-                <h3>{w.name}</h3>
-                <div className="at-space-price">
-                  {w.price} <span>{w.unit}</span>
-                </div>
-                <p>{w.text}</p>
-                <Link to={w.to} className="at-space-link">
-                  {w.cta} →
-                </Link>
-              </div>
-            ))}
-          </div>
-          <p className="at-note">
-            ADGM government fees and a one-time due diligence fee apply to licensing plans. No deposit, no
-            hidden setup or admin fees.
-          </p>
-        </div>
-      </section>
 
       {/* ===== AccessRP ===== */}
       <section className="at-accessrp">
