@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import PageHero from '../components/PageHero'
 import LocationHighlight from '../components/LocationHighlight'
-import FinalCTA from '../components/FinalCTA'
+
 import Footer from '../components/Footer'
 import Reveal from '../components/Reveal'
 
@@ -412,8 +412,7 @@ function AddaxTower() {
         </div>
       </section>
 
-      {/* ===== Location map (shared component) ===== */}
-      <LocationHighlight />
+     
 
       {/* ===== Related blogs ===== */}
       <section className="at-guides">
@@ -458,7 +457,8 @@ function AddaxTower() {
         </div>
       </section>
 
-      <FinalCTA />
+      {/* ===== Location map (shared component) ===== */}
+      <LocationHighlight />
       <Footer />
     </div>
   )
