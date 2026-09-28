@@ -89,7 +89,7 @@ function ThankYou() {
           </p>
 
           <div className="ty-actions">
-            
+            <a
               className="ty-btn ty-btn-primary"
               href={`https://wa.me/${WHATSAPP_NUMBER}?text=${waMessage}`}
               target="_blank"
