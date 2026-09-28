@@ -233,8 +233,8 @@ function AddaxTower() {
         <Reveal y={20}>
           <div className="at-intro-grid">
             <div className="at-intro-text">
-              <span className="contact-eyebrow">ADDAX TOWER ADGM</span>
-              <h2>YOUR BUSINESS ADDRESS IN ADDAX TOWER</h2>
+              <span className="contact-eyebrow">ADDAX TOWER </span>
+              <h2>YOUR ADGM WORKSPACE</h2>
                <p className="at-lead">
                 <strong>Addax Tower</strong> is a landmark office tower in the City of Lights development on{' '}
                 <strong>Al Reem Island</strong>, inside the Abu Dhabi Global Market (ADGM) financial free
