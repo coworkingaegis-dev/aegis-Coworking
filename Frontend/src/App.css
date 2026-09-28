@@ -6020,3 +6020,479 @@ html, body {
     transform: none;
   }
 }
+
+
+
+
+
+
+
+/* ===========================================
+   ADDAX TOWER / AL REEM ISLAND PAGE
+   Uses the global design tokens from App.css
+=========================================== */
+
+/* Hero additions (PageHero is shared; description styled here) */
+.at-page .page-hero .page-hero-description {
+  max-width: 720px;
+  margin: 18px auto 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0;
+  color: var(--color-text-muted);
+}
+
+.at-hero-actions {
+  background: var(--color-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  padding: 0 20px 70px;
+}
+
+.at-hero-link {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.at-hero-link:hover {
+  color: var(--color-primary-hover);
+}
+
+/* Shared layout */
+.at-container {
+  max-width: 1180px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.at-container h2,
+.at-intro-text h2 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1.25;
+  margin: 12px 0 18px;
+  color: var(--color-text);
+}
+
+.at-section-lead {
+  max-width: 760px;
+  margin: 0 auto 48px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--color-text-muted);
+}
+
+/* ===== Intro ===== */
+.at-intro {
+  padding: 90px 60px;
+  background: var(--color-bg-alt);
+}
+
+.at-intro-grid {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 56px;
+  align-items: center;
+}
+
+.at-intro-text p {
+  font-size: 15.5px;
+  line-height: 1.8;
+  color: var(--color-text-muted);
+  margin-bottom: 16px;
+}
+
+.at-intro-text .at-lead {
+  font-size: 17px;
+  color: var(--color-text);
+}
+
+.at-intro-text strong {
+  color: var(--color-text);
+}
+
+.at-facts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.at-fact {
+  background: var(--color-bg-soft);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 26px 22px;
+  box-shadow: var(--shadow-card);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.at-fact:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-soft);
+}
+
+.at-fact strong {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 34px;
+  font-weight: 800;
+  color: var(--color-primary);
+  margin-bottom: 6px;
+}
+
+.at-fact span {
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--color-text-muted);
+}
+
+/* ===== Al Reem Island ===== */
+.at-reem {
+  padding: 90px 60px;
+  background: var(--color-bg);
+}
+
+.at-reem-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+  text-align: left;
+}
+
+.at-reem-card {
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 28px 24px;
+  box-shadow: var(--shadow-card);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.at-reem-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-soft);
+}
+
+.at-reem-icon {
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  background: var(--color-primary-soft);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.at-reem-card h3 {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--color-text);
+}
+
+.at-reem-card p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--color-text-muted);
+}
+
+/* ===== Workspace options ===== */
+.at-spaces {
+  padding: 90px 60px;
+  background: var(--color-bg-alt);
+}
+
+.at-spaces-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  text-align: left;
+}
+
+.at-space-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg-soft);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 28px 26px;
+  box-shadow: var(--shadow-card);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.at-space-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-primary);
+  box-shadow: 0 12px 32px rgba(31, 92, 70, 0.14);
+}
+
+.at-space-card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 10px;
+}
+
+.at-space-price {
+  font-family: var(--font-heading);
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--color-primary);
+  margin-bottom: 12px;
+}
+
+.at-space-price span {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text-faint);
+}
+
+.at-space-card p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--color-text-muted);
+  margin-bottom: 18px;
+  flex: 1;
+}
+
+.at-space-link {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.at-space-link:hover {
+  color: var(--color-primary-hover);
+}
+
+.at-note {
+  margin-top: 28px;
+  font-size: 13px;
+  color: var(--color-text-faint);
+}
+
+/* ===== AccessRP ===== */
+.at-accessrp {
+  padding: 90px 60px;
+  background: var(--color-primary-soft);
+}
+
+.at-accessrp .contact-eyebrow {
+  background: var(--color-bg-alt);
+}
+
+.at-steps {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+  text-align: left;
+  counter-reset: none;
+}
+
+.at-step {
+  background: var(--color-bg-alt);
+  border-radius: var(--radius-md);
+  padding: 28px 24px;
+  box-shadow: var(--shadow-card);
+  position: relative;
+}
+
+.at-step-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: #fff;
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.at-step h3 {
+  font-size: 16.5px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--color-text);
+}
+
+.at-step p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--color-text-muted);
+}
+
+.at-callout-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+  margin-top: 32px;
+  text-align: left;
+}
+
+.at-callout {
+  background: var(--color-bg-alt);
+  border-left: 4px solid var(--color-primary);
+  border-radius: var(--radius-sm);
+  padding: 26px 28px;
+  box-shadow: var(--shadow-card);
+}
+
+.at-callout h3 {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--color-text);
+}
+
+.at-callout p {
+  font-size: 14.5px;
+  line-height: 1.75;
+  color: var(--color-text-muted);
+}
+
+/* ===== Related guides ===== */
+.at-guides {
+  padding: 90px 60px 40px;
+  background: var(--color-bg-alt);
+}
+
+.at-guides-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin-top: 36px;
+  text-align: left;
+}
+
+.at-guide-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: var(--color-bg-soft);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 26px 24px;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: var(--shadow-card);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.at-guide-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-soft);
+}
+
+.at-guide-tag {
+  align-self: flex-start;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--color-teal);
+  background: var(--color-teal-soft);
+  padding: 4px 10px;
+  border-radius: var(--radius-pill);
+}
+
+.at-guide-card h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.45;
+  color: var(--color-text);
+  flex: 1;
+}
+
+.at-guide-read {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.at-guides-more {
+  margin-top: 28px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 1100px) and (min-width: 901px) {
+  .at-reem-grid,
+  .at-steps {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .at-intro,
+  .at-reem,
+  .at-spaces,
+  .at-accessrp {
+    padding: 60px 24px;
+  }
+
+  .at-guides {
+    padding: 60px 24px 20px;
+  }
+
+  .at-intro-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .at-container h2,
+  .at-intro-text h2 {
+    font-size: 26px;
+  }
+
+  .at-reem-grid,
+  .at-steps,
+  .at-spaces-grid,
+  .at-guides-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .at-callout-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .at-page .page-hero .page-hero-description {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .at-reem-grid,
+  .at-steps,
+  .at-spaces-grid,
+  .at-guides-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .at-fact {
+    padding: 20px 16px;
+  }
+
+  .at-fact strong {
+    font-size: 28px;
+  }
+
+  .at-hero-actions {
+    padding-bottom: 50px;
+  }
+}
