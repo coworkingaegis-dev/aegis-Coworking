@@ -2,10 +2,10 @@ import { useEffect, useRef } from 'react'
 
 const testimonials = [
   {
-    quote: "Really satisfied with Cheapest Coworking desk in ADGM Addax tower with fast lease service.",
-    name: "Asmaa Saqib.",
-    role: "Software Engineer",
-    initials: "AS"
+    quote: "Nice suitable area for coworking for Adam incorporation.",
+    name: "Ali Kutty Faizy.",
+    role: "Entrepreneur",
+    initials: "AK"
   },
 {
     quote: "Very happy with the service from Aegis Coworking. We needed a professional business address in Abu Dhabi without committing to a large traditional office, and Aegis provided a practical solution. The team is responsive and professional. Recommended for companies looking for a flexible office or virtual office solution in ADGM.",
@@ -26,10 +26,10 @@ const testimonials = [
     initials: "JP"
   },
 {
-    quote: "We wanted a professional flexi office in Business Center in ADGM jurisdiction without the high cost and commitment of a traditional office. Aegis Coworking is excellent option and the workspace provides a professional setting for our business. Good option for companies looking for flexible office space in Addax Tower Abu Dhabi.",
-    name: "Claire D.",
-    role: " Business Analyst",
-    initials: "CD"
+    quote: "Aegis coworking provide super professional services especially with the pricing, and the customer service, i needed the license and a space for one of my team member and they did all within a week time, my team member loved the space. I will highly suggest if any on is looking to get a license and a space in ADGM go for Aegis coworking.",
+    name: "Ubaid Zia.",
+    role: "Startup Founder",
+    initials: "UZ"
   },
 {
     quote: "For businesses looking for a low cost office in ADGM, Aegis provides flexible office space and a professional seating. The team made the setup process very easy.",
@@ -39,9 +39,9 @@ const testimonials = [
   },
 {
     quote: "Aegis Coworking is a convenient Workspace in Abu Dhabi for startups and growing companies. The flexible workspace options , meeting room and Hot Desk helped us avoid the commitment of a traditional office.",
-    name: "Passimore H.",
+    name: "Kasim Malikkandy.",
     role: " Consultant ",
-    initials: "PH"
+    initials: "KM"
   },
 ]
 
