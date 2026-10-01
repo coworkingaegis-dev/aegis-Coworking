@@ -58,6 +58,21 @@ const faqs = [
     ),
   },
   {
+  q: 'What is AccessRP and why does my lease need to be registered on it?',
+  a: 'AccessRP is ADGM’s official digital real property platform. Every office lease on Al Reem Island must be registered on it with the ADGM Registration Authority, and you need the registered lease for your ADGM company registration or licence renewal. Aegis Coworking submits your lease on AccessRP as soon as it is signed, and you simply approve it with UAE Pass.',
+  aDisplay: (
+    <>
+      AccessRP is ADGM’s official digital real property platform. Every office lease on Al Reem Island
+      must be registered on it with the ADGM Registration Authority, and you need the registered lease
+      for your ADGM company registration or licence renewal. Aegis Coworking submits your lease on
+      AccessRP as soon as it is signed, and you simply approve it with UAE Pass. Read our{' '}
+      <Link to="/blog/accessrp-adgm-lease-registration" className="inline-link">
+        AccessRP lease registration guide.
+      </Link>
+    </>
+  ),
+},
+  {
     q: 'I live outside the UAE. Can I still approve my lease on AccessRP?',
     a: 'Yes. UAE residents sign in to UAE Pass with their Emirates ID, and non-residents can register for UAE Pass online. This lets overseas founders approve their lease and set up their ADGM company remotely.',
     aDisplay: (
@@ -316,10 +331,13 @@ function AddaxTower() {
           <span className="contact-eyebrow">INSTANT REGISTRATION</span>
           <h2>INSTANT LEASE REGISTRATION ON ACCESSRP</h2>
           <p className="at-section-lead">
-            <strong>AccessRP</strong> is ADGM’s official digital real property platform. Every office lease
-            on Al Reem Island must be registered on it with the ADGM Registration Authority — and Aegis
-            Coworking handles it for you.
-          </p>
+  <strong>AccessRP</strong> is ADGM’s official digital real property platform. Every office lease
+  on Al Reem Island must be registered on it with the ADGM Registration Authority — and Aegis
+  Coworking handles it for you. Read our full guide to{' '}
+  <Link to="/blog/accessrp-adgm-lease-registration" className="inline-link">
+    AccessRP lease registration in ADGM.
+  </Link>
+</p>
 
           <ol className="at-steps">
             {accessRpSteps.map((s, i) => (
