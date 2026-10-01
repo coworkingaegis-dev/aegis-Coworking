@@ -334,9 +334,9 @@ function AddaxTower() {
   <strong>AccessRP</strong> is ADGM’s official digital real property platform. Every office lease on
   Al Reem Island must be{' '}
   <Link to="/blog/accessrp-adgm-lease-registration" className="inline-link">
-    registered on AccessRP with the ADGM Registration Authority
+    registered on AccessRP 
   </Link>{' '}
-  and Aegis Coworking handles it for you.
+  with the ADGM Registration Authority and Aegis Coworking handles it for you.
 </p>
 
           <ol className="at-steps">
