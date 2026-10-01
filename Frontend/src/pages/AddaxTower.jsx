@@ -336,7 +336,7 @@ function AddaxTower() {
   <Link to="/blog/accessrp-adgm-lease-registration" className="inline-link">
     registered on AccessRP with the ADGM Registration Authority
   </Link>{' '}
-  — and Aegis Coworking handles it for you.
+  and Aegis Coworking handles it for you.
 </p>
 
           <ol className="at-steps">
