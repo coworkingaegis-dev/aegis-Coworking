@@ -51,9 +51,14 @@ const faqs = [
     answer: "Yes — dedicated desk members get secure building access around the clock, every day of the week, not just during standard business hours."
   },
 
-  {
+   {
     question: "Is this different from renting a traditional office space in ADGM?",
-    answer: "Yes — while traditional ADGM office providers rent you an empty office to fit out yourself, you get fully furnished, flexible workspace in ADGM with utilities, cleaning and reception already included."
+    answer: (
+      <>
+        Yes — while traditional ADGM office providers rent you an empty office to fit out yourself, you get fully furnished, flexible workspace in ADGM with utilities, cleaning and reception already included. Compare a serviced office with a traditional lease on our{' '}
+        <a href="https://officespaceinadgm.com/" className="inline-link">office space in ADGM</a> guide.
+      </>
+    ),
   },
 ]
 
