@@ -48,7 +48,13 @@ const faqs = [
   },
   {
     q: "Where are the private office located?",
-    a: "Our private office are located in Addax Tower 38 floor, Al Reem Island, within Abu Dhabi Global Market (ADGM)."
+    a: "Our private office are located in Addax Tower 38 floor, Al Reem Island, within Abu Dhabi Global Market (ADGM). See all office space for rent in Addax Tower.",
+    aDisplay: (
+      <>
+        Our private office are located in Addax Tower 38 floor, Al Reem Island, within Abu Dhabi Global Market (ADGM). See all{' '}
+        <a href="https://rentofficeabudhabiglobalmarket.online/" className="inline-link">office space for rent in Addax Tower</a>.
+      </>
+    ),
   },
   {
     q: "What is included with a private office in ADGM?",
@@ -164,7 +170,9 @@ function PrivateOffice() {
            from <strong>AED 4,500 / month</strong>, with the privacy of a
           traditional office and the flexibility of a modern business centre.
           Aegis Coworking offers private office at best price and is located at Addax Tower, Office 3812, Al Reem Island, in the heart
-          of ADGM. {' '}
+          of ADGM. Compare every{' '}
+          <a href="https://rentofficeabudhabiglobalmarket.online/" className="inline-link">office for rent in ADGM</a>{' '}
+          by team size.{' '}
                    <Link to="/pricing" className="inline-link"> See Our Promotional Offers</Link>
         </p>
 
