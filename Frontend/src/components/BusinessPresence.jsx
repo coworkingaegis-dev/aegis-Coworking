@@ -5,7 +5,8 @@ function BusinessPresence() {
       <span className="contact-eyebrow">HOW IT WORKS</span>
       <h2>A Real ADGM Presence, Without the Overhead</h2>
      <p className="bp-intro">
- Register and operate your company in Abu Dhabi Global Market (ADGM) without the cost of a full-time office. Aegis Coworking offers virtual office at a discounted price of <strong> AED 292 /month </strong> with an ADGM registered business address at Addax Tower, Office 3812, Al Reem Island, giving your business a credible presence from day one.{' '}
+ Register and operate your company in Abu Dhabi Global Market (ADGM) without the cost of a full-time office. Aegis Coworking offers virtual office at a discounted price of <strong> AED 292 /month </strong> with an ADGM registered business address at Addax Tower, Office 3812, Al Reem Island, giving your business a credible presence from day one. Compare every{' '}
+<a href="https://servicedofficeadgm.online/" className="inline-link">virtual office in ADGM</a> package.{' '}
   <Link to="/pricing" className="inline-link">See Our Promotional Offers</Link>
 </p>
       <div className="bp-columns">
