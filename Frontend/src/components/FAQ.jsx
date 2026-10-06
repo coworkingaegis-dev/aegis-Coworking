@@ -46,9 +46,14 @@ const faqs = [
     </>
   )
 },
-  {
+    {
     question: "Does your office space in ADGM include 24/7 access?",
-    answer: "Yes — dedicated desk members get secure building access around the clock, every day of the week, not just during standard business hours."
+    answer: (
+      <>
+        Yes — dedicated desk members get secure building access around the clock, every day of the week, not just during standard business hours. See everything included with a{' '}
+        <a href="https://dedicateddeskadgm.online/" className="inline-link">dedicated desk in ADGM</a>.
+      </>
+    ),
   },
 
    {
