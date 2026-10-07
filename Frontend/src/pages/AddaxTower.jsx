@@ -143,9 +143,7 @@ const faqs = [
       <>
         Yes. You can{' '}
         <Link to="/contact" className="inline-link">book a free tour</Link> of Aegis Coworking in Addax
-        Tower, Monday to Friday, 9:00 AM to 6:00 PM. See all{' '}
-        <a href="https://addaxtower.online/" className="inline-link">office space for rent in Addax Tower</a>{' '}
-        before you visit.
+        Tower, Monday to Friday, 9:00 AM to 6:00 PM.
       </>
     ),
   },
@@ -261,9 +259,7 @@ function AddaxTower() {
                            <p>
                 Looking for the best office space in Abu Dhabi Global Market? Every member gets 24/7 access,
                 high-speed WiFi, meeting rooms and a professional business community — with no deposit, no
-                setup fees and free registration. Compare every{' '}
-                <a href="https://addaxtower.online/" className="inline-link">Addax Tower office space</a>{' '}
-                option and price.
+                setup fees and free registration.
               </p>
             </div>
 
