@@ -36,7 +36,7 @@ const faqSchema = [
   },
   {
     q: "Does your office space in ADGM include 24/7 access?",
-    a: "Yes — dedicated desk members get secure building access around the clock, every day of the week, not just during standard business hours. See everything included with a dedicated desk in ADGM.",
+    a: "Yes — dedicated desk members get secure building access around the clock, every day of the week, not just during standard business hours.",
   },
   {
     q: "Is this different from renting a traditional office space in ADGM?",
