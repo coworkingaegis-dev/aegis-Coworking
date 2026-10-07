@@ -89,8 +89,7 @@ const faqs = [
   aDisplay: (
     <>
       Aegis Coworking pricing depends on the workspace type. A day pass starts at AED 100 per day, a flexi desk at AED 1,000 per month, a dedicated desk at AED 1,150 per month, a private office at AED 4,500 per month, and virtual office plans at AED 292 per month. See our full guide to{' '}
-      <Link to="/blog/adgm-coworking-space-cost-2026" className="inline-link">ADGM coworking cost in 2026</Link>, or compare every plan on our{' '}
-      <a href="https://coworkingspaceinadgm.com/" className="inline-link">coworking space in ADGM</a> page.
+            <Link to="/blog/adgm-coworking-space-cost-2026" className="inline-link">ADGM coworking cost in 2026</Link>.
     </>
   ),
   },
