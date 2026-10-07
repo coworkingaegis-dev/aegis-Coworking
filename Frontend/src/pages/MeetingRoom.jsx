@@ -30,15 +30,9 @@ const faqs = [
     a: "Meeting room rates at Aegis Coworking vary by room size and booking time. Members receive meeting room credits, while non-members can book meeting rooms in Abu Dhabi by the hour. See our pricing for current rates."
    
   },
-   {
+     {
     q: "Where are the meeting rooms located?",
-    a: "Our meeting rooms are located in Addax Tower, Al Reem Island, within Abu Dhabi Global Market (ADGM), providing a convenient and professional business setting. They sit on the same floor as our coworking space on Al Reem Island.",
-    aDisplay: (
-      <>
-        Our meeting rooms are located in Addax Tower, Al Reem Island, within Abu Dhabi Global Market (ADGM), providing a convenient and professional business setting. They sit on the same floor as our{' '}
-        <a href="https://coworkingspacealreemisland.online/" className="inline-link">coworking space on Al Reem Island</a>.
-      </>
-    ),
+    a: "Our meeting rooms are located in Addax Tower, Al Reem Island, within Abu Dhabi Global Market (ADGM), providing a convenient and professional business setting."
   },
   {
   q: "Can I book a meeting room in Abu Dhabi Global Market for a client meeting?",
