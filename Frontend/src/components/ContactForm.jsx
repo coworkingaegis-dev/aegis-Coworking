@@ -87,7 +87,7 @@ function ContactForm() {
       <h1>CONTACT US</h1>
       <p className="contact-subtitle">
         Tell us what you're looking for and our team will get back to you within one business day.
-        Planning a visit? See our <a href="https://businesscenteradgm.online/" className="inline-link">business centre in ADGM</a> first.
+        
       </p>
 
       <form className="contact-form-v2" onSubmit={handleSubmit} noValidate>
