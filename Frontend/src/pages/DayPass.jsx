@@ -48,9 +48,15 @@ const faqs = [
       </>
     ),
   },
-  {
+    {
     q: "Where can I use the coworking day pass?",
-    a: "The coworking day pass gives you access to Aegis Coworking in Addax Tower, Al Reem Island, within Abu Dhabi Global Market (ADGM).",
+    a: "The coworking day pass gives you access to Aegis Coworking in Addax Tower, Al Reem Island, within Abu Dhabi Global Market (ADGM). See the desks you can use on our desk space on Al Reem Island page.",
+    aDisplay: (
+      <>
+        The coworking day pass gives you access to Aegis Coworking in Addax Tower, Al Reem Island, within Abu Dhabi Global Market (ADGM). See the desks you can use on our{' '}
+        <a href="https://deskspacealreemisland.online/" className="inline-link">desk space on Al Reem Island</a> page.
+      </>
+    ),
   },
 ]
 function DayPass() {
