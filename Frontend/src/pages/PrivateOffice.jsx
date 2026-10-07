@@ -51,8 +51,7 @@ const faqs = [
     a: "Our private office are located in Addax Tower 38 floor, Al Reem Island, within Abu Dhabi Global Market (ADGM). See all office space for rent in Addax Tower.",
     aDisplay: (
       <>
-        Our private office are located in Addax Tower 38 floor, Al Reem Island, within Abu Dhabi Global Market (ADGM). See all{' '}
-        <a href="https://rentofficeabudhabiglobalmarket.online/" className="inline-link">office space for rent in Addax Tower</a>.
+        Our private office are located in Addax Tower 38 floor, Al Reem Island, within Abu Dhabi Global Market (ADGM). 
       </>
     ),
   },
