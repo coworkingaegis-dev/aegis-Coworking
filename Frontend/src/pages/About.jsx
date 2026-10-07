@@ -153,7 +153,7 @@ function About() {
             <div className="about-block-icon">🤝</div>
             <h3>OUR VALUES</h3>
             <p>
-              We're guided by four things: professionalism, flexibility, integrity, and community. In practice, that means running a business centre in ADGM you can actually rely on — a registered office provider that gets your ADGM paperwork right, and a serviced office in Abu Dhabi where showing up next to other founders and finance professionals is part of the point. We also happen to be one of the more affordable coworking spaces in ADGM, because values shouldn't come with a premium price tag.
+              We're guided by four things: professionalism, flexibility, integrity, and community. In practice, that means running a <a href="https://businesscenteradgm.online/" className="inline-link">business centre in ADGM</a> you can actually rely on — a registered office provider that gets your ADGM paperwork right, and a serviced office in Abu Dhabi where showing up next to other founders and finance professionals is part of the point. We also happen to be one of the more affordable coworking spaces in ADGM, because values shouldn't come with a premium price tag.
             </p>
           </div>
         </div>
