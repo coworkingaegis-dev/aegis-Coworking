@@ -32,6 +32,12 @@ function Footer() {
       <path d="M14.5 8.5H13C12.5 8.5 12 9 12 9.5V11H14.5L14 13.5H12V19H9.5V13.5H8V11H9.5V9.2C9.5 7.4 10.8 6 12.7 6H14.5V8.5Z" fill="currentColor"/>
     </svg>
   </a>
+          <a href="https://www.youtube.com/@aegiscoworking-p9o" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="2" y="5" width="20" height="14" rx="4" stroke="currentColor" strokeWidth="2"/>
+    <path d="M10 9.2V14.8L15 12L10 9.2Z" fill="currentColor"/>
+  </svg>
+</a>
         </div>
       </div>
       <div className="footer-col">
