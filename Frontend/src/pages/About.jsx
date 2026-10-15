@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import LocationHighlight from '../components/LocationHighlight'
-import bayanaLogo from '../assets/bayana-logo.png'
+// import bayanaLogo from '../assets/bayana-logo.png'
 
 // ---- SEO CONFIG -----------------------------------------------------
 // Targets the top Search Console queries for aegiscoworking.ae:
