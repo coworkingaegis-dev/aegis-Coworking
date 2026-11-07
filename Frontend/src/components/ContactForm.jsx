@@ -74,6 +74,13 @@ function ContactForm() {
         })
       }
 
+            window.dataLayer = window.dataLayer || []
+      window.dataLayer.push({
+        event: 'contact_form_success',
+        form_name: 'contact',
+        interested_in: formData.interestedIn,
+      })
+
       // Send the user to the Thank You page with their name + interest
       navigate('/thank-you', {
         state: { name: formData.name, interestedIn: formData.interestedIn },
