@@ -334,7 +334,7 @@ function ContactForm() {
       // Full page load to /thank-you so GTM's Page View trigger fires
       setTimeout(() => {
         window.location.href = '/thank-you'
-      }, 400)
+          }, 1000)
     }
   }
 
