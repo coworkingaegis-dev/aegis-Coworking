@@ -104,11 +104,13 @@ if (error) {
     const text = post.summary
       ? post.summary
       : post.content.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim()
-    return text.length > 155 ? text.slice(0, 155) + '...' : text
+    if (text.length <= 155) return text
+return text.slice(0, text.lastIndexOf(' ', 152)) + '…'
   }
 
  const getSeoTitle = (post) => {
-  return `${post.title} | Aegis`
+  const full = `${post.title} | Aegis`
+  return full.length <= 60 ? full : post.title
 }
 
   const handleShare = async () => {
