@@ -197,7 +197,7 @@ function AddaxTower() {
               '60-storey, 282-metre office tower in the City of Lights development on Al Reem Island, within Abu Dhabi Global Market (ADGM).',
             address: {
               '@type': 'PostalAddress',
-              streetAddress: 'Addax Tower, City of Lights, Al Reem Island, RT3',
+              streetAddress: 'Addax Tower, 3812, Al Reem Island, RT3',
               addressLocality: 'Abu Dhabi',
               addressCountry: 'AE',
             },
