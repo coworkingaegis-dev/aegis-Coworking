@@ -21,7 +21,7 @@ Aegis Coworking provides flexible workspace solutions for freelancers, startups,
 
 ## Membership
 
-- Aegis Coworking offers four membership plans: Hot Desk, Dedicated Desk, Virtual Office, and Private Office.
+- Aegis Coworking offers Hot Desk, Dedicated Desk, Private Office and Virtual Office membership, plus Meeting Room and Day Pass.
 - Hot Desk — shared workspace, from AED 1,000/month, no long-term commitment.
 - Dedicated Desk — a permanent personal desk, from AED 1,150/month, includes a registered ADGM business address.
 - Virtual Office — a registered ADGM business address without a physical desk, from AED 3,500/year.
@@ -35,7 +35,7 @@ Aegis Coworking provides flexible workspace solutions for freelancers, startups,
 - Dedicated Desk — From AED 1,150/month
 - Private Office — From AED 4,500/month
 - Day Pass — AED 100 (9 AM–6 PM) or AED 150 (24 Hours)
-- Virtual Office — Basic, Premium & Enterprise Packages (Request Quote)
+- Virtual Office — From AED 292/month (AED 3,500/year)
 - Meeting Room — Hourly Booking
 
 
@@ -55,7 +55,7 @@ Aegis Coworking provides flexible workspace solutions for freelancers, startups,
 - [Office Spaces](https://www.aegiscoworking.ae/office-space) — Dedicated desks and flexible office space.
 - [Private Office](https://www.aegiscoworking.ae/private-office) — Furnished private offices.
 - [Virtual Office](https://www.aegiscoworking.ae/virtual-office) — Registered ADGM business address.
-- [Meeting Room](https://www.aegiscoworking.ae/meeting-room) — Hourly meeting room rental, Hourly meeting room rental.
+- [Meeting Room](https://www.aegiscoworking.ae/meeting-room) — Hourly meeting room rental.
 - [Day Pass](https://www.aegiscoworking.ae/day-pass) — Flexible coworking for one day.
 - [Addax Tower Business Centre](https://www.aegiscoworking.ae/addax-tower-al-reem-island) — Business centre in Addax Tower, Al Reem Island (ADGM) with AccessRP lease registration.
 - [Blogs](https://www.aegiscoworking.ae/blogs) — Articles and guides.
