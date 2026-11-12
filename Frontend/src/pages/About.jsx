@@ -14,7 +14,7 @@ import LocationHighlight from '../components/LocationHighlight'
 const SEO = {
   title: 'About Us | Aegis Coworking in ADGM, Addax Tower',
   description:
-    'Aegis Coworking in Addax Tower, ADGM offers coworking spaces, private offices, virtual offices and meeting rooms for startups.',
+    'Aegis Coworking is a business centre on the 38th floor of Addax Tower, ADGM, offering desk from AED 1,000, private office, virtual office and meeting room.',
   canonical: 'https://www.aegiscoworking.ae/about',
 }
 
@@ -66,6 +66,8 @@ function About() {
         <meta property="og:description" content={SEO.description} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={SEO.canonical} />
+        <meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
+<meta name="twitter:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={SEO.title} />
         <meta name="twitter:description" content={SEO.description} />
