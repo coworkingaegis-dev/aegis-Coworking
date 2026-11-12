@@ -96,9 +96,12 @@ function MeetingRoom() {
 },
     "areaServed": "Abu Dhabi",
     "offers": {
-      "@type": "Offer",
-      "availability": "https://schema.org/InStock",
-      "url": "https://www.aegiscoworking.ae/meeting-room"
+     "@type": "Offer",
+"price": "XX",
+"priceCurrency": "AED",
+"unitText": "HOUR",
+"availability": "https://schema.org/InStock",
+"url": "https://www.aegiscoworking.ae/meeting-room"
     }
   })}
 </script>
