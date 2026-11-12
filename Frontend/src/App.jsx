@@ -64,7 +64,7 @@ function App() {
      "name": "Aegis Coworking - ADGM",
       "url": "https://www.aegiscoworking.ae",
       "logo": "https://www.aegiscoworking.ae/logo.png",
-      "sameAs": ["https://www.linkedin.com/company/aegis-coworking/", "https://www.instagram.com/aegis.coworking/", "https://www.facebook.com/aegis.coworking"]
+     "sameAs": ["https://www.linkedin.com/company/aegis-coworking/", "https://www.instagram.com/aegis.coworking/", "https://www.facebook.com/aegis.coworking", "https://www.youtube.com/@aegiscoworking-p9o"]
     })}
   </script>
 </Helmet>
