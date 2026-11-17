@@ -6707,12 +6707,12 @@ html, body {
   .logo {
     gap: 10px;
   }
-  .logo-img {
+    .logo-img {
     height: 84px;
     max-width: 84px;
   }
   .navbar {
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }
