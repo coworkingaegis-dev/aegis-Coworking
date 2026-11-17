@@ -12,7 +12,7 @@ function DeskPricing() {
         <h2>DEDICATED DESK SPACE ADGM</h2>
         <p className="desk-eyebrow">Your own permanent workspace</p>
         <p className="desk-desc">
-          A dedicated desk in ADGM — one of Abu Dhabi's most established business districts.
+          A dedicated desk in Abu Dhabi Global Market (ADGM) — one of Abu Dhabi's most established business districts.
           If you work in ADGM regularly and want a workspace that is always yours, a Dedicated Desk gives you the convenience and consistency of a private workspace at a much lower cost. <strong>Only AED 150 more than a Flexi Desk — making it an excellent option for regular users.</strong>
         </p>
         <p className="desk-desc">
