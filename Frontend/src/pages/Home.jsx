@@ -117,18 +117,18 @@ function Home() {
   return (
     <div className="App">
       <Helmet>
- <title>Coworking Space in ADGM & Abu Dhabi from AED 1,000 | Aegis</title>
+ <title>Coworking Space in ADGM from AED 1,000 | Aegis</title>
  <meta name="description" content="Coworking space and business centre in ADGM, Addax Tower, Al Reem Island. Shared office space in Abu Dhabi from AED 1,000 per month. Book a free tour." />
   <link rel="canonical" href="https://www.aegiscoworking.ae/" />
 
- <meta property="og:title" content="Coworking Space in ADGM & Abu Dhabi from AED 1,000 | Aegis" />
+ <meta property="og:title" content="Coworking Space in ADGM from AED 1,000 | Aegis" />
   <meta property="og:description" content="Coworking space and business centre in ADGM, Addax Tower, Al Reem Island. Shared office space in Abu Dhabi from AED 1,000 per month. Book a free tour." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.aegiscoworking.ae/" />
   <meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Coworking Space in ADGM & Abu Dhabi from AED 1,000 | Aegis" />
+  <meta name="twitter:title" content="Coworking Space in ADGM from AED 1,000 | Aegis" />
  <meta name="twitter:description" content="Coworking space and business centre in ADGM, Addax Tower, Al Reem Island. Shared office space in Abu Dhabi from AED 1,000 per month. Book a free tour." />
   <meta name="twitter:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 <script type="application/ld+json">
