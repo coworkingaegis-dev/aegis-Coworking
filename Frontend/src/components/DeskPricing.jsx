@@ -12,8 +12,7 @@ function DeskPricing() {
         <h2>DEDICATED DESK SPACE ADGM</h2>
         <p className="desk-eyebrow">Your own permanent workspace</p>
         <p className="desk-desc">
-          A dedicated desk in Abu Dhabi Global Market (ADGM) — one of Abu Dhabi's most established business districts.
-          If you work in ADGM regularly and want a workspace that is always yours, a Dedicated Desk gives you the convenience and consistency of a private workspace at a much lower cost. <strong>Only AED 150 more than a Flexi Desk — making it an excellent option for regular users.</strong>
+         A Dedicated Desk in Abu Dhabi Global Market (ADGM) offers a permanent, dedicated workspace in one of Abu Dhabi's most established business districts. If you work in ADGM regularly and want a workspace that is always yours, a Dedicated Desk provides the convenience and consistency of a personal workspace at a much lower cost. <strong>Only AED 150 more than a Flexi Desk — making it an excellent option for regular users.</strong>
         </p>
         <p className="desk-desc">
           Unlike many ADGM office providers, we charge no hidden fees — only a one-time due diligence fee applies. Book your ADGM Coworking Space with Aegis Coworking that sits in office 3812, Addax Tower, Al Reem Island.
