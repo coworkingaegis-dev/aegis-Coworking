@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
 const offers = [
@@ -5,29 +6,35 @@ const offers = [
   { plan: "DEDICATED DESK", was: "1,450", now: "1,150", period: "/month" },
   { plan: "PRIVATE OFFICE", was: "6,500", now: "4,500", period: "/month" },
   { plan: "VIRTUAL OFFICE", was: "4,500", now: "3,500", period: "/year" },
-  { plan: "📢 PROMOTION", text: "Launch your business in ADGM: company setup, licensing and office space in one package with Aegis Coworking and Bayana Global. Claim your offer now!" },
+  { plan: "🚀 PROMOTION", text: "Launch your business in ADGM: company setup, licensing and office space in one package with Aegis Coworking and Bayana Global. Claim your offer now!" },
 ]
 
 function PromoBar() {
   const loopedOffers = [...offers, ...offers]
+  // Sit directly under the fixed header, whatever its height on this screen size
+  const [top, setTop] = useState(102)
+
+  useEffect(() => {
+    const nav = document.querySelector('.navbar')
+    if (!nav) return
+    const update = () => setTop(nav.offsetHeight)
+    update()
+    const ro = new ResizeObserver(update)
+    ro.observe(nav)
+    return () => ro.disconnect()
+  }, [])
 
   return (
     <>
       <style>{`
         .promo-bar {
           position: fixed;
-          top: 0;
           left: 0;
           width: 100%;
           z-index: 1001;
-          background: linear-gradient(90deg, #d94f3d 0%, #c23f2f 100%);
+          background: linear-gradient(90deg, #1f5c46 0%, #164632 100%);
           color: #fff;
           overflow: hidden;
-        }
-
-        /* Pushes the fixed navbar down so this bar isn't hidden behind it */
-        .navbar {
-          top: 46px;
         }
 
         .promo-bar-inner {
@@ -108,14 +115,11 @@ function PromoBar() {
         }
 
         @keyframes promoScroll {
-          0% { transform: translateX(0); }
-          100% { transform: translateX(-50%); }
+          0% { transform: translateX(-50%); }
+          100% { transform: translateX(0); }
         }
 
         @media (max-width: 600px) {
-          .navbar {
-            top: 42px;
-          }
           .promo-bar-label {
             display: none;
           }
@@ -128,7 +132,7 @@ function PromoBar() {
         }
       `}</style>
 
-      <div className="promo-bar">
+      <div className="promo-bar" style={{ top }}>
         <div className="promo-bar-inner">
           <span className="promo-bar-label">Limited Offer</span>
           <div className="promo-bar-track-wrap">
