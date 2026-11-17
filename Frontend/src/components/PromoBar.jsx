@@ -79,7 +79,7 @@ function PromoBar() {
           display: flex;
           gap: 60px;
           width: max-content;
-          animation: promoScroll 45s linear infinite;
+          animation: promoScroll 55s linear infinite;
         }
 
         .promo-bar-track-wrap:hover .promo-bar-track {
@@ -120,7 +120,7 @@ function PromoBar() {
           }
           .promo-bar-track {
             gap: 40px;
-            animation-duration: 35s;
+            animation-duration: 45s;
           }
           .promo-bar-item {
             font-size: 11.5px;
