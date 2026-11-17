@@ -141,12 +141,12 @@ function Hero() {
         <p className="hero-intro">
           Aegis Coworking is a business centre in ADGM, offers affordable hot desk, dedicated desk, private office, virtual office, meeting room and day pass in Abu Dhabi Global Market, with plans starting from AED 1,000.
         </p>
-        <p className="hero-partner">
-          Need a company in ADGM? With our partner{' '}
+                <p className="hero-partner">
+          Need ADGM company setup? Get your business licence, registration and office space at Addax Tower in one easy package, with our partner{' '}
           <a href="https://www.bayana.ae/" target="_blank" rel="noopener" className="hero-partner-link">
             Bayana Global Limited
           </a>
-          , we offer office space, desks, company setup and licensing in one place.
+          .
         </p>
         <Link to="/contact">
           <button className="btn-secondary" aria-label="Book a coworking space tour in ADGM Addax Tower">
