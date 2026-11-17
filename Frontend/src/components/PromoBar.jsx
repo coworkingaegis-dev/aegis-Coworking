@@ -52,16 +52,16 @@ function PromoBar() {
           display: flex;
           align-items: center;
           gap: 16px;
-          padding: 10px 20px;
+          padding: 5px 20px;
         }
 
         .promo-bar-label {
           flex-shrink: 0;
           background: #e0b85a;
           color: #1f3a2e;
-          padding: 4px 12px;
+          padding: 2px 10px;
           border-radius: 999px;
-          font-size: 11.5px;
+          font-size: 10.5px;
           font-weight: 800;
           letter-spacing: 0.5px;
           text-transform: uppercase;
@@ -91,7 +91,7 @@ function PromoBar() {
           align-items: baseline;
           gap: 8px;
           white-space: nowrap;
-          font-size: 13.5px;
+          font-size: 12.5px;
           font-weight: 600;
         }
 
@@ -102,9 +102,9 @@ function PromoBar() {
         }
 
         /* Left to right */
-        @keyframes promoScroll {
-          0% { transform: translateX(-50%); }
-          100% { transform: translateX(0); }
+               @keyframes promoScroll {
+          0% { transform: translateX(0); }
+          100% { transform: translateX(-50%); }
         }
 
         @media (max-width: 600px) {
