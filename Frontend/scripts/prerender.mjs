@@ -5,12 +5,18 @@ import { createClient } from '@supabase/supabase-js'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const distDir = path.resolve(__dirname, '../dist')
+// Inline the site CSS straight into every page's HTML. The page then shows
+// fully styled on its very first paint (no unstyled flash), which fixes the
+// late LCP that Google PageSpeed was reporting on mobile.
 const template = fs.readFileSync(path.join(distDir, 'index.html'), 'utf-8')
   .replace(
     /<link rel="stylesheet" crossorigin href="([^"]+)">/,
-    `<link rel="preload" as="style" crossorigin href="$1" fetchpriority="high">` +
-    `<link rel="stylesheet" crossorigin href="$1" media="print" onload="this.media='all'">` +
-    `<noscript><link rel="stylesheet" crossorigin href="$1"></noscript>`
+    (match, href) => {
+      const cssPath = path.join(distDir, href.replace(/^\//, ''))
+      if (!fs.existsSync(cssPath)) return match
+      const css = fs.readFileSync(cssPath, 'utf-8')
+      return `<style>${css}</style>`
+    }
   )
 const { render } = await import(path.join(distDir, 'server/entry-server.js'))
 
