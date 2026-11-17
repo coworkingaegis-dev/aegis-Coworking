@@ -158,7 +158,7 @@ function VirtualOffice() {
   alt="Basic virtual office package at Aegis Coworking in ADGM, Abu Dhabi"
   tier="BASIC"
   title="BASIC ADGM VIRTUAL OFFICE"
-  desc="A simple virtual office in ADGM for founders, freelancers, and international businesses. Get an ADGM business address at Addax Tower, Al Reem Island, with support for your ADGM licence application, mail receiving and forwarding, and company directory listing. A practical option for businesses looking for an ADGM registered office provider and a professional business presence."
+  desc="A simple virtual office in Abu Dhabi Global Market for founders, freelancers, and international businesses. Get an ADGM business address at Addax Tower, Al Reem Island, with support for your ADGM licence application, mail receiving and forwarding, and company directory listing. A practical option for businesses looking for an ADGM registered office provider and a professional business presence."
   buttons={[{ label: "REQUEST QUOTE", primary: true }]}
   imageLeft={true}
 />
