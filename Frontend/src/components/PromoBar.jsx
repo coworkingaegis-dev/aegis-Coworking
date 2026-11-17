@@ -1,28 +1,39 @@
 import { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 
-const offers = [
-  { plan: "HOT DESK", was: "1,200", now: "1,000", period: "/month" },
-  { plan: "DEDICATED DESK", was: "1,450", now: "1,150", period: "/month" },
-  { plan: "PRIVATE OFFICE", was: "6,500", now: "4,500", period: "/month" },
-  { plan: "VIRTUAL OFFICE", was: "4,500", now: "3,500", period: "/year" },
-  { plan: "🚀 PROMOTION", text: "Launch your business in ADGM: company setup, licensing and office space in one package with Aegis Coworking and Bayana Global. Claim your offer now!" },
-]
+const PROMO_LABEL = '🚀 PROMOTION:'
+const PROMO_TEXT =
+  'Launch your business in ADGM: company setup, licensing and office space in one package with Aegis Coworking and Bayana Global. Claim your offer now!'
+
+// How many copies of the line in each half of the loop (keeps the bar full on wide screens)
+const COPIES = 3
 
 function PromoBar() {
-  const loopedOffers = [...offers, ...offers]
-  // Sit directly under the fixed header, whatever its height on this screen size
+  const location = useLocation()
   const [top, setTop] = useState(102)
 
+  // Sit directly under the fixed header. Re-check on every page change,
+  // because each page renders its own header.
   useEffect(() => {
-    const nav = document.querySelector('.navbar')
-    if (!nav) return
-    const update = () => setTop(nav.offsetHeight)
-    update()
-    const ro = new ResizeObserver(update)
-    ro.observe(nav)
-    return () => ro.disconnect()
-  }, [])
+    let ro
+    const attach = () => {
+      const nav = document.querySelector('.navbar')
+      if (!nav) return
+      const update = () => {
+        if (nav.offsetHeight > 0) setTop(nav.offsetHeight)
+      }
+      update()
+      ro = new ResizeObserver(update)
+      ro.observe(nav)
+    }
+    const id = requestAnimationFrame(attach)
+    return () => {
+      cancelAnimationFrame(id)
+      if (ro) ro.disconnect()
+    }
+  }, [location.pathname])
+
+  const items = Array.from({ length: COPIES * 2 })
 
   return (
     <>
@@ -31,8 +42,8 @@ function PromoBar() {
           position: fixed;
           left: 0;
           width: 100%;
-          z-index: 1001;
-          background: linear-gradient(90deg, #1f5c46 0%, #164632 100%);
+          z-index: 999;
+          background: #1f5c46;
           color: #fff;
           overflow: hidden;
         }
@@ -46,7 +57,8 @@ function PromoBar() {
 
         .promo-bar-label {
           flex-shrink: 0;
-          background: rgba(255, 255, 255, 0.22);
+          background: #e0b85a;
+          color: #1f3a2e;
           padding: 4px 12px;
           border-radius: 999px;
           font-size: 11.5px;
@@ -54,21 +66,20 @@ function PromoBar() {
           letter-spacing: 0.5px;
           text-transform: uppercase;
           white-space: nowrap;
-          animation: promoZoom 1.8s ease-in-out infinite;
         }
 
         .promo-bar-track-wrap {
           overflow: hidden;
           flex: 1;
-          mask-image: linear-gradient(90deg, transparent 0%, #000 5%, #000 95%, transparent 100%);
-          -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 5%, #000 95%, transparent 100%);
+          mask-image: linear-gradient(90deg, transparent 0%, #000 4%, #000 96%, transparent 100%);
+          -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 4%, #000 96%, transparent 100%);
         }
 
         .promo-bar-track {
           display: flex;
-          gap: 40px;
+          gap: 60px;
           width: max-content;
-          animation: promoScroll 28s linear infinite;
+          animation: promoScroll 45s linear infinite;
         }
 
         .promo-bar-track-wrap:hover .promo-bar-track {
@@ -81,39 +92,16 @@ function PromoBar() {
           gap: 8px;
           white-space: nowrap;
           font-size: 13.5px;
+          font-weight: 600;
         }
 
         .promo-bar-item strong {
+          color: #e0b85a;
           font-weight: 800;
           letter-spacing: 0.2px;
         }
 
-        .promo-bar-was {
-          text-decoration: line-through;
-          opacity: 0.65;
-          font-size: 12px;
-        }
-
-        .promo-bar-now {
-          font-weight: 800;
-          font-size: 15px;
-        }
-
-        .promo-bar-cta {
-          flex-shrink: 0;
-          color: #fff;
-          text-decoration: underline;
-          text-underline-offset: 2px;
-          font-weight: 800;
-          font-size: 13px;
-          white-space: nowrap;
-        }
-
-        @keyframes promoZoom {
-          0%, 100% { transform: scale(1); }
-          50% { transform: scale(1.08); }
-        }
-
+        /* Left to right */
         @keyframes promoScroll {
           0% { transform: translateX(-50%); }
           100% { transform: translateX(0); }
@@ -126,9 +114,6 @@ function PromoBar() {
           .promo-bar-item {
             font-size: 12px;
           }
-          .promo-bar-now {
-            font-size: 13.5px;
-          }
         }
       `}</style>
 
@@ -137,22 +122,14 @@ function PromoBar() {
           <span className="promo-bar-label">Limited Offer</span>
           <div className="promo-bar-track-wrap">
             <div className="promo-bar-track">
-              {loopedOffers.map((offer, i) => (
+              {items.map((_, i) => (
                 <span className="promo-bar-item" key={i}>
-                  <strong>{offer.plan}:</strong>
-                  {offer.text ? (
-                    <span className="promo-bar-now">{offer.text}</span>
-                  ) : (
-                    <>
-                      <span className="promo-bar-was">AED {offer.was}</span>
-                      <span className="promo-bar-now">AED {offer.now}{offer.period}</span>
-                    </>
-                  )}
+                  <strong>{PROMO_LABEL}</strong>
+                  <span>{PROMO_TEXT}</span>
                 </span>
               ))}
             </div>
           </div>
-          <Link to="/pricing" className="promo-bar-cta">See all offers →</Link>
         </div>
       </div>
     </>
