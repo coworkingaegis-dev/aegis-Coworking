@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom'
 
-const PROMO_LABEL = '🚀 PROMOTION:'
+const PROMO_LABEL = '🚀 LIMITED-TIME OFFER:'
 const PROMO_TEXT =
-  'Launch your business in ADGM: company setup, licensing and office space in one package with Aegis Coworking and Bayana Global. Claim your offer now!'
+  'Launch your business in ADGM: company setup, licensing and office space in one package with Aegis Coworking and Bayana Global. Claim Your Exclusive ADGM Offer Today!'
 
 // How many copies of the line in each half of the loop (keeps the bar full on wide screens)
 const COPIES = 3
