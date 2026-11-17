@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom'
 
-const PROMO_LABEL = '🚀 LIMITED-TIME OFFER:'
+
 const PROMO_TEXT =
   'Launch your business in ADGM: company setup, licensing and office space in one package with Aegis Coworking and Bayana Global Limited. Claim Your Exclusive ADGM Offer Today!'
 
@@ -107,24 +107,40 @@ function PromoBar() {
           100% { transform: translateX(-50%); }
         }
 
+        /* Mobile: keep the badge, make everything compact */
         @media (max-width: 600px) {
+          .promo-bar-inner {
+            gap: 8px;
+            padding: 6px 10px;
+          }
           .promo-bar-label {
-            display: none;
+            font-size: 9.5px;
+            padding: 3px 8px;
+            letter-spacing: 0.3px;
+          }
+          .promo-bar-track {
+            gap: 40px;
+            animation-duration: 35s;
           }
           .promo-bar-item {
-            font-size: 12px;
+            font-size: 11.5px;
+            font-weight: 500;
+          }
+          .promo-bar-track-wrap {
+            mask-image: linear-gradient(90deg, transparent 0%, #000 6%, #000 94%, transparent 100%);
+            -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 6%, #000 94%, transparent 100%);
           }
         }
       `}</style>
 
       <div className="promo-bar" style={{ top }}>
         <div className="promo-bar-inner">
-          <span className="promo-bar-label">Limited Offer</span>
+                   <span className="promo-bar-label">🚀 Limited-Time Offer</span>
           <div className="promo-bar-track-wrap">
             <div className="promo-bar-track">
               {items.map((_, i) => (
                 <span className="promo-bar-item" key={i}>
-                  <strong>{PROMO_LABEL}</strong>
+                 
                   <span>{PROMO_TEXT}</span>
                 </span>
               ))}
