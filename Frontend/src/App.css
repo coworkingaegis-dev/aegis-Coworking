@@ -6618,3 +6618,48 @@ html, body {
     padding: 40px 24px 50px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+/* Hero text: brighter and sharper over the video */
+.hero-content h1 {
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
+}
+
+.hero-content p {
+  color: #fff !important;
+  font-weight: 500;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.6);
+}
+
+.hero-content {
+  padding: 150px 20px 60px !important;
+}
+
+/* Bayana partner line */
+.hero-content p.hero-intro {
+  margin-bottom: 18px;
+}
+
+.hero-content p.hero-partner {
+  max-width: 680px;
+  margin-bottom: 48px;
+}
+
+.hero-partner-link {
+  color: #e0b85a;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.hero-partner-link:hover {
+  color: #f0cd78;
+  text-decoration: none;
+}
