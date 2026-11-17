@@ -5,6 +5,7 @@ const offers = [
   { plan: "DEDICATED DESK", was: "1,450", now: "1,150", period: "/month" },
   { plan: "PRIVATE OFFICE", was: "6,500", now: "4,500", period: "/month" },
   { plan: "VIRTUAL OFFICE", was: "4,500", now: "3,500", period: "/year" },
+  { plan: "PROMOTION", text: "Company Setup, Licensing & Office Space in ADGM. Aegis Coworking and Bayana Global. Avail the offer now!" },
 ]
 
 function PromoBar() {
@@ -135,8 +136,14 @@ function PromoBar() {
               {loopedOffers.map((offer, i) => (
                 <span className="promo-bar-item" key={i}>
                   <strong>{offer.plan}:</strong>
-                  <span className="promo-bar-was">AED {offer.was}</span>
-                  <span className="promo-bar-now">AED {offer.now}{offer.period}</span>
+                  {offer.text ? (
+                    <span className="promo-bar-now">{offer.text}</span>
+                  ) : (
+                    <>
+                      <span className="promo-bar-was">AED {offer.was}</span>
+                      <span className="promo-bar-now">AED {offer.now}{offer.period}</span>
+                    </>
+                  )}
                 </span>
               ))}
             </div>
