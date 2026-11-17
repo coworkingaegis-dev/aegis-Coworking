@@ -216,7 +216,7 @@ function PrivateOffice() {
           <p className="vo-tier-eyebrow">Perfect for 1-4 people</p>
           <h3>SMALL ADGM PRIVATE OFFICE</h3>
          <p>
-  An ideal private office in ADGM for founders, small teams, and advisory firms.
+  An ideal private office in Abu Dhabi Global Market for founders, small teams, and advisory firms.
   Located in Addax Tower, Al Reem Island, each office is fully furnished,
   licence-ready, and accessible 24/7. Enjoy dedicated desks, ergonomic chairs,
   lockable storage, and high-speed internet in a professional office space in ADGM.
