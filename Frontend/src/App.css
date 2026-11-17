@@ -6711,4 +6711,8 @@ html, body {
     height: 84px;
     max-width: 84px;
   }
+  .navbar {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
 }
