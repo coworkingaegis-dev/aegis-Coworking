@@ -5,7 +5,7 @@ const offers = [
   { plan: "DEDICATED DESK", was: "1,450", now: "1,150", period: "/month" },
   { plan: "PRIVATE OFFICE", was: "6,500", now: "4,500", period: "/month" },
   { plan: "VIRTUAL OFFICE", was: "4,500", now: "3,500", period: "/year" },
-  { plan: "PROMOTION", text: "Company Setup, Licensing & Office Space in ADGM. Aegis Coworking and Bayana Global. Avail the offer now!" },
+  { plan: "🔥 PROMOTION", text: "Launch your business in ADGM: company setup, licensing and office space in one package with Aegis Coworking and Bayana Global. Claim your offer now!" },
 ]
 
 function PromoBar() {
