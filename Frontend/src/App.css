@@ -6708,11 +6708,18 @@ html, body {
     gap: 10px;
   }
     .logo-img {
-    height: 84px;
-    max-width: 84px;
+    height: 66px;
+    max-width: 66px;
   }
   .navbar {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+
+@media (max-width: 900px) {
+  .logo-img {
+    height: 36px;
+    max-width: 36px;
   }
 }
