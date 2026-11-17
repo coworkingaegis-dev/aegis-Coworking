@@ -1,3 +1,86 @@
+// import { useState, useEffect } from 'react'
+// import { Link } from 'react-router-dom'
+// import { Helmet } from 'react-helmet-async'
+// import heroVideo from '../assets/hero_video_compressed.mp4'
+// import heroPoster from '../assets/hero-poster.webp'
+// function Hero() {
+//   const [loadVideo, setLoadVideo] = useState(false)
+//   useEffect(() => {
+//     if (window.matchMedia('(max-width: 768px)').matches) return
+//     const trigger = () => setLoadVideo(true)
+//     if ('requestIdleCallback' in window) {
+//       const id = requestIdleCallback(trigger, { timeout: 2000 })
+//       return () => cancelIdleCallback(id)
+//     } else {
+//       const t = setTimeout(trigger, 1500)
+//       return () => clearTimeout(t)
+//     }
+//   }, [])
+//   return (
+//     <section className="hero hero-video-wrap">
+//       <Helmet>
+//         <link rel="preload" as="image" href={heroPoster} fetchpriority="high" />
+//       </Helmet>
+//       <img
+//         className="hero-video"
+//         src={heroPoster}
+//         alt="Aegis Coworking space at Addax Tower, ADGM, Abu Dhabi"
+//         style={{
+//           position: 'absolute',
+//           inset: 0,
+//           width: '100%',
+//           height: '100%',
+//           objectFit: 'cover',
+//           display: loadVideo ? 'none' : 'block',
+//         }}
+//         fetchpriority="high"
+//       />
+//       {loadVideo && (
+//         <video
+//           className="hero-video"
+//           poster={heroPoster}
+//           autoPlay
+//           loop
+//           muted
+//           playsInline
+//           preload="auto"
+//           aria-label="Aegis Coworking space at Addax Tower, ADGM, Abu Dhabi"
+//         >
+//           <source src={heroVideo} type="video/mp4" />
+//         </video>
+//       )}
+//       <div className="hero-overlay"></div>
+//       <div className="hero-content">
+        
+//        <h1>
+//   COWORKING&nbsp;SPACE <br className="hero-line-break" />
+//       IN&nbsp;ADGM
+// </h1>
+//         <p>
+//          Aegis Coworking is a business centre in ADGM, offers affordable hot desk, dedicated desk, private office, virtual office, meeting room and day pass in Abu Dhabi Global Market, with plans starting from AED 1,000.
+//         </p>
+//         <Link to="/contact">
+//           <button className="btn-secondary" aria-label="Book a coworking space tour in ADGM Addax Tower">
+//             BOOK TOUR
+//           </button>
+//         </Link>
+//       </div>
+//     </section>
+//   )
+// }
+// export default Hero
+
+
+
+
+
+
+
+
+
+
+
+
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
@@ -51,13 +134,19 @@ function Hero() {
       )}
       <div className="hero-overlay"></div>
       <div className="hero-content">
-        
-       <h1>
-  COWORKING&nbsp;SPACE <br className="hero-line-break" />
-   IN&nbsp;ADGM, ABU&nbsp;DHABI
-</h1>
-        <p>
-         Aegis Coworking is a business centre in ADGM, offers affordable hot desk, dedicated desk, private office, virtual office, meeting room and day pass in Abu Dhabi Global Market, with plans starting from AED 1,000.
+        <h1>
+          COWORKING&nbsp;SPACE <br className="hero-line-break" />
+          IN&nbsp;ADGM
+        </h1>
+        <p className="hero-intro">
+          Aegis Coworking is a business centre in ADGM, offers affordable hot desk, dedicated desk, private office, virtual office, meeting room and day pass in Abu Dhabi Global Market, with plans starting from AED 1,000.
+        </p>
+        <p className="hero-partner">
+          Need a company in ADGM? With our partner{' '}
+          <a href="https://www.bayana.ae/" target="_blank" rel="noopener" className="hero-partner-link">
+            Bayana Global Limited
+          </a>
+          , we offer office space, desks, company setup and licensing in one place.
         </p>
         <Link to="/contact">
           <button className="btn-secondary" aria-label="Book a coworking space tour in ADGM Addax Tower">
