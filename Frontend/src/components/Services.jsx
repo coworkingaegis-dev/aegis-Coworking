@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 const services = [
   {
     icon: "🏢",
-    title: "OFFICE SPACE IN ABU DHABI",
+    title: "DESK SPACE IN ADGM",
     link: "/office-space",
   },
   {
