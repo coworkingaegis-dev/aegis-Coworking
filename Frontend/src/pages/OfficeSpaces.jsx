@@ -27,8 +27,8 @@ const faqSchema = [
     a: "Yes. Our dedicated desk qualifies as an ADGM flexi desk, meeting the physical presence and registered address requirement for your ADGM business license application.",
   },
   {
-    q: "Can I use this office space in ADGM to register my business?",
-    a: "Yes. A dedicated desk includes a registered address that qualifies for your ADGM commercial licence application, so you can operate fully compliant from day one.",
+       q: "Does this office space include a registered ADGM business address?",
+    a: "Yes. A dedicated desk includes a registered ADGM business address at Addax Tower, meeting the ADGM physical presence requirement.",
   },
   {
     q: "What are the lease term options?",
