@@ -14,7 +14,7 @@ function BusinessPresence() {
           <h3>WHAT YOU GET</h3>
           <ul>
             <li>Book Virtual office at only AED 292 /month</li>
-            <li>Registered ADGM business address for company registration & licensing</li>
+            <li>Registered ADGM business address at Addax Tower</li>
             <li>Professional mail handling plus a dedicated UAE phone line</li>
             <li>On-demand access to meeting rooms and the business lounge</li>
           </ul>
@@ -24,7 +24,7 @@ function BusinessPresence() {
           <h3>HOW WE SUPPORT YOU</h3>
           <ul>
             <li>Worldwide mail forwarding with live call answering in your company name</li>
-            <li>Building directory listing plus ADGM licensing & renewal support</li>
+           <li>Building directory listing and professional business presence</li>
             <li>Seamless upgrade to a dedicated desk or private office on-site</li>
           </ul>
         </div>
