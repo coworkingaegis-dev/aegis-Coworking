@@ -10,7 +10,7 @@ import VirtualOffice from './pages/VirtualOffice'
 import PrivateOffice from './pages/PrivateOffice'
 import ScrollToTop from './components/ScrollToTop'
 import WhatsAppButton from './components/WhatsAppButton'
-import PromoBar from './components/PromoBar'
+// import PromoBar from './components/PromoBar'
 import Pricing from './pages/Pricing'
 import Blogs from './pages/Blogs'
 import BlogDetail from './pages/BlogDetail'
@@ -71,7 +71,7 @@ function App() {
 </Helmet>
       <ScrollToTop />
       <WhatsAppButton />
-            <PromoBar />
+            {/* <PromoBar /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
