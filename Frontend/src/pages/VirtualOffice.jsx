@@ -37,12 +37,12 @@ const faqs = [
     ),
   },
   {
-    q: "Can I use a virtual office in Abu Dhabi for my ADGM licence renewal?",
-    a: "Yes, a virtual office address at Aegis Coworking can be used both for initial ADGM company registration and for ongoing licence renewals. Setting up from abroad? See how registering an ADGM company remotely works.",
+    q: "Can I use a virtual office in Abu Dhabi as my ADGM registered address?",
+    a: "Yes, a virtual office at Aegis Coworking gives you a registered ADGM business address at Addax Tower, both when you start and as your business grows.",
     aDisplay: (
       <>
-        Yes, a virtual office address at Aegis Coworking can be used both for initial ADGM company registration and for ongoing licence renewals. Setting up from abroad? See how{' '}
-        <Link to="/blog/adgm-company-registration-remote-uae" className="inline-link">registering an ADGM company remotely</Link> works.
+        Yes, a virtual office at Aegis Coworking gives you a registered ADGM business address at Addax Tower, both when you start and as your business grows. Setting up from abroad? See how{' '}
+        <Link to="/blog/adgm-company-registration-remote-uae" className="inline-link">setting up an ADGM company remotely</Link> works.
       </>
     ),
   },
@@ -71,18 +71,18 @@ function VirtualOffice() {
     <div className="App">
       <Helmet>
         <title>Virtual Office ADGM & Abu Dhabi from AED 292 | Aegis</title>
-        <meta name="description" content="ADGM virtual office and registered business address in Abu Dhabi from AED 292 per month. Mail handling, meeting room access and ADGM licence support." />
+        <meta name="description" content="ADGM virtual office and registered business address in Abu Dhabi from AED 292 per month. Mail handling, meeting room access and business support." />
         <link rel="canonical" href="https://www.aegiscoworking.ae/virtual-office" />
 
       <meta property="og:title" content="Virtual Office ADGM & Abu Dhabi from AED 292 | Aegis" />
-       <meta property="og:description" content="ADGM virtual office and registered business address in Abu Dhabi from AED 292 per month. Mail handling, meeting room access and ADGM licence support." />
+       <meta property="og:description" content="ADGM virtual office and registered business address in Abu Dhabi from AED 292 per month. Mail handling, meeting room access and business support." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.aegiscoworking.ae/virtual-office" />
        <meta property="og:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Virtual Office ADGM & Abu Dhabi from AED 292 | Aegis" />
-<meta name="twitter:description" content="ADGM virtual office and registered business address in Abu Dhabi from AED 292 per month. Mail handling, meeting room access and ADGM licence support." />
+<meta name="twitter:description" content="ADGM virtual office and registered business address in Abu Dhabi from AED 292 per month. Mail handling, meeting room access and business support." />
 <meta name="twitter:image" content="https://www.aegiscoworking.ae/og-image.jpg" />
 
 <script type="application/ld+json">
@@ -158,7 +158,7 @@ function VirtualOffice() {
   alt="Basic virtual office package at Aegis Coworking in ADGM, Abu Dhabi"
   tier="BASIC"
   title="BASIC ADGM VIRTUAL OFFICE"
-  desc="A simple virtual office in Abu Dhabi Global Market for founders, freelancers, and international businesses. Get an ADGM business address at Addax Tower, Al Reem Island, with support for your ADGM licence application, mail receiving and forwarding, and company directory listing. A practical option for businesses looking for an ADGM registered office provider and a professional business presence."
+  desc="A simple virtual office in Abu Dhabi Global Market for founders, freelancers, and international businesses. Get an ADGM registered business address at Addax Tower, Al Reem Island, with mail receiving and forwarding, and company directory listing. A practical option for businesses looking for an ADGM registered office provider and a professional business presence."
   buttons={[{ label: "REQUEST QUOTE", primary: true }]}
   imageLeft={true}
 />
