@@ -428,7 +428,7 @@ function About() {
               <a href="https://www.bayana.ae/" target="_blank" rel="noopener" style={{ color: 'var(--color-primary)', fontWeight: 800, textDecoration: 'none' }}>
                 Bayana Global Limited
               </a>
-              . Together, we offer hassle-free company setup, licensing and AccessRP support, handled by an experienced team, alongside your desk or office at Addax Tower. You can also take advantage of our promotional offers and affordable packages throughout the process.
+              . Together, we offer hassle-free company setup support from an experienced team, alongside your desk or office at Addax Tower. You can also take advantage of our promotional offers and affordable packages throughout the process.
             </p>
           </div>
         </div>
