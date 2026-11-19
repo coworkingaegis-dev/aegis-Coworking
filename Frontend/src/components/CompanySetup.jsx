@@ -1,8 +1,8 @@
 const benefits = [
   { icon: '💰', title: 'Affordable Packages', text: 'Clear pricing that fits startups and growing businesses.' },
-  { icon: '🧭', title: 'Expert Guidance', text: 'Clear, step-by-step support from ADGM-experienced partners.' },
-  { icon: '🤝', title: 'Trusted Partner', text: 'Company setup support provided by Bayana Global Limited.' },
-  { icon: '🏢', title: 'Workspace Included', text: 'Flexi desk, dedicated desk or private office.' },
+  { icon: '🧭', title: 'Expert Guidance', text: 'Clear, step-by-step support from start to finish.' },
+  { icon: '🤝', title: 'Trusted Team', text: 'An experienced team to guide you at every step.' },
+  { icon: '🏢', title: 'Office Space Included', text: 'Flexi desk, dedicated desk or private office.' },
 ]
 
 const packageItems = [
