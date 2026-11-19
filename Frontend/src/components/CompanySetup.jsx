@@ -1,14 +1,14 @@
 const benefits = [
   { icon: '💰', title: 'Affordable Packages', text: 'Clear pricing that fits startups and growing businesses.' },
-  { icon: '⚡', title: 'Fast Processing', text: 'Applications handled quickly and efficiently.' },
-  { icon: '🤝', title: 'Trusted Team', text: 'Experienced ADGM specialists guide every step.' },
-  { icon: '🏢', title: 'Office Space Included', text: 'Flexi desk, dedicated desk or private office.' },
+  { icon: '🧭', title: 'Expert Guidance', text: 'Clear, step-by-step support from ADGM-experienced partners.' },
+  { icon: '🤝', title: 'Trusted Partner', text: 'Company setup support provided by Bayana Global Limited.' },
+  { icon: '🏢', title: 'Workspace Included', text: 'Flexi desk, dedicated desk or private office.' },
 ]
 
 const packageItems = [
-  'Company incorporation and registration in ADGM',
-  'Business licensing',
-  'AccessRP filings and portal support',
+  'Company formation support in ADGM',
+  'Business setup consultancy',
+  'Ongoing corporate support from our partner',
   'Office or desk space at Addax Tower',
   'One experienced team from start to finish',
 ]
@@ -248,8 +248,8 @@ function CompanySetup() {
           <span className="contact-eyebrow">COMPANY SETUP IN ADGM</span>
           <h2>Affordable Company Setup in ADGM</h2>
           <p>
-            Starting a business in ADGM shouldn't mean high costs and slow paperwork. At Aegis Coworking, we make
-            company setup affordable, easy and fast, with office space ready for you at Addax Tower.
+             Starting a business in ADGM shouldn't mean high costs and complicated steps. At Aegis Coworking, we make
+            company setup affordable, with office space ready for you at Addax Tower.
           </p>
         </div>
 
@@ -269,10 +269,10 @@ function CompanySetup() {
           <div className="cs-card">
             <span className="cs-card-badge">Full Setup Package</span>
             <h3>Everything You Need to Launch in ADGM</h3>
-            <p className="cs-card-sub">
+                                    <p className="cs-card-sub">
               In partnership with{' '}
               <a href="https://www.bayana.ae/" target="_blank" rel="noopener">Bayana Global Limited</a>, our experienced
-              team handles your company setup, licensing and AccessRP smoothly, in one affordable package.
+              team offers complete company setup support in one affordable package.
             </p>
             <ul>
               {packageItems.map((item) => (
