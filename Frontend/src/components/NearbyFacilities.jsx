@@ -114,7 +114,7 @@ function NearbyFacilities() {
             <li>ADGM Location</li>
             <li>Transparent Pricing</li>
             <li>No Hidden Setup Charges</li>
-          <li>Free Registration</li>
+                    <li>No Joining Fee</li>
                <li>No Deposit</li>
             <li>Professional Workspace</li>
             <li>Flexible Options</li>
