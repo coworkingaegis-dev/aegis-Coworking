@@ -258,8 +258,7 @@ function AddaxTower() {
               </p>
                            <p>
                 Looking for the best office space in Abu Dhabi Global Market? Every member gets 24/7 access,
-                high-speed WiFi, meeting rooms and a professional business community — with no deposit, no
-                setup fees and free registration.
+                high-speed WiFi, meeting room and a professional business community — with no deposit and no joining fee.
               </p>
             </div>
 
