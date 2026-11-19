@@ -34,7 +34,7 @@ function HotDeskPricing() {
   <div>✓ No Admin Fees</div>
   
   <div>✓ No Setup Fees</div>
-  <div>✓ Free Registration</div>
+  <div>✓  No Joining Fee</div>
 </div>
        <Link to="/pricing" className="reserve-link">Other Discounts &gt;</Link>
       </div>
