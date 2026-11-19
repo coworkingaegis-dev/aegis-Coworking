@@ -32,7 +32,7 @@ function DeskPricing() {
   <div>✓ No Deposit</div>
   <div>✓ No Admin Fees</div>
   <div>✓ No Setup Fees</div>
-  <div>✓ Free Registration</div>
+  <div>✓  No Joining Fee</div>
   <div
     style={{
       gridColumn: '1 / -1',
