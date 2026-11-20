@@ -15,20 +15,20 @@ const priceValidUntil = `${new Date().getFullYear()}-12-31`
 const faqSchema = [
   {
     q: "What is Dedicated and Flexi desk in ADGM?",
-    a: "A Dedicated desk provides you a registered ADGM Business Address for the licence, but a Flexi Desk is suitable for individuals or companies without an ADGM licensing requirement. A Dedicated desk only costs AED 1,150 while a Flexi Desk costs only AED 1,000. You keep the same spot every time you come in, and your belongings can stay set up between visits. Working alone? Read is a dedicated desk enough for a solo business.",
+    a: "A Dedicated desk gives you your own fixed workstation and a registered ADGM business address for your business, while a Flexi Desk suits individuals and teams who don't need a fixed spot. A Dedicated desk only costs AED 1,150 while a Flexi Desk costs only AED 1,000. With a Dedicated desk, you keep the same spot every time you come in, and your belongings can stay set up between visits. Working alone? Read is a dedicated desk enough for a solo business.",
   },
 
   {
     q: "What's included in the one-time Due Diligence Fee?",
-    a: "The AED 1,200 Due Diligence Fee covers the compliance and background checks required by ADGM before your licence and registered address can be activated. It's a one-time cost, separate from your monthly rent.",
+    a: "The AED 1,200 Due Diligence Fee covers the compliance and background checks required by ADGM before your registered address and desk are activated. It's a one-time cost, separate from your monthly rent.",
   },
   {
     q: "Does this dedicated desk satisfy the ADGM flexi desk requirement?",
-    a: "Yes. Our dedicated desk qualifies as an ADGM flexi desk, meeting the physical presence and registered address requirement for your ADGM business license application.",
+    a: "Yes. Our dedicated desk qualifies as an ADGM flexi desk, meeting the physical presence and registered address requirement for your ADGM business.",
   },
   {
-       q: "Does this office space include a registered ADGM business address?",
-    a: "Yes. A dedicated desk includes a registered ADGM business address at Addax Tower, meeting the ADGM physical presence requirement.",
+    q: "Can I use this office space in ADGM as my business address?",
+    a: "Yes. A dedicated desk includes a registered ADGM business address in Addax Tower, so your business has a professional ADGM address from day one.",
   },
   {
     q: "What are the lease term options?",
@@ -40,7 +40,7 @@ const faqSchema = [
   },
   {
     q: "Is this different from renting a traditional office space in ADGM?",
-        a: "Yes — while traditional ADGM office providers rent you an empty office to fit out yourself, you get fully furnished, flexible workspace in ADGM with utilities, cleaning and reception already included.",
+    a: "Yes — while traditional ADGM office providers rent you an empty office to fit out yourself, you get fully furnished, flexible workspace in ADGM with utilities, cleaning and reception already included.",
   },
 ]
 function OfficeSpaces() {
