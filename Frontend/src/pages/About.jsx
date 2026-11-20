@@ -423,12 +423,12 @@ function About() {
           <div className="about-block">
             <div className="about-block-icon">🏛️</div>
             <h3>OUR PARTNERSHIP</h3>
-            <p>
-              Working with founders every day, we noticed a common problem: our workspace was affordable, but company setup in ADGM was often costly and complicated. That's why we partnered with{' '}
+                       <p>
+              Working with founders every day, we noticed a common problem: our workspace was affordable, but corporate services in ADGM were often costly and complicated. That's why we partnered with{' '}
               <a href="https://www.bayana.ae/" target="_blank" rel="noopener" style={{ color: 'var(--color-primary)', fontWeight: 800, textDecoration: 'none' }}>
                 Bayana Global Limited
               </a>
-              . Together, we offer hassle-free company setup support from an experienced team, alongside your desk or office at Addax Tower. You can also take advantage of our promotional offers and affordable packages throughout the process.
+              . Together, we offer hassle-free company services from an experienced team, alongside your desk or office at Addax Tower. You can also take advantage of our promotional offers and affordable packages throughout the process.
             </p>
           </div>
         </div>
