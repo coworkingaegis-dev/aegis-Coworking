@@ -2,37 +2,37 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 const faqs = [
-  {
+   {
   question: "What is Dedicated and Flexi desk in ADGM Abu Dhabi?",
   answer: (
     <>
-      A Dedicated desk provides you a registered ADGM Business Address for the licence, but a Flexi Desk is suitable for individuals or companies without an ADGM licensing requirement. A Dedicated desk only costs AED 1,150 while a Flexi Desk costs only AED 1,000. You keep the same spot every time you come in, and your belongings can stay set up between visits. Working alone? Read{' '}
+      A Dedicated desk gives you your own fixed workstation and a registered ADGM business address for your business, while a Flexi Desk suits individuals and teams who don't need a fixed spot. A Dedicated desk only costs AED 1,150 while a Flexi Desk costs only AED 1,000. With a Dedicated desk, you keep the same spot every time you come in, and your belongings can stay set up between visits. Working alone? Read{' '}
       <Link to="/blog/adgm-flexi-desk-enough-solo-business" className="inline-link">is a dedicated desk enough for a solo business</Link>, or{' '}
       <Link to="/contact" className="inline-link">booking</Link>
     </>
   ),
 },
   
-  {
+    {
     question: "What's included in the one-time Due Diligence Fee?",
-    answer: "The AED 1,200 Due Diligence Fee covers the compliance and background checks required by ADGM before your licence and registered address can be activated. It's a one-time cost, separate from your monthly rent."
+    answer: "The AED 1,200 Due Diligence Fee covers the compliance and background checks required by ADGM before your registered address and desk are activated. It's a one-time cost, separate from your monthly rent."
   },
-  {
+   {
     question: "Does this dedicated desk satisfy the ADGM flexi desk requirement?",
        answer: (
       <>
-        Yes. Our dedicated desk qualifies as an ADGM flexi desk, meeting the physical presence and registered address requirement for your ADGM business licence application. See{' '}
-        <Link to="/blog/adgm-tech-startup-licence-dedicated-desk" className="inline-link">which desk your ADGM licence needs</Link>.
+        Yes. Our dedicated desk qualifies as an ADGM flexi desk, meeting the physical presence and registered address requirement for your ADGM business. See{' '}
+        <Link to="/blog/adgm-tech-startup-licence-dedicated-desk" className="inline-link">which desk fits your business</Link>.
       </>
     )
   },
-  {
-  question: "Can I use this office space in ADGM to register my business?",
+   {
+  question: "Can I use this office space in ADGM as my business address?",
   answer: (
     <>
       Yes. A dedicated desk includes a{' '}
-      <Link to="https://www.aegiscoworking.ae/">registered address</Link>{' '}
-      that qualifies for your ADGM commercial licence application, so you can operate fully compliant from day one.
+      <Link to="/" className="inline-link">registered ADGM business address</Link>{' '}
+      in Addax Tower, so your business has a professional ADGM address from day one.
     </>
   )
 },
