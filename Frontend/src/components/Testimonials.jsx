@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react'
 
 const testimonials = [
   {
-    quote: "Nice suitable area for coworking for Adam incorporation.",
+    quote: "Nice suitable area for coworking for Adam's business.",
     name: "Ali Kutty Faizy.",
     role: "Entrepreneur",
     initials: "AK"
@@ -26,13 +26,13 @@ const testimonials = [
     initials: "JP"
   },
 {
-    quote: "Aegis coworking provide super professional services especially with the pricing, and the customer service, i needed the license and a space for one of my team member and they did all within a week time, my team member loved the space. I will highly suggest if any on is looking to get a license and a space in ADGM go for Aegis coworking.",
+    quote: "Aegis coworking provide super professional services especially with the pricing, and the customer service, i needed business support and a space for one of my team member and they did all within a week time, my team member loved the space. I will highly suggest if any on is looking to start a business and get a space in ADGM go for Aegis coworking.",
     name: "Ubaid Zia.",
     role: "Startup Founder",
     initials: "UZ"
   },
 {
-    quote: "For businesses looking for a low cost office in ADGM, Aegis provides flexible office space and a professional seating. The team made the setup process very easy.",
+    quote: "For businesses looking for a low cost office in ADGM, Aegis provides flexible office space and a professional seating. The team made getting started very easy.",
     name: "Haseeb Awan.",
     role: " Entrepreneur",
     initials: "HA"
