@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import Services from '../components/Services'
-import CompanySetup from '../components/CompanySetup'
+// import CompanySetup from '../components/CompanySetup'
 import WhyChooseUs from '../components/WhyChooseUs'
 import ImageBanner from '../components/ImageBanner'
 import Testimonials from '../components/Testimonials'
@@ -173,7 +173,7 @@ function Home() {
       <Navbar />
       <Hero />
       <Reveal><Services /></Reveal>
-            <Reveal delay={0.1}><CompanySetup /></Reveal>
+            {/* <Reveal delay={0.1}><CompanySetup /></Reveal> */}
 
            
       
