@@ -22,7 +22,7 @@ const faqs = [
        answer: (
       <>
         Yes. Our dedicated desk qualifies as an ADGM flexi desk, meeting the physical presence and registered address requirement for your ADGM business. See{' '}
-        <Link to="/blog/adgm-tech-startup-licence-dedicated-desk" className="inline-link">which desk fits your business</Link>.
+                <Link to="/blog/adgm-flexi-desk-enough-solo-business" className="inline-link">which desk fits your business</Link>.
       </>
     )
   },
