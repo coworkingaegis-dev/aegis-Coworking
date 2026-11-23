@@ -73,7 +73,7 @@ function Footer() {
         <p>Timings: 9:00 AM - 6:00 PM</p>
       </div>
       <div className="footer-bottom">
-        <p>© 2026 Aegis Coworking. This site is dedicated information portal for Aegis Coworking, the leading ADGM office provider.</p>
+        <p>© 2026 Aegis Coworking. Aegis is an ADGM-licensed workspace provider and does not issue Government licenses or other official documents.</p>
        <p>Terms & Conditions&nbsp;&nbsp;·&nbsp;&nbsp;<Link to="/privacy-policy">Privacy Policy</Link></p>
       </div>
     </footer>
