@@ -56,7 +56,7 @@ function Footer() {
         <Link to="/virtual-office">Virtual Office</Link>
         <Link to="/meeting-room">Meeting Room</Link>
         <Link to="/day-pass">Day Pass</Link>
-        <Link to="/addax-tower-al-reem-island">Addax Tower Business Centre</Link>
+        
 
         <Link to="/about">About Us</Link>
       </div>
