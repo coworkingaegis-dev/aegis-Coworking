@@ -278,8 +278,11 @@ const toggleWhatWeOffer = () => {
     onClick={handlePhoneClick}
     aria-label="Call Aegis Coworking"
   >
-      {PHONE_DISPLAY}
+           {PHONE_DISPLAY}
   </a>
+  <Link to="/contact" className="menu-contact-btn" onClick={closeAll}>
+    Contact Us
+  </Link>
 </div>
     </nav>
   )
