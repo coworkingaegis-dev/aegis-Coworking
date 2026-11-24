@@ -133,7 +133,7 @@ function OfficeSpaces() {
       <Navbar />
      <PageHero
   title="OFFICE SPACE IN ADGM"
-  subtitle="Dedicated & Flexi Desks in ADGM from AED 1,000 /month"
+  subtitle="Dedicated & Flexi Desks in ADGM starting from AED 1,000 /month"
   description="ADGM-ready workspace & business center at Addax Tower, Al Reem Island — with 24/7 access, meeting-room access and a professional business address."
 />
       <div className="pricing-compare">
