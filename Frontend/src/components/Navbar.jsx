@@ -281,7 +281,7 @@ const toggleWhatWeOffer = () => {
            {PHONE_DISPLAY}
   </a>
   <Link to="/contact" className="menu-contact-btn" onClick={closeAll}>
-    Contact Us
+    CONTACT US
   </Link>
 </div>
     </nav>
